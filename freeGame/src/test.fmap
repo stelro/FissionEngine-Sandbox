@@ -1,0 +1,24 @@
+
+[header]
+omg = 1
+lol = 2
+heh = 3
+[end]
+
+map_name = "level11"
+map_width = 25
+map_height = 25
+tile_width = 64
+tile_height = 32
+orientation = isometric
+
+
+[tileset_1]
+path = "/somepath/image.png"
+width = 666
+height = 777
+[end]
+
+[layer_1]
+data = "01001001001001001001"
+[end]

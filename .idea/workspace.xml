@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="Project" targetName="ioconsole" />
+      <config projectName="Project" targetName="openGLExamples" />
+      <config projectName="Project" targetName="freeGame" />
+      <config projectName="Project" targetName="Tests" />
+      <config projectName="Project" targetName="FieneTestGame" />
+      <config projectName="Project" targetName="FissionEngine" />
+      <config projectName="Project" targetName="Editor" />
+      <config projectName="Project" targetName="UnitTest" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="669bb110-72a7-4f52-81ec-1ba5efcfa944" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/FissionEngine/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/freeGame/CMakeFiles/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Game" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AppBehaviour.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Game/AppBehaviour.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2646">
+              <caret line="147" column="59" lean-forward="false" selection-start-line="147" selection-start-column="59" selection-end-line="147" selection-end-column="59" />
+              <folding>
+                <element signature="e#821#848#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/freeGame/src/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TexturesManager.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputManager.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/InputManager.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="774">
+              <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppBehaviour.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Game/AppBehaviour.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding>
+                <element signature="e#889#915#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StateBehaviour.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Game/StateBehaviour.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding>
+                <element signature="e#908#926#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="GLSL Shader" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mInstance</find>
+      <find>mStartTicks</find>
+      <find>mKeyMap</find>
+      <find>mAttributesCounter</find>
+      <find>mX</find>
+      <find>mGlyphPointers</find>
+      <find>mTextureMap</find>
+      <find>mBgcA</find>
+      <find>mUV</find>
+      <find>mIsVisible</find>
+      <find>mTiles</find>
+      <find>sol</find>
+      <find>load_file</find>
+      <find>load_result</find>
+      <find>CurrentWindowStack</find>
+      <find>operator[]</find>
+      <find>math</find>
+      <find>assert</find>
+      <find>m_FreeList</find>
+      <find>glm::vec2</find>
+      <find>_texID</find>
+      <find>texture</find>
+      <find>[]</find>
+      <find>imgui</find>
+      <find>pop</find>
+      <find>top</find>
+      <find>m_Window</find>
+      <find>m_InputManager</find>
+      <find>m_</find>
+      <find>bbm_</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>220</replace>
+      <replace>227</replace>
+      <replace>189</replace>
+      <replace>21</replace>
+      <replace>23</replace>
+      <replace>2</replace>
+      <replace>4</replace>
+      <replace>Matrix4</replace>
+      <replace>MatrixOLD</replace>
+      <replace>glm::vec4</replace>
+      <replace>dVec2</replace>
+      <replace>dVec4</replace>
+      <replace>tVec3</replace>
+      <replace>tVec4</replace>
+      <replace>m_CameraMatrix</replace>
+      <replace>m_Instance</replace>
+      <replace>m_StartTicks</replace>
+      <replace>m_KeyMap</replace>
+      <replace>m_AttributesCounter</replace>
+      <replace>m_X</replace>
+      <replace>m_GlyphPointers</replace>
+      <replace>m_TextureMap</replace>
+      <replace>m_BgcA</replace>
+      <replace>m_Size</replace>
+      <replace>m_UV</replace>
+      <replace>m_IsVisible</replace>
+      <replace>m_Tiles</replace>
+      <replace>bm_Window</replace>
+      <replace>bm_InputManager</replace>
+      <replace>bm_</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/2D/SpriteFont.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/Window.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/2D/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/GLSL/ShaderProgram.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Utils/FDebug.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/Window.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/StateList.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/MainGame.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/StateList.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/GameState.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/GameState.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/MainGame.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/FissionEngine/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/FieneTestGame/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Engine.cpp" />
+        <option value="$PROJECT_DIR$/FieneTestGame/Source/main.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/Stack.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Editor/src/MainWindow.hpp" />
+        <option value="$PROJECT_DIR$/Editor/main.cpp" />
+        <option value="$PROJECT_DIR$/Editor/src/MainWindow.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/External/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/DebugConsole.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/DebugConsole.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/IOManager.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/IOManager.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Allocators/PoolAllocator.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Allocators/StackAllocator.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/fglobals.h" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/InputManager.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/InputManager.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/Stack.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/Stack.inl" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/StateBehaviour.cpp" />
+        <option value="$PROJECT_DIR$/FieneTestGame/Source/StateIndecies.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/StateBehaviour.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/StateManager.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/StateManager.hpp" />
+        <option value="$PROJECT_DIR$/FieneTestGame/Source/App.hpp" />
+        <option value="$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.hpp" />
+        <option value="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/AppBehaviour.hpp" />
+        <option value="$PROJECT_DIR$/FieneTestGame/Source/App.cpp" />
+        <option value="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/AppBehaviour.cpp" />
+        <option value="$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.cpp" />
+        <option value="$PROJECT_DIR$/freeGame/src/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="23" />
+    <option name="width" value="1922" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FissionEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FissionEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FissionEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/workspace-gaming/LearnOpenGL" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.splitter.proportion" value="0.26641294" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FissionEngine/Engine/Core" />
+      <recent name="$PROJECT_DIR$/FissionEngine/Engine/Resources" />
+      <recent name="$PROJECT_DIR$/FissionEngine/Engine" />
+      <recent name="$PROJECT_DIR$/FissionEngine/Engine/2D" />
+      <recent name="$PROJECT_DIR$/FissionEngine/Engine/Utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.freeGame">
+    <configuration default="true" type="#com.sylvanaar.idea.Lua.run.LuaConfigurationType" factoryName="Lua Script">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="ALTERNATE_INTERPRETER" value="false" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="FissionEngine" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Game" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ReactNative" factoryName="React Native">
+      <node-interpreter value="project" />
+      <platform value="ANDROID" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Game" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Game" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Game" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Game" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Game" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="freeGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="freeGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="freeGame">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ioconsole" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="ioconsole" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="freeGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="freeGame">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Editor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Editor">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FieneTestGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="FieneTestGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="FieneTestGame">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FissionEngine" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="freeGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="freeGame">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openGLExamples" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="openGLExamples" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="openGLExamples">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UnitTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Tests">
+      <envs />
+      <method />
+    </configuration>
+    <list size="8">
+      <item index="0" class="java.lang.String" itemvalue="Application.freeGame" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ioconsole" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Editor" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FieneTestGame" />
+      <item index="5" class="java.lang.String" itemvalue="Application.FissionEngine" />
+      <item index="6" class="java.lang.String" itemvalue="Application.openGLExamples" />
+      <item index="7" class="java.lang.String" itemvalue="Application.UnitTest" />
+    </list>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Game" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="669bb110-72a7-4f52-81ec-1ba5efcfa944" name="Default" comment="" />
+      <created>1481152097789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1481152097789</updated>
+      <workItem from="1481152099003" duration="1036000" />
+      <workItem from="1481153227165" duration="8591000" />
+      <workItem from="1481232399237" duration="264000" />
+      <workItem from="1481232676461" duration="3301000" />
+      <workItem from="1481237686852" duration="15627000" />
+      <workItem from="1481292855021" duration="1377000" />
+      <workItem from="1481304831382" duration="14152000" />
+      <workItem from="1481331398703" duration="2739000" />
+      <workItem from="1481344468283" duration="391000" />
+      <workItem from="1481345591739" duration="3691000" />
+      <workItem from="1481350943926" duration="2059000" />
+      <workItem from="1481483465165" duration="3269000" />
+      <workItem from="1481561271922" duration="10000" />
+      <workItem from="1481655752307" duration="41000" />
+      <workItem from="1481711962331" duration="25000" />
+      <workItem from="1481740033161" duration="265000" />
+      <workItem from="1481740312159" duration="4482000" />
+      <workItem from="1481749226132" duration="15017000" />
+      <workItem from="1481804542348" duration="12617000" />
+      <workItem from="1481848048729" duration="1372000" />
+      <workItem from="1481850937368" duration="1177000" />
+      <workItem from="1481877460110" duration="16510000" />
+      <workItem from="1482159274683" duration="7352000" />
+      <workItem from="1482275230086" duration="862000" />
+      <workItem from="1482319678357" duration="22000" />
+      <workItem from="1482756436921" duration="3788000" />
+      <workItem from="1482839453030" duration="6966000" />
+      <workItem from="1482875348806" duration="8230000" />
+      <workItem from="1483026335771" duration="754000" />
+      <workItem from="1483027102143" duration="33000" />
+      <workItem from="1483027145584" duration="154000" />
+      <workItem from="1483027318692" duration="7080000" />
+      <workItem from="1483034693800" duration="1548000" />
+      <workItem from="1483036254170" duration="7012000" />
+      <workItem from="1483050275342" duration="2305000" />
+      <workItem from="1483052590469" duration="1608000" />
+      <workItem from="1483054949139" duration="2183000" />
+      <workItem from="1483058066940" duration="424000" />
+      <workItem from="1483058542266" duration="3000" />
+      <workItem from="1483069562239" duration="9601000" />
+      <workItem from="1483104118980" duration="33410000" />
+      <workItem from="1483189336110" duration="24488000" />
+      <workItem from="1483222861862" duration="86000" />
+      <workItem from="1483215759628" duration="4110000" />
+      <workItem from="1483242848247" duration="188000" />
+      <workItem from="1483243388233" duration="89000" />
+      <workItem from="1483278099681" duration="9077000" />
+      <workItem from="1483287658545" duration="3561000" />
+      <workItem from="1483309213857" duration="5327000" />
+      <workItem from="1483316082071" duration="74000" />
+      <workItem from="1483330029249" duration="3000" />
+      <workItem from="1483624444464" duration="8000" />
+      <workItem from="1483649758268" duration="39000" />
+      <workItem from="1483652329920" duration="7533000" />
+      <workItem from="1483682784383" duration="864000" />
+      <workItem from="1484010583465" duration="5096000" />
+      <workItem from="1484050098460" duration="981000" />
+      <workItem from="1484137452109" duration="1398000" />
+      <workItem from="1484761325165" duration="205000" />
+      <workItem from="1484765589995" duration="2990000" />
+      <workItem from="1484775024213" duration="7720000" />
+      <workItem from="1484858376300" duration="19000" />
+      <workItem from="1484934952336" duration="597000" />
+      <workItem from="1484977217857" duration="5000" />
+      <workItem from="1485260014361" duration="2000" />
+      <workItem from="1485965059370" duration="599000" />
+      <workItem from="1486146532269" duration="373000" />
+      <workItem from="1486155171842" duration="18000" />
+      <workItem from="1486418141332" duration="632000" />
+      <workItem from="1486418950976" duration="166000" />
+      <workItem from="1486419126826" duration="1619000" />
+      <workItem from="1486422814946" duration="5208000" />
+      <workItem from="1486585624333" duration="1022000" />
+      <workItem from="1486587558549" duration="3650000" />
+      <workItem from="1486659408329" duration="7250000" />
+      <workItem from="1486733118944" duration="14089000" />
+      <workItem from="1486901565338" duration="14000" />
+      <workItem from="1486921204562" duration="661000" />
+      <workItem from="1487435952886" duration="123000" />
+      <workItem from="1487566642388" duration="2566000" />
+      <workItem from="1487621675279" duration="5357000" />
+      <workItem from="1487704968271" duration="17000" />
+      <workItem from="1487704999221" duration="107000" />
+      <workItem from="1487874501721" duration="825000" />
+      <workItem from="1487936394846" duration="2012000" />
+      <workItem from="1487938420214" duration="41000" />
+      <workItem from="1487938471394" duration="1209000" />
+      <workItem from="1487948971759" duration="246000" />
+      <workItem from="1487949645080" duration="1723000" />
+      <workItem from="1487951388322" duration="2075000" />
+      <workItem from="1487963750789" duration="18114000" />
+      <workItem from="1488107487122" duration="687000" />
+      <workItem from="1488129646875" duration="2606000" />
+      <workItem from="1488195083611" duration="11444000" />
+      <workItem from="1488226993216" duration="2643000" />
+      <workItem from="1488367619544" duration="4322000" />
+      <workItem from="1488545324793" duration="9675000" />
+      <workItem from="1488574951022" duration="9941000" />
+      <workItem from="1488629746327" duration="2456000" />
+      <workItem from="1488632979013" duration="1571000" />
+      <workItem from="1488634560933" duration="3554000" />
+      <workItem from="1488645292238" duration="5501000" />
+      <workItem from="1488651899135" duration="2000" />
+      <workItem from="1488652148662" duration="1247000" />
+      <workItem from="1488660360317" duration="1326000" />
+      <workItem from="1488678834024" duration="13000" />
+      <workItem from="1488755760526" duration="32000" />
+      <workItem from="1489006658723" duration="4009000" />
+      <workItem from="1489436379832" duration="42000" />
+      <workItem from="1489662176655" duration="23000" />
+      <workItem from="1489662214147" duration="319000" />
+      <workItem from="1489662546677" duration="10711000" />
+      <workItem from="1489740928598" duration="12086000" />
+      <workItem from="1489764824649" duration="8573000" />
+      <workItem from="1489839451439" duration="2634000" />
+      <workItem from="1489848087578" duration="6326000" />
+      <workItem from="1489858943583" duration="76000" />
+      <workItem from="1489884574849" duration="920000" />
+      <workItem from="1489924759840" duration="1136000" />
+      <workItem from="1489957549674" duration="5192000" />
+      <workItem from="1490018630427" duration="7431000" />
+      <workItem from="1490113102822" duration="5145000" />
+      <workItem from="1490191577639" duration="769000" />
+      <workItem from="1490192358980" duration="10000" />
+      <workItem from="1490192615819" duration="11851000" />
+      <workItem from="1490205055704" duration="19000" />
+      <workItem from="1490214234741" duration="2537000" />
+      <workItem from="1490216785698" duration="4201000" />
+      <workItem from="1490233783511" duration="7256000" />
+      <workItem from="1490273670201" duration="599000" />
+      <workItem from="1490302341667" duration="682000" />
+      <workItem from="1490352726735" duration="48000" />
+      <workItem from="1490446441727" duration="1461000" />
+      <workItem from="1490640067345" duration="225000" />
+      <workItem from="1490726360145" duration="621000" />
+      <workItem from="1491133416985" duration="134000" />
+      <workItem from="1491133565081" duration="9938000" />
+      <workItem from="1491164549349" duration="7293000" />
+      <workItem from="1491173658589" duration="2000" />
+      <workItem from="1491183315632" duration="1618000" />
+      <workItem from="1491184948897" duration="85000" />
+      <workItem from="1491185044696" duration="47000" />
+      <workItem from="1491185106269" duration="591000" />
+      <workItem from="1491185708749" duration="2776000" />
+      <workItem from="1491188504897" duration="9345000" />
+      <workItem from="1491201652156" duration="1795000" />
+      <workItem from="1491203461836" duration="7315000" />
+      <workItem from="1491230349221" duration="18296000" />
+      <workItem from="1491284212083" duration="985000" />
+      <workItem from="1491313685637" duration="2795000" />
+      <workItem from="1491318946595" duration="8622000" />
+      <workItem from="1491332354520" duration="25000" />
+      <workItem from="1491341984546" duration="18866000" />
+      <workItem from="1491453749026" duration="31000" />
+      <workItem from="1491470110855" duration="4133000" />
+      <workItem from="1491497143842" duration="5510000" />
+      <workItem from="1491571641479" duration="3723000" />
+      <workItem from="1491605732844" duration="286000" />
+      <workItem from="1491606221948" duration="383000" />
+      <workItem from="1491693608152" duration="935000" />
+      <workItem from="1491748179563" duration="64000" />
+      <workItem from="1491785722480" duration="122000" />
+      <workItem from="1491956928917" duration="81000" />
+      <workItem from="1492012318669" duration="17000" />
+      <workItem from="1492022501726" duration="9096000" />
+      <workItem from="1492069288559" duration="38000" />
+      <workItem from="1492069343171" duration="6658000" />
+      <workItem from="1492098330257" duration="1920000" />
+      <workItem from="1492130346280" duration="9000" />
+      <workItem from="1492205837072" duration="186000" />
+      <workItem from="1492255414974" duration="129000" />
+      <workItem from="1492908758287" duration="180000" />
+      <workItem from="1492950831735" duration="44000" />
+      <workItem from="1492971977424" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="621563000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="23" width="1922" height="1058" extended-state="6" />
+    <layout>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329863" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23535565" sideWeight="0.489863" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25313807" sideWeight="0.51013696" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25906184" sideWeight="0.4850587" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3365282" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16257995" sideWeight="0.4953765" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17662753" sideWeight="0.50462353" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27301255" sideWeight="0.4914621" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329863" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25053304" sideWeight="0.49315068" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25209206" sideWeight="0.49315068" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23535565" sideWeight="0.489863" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25313807" sideWeight="0.51013696" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26046026" sideWeight="0.4850587" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22627737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18684931" sideWeight="0.4953765" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27348644" sideWeight="0.4914621" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17662753" sideWeight="0.50462353" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329863" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="65" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/DebugConsole.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="150" column="13" lean-forward="false" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/DebugConsole.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="27" column="77" lean-forward="false" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/IOManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/IOManager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Allocators/BaseAllocator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Allocators/FreeListAllocator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Allocators/PointerMath.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="72" column="54" lean-forward="false" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Allocators/PoolAllocator.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Allocators/StackAllocator.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Allocators/StackAllocator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/Texture.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="75" column="17" lean-forward="false" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/GLSL/ShaderProgram.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/MathUtils.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/MathUtils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/MatrixTransformations.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="25" column="53" lean-forward="false" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/Matrix.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="116" column="53" lean-forward="false" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/Matrix.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/Camera2D.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="47" column="5" lean-forward="false" selection-start-line="46" selection-start-column="115" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freeGame/Shaders/test.vert">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Allocators/PoolAllocator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="66" column="29" lean-forward="false" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Lua/lua_script_manager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Lua/lua_script_manager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Engine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Engine.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/fglobals.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/InputManager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/FpsLimiter.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/fglobals.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/Stack.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/Stack.inl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="196" column="4" lean-forward="false" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Game/StateBehaviour.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/StateIndecies.hpp" />
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Game/StateManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Game/StateManager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/App.hpp" />
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.hpp" />
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.hpp" />
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/App.cpp" />
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Game/AppBehaviour.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2646">
+          <caret line="147" column="59" lean-forward="false" selection-start-line="147" selection-start-column="59" selection-end-line="147" selection-end-column="59" />
+          <folding>
+            <element signature="e#821#848#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.cpp" />
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.cpp" />
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Game/StateBehaviour.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#908#926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Game/AppBehaviour.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#889#915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/InputManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freeGame/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="openGLExamples"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Editor\;CMake Files\FieneTestGame\;CMake Files\FissionEngine\;CMake Files\FissionEngine\Engine\;CMake Files\FissionEngine\Engine\Lua\;CMake Files\FissionEngine\Engine\2D\;CMake Files\FissionEngine\Engine\Core\;CMake Files\FissionEngine\Engine\GLSL\;CMake Files\FissionEngine\Engine\Map\;CMake Files\FissionEngine\Engine\Math\;CMake Files\FissionEngine\Engine\Physics\;CMake Files\FissionEngine\Engine\Resources\;CMake Files\FissionEngine\Engine\Utils\;CMake Files\FissionEngine\Engine\Widgets\;CMake Files\FissionEngine\Engine\External\;CMake Files\FissionEngine\Engine\Allocators\;CMake Files\FissionEngine\Engine\Game\;CMake Files\FissionEngine\cmake\;CMake Files\ioconsole\;CMake Files\freeGame\;CMake Files\Tests\;CMake Files\openGLExamples\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/stel/Game/Game/cmake-build-debug/openGLExamples"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="openGLExamples">
+				<Option output="/home/stel/Game/Game/openGLExamples/openGLExamples" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stel/Game/Game/openGLExamples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stel/Game/Game/FissionEngine"/>
+					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 openGLExamples"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="openGLExamples/fast">
+				<Option output="/home/stel/Game/Game/openGLExamples/openGLExamples" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stel/Game/Game/openGLExamples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stel/Game/Game/FissionEngine"/>
+					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 openGLExamples/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/stel/Game/Game/Editor/main.cpp">
+			<Option target="openGLExamples"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/openGLExamples/main.cpp">
+			<Option target="openGLExamples"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/Editor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Editor\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/Editor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Editor\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneTestGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FieneTestGame\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneTestGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FieneTestGame\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Lua/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Lua\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Lua/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Lua\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/2D/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\2D\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/2D/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\2D\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Core\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Core\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/GLSL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\GLSL\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/GLSL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\GLSL\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Map/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Map\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Map/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Map\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Math\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Math\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Physics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Physics\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Physics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Physics\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Resources/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Resources\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Resources/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Resources\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Utils\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Utils\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Widgets/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Widgets\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Widgets/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Widgets\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/External/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\External\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/External/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\External\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Allocators/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Allocators\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Allocators/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Allocators\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Game\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Game\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2_image.cmake">
+			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2_ttf.cmake">
+			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2_mixer.cmake">
+			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindLua.cmake">
+			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2_image.cmake">
+			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2_ttf.cmake">
+			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2_mixer.cmake">
+			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindLua.cmake">
+			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/ioconsole/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ioconsole\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/ioconsole/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ioconsole\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/freeGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\freeGame\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/freeGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\freeGame\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/Tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/Tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/openGLExamples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\openGLExamples\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/openGLExamples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\openGLExamples\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,11 @@
+//
+// Created by stel on 13/4/2017.
+//
+
+#ifndef PROJECT_STATEINDECIES_HPP
+#define PROJECT_STATEINDECIES_HPP
+
+const int MAINMENU_STATE = 0;
+const int GAMEPLAY_STATE = 1;
+
+#endif //PROJECT_STATEINDECIES_HPP

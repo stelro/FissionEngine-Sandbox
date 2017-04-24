@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/freeGame.dir/src/main.cpp.o CMakeFiles/freeGame.dir/home/stel/Game/Game/SnakeGame/Source/MainGame.cpp.o  -o freeGame -lFissionEngine 

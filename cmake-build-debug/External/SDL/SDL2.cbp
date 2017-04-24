@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SDL2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Editor\;CMake Files\FissionEngine\;CMake Files\freeGame\;CMake Files\UnitTest\;CMake Files\openGLExamples\;CMake Files\External\;CMake Files\External\SDL\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/stel/Game/Game/cmake-build-debug/External/SDL"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/External/SDL/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/External/SDL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/External/SDL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/External/SDL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2">
+				<Option output="/home/stel/Game/Game/cmake-build-debug/External/SDL/libSDL2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stel/Game/Game/cmake-build-debug/External/SDL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/External/SDL/Makefile&quot;  VERBOSE=1 SDL2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/External/SDL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/External/SDL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/External/SDL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2/fast">
+				<Option output="/home/stel/Game/Game/cmake-build-debug/External/SDL/libSDL2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stel/Game/Game/cmake-build-debug/External/SDL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/External/SDL/Makefile&quot;  VERBOSE=1 SDL2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/External/SDL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/External/SDL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/External/SDL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_assert.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_atomic.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_audio.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_bits.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_blendmode.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_config.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_config.h.cmake">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_config_android.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_config_iphoneos.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_config_linux.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_config_macosx.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_config_minimal.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_config_pandora.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_config_psp.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_config_windows.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_config_winrt.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_config_wiz.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_copying.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_egl.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_endian.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_error.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_events.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_filesystem.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_gamecontroller.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_gesture.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_haptic.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_hints.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_joystick.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_keyboard.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_keycode.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_loadso.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_log.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_main.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_messagebox.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_mouse.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_mutex.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_name.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_opengl.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_opengl_glext.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_opengles.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_opengles2.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_opengles2_gl2.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_opengles2_gl2ext.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_opengles2_gl2platform.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_opengles2_khrplatform.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_pixels.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_platform.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_power.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_quit.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_rect.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_render.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_revision.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_rwops.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_scancode.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_shape.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_stdinc.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_surface.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_system.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_syswm.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_test.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_test_assert.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_test_common.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_test_compare.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_test_crc32.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_test_font.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_test_fuzzer.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_test_harness.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_test_images.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_test_log.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_test_md5.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_test_random.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_thread.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_timer.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_touch.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_types.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_version.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/SDL_video.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/begin_code.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/include/close_code.h">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/Editor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Editor\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/Editor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Editor\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/freeGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\freeGame\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/freeGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\freeGame\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/UnitTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\UnitTest\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/UnitTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\UnitTest\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/openGLExamples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\openGLExamples\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/openGLExamples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\openGLExamples\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\External\SDL\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/External/SDL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\External\SDL\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

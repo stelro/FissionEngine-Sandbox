@@ -1,0 +1,2 @@
+/usr/bin/ar qc libIOStreamLayer.a  CMakeFiles/IOStreamLayer.dir/main.cpp.o
+/usr/bin/ranlib libIOStreamLayer.a
