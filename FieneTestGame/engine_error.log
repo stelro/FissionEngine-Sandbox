@@ -1,2 +1,6 @@
 Fission Engine Error File @ local time: Thu Apr 13 19:17:00 2017
 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Glew could not be initialized : 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Glew could not be initialized : 

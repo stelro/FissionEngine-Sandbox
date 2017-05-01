@@ -34,36 +34,6 @@ new
 Core/fglobals.h
 ../FissionEngine/Engine/Allocators/Core/fglobals.h
 
-../FissionEngine/Engine/Allocators/FreeListAllocator.hpp
-BaseAllocator.hpp
-../FissionEngine/Engine/Allocators/BaseAllocator.hpp
-PointerMath.hpp
-../FissionEngine/Engine/Allocators/PointerMath.hpp
-
-../FissionEngine/Engine/Allocators/PointerMath.hpp
-Core/fglobals.h
-../FissionEngine/Engine/Allocators/Core/fglobals.h
-cstddef
--
-
-../FissionEngine/Engine/Allocators/PoolAllocator.hpp
-BaseAllocator.hpp
-../FissionEngine/Engine/Allocators/BaseAllocator.hpp
-PointerMath.hpp
-../FissionEngine/Engine/Allocators/PointerMath.hpp
-
-../FissionEngine/Engine/Allocators/ProxyAllocator.hpp
-BaseAllocator.hpp
-../FissionEngine/Engine/Allocators/BaseAllocator.hpp
-PointerMath.hpp
-../FissionEngine/Engine/Allocators/PointerMath.hpp
-
-../FissionEngine/Engine/Core/Camera2D.hpp
-Math/Matrix.hpp
-../FissionEngine/Engine/Core/Math/Matrix.hpp
-Math/Vector.hpp
-../FissionEngine/Engine/Core/Math/Vector.hpp
-
 ../FissionEngine/Engine/Core/FpsLimiter.hpp
 
 ../FissionEngine/Engine/Core/IOManager.hpp
@@ -81,14 +51,6 @@ Core/fglobals.h
 ../FissionEngine/Engine/Core/Core/fglobals.h
 unordered_map
 -
-
-../FissionEngine/Engine/Core/Stack.hpp
-cstddef
--
-Stack.inl
-../FissionEngine/Engine/Core/Stack.inl
-
-../FissionEngine/Engine/Core/Stack.inl
 
 ../FissionEngine/Engine/Core/Window.hpp
 Utils/Utils.hpp
@@ -301,12 +263,6 @@ Core/fglobals.h
 ../FissionEngine/Engine/Resources/2D/picoPNG.hpp
 GL/glew.h
 -
-
-../FissionEngine/Engine/Resources/TexturesManager.hpp
-GL/glew.h
--
-ResourceManager.hpp
-../FissionEngine/Engine/Resources/ResourceManager.hpp
 
 ../FissionEngine/Engine/Utils/FDebug.hpp
 
@@ -773,58 +729,26 @@ string
 /home/stel/Game/Game/FissionEngine/Engine/Game/AppBehaviour.cpp
 AppBehaviour.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/AppBehaviour.hpp
-Engine.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Engine.hpp
-Core/InputManager.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Core/InputManager.hpp
-Core/IOManager.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Core/IOManager.hpp
-Allocators/FreeListAllocator.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Allocators/FreeListAllocator.hpp
-Allocators/PoolAllocator.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Allocators/PoolAllocator.hpp
-Allocators/ProxyAllocator.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Allocators/ProxyAllocator.hpp
-Resources/Texture.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Resources/Texture.hpp
-Resources/TexturesManager.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Resources/TexturesManager.hpp
-StateBehaviour.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/Game/AppBehaviour.hpp
+Engine.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Game/Engine.hpp
 Core/Window.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/Core/Window.hpp
-Core/Camera2D.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Core/Camera2D.hpp
+Core/InputManager.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Game/Core/InputManager.hpp
 Core/FpsLimiter.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/Core/FpsLimiter.hpp
 StateManager.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/StateManager.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.cpp
-StateBehaviour.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.hpp
-
-/home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.hpp
-utility
--
-string
--
 
 /home/stel/Game/Game/FissionEngine/Engine/Game/StateManager.cpp
 StateManager.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/StateManager.hpp
-StateBehaviour.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.hpp
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Game/Core/fglobals.h
 
 /home/stel/Game/Game/FissionEngine/Engine/Game/StateManager.hpp
-Core/Stack.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Core/Stack.hpp
-unordered_map
--
 
 /home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_manager.cpp
 lua_script_manager.hpp

@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../FissionEngine/Engine/Core/Camera2D.hpp
-Math/Matrix.hpp
-../FissionEngine/Engine/Core/Math/Matrix.hpp
-Math/Vector.hpp
-../FissionEngine/Engine/Core/Math/Vector.hpp
-
 ../FissionEngine/Engine/Core/FpsLimiter.hpp
 
 ../FissionEngine/Engine/Core/InputManager.hpp
@@ -23,14 +17,6 @@ Core/fglobals.h
 ../FissionEngine/Engine/Core/Core/fglobals.h
 unordered_map
 -
-
-../FissionEngine/Engine/Core/Stack.hpp
-cstddef
--
-Stack.inl
-../FissionEngine/Engine/Core/Stack.inl
-
-../FissionEngine/Engine/Core/Stack.inl
 
 ../FissionEngine/Engine/Core/Window.hpp
 Utils/Utils.hpp
@@ -50,39 +36,21 @@ Utils/FDebug.hpp
 cstdint
 -
 
+../FissionEngine/Engine/Engine.hpp
+
 ../FissionEngine/Engine/Game/AppBehaviour.hpp
+Engine.hpp
+../FissionEngine/Engine/Game/Engine.hpp
 Core/Window.hpp
 ../FissionEngine/Engine/Game/Core/Window.hpp
-Core/Camera2D.hpp
-../FissionEngine/Engine/Game/Core/Camera2D.hpp
+Core/InputManager.hpp
+../FissionEngine/Engine/Game/Core/InputManager.hpp
 Core/FpsLimiter.hpp
 ../FissionEngine/Engine/Game/Core/FpsLimiter.hpp
 StateManager.hpp
 ../FissionEngine/Engine/Game/StateManager.hpp
 
-../FissionEngine/Engine/Game/StateBehaviour.hpp
-utility
--
-string
--
-
 ../FissionEngine/Engine/Game/StateManager.hpp
-Core/Stack.hpp
-../FissionEngine/Engine/Game/Core/Stack.hpp
-unordered_map
--
-
-../FissionEngine/Engine/Math/Matrix.hpp
-Vector.hpp
-../FissionEngine/Engine/Math/Vector.hpp
-Quaternion.hpp
-../FissionEngine/Engine/Math/Quaternion.hpp
-glm/glm.hpp
--
-
-../FissionEngine/Engine/Math/Quaternion.hpp
-Vector.hpp
-../FissionEngine/Engine/Math/Vector.hpp
 
 ../FissionEngine/Engine/Math/Vector.hpp
 def_vector.hpp
@@ -109,54 +77,14 @@ GL/glew.h
 /home/stel/Game/Game/FieneTestGame/Source/App.cpp
 App.hpp
 /home/stel/Game/Game/FieneTestGame/Source/App.hpp
-GamePlayState.hpp
-/home/stel/Game/Game/FieneTestGame/Source/GamePlayState.hpp
-MainMenuState.hpp
-/home/stel/Game/Game/FieneTestGame/Source/MainMenuState.hpp
-StateIndecies.hpp
-/home/stel/Game/Game/FieneTestGame/Source/StateIndecies.hpp
 
 /home/stel/Game/Game/FieneTestGame/Source/App.hpp
 Engine/Game/AppBehaviour.hpp
 -
 
 /home/stel/Game/Game/FieneTestGame/Source/GamePlayState.cpp
-GamePlayState.hpp
-/home/stel/Game/Game/FieneTestGame/Source/GamePlayState.hpp
-StateIndecies.hpp
-/home/stel/Game/Game/FieneTestGame/Source/StateIndecies.hpp
-Engine/Core/Window.hpp
--
-Engine/Core/InputManager.hpp
--
-iostream
--
-
-/home/stel/Game/Game/FieneTestGame/Source/GamePlayState.hpp
-Engine/Game/StateBehaviour.hpp
--
-Engine/Core/Camera2D.hpp
--
 
 /home/stel/Game/Game/FieneTestGame/Source/MainMenuState.cpp
-Engine/Core/Window.hpp
--
-Engine/Core/InputManager.hpp
--
-iostream
--
-MainMenuState.hpp
-/home/stel/Game/Game/FieneTestGame/Source/MainMenuState.hpp
-StateIndecies.hpp
-/home/stel/Game/Game/FieneTestGame/Source/StateIndecies.hpp
-
-/home/stel/Game/Game/FieneTestGame/Source/MainMenuState.hpp
-Engine/Game/StateBehaviour.hpp
--
-Engine/Core/Camera2D.hpp
--
-
-/home/stel/Game/Game/FieneTestGame/Source/StateIndecies.hpp
 
 /home/stel/Game/Game/FieneTestGame/Source/main.cpp
 App.hpp

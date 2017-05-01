@@ -183,8 +183,6 @@ int main()
         camera.update();
 
 
-
-
         shaderProgram.unuseGLSLProgram();
 
 //        lightShader.useGLSLProgram();
