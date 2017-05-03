@@ -4,3 +4,11 @@ Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManage
 Glew could not be initialized : 
 Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
 Glew could not be initialized : 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Vertex info
+-----------
+(0) : error C5145: must write to gl_Position
+
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Shaders failed to link!Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Faild to open TTF font Textures/Monaco-Stel.ttf

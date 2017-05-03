@@ -6,6 +6,40 @@
 
 #IncludeRegexTransform: 
 
+../FissionEngine/Engine/2D/SpriteBatch.hpp
+Utils/Utils.hpp
+../FissionEngine/Engine/2D/Utils/Utils.hpp
+Math/Vector.hpp
+../FissionEngine/Engine/2D/Math/Vector.hpp
+GL/glew.h
+-
+glm/glm.hpp
+-
+vector
+-
+algorithm
+-
+
+../FissionEngine/Engine/2D/SpriteFont.hpp
+Math/Vector.hpp
+../FissionEngine/Engine/2D/Math/Vector.hpp
+Utils/Utils.hpp
+../FissionEngine/Engine/2D/Utils/Utils.hpp
+SDL2/SDL_ttf.h
+-
+vector
+-
+map
+-
+glm/glm.hpp
+-
+
+../FissionEngine/Engine/Core/Camera2D.hpp
+Math/Matrix.hpp
+../FissionEngine/Engine/Core/Math/Matrix.hpp
+Math/Vector.hpp
+../FissionEngine/Engine/Core/Math/Vector.hpp
+
 ../FissionEngine/Engine/Core/FpsLimiter.hpp
 
 ../FissionEngine/Engine/Core/InputManager.hpp
@@ -38,6 +72,12 @@ cstdint
 
 ../FissionEngine/Engine/Engine.hpp
 
+../FissionEngine/Engine/GLSL/ShaderProgram.hpp
+GL/glew.h
+-
+string
+-
+
 ../FissionEngine/Engine/Game/AppBehaviour.hpp
 Engine.hpp
 ../FissionEngine/Engine/Game/Engine.hpp
@@ -49,8 +89,30 @@ Core/FpsLimiter.hpp
 ../FissionEngine/Engine/Game/Core/FpsLimiter.hpp
 StateManager.hpp
 ../FissionEngine/Engine/Game/StateManager.hpp
+StateBehaviour.hpp
+../FissionEngine/Engine/Game/StateBehaviour.hpp
+
+../FissionEngine/Engine/Game/StateBehaviour.hpp
+Core/fglobals.h
+../FissionEngine/Engine/Game/Core/fglobals.h
 
 ../FissionEngine/Engine/Game/StateManager.hpp
+Core/fglobals.h
+../FissionEngine/Engine/Game/Core/fglobals.h
+unordered_map
+-
+
+../FissionEngine/Engine/Math/Matrix.hpp
+Vector.hpp
+../FissionEngine/Engine/Math/Vector.hpp
+Quaternion.hpp
+../FissionEngine/Engine/Math/Quaternion.hpp
+glm/glm.hpp
+-
+
+../FissionEngine/Engine/Math/Quaternion.hpp
+Vector.hpp
+../FissionEngine/Engine/Math/Vector.hpp
 
 ../FissionEngine/Engine/Math/Vector.hpp
 def_vector.hpp
@@ -77,14 +139,64 @@ GL/glew.h
 /home/stel/Game/Game/FieneTestGame/Source/App.cpp
 App.hpp
 /home/stel/Game/Game/FieneTestGame/Source/App.hpp
+MainMenuState.hpp
+/home/stel/Game/Game/FieneTestGame/Source/MainMenuState.hpp
+GamePlayState.hpp
+/home/stel/Game/Game/FieneTestGame/Source/GamePlayState.hpp
+StateIndecies.hpp
+/home/stel/Game/Game/FieneTestGame/Source/StateIndecies.hpp
 
 /home/stel/Game/Game/FieneTestGame/Source/App.hpp
 Engine/Game/AppBehaviour.hpp
 -
+Engine/Core/InputManager.hpp
+-
 
 /home/stel/Game/Game/FieneTestGame/Source/GamePlayState.cpp
+GamePlayState.hpp
+/home/stel/Game/Game/FieneTestGame/Source/GamePlayState.hpp
+Engine/Core/Window.hpp
+-
+StateIndecies.hpp
+/home/stel/Game/Game/FieneTestGame/Source/StateIndecies.hpp
+
+/home/stel/Game/Game/FieneTestGame/Source/GamePlayState.hpp
+Engine/Game/StateBehaviour.hpp
+-
+Engine/2D/SpriteFont.hpp
+-
+Engine/Core/Camera2D.hpp
+-
+Engine/Core/InputManager.hpp
+-
+Engine/GLSL/ShaderProgram.hpp
+-
+Engine/2D/SpriteBatch.hpp
+-
 
 /home/stel/Game/Game/FieneTestGame/Source/MainMenuState.cpp
+MainMenuState.hpp
+/home/stel/Game/Game/FieneTestGame/Source/MainMenuState.hpp
+Engine/Core/Window.hpp
+-
+StateIndecies.hpp
+/home/stel/Game/Game/FieneTestGame/Source/StateIndecies.hpp
+
+/home/stel/Game/Game/FieneTestGame/Source/MainMenuState.hpp
+Engine/Game/StateBehaviour.hpp
+-
+Engine/2D/SpriteFont.hpp
+-
+Engine/Core/Camera2D.hpp
+-
+Engine/Core/InputManager.hpp
+-
+Engine/GLSL/ShaderProgram.hpp
+-
+Engine/2D/SpriteBatch.hpp
+-
+
+/home/stel/Game/Game/FieneTestGame/Source/StateIndecies.hpp
 
 /home/stel/Game/Game/FieneTestGame/Source/main.cpp
 App.hpp

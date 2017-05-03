@@ -202,10 +202,17 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o
  ../FissionEngine/Engine/Utils/Utils.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Game/AppBehaviour.cpp
  /home/stel/Game/Game/FissionEngine/Engine/Game/AppBehaviour.hpp
+ /home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Game/StateManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o
+ ../FissionEngine/Engine/Core/fglobals.h
+ ../FissionEngine/Engine/Utils/FDebug.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.cpp
+ /home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o
+ ../FissionEngine/Engine/Core/fglobals.h
+ ../FissionEngine/Engine/Utils/FDebug.hpp
+ /home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Game/StateManager.cpp
  /home/stel/Game/Game/FissionEngine/Engine/Game/StateManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o

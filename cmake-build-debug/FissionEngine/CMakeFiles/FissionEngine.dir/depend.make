@@ -201,10 +201,17 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../Fi
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Utils/Utils.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Game/AppBehaviour.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Game/AppBehaviour.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Game/StateBehaviour.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Game/StateManager.hpp
 
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o: ../FissionEngine/Engine/Game/StateBehaviour.cpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o: ../FissionEngine/Engine/Game/StateBehaviour.hpp
 
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o: ../FissionEngine/Engine/Game/StateBehaviour.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o: ../FissionEngine/Engine/Game/StateManager.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o: ../FissionEngine/Engine/Game/StateManager.hpp
 
