@@ -185,6 +185,11 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_user.h
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: ../FissionEngine/Engine/Core/IOManager.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: ../FissionEngine/Engine/Math/Matrix.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: ../FissionEngine/Engine/Math/Quaternion.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: ../FissionEngine/Engine/GLSL/ShaderProgram.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: ../FissionEngine/Engine/GLSL/ShaderProgram.hpp

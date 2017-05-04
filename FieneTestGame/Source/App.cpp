@@ -16,13 +16,12 @@ App::~App()
 
 void App::init()
 {
-    //todo: init states
+    m_MainMenuState = new MainMenuState(&window);
+    m_GamePlayState = new GamePlayState(&window);
 }
 
 void App::addStates()
 {
-    m_MainMenuState = new MainMenuState(&window);
-    m_GamePlayState = new GamePlayState(&window);
 
     stateManager.addState(MAINMENU_STATE, m_MainMenuState);
     stateManager.addState(GAMEPLAY_STATE, m_GamePlayState);

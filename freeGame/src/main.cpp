@@ -49,7 +49,6 @@ int main()
     Fiene::ProxyAllocator* proxyAllocator = new Fiene::ProxyAllocator(*poolAllocator);
 
 
-    //Fiene::TexturesManager* texturesManager = Fiene::TexturesManager::create(*proxyAllocator);
     Fiene::TexturesManager texturesManager(*proxyAllocator);
 
 
@@ -59,8 +58,7 @@ int main()
 
 
     mainWindow.startUp("Sample Engine", 1024, 768, 0);
-    inputManager = new Fiene::InputManager;
-    inputManager->startUp();
+    inputManager = Fiene::InputManager::instance();
     camera.startUp(1024, 768);
     camera.setPosition(1024/2, 768/2);
 
@@ -121,7 +119,7 @@ int main()
 
         camera.update();
         //---- shader program use --//
-        shaderProgram.useGLSLProgram();
+        shaderProgram.use();
 
         glActiveTexture(GL_TEXTURE0);
 
@@ -129,7 +127,7 @@ int main()
         glUniform1i(textureUniform, 0);
 
 
-         //Grab the camera matrix
+        //Grab the camera matrix
         //glm::mat4 projectionMatrix = camera.getCameraMatrix();
         Fiene::Matrix4 projectionMatrix = camera.getCameraMatrix();
         GLint pUniform = shaderProgram.getUniformLocation("P");
@@ -138,12 +136,6 @@ int main()
         batch.begin();
         batch.append(castel_destRect, castel_uvRect,castleTexture, 0.0f, Fiene::Color(255,255,255,200));
         batch.append(house_destRect, house_uvRect, houseTexture, 0.0f, Fiene::Color(255,255,255,255));
-
-
-        char buffer[128] = "";
-        sprintf(buffer, "fps @  %.2f", fpsLimiter.getCurrentFps());
-        spriteFont->draw(batch, buffer, glm::vec2(0,0),
-                         glm::vec2(0.5), 0.0f, Fiene::Color(85, 255, 85, 255));
 
         batch.end();
         batch.render();
@@ -183,7 +175,7 @@ int main()
         camera.update();
 
 
-        shaderProgram.unuseGLSLProgram();
+        shaderProgram.unuse();
 
 //        lightShader.useGLSLProgram();
 //
@@ -201,7 +193,7 @@ int main()
 //
 //        lightShader.unuseGLSLProgram();
 //
-       // glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+        // glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
 
 
@@ -209,6 +201,7 @@ int main()
 
 
         fpsLimiter.end();
+
 
     }
 
@@ -220,13 +213,10 @@ int main()
     free(pMem);
 
     camera.terminate();
-    inputManager->terminate();
     mainWindow.terminate();
 
 
     Fiene::EngineCore::terminate();
-
-
 
     return 0;
 }

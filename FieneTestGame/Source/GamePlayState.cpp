@@ -4,7 +4,7 @@
 
 int GamePlayState::changeStateNext()
 {
-    return 0;
+    return NULL_STATE;
 }
 
 int GamePlayState::changeStatePrevious()
@@ -14,39 +14,40 @@ int GamePlayState::changeStatePrevious()
 
 void GamePlayState::render()
 {
-    m_ShaderProgram->useGLSLProgram();
+    m_ShaderProgram->use();
 
     Fiene::Matrix4 projectionMatrix = m_Camera.getCameraMatrix();
     GLint pUniform = m_ShaderProgram->getUniformLocation("P");
     glUniformMatrix4fv(pUniform, 1, GL_FALSE, &projectionMatrix[0][0]);
 
     m_SpriteBatch->begin();
-    char buffer[128] = "";
-    sprintf(buffer, "Game Play State");
-    m_SpriteFont->draw(*m_SpriteBatch, buffer, glm::vec2(0,0), glm::vec2(0.5), 0.0f, Fiene::Color(85,25585,255));
+    m_SpriteFont->draw(*m_SpriteBatch, "Geme Play State", glm::vec2(0,0), glm::vec2(0.5), 0.0f, Fiene::Color(85,255,85,255));
     m_SpriteBatch->end();
     m_SpriteBatch->render();
+
+    m_ShaderProgram->unuse();
 }
 
 void GamePlayState::update()
 {
     m_Camera.update();
-    m_InputManager.update();
+    m_InputManager->update();
 
-    if (m_InputManager.isKeyPressed(SDLK_1)) {
-        StateMode = Fiene::CurrentStateMode::STATE_MOVE_PREVIOUS;
+    if (m_InputManager->isKeyPressed(SDLK_1)) {
+        setStateMode(Fiene::StateModeStatus::STATE_MOVE_PREVIOUS);
     }
 
-    if (m_InputManager.isKeyPressed(SDLK_ESCAPE)) {
-        StateMode = Fiene::CurrentStateMode::STATE_EXIT;
+    if (m_InputManager->isKeyPressed(SDLK_ESCAPE)) {
+        setStateMode(Fiene::StateModeStatus::STATE_EXIT);
     }
+
 }
 
 void GamePlayState::onInit()
 {
-    m_InputManager.startUp();
-    m_Camera.startUp(window->getScreenWidth(), window->getScreenHeight());
-    m_Camera.setPosition(window->getScreenWidth() / 2, window->getScreenHeight() / 2);
+    m_InputManager = Fiene::InputManager::instance();
+    m_Camera.startUp(getWindow()->getScreenWidth(), getWindow()->getScreenHeight());
+    m_Camera.setPosition(getWindow()->getScreenWidth() / 2, getWindow()->getScreenHeight() / 2);
 
     m_ShaderProgram = new Fiene::ShaderProgram();
     m_ShaderProgram->compileVertexShader("Shaders/vertex.glsl");
@@ -67,10 +68,12 @@ void GamePlayState::onExit()
 }
 
 GamePlayState::GamePlayState(Fiene::Window *window)
-        : StateBehaviour(window) {
+        : StateBehaviour(window)
+{
 
 }
 
-GamePlayState::~GamePlayState() {
+GamePlayState::~GamePlayState()
+{
 
 }

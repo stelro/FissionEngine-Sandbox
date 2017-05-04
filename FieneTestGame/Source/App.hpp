@@ -18,5 +18,4 @@ private:
     GamePlayState* m_GamePlayState;
     MainMenuState* m_MainMenuState;
 
-
 };

@@ -186,6 +186,11 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_
  /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_user.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o
  ../FissionEngine/Engine/Core/IOManager.hpp
+ ../FissionEngine/Engine/Math/Matrix.hpp
+ ../FissionEngine/Engine/Math/Quaternion.hpp
+ ../FissionEngine/Engine/Math/Vector.hpp
+ ../FissionEngine/Engine/Math/def_vector.hpp
+ ../FissionEngine/Engine/Math/def_vector.inl
  ../FissionEngine/Engine/Utils/FDebug.hpp
  /home/stel/Game/Game/FissionEngine/Engine/GLSL/ShaderProgram.cpp
  /home/stel/Game/Game/FissionEngine/Engine/GLSL/ShaderProgram.hpp

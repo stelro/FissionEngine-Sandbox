@@ -221,6 +221,10 @@ cstdio
 ../FissionEngine/Engine/GLSL/ShaderProgram.hpp
 GL/glew.h
 -
+Math/Vector.hpp
+-
+Math/Matrix.hpp
+-
 string
 -
 

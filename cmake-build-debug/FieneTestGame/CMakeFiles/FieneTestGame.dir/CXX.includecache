@@ -34,6 +34,38 @@ map
 glm/glm.hpp
 -
 
+../FissionEngine/Engine/2D/picoPNG.hpp
+vector
+-
+cstdlib
+-
+
+../FissionEngine/Engine/Allocators/BaseAllocator.hpp
+cstddef
+-
+new
+-
+Core/fglobals.h
+../FissionEngine/Engine/Allocators/Core/fglobals.h
+
+../FissionEngine/Engine/Allocators/FreeListAllocator.hpp
+BaseAllocator.hpp
+../FissionEngine/Engine/Allocators/BaseAllocator.hpp
+PointerMath.hpp
+../FissionEngine/Engine/Allocators/PointerMath.hpp
+
+../FissionEngine/Engine/Allocators/PointerMath.hpp
+Core/fglobals.h
+../FissionEngine/Engine/Allocators/Core/fglobals.h
+cstddef
+-
+
+../FissionEngine/Engine/Allocators/PoolAllocator.hpp
+BaseAllocator.hpp
+../FissionEngine/Engine/Allocators/BaseAllocator.hpp
+PointerMath.hpp
+../FissionEngine/Engine/Allocators/PointerMath.hpp
+
 ../FissionEngine/Engine/Core/Camera2D.hpp
 Math/Matrix.hpp
 ../FissionEngine/Engine/Core/Math/Matrix.hpp
@@ -41,6 +73,12 @@ Math/Vector.hpp
 ../FissionEngine/Engine/Core/Math/Vector.hpp
 
 ../FissionEngine/Engine/Core/FpsLimiter.hpp
+
+../FissionEngine/Engine/Core/IOManager.hpp
+string
+-
+vector
+-
 
 ../FissionEngine/Engine/Core/InputManager.hpp
 Utils/Utils.hpp
@@ -75,6 +113,10 @@ cstdint
 ../FissionEngine/Engine/GLSL/ShaderProgram.hpp
 GL/glew.h
 -
+Math/Vector.hpp
+-
+Math/Matrix.hpp
+-
 string
 -
 
@@ -83,8 +125,6 @@ Engine.hpp
 ../FissionEngine/Engine/Game/Engine.hpp
 Core/Window.hpp
 ../FissionEngine/Engine/Game/Core/Window.hpp
-Core/InputManager.hpp
-../FissionEngine/Engine/Game/Core/InputManager.hpp
 Core/FpsLimiter.hpp
 ../FissionEngine/Engine/Game/Core/FpsLimiter.hpp
 StateManager.hpp
@@ -127,6 +167,44 @@ cassert
 -
 cmath
 -
+
+../FissionEngine/Engine/Resources/ResourceBase.h
+cstddef
+-
+string
+-
+
+../FissionEngine/Engine/Resources/ResourceManager.hpp
+Core/fglobals.h
+../FissionEngine/Engine/Resources/Core/fglobals.h
+Allocators/BaseAllocator.hpp
+../FissionEngine/Engine/Resources/Allocators/BaseAllocator.hpp
+string
+-
+unordered_map
+-
+iostream
+-
+
+../FissionEngine/Engine/Resources/Texture.hpp
+Math/Vector.hpp
+../FissionEngine/Engine/Resources/Math/Vector.hpp
+ResourceBase.h
+../FissionEngine/Engine/Resources/ResourceBase.h
+Core/IOManager.hpp
+../FissionEngine/Engine/Resources/Core/IOManager.hpp
+Core/fglobals.h
+../FissionEngine/Engine/Resources/Core/fglobals.h
+2D/picoPNG.hpp
+../FissionEngine/Engine/Resources/2D/picoPNG.hpp
+GL/glew.h
+-
+
+../FissionEngine/Engine/Resources/TexturesManager.hpp
+GL/glew.h
+-
+ResourceManager.hpp
+../FissionEngine/Engine/Resources/ResourceManager.hpp
 
 ../FissionEngine/Engine/Utils/FDebug.hpp
 
@@ -181,6 +259,8 @@ Engine/Core/Window.hpp
 -
 StateIndecies.hpp
 /home/stel/Game/Game/FieneTestGame/Source/StateIndecies.hpp
+Engine/Resources/Texture.hpp
+-
 
 /home/stel/Game/Game/FieneTestGame/Source/MainMenuState.hpp
 Engine/Game/StateBehaviour.hpp
@@ -194,6 +274,12 @@ Engine/Core/InputManager.hpp
 Engine/GLSL/ShaderProgram.hpp
 -
 Engine/2D/SpriteBatch.hpp
+-
+Engine/Allocators/FreeListAllocator.hpp
+-
+Engine/Allocators/PoolAllocator.hpp
+-
+Engine/Resources/TexturesManager.hpp
 -
 
 /home/stel/Game/Game/FieneTestGame/Source/StateIndecies.hpp
