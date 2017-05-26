@@ -84,40 +84,14 @@ openGLExamples/CMakeFiles/openGLExamples.dir/main.cpp.o.provides: openGLExamples
 openGLExamples/CMakeFiles/openGLExamples.dir/main.cpp.o.provides.build: openGLExamples/CMakeFiles/openGLExamples.dir/main.cpp.o
 
 
-openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o: openGLExamples/CMakeFiles/openGLExamples.dir/flags.make
-openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o: ../Editor/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o"
-	cd /home/stel/Game/Game/cmake-build-debug/openGLExamples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o -c /home/stel/Game/Game/Editor/main.cpp
-
-openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.i"
-	cd /home/stel/Game/Game/cmake-build-debug/openGLExamples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/Editor/main.cpp > CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.i
-
-openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.s"
-	cd /home/stel/Game/Game/cmake-build-debug/openGLExamples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/Editor/main.cpp -o CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.s
-
-openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o.requires:
-
-.PHONY : openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o.requires
-
-openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o.provides: openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o.requires
-	$(MAKE) -f openGLExamples/CMakeFiles/openGLExamples.dir/build.make openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o.provides.build
-.PHONY : openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o.provides
-
-openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o.provides.build: openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o
-
-
 # Object files for target openGLExamples
 openGLExamples_OBJECTS = \
-"CMakeFiles/openGLExamples.dir/main.cpp.o" \
-"CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o"
+"CMakeFiles/openGLExamples.dir/main.cpp.o"
 
 # External object files for target openGLExamples
 openGLExamples_EXTERNAL_OBJECTS =
 
 ../openGLExamples/openGLExamples: openGLExamples/CMakeFiles/openGLExamples.dir/main.cpp.o
-../openGLExamples/openGLExamples: openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o
 ../openGLExamples/openGLExamples: openGLExamples/CMakeFiles/openGLExamples.dir/build.make
 ../openGLExamples/openGLExamples: FissionEngine/libFissionEngine.a
 ../openGLExamples/openGLExamples: /usr/lib/x86_64-linux-gnu/libSDL2main.a
@@ -129,7 +103,7 @@ openGLExamples_EXTERNAL_OBJECTS =
 ../openGLExamples/openGLExamples: /usr/lib/x86_64-linux-gnu/libGL.so
 ../openGLExamples/openGLExamples: /usr/lib/x86_64-linux-gnu/liblua5.3.so
 ../openGLExamples/openGLExamples: openGLExamples/CMakeFiles/openGLExamples.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../openGLExamples/openGLExamples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../openGLExamples/openGLExamples"
 	cd /home/stel/Game/Game/cmake-build-debug/openGLExamples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/openGLExamples.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/stel/Game/Game/cmake-build-debug/openGLExamples && /home/stel/clion-2017.1.1/bin/cmake/bin/cmake -E copy_directory /home/stel/Game/Game/Shaders /home/stel/Game/Game/openGLExamples/Shaders
 
@@ -139,7 +113,6 @@ openGLExamples/CMakeFiles/openGLExamples.dir/build: ../openGLExamples/openGLExam
 .PHONY : openGLExamples/CMakeFiles/openGLExamples.dir/build
 
 openGLExamples/CMakeFiles/openGLExamples.dir/requires: openGLExamples/CMakeFiles/openGLExamples.dir/main.cpp.o.requires
-openGLExamples/CMakeFiles/openGLExamples.dir/requires: openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o.requires
 
 .PHONY : openGLExamples/CMakeFiles/openGLExamples.dir/requires
 

@@ -52,6 +52,14 @@ Core/fglobals.h
 unordered_map
 -
 
+../FissionEngine/Engine/Core/Stack.hpp
+cstddef
+-
+Stack.inl
+../FissionEngine/Engine/Core/Stack.inl
+
+../FissionEngine/Engine/Core/Stack.inl
+
 ../FissionEngine/Engine/Core/Window.hpp
 Utils/Utils.hpp
 ../FissionEngine/Engine/Core/Utils/Utils.hpp
@@ -264,6 +272,12 @@ Core/fglobals.h
 GL/glew.h
 -
 
+../FissionEngine/Engine/Resources/TexturesManager.hpp
+GL/glew.h
+-
+ResourceManager.hpp
+../FissionEngine/Engine/Resources/ResourceManager.hpp
+
 ../FissionEngine/Engine/Utils/FDebug.hpp
 
 ../FissionEngine/Engine/Utils/Utils.hpp
@@ -271,6 +285,12 @@ SDL2/SDL.h
 -
 GL/glew.h
 -
+
+/home/stel/Game/Game/FieneToolKit/Source/MainWindow.hpp
+
+/home/stel/Game/Game/FieneToolKit/Source/main.cpp
+MainWindow.hpp
+/home/stel/Game/Game/FieneToolKit/Source/MainWindow.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/2D/Light2D.cpp
 Light2D.hpp
@@ -765,6 +785,8 @@ StateBehaviour.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/StateManager.hpp
 Core/fglobals.h
 /home/stel/Game/Game/FissionEngine/Engine/Game/Core/fglobals.h
+Core/Stack.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Game/Core/Stack.hpp
 unordered_map
 -
 
@@ -851,8 +873,6 @@ fstream
 /home/stel/Game/Game/FissionEngine/Engine/Map/Map.hpp
 TileSet.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Map/TileSet.hpp
-Resources/ResourceManager.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Resources/ResourceManager.hpp
 string
 -
 vector
@@ -905,8 +925,8 @@ TileSet.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Map/TileSet.hpp
 Tile.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Map/Tile.hpp
-Resources/ResourceManager.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Resources/ResourceManager.hpp
+Resources/TexturesManager.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Map/Resources/TexturesManager.hpp
 Utils/FDebug.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Map/Utils/FDebug.hpp
 algorithm

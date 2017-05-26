@@ -5,7 +5,7 @@
 		<Option title="Project"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Editor\;CMake Files\FieneTestGame\;CMake Files\FissionEngine\;CMake Files\FissionEngine\Engine\;CMake Files\FissionEngine\Engine\Lua\;CMake Files\FissionEngine\Engine\2D\;CMake Files\FissionEngine\Engine\Core\;CMake Files\FissionEngine\Engine\GLSL\;CMake Files\FissionEngine\Engine\Map\;CMake Files\FissionEngine\Engine\Math\;CMake Files\FissionEngine\Engine\Physics\;CMake Files\FissionEngine\Engine\Resources\;CMake Files\FissionEngine\Engine\Utils\;CMake Files\FissionEngine\Engine\Widgets\;CMake Files\FissionEngine\Engine\External\;CMake Files\FissionEngine\Engine\Allocators\;CMake Files\FissionEngine\Engine\Game\;CMake Files\FissionEngine\cmake\;CMake Files\ioconsole\;CMake Files\freeGame\;CMake Files\Tests\;CMake Files\openGLExamples\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\FieneTestGame\;CMake Files\FieneToolKit\;CMake Files\FissionEngine\;CMake Files\FissionEngine\Engine\;CMake Files\FissionEngine\Engine\Lua\;CMake Files\FissionEngine\Engine\2D\;CMake Files\FissionEngine\Engine\Core\;CMake Files\FissionEngine\Engine\GLSL\;CMake Files\FissionEngine\Engine\Map\;CMake Files\FissionEngine\Engine\Math\;CMake Files\FissionEngine\Engine\Physics\;CMake Files\FissionEngine\Engine\Resources\;CMake Files\FissionEngine\Engine\Utils\;CMake Files\FissionEngine\Engine\Widgets\;CMake Files\FissionEngine\Engine\External\;CMake Files\FissionEngine\Engine\Allocators\;CMake Files\FissionEngine\Engine\Game\;CMake Files\FissionEngine\cmake\;CMake Files\ioconsole\;CMake Files\freeGame\;CMake Files\Tests\;CMake Files\openGLExamples\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/stel/Game/Game/cmake-build-debug"/>
@@ -287,56 +287,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Editor">
-				<Option output="/home/stel/Game/Game/Editor/Editor" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stel/Game/Game/Editor"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/stel/Game/Game/FissionEngine"/>
-					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Editor/Makefile&quot;  VERBOSE=1 Editor"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Editor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Editor/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Editor/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Editor/fast">
-				<Option output="/home/stel/Game/Game/Editor/Editor" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stel/Game/Game/Editor"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/stel/Game/Game/FissionEngine"/>
-					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Editor/Makefile&quot;  VERBOSE=1 Editor/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Editor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Editor/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Editor/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="FieneTestGame">
 				<Option output="/home/stel/Game/Game/FieneTestGame/FieneTestGame" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/stel/Game/Game/FieneTestGame"/>
@@ -387,74 +337,57 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/FieneTestGame/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="FieneToolKit">
+				<Option output="/home/stel/Game/Game/FieneToolKit/FieneToolKit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stel/Game/Game/FieneToolKit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stel/Game/Game/FissionEngine"/>
+					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/FieneToolKit/Makefile&quot;  VERBOSE=1 FieneToolKit"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/FieneToolKit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/FieneToolKit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/FieneToolKit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FieneToolKit/fast">
+				<Option output="/home/stel/Game/Game/FieneToolKit/FieneToolKit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stel/Game/Game/FieneToolKit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stel/Game/Game/FissionEngine"/>
+					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/FieneToolKit/Makefile&quot;  VERBOSE=1 FieneToolKit/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/FieneToolKit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/FieneToolKit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/FieneToolKit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
-		<Unit filename="/home/stel/Game/Game/Editor/imgui/imconfig.h">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/imgui/imgui.cpp">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/imgui/imgui.h">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/imgui/imgui_demo.cpp">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/imgui/imgui_dock.h">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/imgui/imgui_dock.inl">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/imgui/imgui_draw.cpp">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/imgui/imgui_internal.h">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/imgui/imgui_user.h">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/imgui/imgui_user.inl">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/imgui/stb_rect_pack.h">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/imgui/stb_textedit.h">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/imgui/stb_truetype.h">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/main.cpp">
-			<Option target="openGLExamples"/>
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/AssetsBrowser.cpp">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/AssetsBrowser.h">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/MainWindow.cpp">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/MainWindow.hpp">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/MapView.cpp">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/MapView.h">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/imgui_impl_sdl_gl3.cpp">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/imgui_impl_sdl_gl3.h">
-			<Option target="Editor"/>
-		</Unit>
 		<Unit filename="/home/stel/Game/Game/FieneTestGame/Source/App.cpp">
 			<Option target="FieneTestGame"/>
 		</Unit>
@@ -478,6 +411,61 @@
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FieneTestGame/Source/main.cpp">
 			<Option target="FieneTestGame"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/Source/MainWindow.cpp">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/Source/MainWindow.hpp">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/Source/MapDocument.cpp">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/Source/MapDocument.hpp">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/Source/MapEditor.cpp">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/Source/MapEditor.hpp">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/Source/imgui_impl_sdl_gl3.cpp">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/Source/imgui_impl_sdl_gl3.hpp">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/Source/main.cpp">
+			<Option target="FissionEngine"/>
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/imgui/imconfig.h">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/imgui/imgui.cpp">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/imgui/imgui.h">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/imgui/imgui_demo.cpp">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/imgui/imgui_draw.cpp">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/imgui/imgui_internal.h">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/imgui/stb_rect_pack.h">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/imgui/stb_textedit.h">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/imgui/stb_truetype.h">
+			<Option target="FieneToolKit"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/2D/Light2D.cpp">
 			<Option target="FissionEngine"/>
@@ -809,12 +797,6 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/Utils.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/SnakeGame/Source/MainGame.cpp">
-			<Option target="freeGame"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/SnakeGame/Source/MainGame.hpp">
-			<Option target="freeGame"/>
-		</Unit>
 		<Unit filename="/home/stel/Game/Game/Tests/src/AllocatorsNew.cpp">
 			<Option target="Tests"/>
 		</Unit>
@@ -830,17 +812,17 @@
 		<Unit filename="/home/stel/Game/Game/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Editor\"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Editor\"/>
-		</Unit>
 		<Unit filename="/home/stel/Game/Game/FieneTestGame/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\FieneTestGame\"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FieneTestGame/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\FieneTestGame\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FieneToolKit\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FieneToolKit\"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\FissionEngine\"/>

@@ -1212,9 +1212,33 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o.provid
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o.provides.build: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o
 
 
+FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
+FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o: ../FieneToolKit/Source/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o -c /home/stel/Game/Game/FieneToolKit/Source/main.cpp
+
+FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.i"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/FieneToolKit/Source/main.cpp > CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.i
+
+FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.s"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/FieneToolKit/Source/main.cpp -o CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.s
+
+FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o.requires:
+
+.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o.requires
+
+FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o.provides: FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o.requires
+	$(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o.provides.build
+.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o.provides
+
+FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o.provides.build: FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o
+
+
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Engine.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.i: cmake_force
@@ -1286,6 +1310,7 @@ FissionEngine_OBJECTS = \
 "CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o" \
 "CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o" \
 "CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o" \
+"CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o" \
 "CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o"
 
 # External object files for target FissionEngine
@@ -1339,10 +1364,11 @@ FissionEngine/libFissionEngine.a: FissionEngine/CMakeFiles/FissionEngine.dir/Eng
 FissionEngine/libFissionEngine.a: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o
 FissionEngine/libFissionEngine.a: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o
 FissionEngine/libFissionEngine.a: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o
+FissionEngine/libFissionEngine.a: FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o
 FissionEngine/libFissionEngine.a: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o
 FissionEngine/libFissionEngine.a: FissionEngine/CMakeFiles/FissionEngine.dir/build.make
 FissionEngine/libFissionEngine.a: FissionEngine/CMakeFiles/FissionEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX static library libFissionEngine.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking CXX static library libFissionEngine.a"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && $(CMAKE_COMMAND) -P CMakeFiles/FissionEngine.dir/cmake_clean_target.cmake
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FissionEngine.dir/link.txt --verbose=$(VERBOSE)
 
@@ -1399,6 +1425,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/Fi
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o.requires
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o.requires
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o.requires
+FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o.requires
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o.requires
 
 .PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/requires

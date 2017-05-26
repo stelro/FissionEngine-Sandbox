@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/openGLExamples.dir/main.cpp.o"
-  "CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o"
   "../../openGLExamples/openGLExamples.pdb"
   "../../openGLExamples/openGLExamples"
 )

@@ -68,6 +68,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/stel/Game/Game/Editor/Source/MainWindow.cpp">
+			<Option target="Editor"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/Editor/Source/MainWindow.hpp">
+			<Option target="Editor"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/Editor/Source/MapEditor.cpp">
+			<Option target="Editor"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/Editor/Source/MapEditor.hpp">
+			<Option target="Editor"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/Editor/Source/imgui_impl_sdl_gl3.cpp">
+			<Option target="Editor"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/Editor/Source/imgui_impl_sdl_gl3.hpp">
+			<Option target="Editor"/>
+		</Unit>
 		<Unit filename="/home/stel/Game/Game/Editor/imgui/imconfig.h">
 			<Option target="Editor"/>
 		</Unit>
@@ -108,30 +126,6 @@
 			<Option target="Editor"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/Editor/main.cpp">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/AssetsBrowser.cpp">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/AssetsBrowser.h">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/MainWindow.cpp">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/MainWindow.hpp">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/MapView.cpp">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/MapView.h">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/imgui_impl_sdl_gl3.cpp">
-			<Option target="Editor"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/src/imgui_impl_sdl_gl3.h">
 			<Option target="Editor"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/CMakeLists.txt">

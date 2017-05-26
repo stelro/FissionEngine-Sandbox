@@ -4,14 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/stel/Game/Game/Editor/Source/MainWindow.cpp" "/home/stel/Game/Game/cmake-build-debug/Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.o"
+  "/home/stel/Game/Game/Editor/Source/MapEditor.cpp" "/home/stel/Game/Game/cmake-build-debug/Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.o"
+  "/home/stel/Game/Game/Editor/Source/imgui_impl_sdl_gl3.cpp" "/home/stel/Game/Game/cmake-build-debug/Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o"
   "/home/stel/Game/Game/Editor/imgui/imgui.cpp" "/home/stel/Game/Game/cmake-build-debug/Editor/CMakeFiles/Editor.dir/imgui/imgui.cpp.o"
   "/home/stel/Game/Game/Editor/imgui/imgui_demo.cpp" "/home/stel/Game/Game/cmake-build-debug/Editor/CMakeFiles/Editor.dir/imgui/imgui_demo.cpp.o"
   "/home/stel/Game/Game/Editor/imgui/imgui_draw.cpp" "/home/stel/Game/Game/cmake-build-debug/Editor/CMakeFiles/Editor.dir/imgui/imgui_draw.cpp.o"
   "/home/stel/Game/Game/Editor/main.cpp" "/home/stel/Game/Game/cmake-build-debug/Editor/CMakeFiles/Editor.dir/main.cpp.o"
-  "/home/stel/Game/Game/Editor/src/AssetsBrowser.cpp" "/home/stel/Game/Game/cmake-build-debug/Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o"
-  "/home/stel/Game/Game/Editor/src/MainWindow.cpp" "/home/stel/Game/Game/cmake-build-debug/Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o"
-  "/home/stel/Game/Game/Editor/src/MapView.cpp" "/home/stel/Game/Game/cmake-build-debug/Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o"
-  "/home/stel/Game/Game/Editor/src/imgui_impl_sdl_gl3.cpp" "/home/stel/Game/Game/cmake-build-debug/Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

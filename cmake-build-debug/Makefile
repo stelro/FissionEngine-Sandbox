@@ -179,19 +179,6 @@ openGLExamples/fast:
 .PHONY : openGLExamples/fast
 
 #=============================================================================
-# Target rules for targets named Editor
-
-# Build rule for target.
-Editor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Editor
-.PHONY : Editor
-
-# fast build rule for target.
-Editor/fast:
-	$(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/build
-.PHONY : Editor/fast
-
-#=============================================================================
 # Target rules for targets named FieneTestGame
 
 # Build rule for target.
@@ -203,6 +190,19 @@ FieneTestGame: cmake_check_build_system
 FieneTestGame/fast:
 	$(MAKE) -f FieneTestGame/CMakeFiles/FieneTestGame.dir/build.make FieneTestGame/CMakeFiles/FieneTestGame.dir/build
 .PHONY : FieneTestGame/fast
+
+#=============================================================================
+# Target rules for targets named FieneToolKit
+
+# Build rule for target.
+FieneToolKit: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FieneToolKit
+.PHONY : FieneToolKit
+
+# fast build rule for target.
+FieneToolKit/fast:
+	$(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/build
+.PHONY : FieneToolKit/fast
 
 # Help Target
 help:
@@ -217,8 +217,8 @@ help:
 	@echo "... freeGame"
 	@echo "... Tests"
 	@echo "... openGLExamples"
-	@echo "... Editor"
 	@echo "... FieneTestGame"
+	@echo "... FieneToolKit"
 .PHONY : help
 
 

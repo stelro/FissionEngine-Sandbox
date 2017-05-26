@@ -4,6 +4,11 @@
 #include "GamePlayState.hpp"
 #include "StateIndecies.hpp"
 
+#include <Engine/Allocators/FreeListAllocator.hpp>
+#include <Engine/Allocators/PoolAllocator.hpp>
+#include <Engine/Resources/Texture.hpp>
+#include <Engine/Resources/TexturesManager.hpp>
+
 App::App()
 {
 
@@ -16,8 +21,16 @@ App::~App()
 
 void App::init()
 {
-    m_MainMenuState = new MainMenuState(&window);
-    m_GamePlayState = new GamePlayState(&window);
+    m_PMemmory = malloc(ONEGIG_SIZE);
+    m_FreeListAllocator = new Fiene::FreeListAllocator(ONEGIG_SIZE, m_PMemmory);
+    m_PoolAllocator = Fiene::newPoolAllocator(sizeof(Fiene::Texture), __alignof(Fiene::Texture), EIGHTMEG_SIZE, *m_FreeListAllocator);
+
+    m_TexturesManager = new Fiene::TexturesManager(*m_PoolAllocator);
+
+    m_MainMenuState = new MainMenuState(&window, m_TexturesManager);
+    m_GamePlayState = new GamePlayState(&window, m_TexturesManager);
+
+
 }
 
 void App::addStates()
@@ -30,5 +43,12 @@ void App::addStates()
 
 void App::exit()
 {
-    //todo: delete states
+    delete m_TexturesManager;
+
+    Fiene::deletePoolAllocator(*m_PoolAllocator, *m_FreeListAllocator);
+    delete m_FreeListAllocator;
+    free(m_PMemmory);
+    delete m_MainMenuState;
+    delete m_GamePlayState;
+
 }

@@ -8,7 +8,7 @@ set(CMAKE_BUILD_FILES_DIRECTORY ${dir})
 set(CMAKE_BUILD_DIRECTORY ${dir})
 set(CMAKE_BINARY_DIR  ${dir})
 
-set(SOURCE_FILES src/main.cpp ../SnakeGame/Source/MainGame.cpp ../SnakeGame/Source/MainGame.hpp)
+set(SOURCE_FILES src/main.cpp)
 file(GLOB_RECURSE data Shaders/*)
 
 add_definitions(${FissionEngine_DEFINITIONS})

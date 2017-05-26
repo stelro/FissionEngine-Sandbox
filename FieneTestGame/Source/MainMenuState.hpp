@@ -1,19 +1,24 @@
 #ifndef MAINMENUSTATE_HPP
 #define MAINMENUSTATE_HPP
 
+#include <memory>
+
 #include <Engine/Game/StateBehaviour.hpp>
 #include <Engine/2D/SpriteFont.hpp>
 #include <Engine/Core/Camera2D.hpp>
 #include <Engine/Core/InputManager.hpp>
 #include <Engine/GLSL/ShaderProgram.hpp>
 #include <Engine/2D/SpriteBatch.hpp>
-#include <Engine/Allocators/FreeListAllocator.hpp>
-#include <Engine/Allocators/PoolAllocator.hpp>
 #include <Engine/Resources/TexturesManager.hpp>
+
+
+namespace Fiene {
+    class BaseAllocator;
+}
 
 class MainMenuState : public Fiene::StateBehaviour {
 public:
-    MainMenuState(Fiene::Window* window);
+    MainMenuState(Fiene::Window* window,Fiene::TexturesManager* texturesManger);
     ~MainMenuState();
 
     virtual int                             changeStateNext();
@@ -27,15 +32,13 @@ public:
 private:
     Fiene::Camera2D                         m_Camera;
     Fiene::InputManager*                    m_InputManager;
-    Fiene::ShaderProgram*                   m_ShaderProgram; //fixme
-    Fiene::SpriteBatch*                     m_SpriteBatch; //fixme
-    Fiene::SpriteFont *                     m_SpriteFont; //fixme
+    Fiene::ShaderProgram                    m_ShaderProgram;
+    Fiene::SpriteBatch                      m_SpriteBatch;
+    Fiene::SpriteFont                       m_SpriteFont;
 
-    void *m_PMemmory;
-    Fiene::FreeListAllocator* m_FreeListAllocator;
-    Fiene::PoolAllocator* m_PoolAllocator;
+    Fiene::TexturesManager*                 m_TexturesManager;
 
-    Fiene::TexturesManager* m_TexturesManager; //fixme
+
 };
 
 #endif //MAINMENUSTATE_HPP

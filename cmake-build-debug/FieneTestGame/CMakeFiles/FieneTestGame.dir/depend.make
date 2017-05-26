@@ -3,13 +3,17 @@
 
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/2D/SpriteBatch.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/2D/SpriteFont.hpp
+FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/2D/picoPNG.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Allocators/FreeListAllocator.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Allocators/PointerMath.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Allocators/PoolAllocator.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Core/Camera2D.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Core/FpsLimiter.hpp
+FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Core/IOManager.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Core/InputManager.hpp
+FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Core/Stack.hpp
+FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Core/Stack.inl
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Core/Window.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Engine.hpp
@@ -22,7 +26,9 @@ FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/En
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
+FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Resources/ResourceBase.h
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Resources/ResourceManager.hpp
+FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Resources/Texture.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Resources/TexturesManager.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o: ../FissionEngine/Engine/Utils/Utils.hpp
@@ -55,9 +61,6 @@ FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../Fissio
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/2D/SpriteFont.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/2D/picoPNG.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
-FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Allocators/FreeListAllocator.hpp
-FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Allocators/PointerMath.hpp
-FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Allocators/PoolAllocator.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Core/Camera2D.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Core/IOManager.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Core/InputManager.hpp
@@ -82,6 +85,8 @@ FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FieneT
 
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/main.cpp.o: ../FissionEngine/Engine/Core/FpsLimiter.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/main.cpp.o: ../FissionEngine/Engine/Core/InputManager.hpp
+FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/main.cpp.o: ../FissionEngine/Engine/Core/Stack.hpp
+FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/main.cpp.o: ../FissionEngine/Engine/Core/Stack.inl
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/main.cpp.o: ../FissionEngine/Engine/Core/Window.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/main.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/main.cpp.o: ../FissionEngine/Engine/Engine.hpp

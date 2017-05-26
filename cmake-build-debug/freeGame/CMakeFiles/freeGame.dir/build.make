@@ -84,40 +84,14 @@ freeGame/CMakeFiles/freeGame.dir/src/main.cpp.o.provides: freeGame/CMakeFiles/fr
 freeGame/CMakeFiles/freeGame.dir/src/main.cpp.o.provides.build: freeGame/CMakeFiles/freeGame.dir/src/main.cpp.o
 
 
-freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o: freeGame/CMakeFiles/freeGame.dir/flags.make
-freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o: ../SnakeGame/Source/MainGame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o"
-	cd /home/stel/Game/Game/cmake-build-debug/freeGame && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o -c /home/stel/Game/Game/SnakeGame/Source/MainGame.cpp
-
-freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.i"
-	cd /home/stel/Game/Game/cmake-build-debug/freeGame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/SnakeGame/Source/MainGame.cpp > CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.i
-
-freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.s"
-	cd /home/stel/Game/Game/cmake-build-debug/freeGame && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/SnakeGame/Source/MainGame.cpp -o CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.s
-
-freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o.requires:
-
-.PHONY : freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o.requires
-
-freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o.provides: freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o.requires
-	$(MAKE) -f freeGame/CMakeFiles/freeGame.dir/build.make freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o.provides.build
-.PHONY : freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o.provides
-
-freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o.provides.build: freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o
-
-
 # Object files for target freeGame
 freeGame_OBJECTS = \
-"CMakeFiles/freeGame.dir/src/main.cpp.o" \
-"CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o"
+"CMakeFiles/freeGame.dir/src/main.cpp.o"
 
 # External object files for target freeGame
 freeGame_EXTERNAL_OBJECTS =
 
 ../freeGame/freeGame: freeGame/CMakeFiles/freeGame.dir/src/main.cpp.o
-../freeGame/freeGame: freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o
 ../freeGame/freeGame: freeGame/CMakeFiles/freeGame.dir/build.make
 ../freeGame/freeGame: FissionEngine/libFissionEngine.a
 ../freeGame/freeGame: /usr/lib/x86_64-linux-gnu/libSDL2main.a
@@ -129,7 +103,7 @@ freeGame_EXTERNAL_OBJECTS =
 ../freeGame/freeGame: /usr/lib/x86_64-linux-gnu/libGL.so
 ../freeGame/freeGame: /usr/lib/x86_64-linux-gnu/liblua5.3.so
 ../freeGame/freeGame: freeGame/CMakeFiles/freeGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../freeGame/freeGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../freeGame/freeGame"
 	cd /home/stel/Game/Game/cmake-build-debug/freeGame && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/freeGame.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/stel/Game/Game/cmake-build-debug/freeGame && /home/stel/clion-2017.1.1/bin/cmake/bin/cmake -E copy_directory /home/stel/Game/Game/Shaders /home/stel/Game/Game/freeGame/Shaders
 	cd /home/stel/Game/Game/cmake-build-debug/freeGame && /home/stel/clion-2017.1.1/bin/cmake/bin/cmake -E copy_directory /home/stel/Game/Game/Textures /home/stel/Game/Game/freeGame/Textures
@@ -144,7 +118,6 @@ freeGame/CMakeFiles/freeGame.dir/build: ../freeGame/freeGame
 .PHONY : freeGame/CMakeFiles/freeGame.dir/build
 
 freeGame/CMakeFiles/freeGame.dir/requires: freeGame/CMakeFiles/freeGame.dir/src/main.cpp.o.requires
-freeGame/CMakeFiles/freeGame.dir/requires: freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o.requires
 
 .PHONY : freeGame/CMakeFiles/freeGame.dir/requires
 

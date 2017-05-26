@@ -84,57 +84,33 @@ Editor/CMakeFiles/Editor.dir/main.cpp.o.provides: Editor/CMakeFiles/Editor.dir/m
 Editor/CMakeFiles/Editor.dir/main.cpp.o.provides.build: Editor/CMakeFiles/Editor.dir/main.cpp.o
 
 
-Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o: Editor/CMakeFiles/Editor.dir/flags.make
-Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o: ../Editor/src/MainWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o"
-	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Editor.dir/src/MainWindow.cpp.o -c /home/stel/Game/Game/Editor/src/MainWindow.cpp
+Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o: Editor/CMakeFiles/Editor.dir/flags.make
+Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o: ../Editor/Source/imgui_impl_sdl_gl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o"
+	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o -c /home/stel/Game/Game/Editor/Source/imgui_impl_sdl_gl3.cpp
 
-Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Editor.dir/src/MainWindow.cpp.i"
-	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/Editor/src/MainWindow.cpp > CMakeFiles/Editor.dir/src/MainWindow.cpp.i
+Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.i"
+	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/Editor/Source/imgui_impl_sdl_gl3.cpp > CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.i
 
-Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Editor.dir/src/MainWindow.cpp.s"
-	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/Editor/src/MainWindow.cpp -o CMakeFiles/Editor.dir/src/MainWindow.cpp.s
+Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.s"
+	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/Editor/Source/imgui_impl_sdl_gl3.cpp -o CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.s
 
-Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o.requires:
+Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o.requires:
 
-.PHONY : Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o.requires
+.PHONY : Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o.requires
 
-Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o.provides: Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o.requires
-	$(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o.provides.build
-.PHONY : Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o.provides
+Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o.provides: Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o.requires
+	$(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o.provides.build
+.PHONY : Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o.provides
 
-Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o.provides.build: Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o
-
-
-Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o: Editor/CMakeFiles/Editor.dir/flags.make
-Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o: ../Editor/src/imgui_impl_sdl_gl3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o"
-	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o -c /home/stel/Game/Game/Editor/src/imgui_impl_sdl_gl3.cpp
-
-Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.i"
-	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/Editor/src/imgui_impl_sdl_gl3.cpp > CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.i
-
-Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.s"
-	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/Editor/src/imgui_impl_sdl_gl3.cpp -o CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.s
-
-Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o.requires:
-
-.PHONY : Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o.requires
-
-Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o.provides: Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o.requires
-	$(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o.provides.build
-.PHONY : Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o.provides
-
-Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o.provides.build: Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o
+Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o.provides.build: Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o
 
 
 Editor/CMakeFiles/Editor.dir/imgui/imgui.cpp.o: Editor/CMakeFiles/Editor.dir/flags.make
 Editor/CMakeFiles/Editor.dir/imgui/imgui.cpp.o: ../Editor/imgui/imgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Editor/CMakeFiles/Editor.dir/imgui/imgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Editor/CMakeFiles/Editor.dir/imgui/imgui.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Editor.dir/imgui/imgui.cpp.o -c /home/stel/Game/Game/Editor/imgui/imgui.cpp
 
 Editor/CMakeFiles/Editor.dir/imgui/imgui.cpp.i: cmake_force
@@ -158,7 +134,7 @@ Editor/CMakeFiles/Editor.dir/imgui/imgui.cpp.o.provides.build: Editor/CMakeFiles
 
 Editor/CMakeFiles/Editor.dir/imgui/imgui_demo.cpp.o: Editor/CMakeFiles/Editor.dir/flags.make
 Editor/CMakeFiles/Editor.dir/imgui/imgui_demo.cpp.o: ../Editor/imgui/imgui_demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Editor/CMakeFiles/Editor.dir/imgui/imgui_demo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Editor/CMakeFiles/Editor.dir/imgui/imgui_demo.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Editor.dir/imgui/imgui_demo.cpp.o -c /home/stel/Game/Game/Editor/imgui/imgui_demo.cpp
 
 Editor/CMakeFiles/Editor.dir/imgui/imgui_demo.cpp.i: cmake_force
@@ -182,7 +158,7 @@ Editor/CMakeFiles/Editor.dir/imgui/imgui_demo.cpp.o.provides.build: Editor/CMake
 
 Editor/CMakeFiles/Editor.dir/imgui/imgui_draw.cpp.o: Editor/CMakeFiles/Editor.dir/flags.make
 Editor/CMakeFiles/Editor.dir/imgui/imgui_draw.cpp.o: ../Editor/imgui/imgui_draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Editor/CMakeFiles/Editor.dir/imgui/imgui_draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Editor/CMakeFiles/Editor.dir/imgui/imgui_draw.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Editor.dir/imgui/imgui_draw.cpp.o -c /home/stel/Game/Game/Editor/imgui/imgui_draw.cpp
 
 Editor/CMakeFiles/Editor.dir/imgui/imgui_draw.cpp.i: cmake_force
@@ -204,76 +180,74 @@ Editor/CMakeFiles/Editor.dir/imgui/imgui_draw.cpp.o.provides: Editor/CMakeFiles/
 Editor/CMakeFiles/Editor.dir/imgui/imgui_draw.cpp.o.provides.build: Editor/CMakeFiles/Editor.dir/imgui/imgui_draw.cpp.o
 
 
-Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o: Editor/CMakeFiles/Editor.dir/flags.make
-Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o: ../Editor/src/AssetsBrowser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o"
-	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o -c /home/stel/Game/Game/Editor/src/AssetsBrowser.cpp
+Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.o: Editor/CMakeFiles/Editor.dir/flags.make
+Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.o: ../Editor/Source/MainWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.o"
+	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Editor.dir/Source/MainWindow.cpp.o -c /home/stel/Game/Game/Editor/Source/MainWindow.cpp
 
-Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.i"
-	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/Editor/src/AssetsBrowser.cpp > CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.i
+Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Editor.dir/Source/MainWindow.cpp.i"
+	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/Editor/Source/MainWindow.cpp > CMakeFiles/Editor.dir/Source/MainWindow.cpp.i
 
-Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.s"
-	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/Editor/src/AssetsBrowser.cpp -o CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.s
+Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Editor.dir/Source/MainWindow.cpp.s"
+	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/Editor/Source/MainWindow.cpp -o CMakeFiles/Editor.dir/Source/MainWindow.cpp.s
 
-Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o.requires:
+Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.o.requires:
 
-.PHONY : Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o.requires
+.PHONY : Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.o.requires
 
-Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o.provides: Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o.requires
-	$(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o.provides.build
-.PHONY : Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o.provides
+Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.o.provides: Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.o.requires
+	$(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.o.provides.build
+.PHONY : Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.o.provides
 
-Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o.provides.build: Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o
+Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.o.provides.build: Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.o
 
 
-Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o: Editor/CMakeFiles/Editor.dir/flags.make
-Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o: ../Editor/src/MapView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o"
-	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Editor.dir/src/MapView.cpp.o -c /home/stel/Game/Game/Editor/src/MapView.cpp
+Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.o: Editor/CMakeFiles/Editor.dir/flags.make
+Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.o: ../Editor/Source/MapEditor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.o"
+	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Editor.dir/Source/MapEditor.cpp.o -c /home/stel/Game/Game/Editor/Source/MapEditor.cpp
 
-Editor/CMakeFiles/Editor.dir/src/MapView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Editor.dir/src/MapView.cpp.i"
-	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/Editor/src/MapView.cpp > CMakeFiles/Editor.dir/src/MapView.cpp.i
+Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Editor.dir/Source/MapEditor.cpp.i"
+	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/Editor/Source/MapEditor.cpp > CMakeFiles/Editor.dir/Source/MapEditor.cpp.i
 
-Editor/CMakeFiles/Editor.dir/src/MapView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Editor.dir/src/MapView.cpp.s"
-	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/Editor/src/MapView.cpp -o CMakeFiles/Editor.dir/src/MapView.cpp.s
+Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Editor.dir/Source/MapEditor.cpp.s"
+	cd /home/stel/Game/Game/cmake-build-debug/Editor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/Editor/Source/MapEditor.cpp -o CMakeFiles/Editor.dir/Source/MapEditor.cpp.s
 
-Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o.requires:
+Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.o.requires:
 
-.PHONY : Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o.requires
+.PHONY : Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.o.requires
 
-Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o.provides: Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o.requires
-	$(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o.provides.build
-.PHONY : Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o.provides
+Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.o.provides: Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.o.requires
+	$(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.o.provides.build
+.PHONY : Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.o.provides
 
-Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o.provides.build: Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o
+Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.o.provides.build: Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.o
 
 
 # Object files for target Editor
 Editor_OBJECTS = \
 "CMakeFiles/Editor.dir/main.cpp.o" \
-"CMakeFiles/Editor.dir/src/MainWindow.cpp.o" \
-"CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o" \
+"CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o" \
 "CMakeFiles/Editor.dir/imgui/imgui.cpp.o" \
 "CMakeFiles/Editor.dir/imgui/imgui_demo.cpp.o" \
 "CMakeFiles/Editor.dir/imgui/imgui_draw.cpp.o" \
-"CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o" \
-"CMakeFiles/Editor.dir/src/MapView.cpp.o"
+"CMakeFiles/Editor.dir/Source/MainWindow.cpp.o" \
+"CMakeFiles/Editor.dir/Source/MapEditor.cpp.o"
 
 # External object files for target Editor
 Editor_EXTERNAL_OBJECTS =
 
 ../Editor/Editor: Editor/CMakeFiles/Editor.dir/main.cpp.o
-../Editor/Editor: Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o
-../Editor/Editor: Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o
+../Editor/Editor: Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o
 ../Editor/Editor: Editor/CMakeFiles/Editor.dir/imgui/imgui.cpp.o
 ../Editor/Editor: Editor/CMakeFiles/Editor.dir/imgui/imgui_demo.cpp.o
 ../Editor/Editor: Editor/CMakeFiles/Editor.dir/imgui/imgui_draw.cpp.o
-../Editor/Editor: Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o
-../Editor/Editor: Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o
+../Editor/Editor: Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.o
+../Editor/Editor: Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.o
 ../Editor/Editor: Editor/CMakeFiles/Editor.dir/build.make
 ../Editor/Editor: FissionEngine/libFissionEngine.a
 ../Editor/Editor: /usr/lib/x86_64-linux-gnu/libSDL2main.a
@@ -285,9 +259,10 @@ Editor_EXTERNAL_OBJECTS =
 ../Editor/Editor: /usr/lib/x86_64-linux-gnu/libGL.so
 ../Editor/Editor: /usr/lib/x86_64-linux-gnu/liblua5.3.so
 ../Editor/Editor: Editor/CMakeFiles/Editor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../Editor/Editor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ../../Editor/Editor"
 	cd /home/stel/Game/Game/cmake-build-debug/Editor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Editor.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/stel/Game/Game/cmake-build-debug/Editor && /home/stel/clion-2017.1.1/bin/cmake/bin/cmake -E copy_directory /home/stel/Game/Game/imgui /home/stel/Game/Game/Editor/imgui
+	cd /home/stel/Game/Game/cmake-build-debug/Editor && /home/stel/clion-2017.1.1/bin/cmake/bin/cmake -E copy_directory /home/stel/Game/Game/Assets /home/stel/Game/Game/Editor/Assets
+	cd /home/stel/Game/Game/cmake-build-debug/Editor && /home/stel/clion-2017.1.1/bin/cmake/bin/cmake -E copy_directory /home/stel/Game/Game/Shaders /home/stel/Game/Game/Editor/Shaders
 
 # Rule to build all files generated by this target.
 Editor/CMakeFiles/Editor.dir/build: ../Editor/Editor
@@ -295,13 +270,12 @@ Editor/CMakeFiles/Editor.dir/build: ../Editor/Editor
 .PHONY : Editor/CMakeFiles/Editor.dir/build
 
 Editor/CMakeFiles/Editor.dir/requires: Editor/CMakeFiles/Editor.dir/main.cpp.o.requires
-Editor/CMakeFiles/Editor.dir/requires: Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o.requires
-Editor/CMakeFiles/Editor.dir/requires: Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o.requires
+Editor/CMakeFiles/Editor.dir/requires: Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o.requires
 Editor/CMakeFiles/Editor.dir/requires: Editor/CMakeFiles/Editor.dir/imgui/imgui.cpp.o.requires
 Editor/CMakeFiles/Editor.dir/requires: Editor/CMakeFiles/Editor.dir/imgui/imgui_demo.cpp.o.requires
 Editor/CMakeFiles/Editor.dir/requires: Editor/CMakeFiles/Editor.dir/imgui/imgui_draw.cpp.o.requires
-Editor/CMakeFiles/Editor.dir/requires: Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o.requires
-Editor/CMakeFiles/Editor.dir/requires: Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o.requires
+Editor/CMakeFiles/Editor.dir/requires: Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.o.requires
+Editor/CMakeFiles/Editor.dir/requires: Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.o.requires
 
 .PHONY : Editor/CMakeFiles/Editor.dir/requires
 

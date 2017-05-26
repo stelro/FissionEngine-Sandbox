@@ -1,6 +1,8 @@
 #ifndef GAMEPLAYSTATE_HPP
 #define GAMEPLAYSTATE_HPP
 
+#include <memory>
+
 #include <Engine/Game/StateBehaviour.hpp>
 #include <Engine/2D/SpriteFont.hpp>
 #include <Engine/Core/Camera2D.hpp>
@@ -8,10 +10,13 @@
 #include <Engine/GLSL/ShaderProgram.hpp>
 #include <Engine/2D/SpriteBatch.hpp>
 
+namespace Fiene {
+    class TexturesManager;
+}
 
 class GamePlayState : public Fiene::StateBehaviour {
 public:
-    GamePlayState(Fiene::Window* window);
+    GamePlayState(Fiene::Window* window,Fiene::TexturesManager* texturesManger);
     ~GamePlayState();
     virtual int                             changeStateNext();
     virtual int                             changeStatePrevious();
@@ -24,9 +29,11 @@ public:
 private:
     Fiene::Camera2D                         m_Camera;
     Fiene::InputManager*                    m_InputManager;
-    Fiene::ShaderProgram*                   m_ShaderProgram; //fixme
-    Fiene::SpriteBatch*                     m_SpriteBatch; //fixme
-    Fiene::SpriteFont *                     m_SpriteFont; //fixme
+    Fiene::ShaderProgram                   m_ShaderProgram;
+    Fiene::SpriteBatch                     m_SpriteBatch;
+    Fiene::SpriteFont                      m_SpriteFont;
+
+    Fiene::TexturesManager* m_TexturesManager;
 };
 
 #endif //GAMEPLAYSTATE_HPP

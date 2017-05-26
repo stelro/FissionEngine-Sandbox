@@ -1,1 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
+CMakeFiles/CMakeTmp/
+Documentation/
+cmake-build-debug/CMakeFiles/CMakeTmp/

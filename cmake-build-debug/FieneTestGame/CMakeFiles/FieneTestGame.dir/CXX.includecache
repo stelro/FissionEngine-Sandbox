@@ -90,6 +90,14 @@ Core/fglobals.h
 unordered_map
 -
 
+../FissionEngine/Engine/Core/Stack.hpp
+cstddef
+-
+Stack.inl
+../FissionEngine/Engine/Core/Stack.inl
+
+../FissionEngine/Engine/Core/Stack.inl
+
 ../FissionEngine/Engine/Core/Window.hpp
 Utils/Utils.hpp
 ../FissionEngine/Engine/Core/Utils/Utils.hpp
@@ -139,6 +147,8 @@ Core/fglobals.h
 ../FissionEngine/Engine/Game/StateManager.hpp
 Core/fglobals.h
 ../FissionEngine/Engine/Game/Core/fglobals.h
+Core/Stack.hpp
+../FissionEngine/Engine/Game/Core/Stack.hpp
 unordered_map
 -
 
@@ -223,8 +233,18 @@ GamePlayState.hpp
 /home/stel/Game/Game/FieneTestGame/Source/GamePlayState.hpp
 StateIndecies.hpp
 /home/stel/Game/Game/FieneTestGame/Source/StateIndecies.hpp
+Engine/Allocators/FreeListAllocator.hpp
+-
+Engine/Allocators/PoolAllocator.hpp
+-
+Engine/Resources/Texture.hpp
+-
+Engine/Resources/TexturesManager.hpp
+-
 
 /home/stel/Game/Game/FieneTestGame/Source/App.hpp
+memory
+-
 Engine/Game/AppBehaviour.hpp
 -
 Engine/Core/InputManager.hpp
@@ -239,6 +259,8 @@ StateIndecies.hpp
 /home/stel/Game/Game/FieneTestGame/Source/StateIndecies.hpp
 
 /home/stel/Game/Game/FieneTestGame/Source/GamePlayState.hpp
+memory
+-
 Engine/Game/StateBehaviour.hpp
 -
 Engine/2D/SpriteFont.hpp
@@ -263,6 +285,8 @@ Engine/Resources/Texture.hpp
 -
 
 /home/stel/Game/Game/FieneTestGame/Source/MainMenuState.hpp
+memory
+-
 Engine/Game/StateBehaviour.hpp
 -
 Engine/2D/SpriteFont.hpp
@@ -274,10 +298,6 @@ Engine/Core/InputManager.hpp
 Engine/GLSL/ShaderProgram.hpp
 -
 Engine/2D/SpriteBatch.hpp
--
-Engine/Allocators/FreeListAllocator.hpp
--
-Engine/Allocators/PoolAllocator.hpp
 -
 Engine/Resources/TexturesManager.hpp
 -

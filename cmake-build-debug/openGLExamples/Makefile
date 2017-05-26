@@ -128,33 +128,6 @@ openGLExamples/fast:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f openGLExamples/CMakeFiles/openGLExamples.dir/build.make openGLExamples/CMakeFiles/openGLExamples.dir/build
 .PHONY : openGLExamples/fast
 
-__/Editor/main.o: __/Editor/main.cpp.o
-
-.PHONY : __/Editor/main.o
-
-# target to build an object file
-__/Editor/main.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f openGLExamples/CMakeFiles/openGLExamples.dir/build.make openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o
-.PHONY : __/Editor/main.cpp.o
-
-__/Editor/main.i: __/Editor/main.cpp.i
-
-.PHONY : __/Editor/main.i
-
-# target to preprocess a source file
-__/Editor/main.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f openGLExamples/CMakeFiles/openGLExamples.dir/build.make openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.i
-.PHONY : __/Editor/main.cpp.i
-
-__/Editor/main.s: __/Editor/main.cpp.s
-
-.PHONY : __/Editor/main.s
-
-# target to generate assembly for a file
-__/Editor/main.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f openGLExamples/CMakeFiles/openGLExamples.dir/build.make openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.s
-.PHONY : __/Editor/main.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -191,9 +164,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... openGLExamples"
-	@echo "... __/Editor/main.o"
-	@echo "... __/Editor/main.i"
-	@echo "... __/Editor/main.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

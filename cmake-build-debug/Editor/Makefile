@@ -128,6 +128,87 @@ Editor/fast:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/build
 .PHONY : Editor/fast
 
+Source/MainWindow.o: Source/MainWindow.cpp.o
+
+.PHONY : Source/MainWindow.o
+
+# target to build an object file
+Source/MainWindow.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.o
+.PHONY : Source/MainWindow.cpp.o
+
+Source/MainWindow.i: Source/MainWindow.cpp.i
+
+.PHONY : Source/MainWindow.i
+
+# target to preprocess a source file
+Source/MainWindow.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.i
+.PHONY : Source/MainWindow.cpp.i
+
+Source/MainWindow.s: Source/MainWindow.cpp.s
+
+.PHONY : Source/MainWindow.s
+
+# target to generate assembly for a file
+Source/MainWindow.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/Source/MainWindow.cpp.s
+.PHONY : Source/MainWindow.cpp.s
+
+Source/MapEditor.o: Source/MapEditor.cpp.o
+
+.PHONY : Source/MapEditor.o
+
+# target to build an object file
+Source/MapEditor.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.o
+.PHONY : Source/MapEditor.cpp.o
+
+Source/MapEditor.i: Source/MapEditor.cpp.i
+
+.PHONY : Source/MapEditor.i
+
+# target to preprocess a source file
+Source/MapEditor.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.i
+.PHONY : Source/MapEditor.cpp.i
+
+Source/MapEditor.s: Source/MapEditor.cpp.s
+
+.PHONY : Source/MapEditor.s
+
+# target to generate assembly for a file
+Source/MapEditor.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/Source/MapEditor.cpp.s
+.PHONY : Source/MapEditor.cpp.s
+
+Source/imgui_impl_sdl_gl3.o: Source/imgui_impl_sdl_gl3.cpp.o
+
+.PHONY : Source/imgui_impl_sdl_gl3.o
+
+# target to build an object file
+Source/imgui_impl_sdl_gl3.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.o
+.PHONY : Source/imgui_impl_sdl_gl3.cpp.o
+
+Source/imgui_impl_sdl_gl3.i: Source/imgui_impl_sdl_gl3.cpp.i
+
+.PHONY : Source/imgui_impl_sdl_gl3.i
+
+# target to preprocess a source file
+Source/imgui_impl_sdl_gl3.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.i
+.PHONY : Source/imgui_impl_sdl_gl3.cpp.i
+
+Source/imgui_impl_sdl_gl3.s: Source/imgui_impl_sdl_gl3.cpp.s
+
+.PHONY : Source/imgui_impl_sdl_gl3.s
+
+# target to generate assembly for a file
+Source/imgui_impl_sdl_gl3.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/Source/imgui_impl_sdl_gl3.cpp.s
+.PHONY : Source/imgui_impl_sdl_gl3.cpp.s
+
 imgui/imgui.o: imgui/imgui.cpp.o
 
 .PHONY : imgui/imgui.o
@@ -236,114 +317,6 @@ main.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/AssetsBrowser.o: src/AssetsBrowser.cpp.o
-
-.PHONY : src/AssetsBrowser.o
-
-# target to build an object file
-src/AssetsBrowser.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o
-.PHONY : src/AssetsBrowser.cpp.o
-
-src/AssetsBrowser.i: src/AssetsBrowser.cpp.i
-
-.PHONY : src/AssetsBrowser.i
-
-# target to preprocess a source file
-src/AssetsBrowser.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.i
-.PHONY : src/AssetsBrowser.cpp.i
-
-src/AssetsBrowser.s: src/AssetsBrowser.cpp.s
-
-.PHONY : src/AssetsBrowser.s
-
-# target to generate assembly for a file
-src/AssetsBrowser.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.s
-.PHONY : src/AssetsBrowser.cpp.s
-
-src/MainWindow.o: src/MainWindow.cpp.o
-
-.PHONY : src/MainWindow.o
-
-# target to build an object file
-src/MainWindow.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o
-.PHONY : src/MainWindow.cpp.o
-
-src/MainWindow.i: src/MainWindow.cpp.i
-
-.PHONY : src/MainWindow.i
-
-# target to preprocess a source file
-src/MainWindow.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.i
-.PHONY : src/MainWindow.cpp.i
-
-src/MainWindow.s: src/MainWindow.cpp.s
-
-.PHONY : src/MainWindow.s
-
-# target to generate assembly for a file
-src/MainWindow.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.s
-.PHONY : src/MainWindow.cpp.s
-
-src/MapView.o: src/MapView.cpp.o
-
-.PHONY : src/MapView.o
-
-# target to build an object file
-src/MapView.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o
-.PHONY : src/MapView.cpp.o
-
-src/MapView.i: src/MapView.cpp.i
-
-.PHONY : src/MapView.i
-
-# target to preprocess a source file
-src/MapView.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/MapView.cpp.i
-.PHONY : src/MapView.cpp.i
-
-src/MapView.s: src/MapView.cpp.s
-
-.PHONY : src/MapView.s
-
-# target to generate assembly for a file
-src/MapView.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/MapView.cpp.s
-.PHONY : src/MapView.cpp.s
-
-src/imgui_impl_sdl_gl3.o: src/imgui_impl_sdl_gl3.cpp.o
-
-.PHONY : src/imgui_impl_sdl_gl3.o
-
-# target to build an object file
-src/imgui_impl_sdl_gl3.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o
-.PHONY : src/imgui_impl_sdl_gl3.cpp.o
-
-src/imgui_impl_sdl_gl3.i: src/imgui_impl_sdl_gl3.cpp.i
-
-.PHONY : src/imgui_impl_sdl_gl3.i
-
-# target to preprocess a source file
-src/imgui_impl_sdl_gl3.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.i
-.PHONY : src/imgui_impl_sdl_gl3.cpp.i
-
-src/imgui_impl_sdl_gl3.s: src/imgui_impl_sdl_gl3.cpp.s
-
-.PHONY : src/imgui_impl_sdl_gl3.s
-
-# target to generate assembly for a file
-src/imgui_impl_sdl_gl3.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f Editor/CMakeFiles/Editor.dir/build.make Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.s
-.PHONY : src/imgui_impl_sdl_gl3.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -353,6 +326,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Editor"
+	@echo "... Source/MainWindow.o"
+	@echo "... Source/MainWindow.i"
+	@echo "... Source/MainWindow.s"
+	@echo "... Source/MapEditor.o"
+	@echo "... Source/MapEditor.i"
+	@echo "... Source/MapEditor.s"
+	@echo "... Source/imgui_impl_sdl_gl3.o"
+	@echo "... Source/imgui_impl_sdl_gl3.i"
+	@echo "... Source/imgui_impl_sdl_gl3.s"
 	@echo "... imgui/imgui.o"
 	@echo "... imgui/imgui.i"
 	@echo "... imgui/imgui.s"
@@ -365,18 +347,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/AssetsBrowser.o"
-	@echo "... src/AssetsBrowser.i"
-	@echo "... src/AssetsBrowser.s"
-	@echo "... src/MainWindow.o"
-	@echo "... src/MainWindow.i"
-	@echo "... src/MainWindow.s"
-	@echo "... src/MapView.o"
-	@echo "... src/MapView.i"
-	@echo "... src/MapView.s"
-	@echo "... src/imgui_impl_sdl_gl3.o"
-	@echo "... src/imgui_impl_sdl_gl3.i"
-	@echo "... src/imgui_impl_sdl_gl3.s"
 .PHONY : help
 
 

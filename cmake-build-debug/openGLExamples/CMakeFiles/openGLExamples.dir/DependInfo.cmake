@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stel/Game/Game/Editor/main.cpp" "/home/stel/Game/Game/cmake-build-debug/openGLExamples/CMakeFiles/openGLExamples.dir/__/Editor/main.cpp.o"
   "/home/stel/Game/Game/openGLExamples/main.cpp" "/home/stel/Game/Game/cmake-build-debug/openGLExamples/CMakeFiles/openGLExamples.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -49,4 +49,9 @@ add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
         ${CMAKE_SOURCE_DIR}/Scripts
         $<TARGET_FILE_DIR:${PROJECT_NAME}>/Scripts)
 
+add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_directory
+        ${CMAKE_SOURCE_DIR}/maps
+        $<TARGET_FILE_DIR:${PROJECT_NAME}>/maps)
+
 

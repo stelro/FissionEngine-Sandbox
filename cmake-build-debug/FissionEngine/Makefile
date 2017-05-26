@@ -1451,6 +1451,33 @@ Engine/Utils/Utils.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.s
 .PHONY : Engine/Utils/Utils.cpp.s
 
+__/FieneToolKit/Source/main.o: __/FieneToolKit/Source/main.cpp.o
+
+.PHONY : __/FieneToolKit/Source/main.o
+
+# target to build an object file
+__/FieneToolKit/Source/main.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o
+.PHONY : __/FieneToolKit/Source/main.cpp.o
+
+__/FieneToolKit/Source/main.i: __/FieneToolKit/Source/main.cpp.i
+
+.PHONY : __/FieneToolKit/Source/main.i
+
+# target to preprocess a source file
+__/FieneToolKit/Source/main.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.i
+.PHONY : __/FieneToolKit/Source/main.cpp.i
+
+__/FieneToolKit/Source/main.s: __/FieneToolKit/Source/main.cpp.s
+
+.PHONY : __/FieneToolKit/Source/main.s
+
+# target to generate assembly for a file
+__/FieneToolKit/Source/main.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.s
+.PHONY : __/FieneToolKit/Source/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1607,6 +1634,9 @@ help:
 	@echo "... Engine/Utils/Utils.o"
 	@echo "... Engine/Utils/Utils.i"
 	@echo "... Engine/Utils/Utils.s"
+	@echo "... __/FieneToolKit/Source/main.o"
+	@echo "... __/FieneToolKit/Source/main.i"
+	@echo "... __/FieneToolKit/Source/main.s"
 .PHONY : help
 
 

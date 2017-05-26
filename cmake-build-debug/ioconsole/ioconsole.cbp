@@ -5,7 +5,7 @@
 		<Option title="ioconsole"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Editor\;CMake Files\FieneTestGame\;CMake Files\FissionEngine\;CMake Files\FissionEngine\Engine\;CMake Files\FissionEngine\Engine\Lua\;CMake Files\FissionEngine\Engine\2D\;CMake Files\FissionEngine\Engine\Core\;CMake Files\FissionEngine\Engine\GLSL\;CMake Files\FissionEngine\Engine\Map\;CMake Files\FissionEngine\Engine\Math\;CMake Files\FissionEngine\Engine\Physics\;CMake Files\FissionEngine\Engine\Resources\;CMake Files\FissionEngine\Engine\Utils\;CMake Files\FissionEngine\Engine\Widgets\;CMake Files\FissionEngine\Engine\External\;CMake Files\FissionEngine\Engine\Allocators\;CMake Files\FissionEngine\Engine\Game\;CMake Files\FissionEngine\cmake\;CMake Files\ioconsole\;CMake Files\freeGame\;CMake Files\Tests\;CMake Files\openGLExamples\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\FieneTestGame\;CMake Files\FieneToolKit\;CMake Files\FissionEngine\;CMake Files\FissionEngine\Engine\;CMake Files\FissionEngine\Engine\Lua\;CMake Files\FissionEngine\Engine\2D\;CMake Files\FissionEngine\Engine\Core\;CMake Files\FissionEngine\Engine\GLSL\;CMake Files\FissionEngine\Engine\Map\;CMake Files\FissionEngine\Engine\Math\;CMake Files\FissionEngine\Engine\Physics\;CMake Files\FissionEngine\Engine\Resources\;CMake Files\FissionEngine\Engine\Utils\;CMake Files\FissionEngine\Engine\Widgets\;CMake Files\FissionEngine\Engine\External\;CMake Files\FissionEngine\Engine\Allocators\;CMake Files\FissionEngine\Engine\Game\;CMake Files\FissionEngine\cmake\;CMake Files\ioconsole\;CMake Files\freeGame\;CMake Files\Tests\;CMake Files\openGLExamples\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/stel/Game/Game/cmake-build-debug/ioconsole"/>
@@ -72,17 +72,17 @@
 		<Unit filename="/home/stel/Game/Game/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Editor\"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Editor/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Editor\"/>
-		</Unit>
 		<Unit filename="/home/stel/Game/Game/FieneTestGame/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\FieneTestGame\"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FieneTestGame/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\FieneTestGame\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FieneToolKit\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FieneToolKit\"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\FissionEngine\"/>

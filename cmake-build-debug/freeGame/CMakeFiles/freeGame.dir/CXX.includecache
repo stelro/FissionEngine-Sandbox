@@ -247,8 +247,6 @@ Utils/Utils.hpp
 ../FissionEngine/Engine/Map/Map.hpp
 TileSet.hpp
 ../FissionEngine/Engine/Map/TileSet.hpp
-Resources/ResourceManager.hpp
-../FissionEngine/Engine/Map/Resources/ResourceManager.hpp
 string
 -
 vector
@@ -355,8 +353,6 @@ SDL2/SDL.h
 -
 GL/glew.h
 -
-
-/home/stel/Game/Game/SnakeGame/Source/MainGame.cpp
 
 /home/stel/Game/Game/freeGame/src/main.cpp
 iostream

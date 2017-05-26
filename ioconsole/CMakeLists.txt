@@ -10,7 +10,7 @@ set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -Wall -g -Wextra -Wunused -Wshadow -Woverloaded-virtual -Wunreachable-code -Wconversion -fno-math-errno")
 
 
-add_library(${PROJECT_NAME} STATIC ${FIENE_SRC} main.cpp main.cpp)
+add_library(${PROJECT_NAME} STATIC ${FIENE_SRC} main.cpp)
 target_include_directories(${PROJECT_NAME} PUBLIC Engine)
 
 

@@ -128,33 +128,6 @@ freeGame/fast:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f freeGame/CMakeFiles/freeGame.dir/build.make freeGame/CMakeFiles/freeGame.dir/build
 .PHONY : freeGame/fast
 
-__/SnakeGame/Source/MainGame.o: __/SnakeGame/Source/MainGame.cpp.o
-
-.PHONY : __/SnakeGame/Source/MainGame.o
-
-# target to build an object file
-__/SnakeGame/Source/MainGame.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f freeGame/CMakeFiles/freeGame.dir/build.make freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.o
-.PHONY : __/SnakeGame/Source/MainGame.cpp.o
-
-__/SnakeGame/Source/MainGame.i: __/SnakeGame/Source/MainGame.cpp.i
-
-.PHONY : __/SnakeGame/Source/MainGame.i
-
-# target to preprocess a source file
-__/SnakeGame/Source/MainGame.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f freeGame/CMakeFiles/freeGame.dir/build.make freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.i
-.PHONY : __/SnakeGame/Source/MainGame.cpp.i
-
-__/SnakeGame/Source/MainGame.s: __/SnakeGame/Source/MainGame.cpp.s
-
-.PHONY : __/SnakeGame/Source/MainGame.s
-
-# target to generate assembly for a file
-__/SnakeGame/Source/MainGame.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f freeGame/CMakeFiles/freeGame.dir/build.make freeGame/CMakeFiles/freeGame.dir/__/SnakeGame/Source/MainGame.cpp.s
-.PHONY : __/SnakeGame/Source/MainGame.cpp.s
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -191,9 +164,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... freeGame"
-	@echo "... __/SnakeGame/Source/MainGame.o"
-	@echo "... __/SnakeGame/Source/MainGame.i"
-	@echo "... __/SnakeGame/Source/MainGame.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

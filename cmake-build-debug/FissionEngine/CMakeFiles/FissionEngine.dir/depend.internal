@@ -197,6 +197,8 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o
  ../FissionEngine/Engine/Core/FpsLimiter.hpp
  ../FissionEngine/Engine/Core/InputManager.hpp
+ ../FissionEngine/Engine/Core/Stack.hpp
+ ../FissionEngine/Engine/Core/Stack.inl
  ../FissionEngine/Engine/Core/Window.hpp
  ../FissionEngine/Engine/Core/fglobals.h
  ../FissionEngine/Engine/Engine.hpp
@@ -215,6 +217,8 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o
  /home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.cpp
  /home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o
+ ../FissionEngine/Engine/Core/Stack.hpp
+ ../FissionEngine/Engine/Core/Stack.inl
  ../FissionEngine/Engine/Core/fglobals.h
  ../FissionEngine/Engine/Utils/FDebug.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.hpp
@@ -258,7 +262,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Layer.cpp.o
  /home/stel/Game/Game/FissionEngine/Engine/Map/Layer.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o
  ../FissionEngine/Engine/2D/picoPNG.hpp
- ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
  ../FissionEngine/Engine/Core/IOManager.hpp
  ../FissionEngine/Engine/Core/fglobals.h
  ../FissionEngine/Engine/External/sol.hpp
@@ -267,7 +270,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o
  ../FissionEngine/Engine/Math/def_vector.hpp
  ../FissionEngine/Engine/Math/def_vector.inl
  ../FissionEngine/Engine/Resources/ResourceBase.h
- ../FissionEngine/Engine/Resources/ResourceManager.hpp
  ../FissionEngine/Engine/Resources/Texture.hpp
  ../FissionEngine/Engine/Utils/FDebug.hpp
  ../FissionEngine/Engine/Utils/Utils.hpp
@@ -295,13 +297,9 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/ObjectLayer.cpp.o
  /home/stel/Game/Game/FissionEngine/Engine/Map/ObjectLayer.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/OrthogonalRenderer.cpp.o
  ../FissionEngine/Engine/2D/SpriteBatch.hpp
- ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
- ../FissionEngine/Engine/Core/fglobals.h
  ../FissionEngine/Engine/Math/Vector.hpp
  ../FissionEngine/Engine/Math/def_vector.hpp
  ../FissionEngine/Engine/Math/def_vector.inl
- ../FissionEngine/Engine/Resources/ResourceManager.hpp
- ../FissionEngine/Engine/Utils/FDebug.hpp
  ../FissionEngine/Engine/Utils/Utils.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Map/Layer.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Map/Map.hpp
@@ -334,6 +332,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TileSet.cpp.o
  ../FissionEngine/Engine/Resources/ResourceBase.h
  ../FissionEngine/Engine/Resources/ResourceManager.hpp
  ../FissionEngine/Engine/Resources/Texture.hpp
+ ../FissionEngine/Engine/Resources/TexturesManager.hpp
  ../FissionEngine/Engine/Utils/FDebug.hpp
  ../FissionEngine/Engine/Utils/Utils.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Map/Tile.hpp
@@ -416,3 +415,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.o
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.o
  /home/stel/Game/Game/FissionEngine/Engine/Utils/Utils.cpp
  /home/stel/Game/Game/FissionEngine/Engine/Utils/Utils.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o
+ /home/stel/Game/Game/FieneToolKit/Source/MainWindow.hpp
+ /home/stel/Game/Game/FieneToolKit/Source/main.cpp

@@ -1,10 +1,20 @@
 #pragma once
 
+#include <memory>
+
 #include <Engine/Game/AppBehaviour.hpp>
 #include <Engine/Core/InputManager.hpp>
 
 class GamePlayState;
 class MainMenuState;
+
+namespace Fiene {
+
+    class FreeListAllocator;
+    class PoolAllocator;
+    class TexturesManager;
+
+}
 
 class App : public Fiene::AppBehaviour {
 public:
@@ -18,4 +28,9 @@ private:
     GamePlayState* m_GamePlayState;
     MainMenuState* m_MainMenuState;
 
+    void *m_PMemmory;
+    Fiene::FreeListAllocator* m_FreeListAllocator;
+    Fiene::PoolAllocator* m_PoolAllocator;
+
+    Fiene::TexturesManager* m_TexturesManager;
 };

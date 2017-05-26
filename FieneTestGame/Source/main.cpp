@@ -4,7 +4,6 @@ int main()
 {
     App app;
     app.run();
-    app.terminate();
 
     return 0;
 }
