@@ -128,6 +128,33 @@ FieneToolKit/fast:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/build
 .PHONY : FieneToolKit/fast
 
+Source/AssetsBrowser.o: Source/AssetsBrowser.cpp.o
+
+.PHONY : Source/AssetsBrowser.o
+
+# target to build an object file
+Source/AssetsBrowser.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o
+.PHONY : Source/AssetsBrowser.cpp.o
+
+Source/AssetsBrowser.i: Source/AssetsBrowser.cpp.i
+
+.PHONY : Source/AssetsBrowser.i
+
+# target to preprocess a source file
+Source/AssetsBrowser.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.i
+.PHONY : Source/AssetsBrowser.cpp.i
+
+Source/AssetsBrowser.s: Source/AssetsBrowser.cpp.s
+
+.PHONY : Source/AssetsBrowser.s
+
+# target to generate assembly for a file
+Source/AssetsBrowser.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.s
+.PHONY : Source/AssetsBrowser.cpp.s
+
 Source/MainWindow.o: Source/MainWindow.cpp.o
 
 .PHONY : Source/MainWindow.o
@@ -353,6 +380,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... FieneToolKit"
+	@echo "... Source/AssetsBrowser.o"
+	@echo "... Source/AssetsBrowser.i"
+	@echo "... Source/AssetsBrowser.s"
 	@echo "... Source/MainWindow.o"
 	@echo "... Source/MainWindow.i"
 	@echo "... Source/MainWindow.s"

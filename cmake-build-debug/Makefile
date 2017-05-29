@@ -114,19 +114,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ioconsole
-
-# Build rule for target.
-ioconsole: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ioconsole
-.PHONY : ioconsole
-
-# fast build rule for target.
-ioconsole/fast:
-	$(MAKE) -f ioconsole/CMakeFiles/ioconsole.dir/build.make ioconsole/CMakeFiles/ioconsole.dir/build
-.PHONY : ioconsole/fast
-
-#=============================================================================
 # Target rules for targets named FissionEngine
 
 # Build rule for target.
@@ -138,45 +125,6 @@ FissionEngine: cmake_check_build_system
 FissionEngine/fast:
 	$(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/build
 .PHONY : FissionEngine/fast
-
-#=============================================================================
-# Target rules for targets named freeGame
-
-# Build rule for target.
-freeGame: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 freeGame
-.PHONY : freeGame
-
-# fast build rule for target.
-freeGame/fast:
-	$(MAKE) -f freeGame/CMakeFiles/freeGame.dir/build.make freeGame/CMakeFiles/freeGame.dir/build
-.PHONY : freeGame/fast
-
-#=============================================================================
-# Target rules for targets named Tests
-
-# Build rule for target.
-Tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Tests
-.PHONY : Tests
-
-# fast build rule for target.
-Tests/fast:
-	$(MAKE) -f Tests/CMakeFiles/Tests.dir/build.make Tests/CMakeFiles/Tests.dir/build
-.PHONY : Tests/fast
-
-#=============================================================================
-# Target rules for targets named openGLExamples
-
-# Build rule for target.
-openGLExamples: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 openGLExamples
-.PHONY : openGLExamples
-
-# fast build rule for target.
-openGLExamples/fast:
-	$(MAKE) -f openGLExamples/CMakeFiles/openGLExamples.dir/build.make openGLExamples/CMakeFiles/openGLExamples.dir/build
-.PHONY : openGLExamples/fast
 
 #=============================================================================
 # Target rules for targets named FieneTestGame
@@ -212,11 +160,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... ioconsole"
 	@echo "... FissionEngine"
-	@echo "... freeGame"
-	@echo "... Tests"
-	@echo "... openGLExamples"
 	@echo "... FieneTestGame"
 	@echo "... FieneToolKit"
 .PHONY : help

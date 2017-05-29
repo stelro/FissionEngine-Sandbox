@@ -5,7 +5,7 @@
 		<Option title="Project"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\FieneTestGame\;CMake Files\FieneToolKit\;CMake Files\FissionEngine\;CMake Files\FissionEngine\Engine\;CMake Files\FissionEngine\Engine\Lua\;CMake Files\FissionEngine\Engine\2D\;CMake Files\FissionEngine\Engine\Core\;CMake Files\FissionEngine\Engine\GLSL\;CMake Files\FissionEngine\Engine\Map\;CMake Files\FissionEngine\Engine\Math\;CMake Files\FissionEngine\Engine\Physics\;CMake Files\FissionEngine\Engine\Resources\;CMake Files\FissionEngine\Engine\Utils\;CMake Files\FissionEngine\Engine\Widgets\;CMake Files\FissionEngine\Engine\External\;CMake Files\FissionEngine\Engine\Allocators\;CMake Files\FissionEngine\Engine\Game\;CMake Files\FissionEngine\cmake\;CMake Files\ioconsole\;CMake Files\freeGame\;CMake Files\Tests\;CMake Files\openGLExamples\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\FieneTestGame\;CMake Files\FieneToolKit\;CMake Files\FissionEngine\;CMake Files\FissionEngine\Engine\;CMake Files\FissionEngine\Engine\Lua\;CMake Files\FissionEngine\Engine\2D\;CMake Files\FissionEngine\Engine\Core\;CMake Files\FissionEngine\Engine\GLSL\;CMake Files\FissionEngine\Engine\Map\;CMake Files\FissionEngine\Engine\Math\;CMake Files\FissionEngine\Engine\Physics\;CMake Files\FissionEngine\Engine\Resources\;CMake Files\FissionEngine\Engine\Utils\;CMake Files\FissionEngine\Engine\Widgets\;CMake Files\FissionEngine\Engine\External\;CMake Files\FissionEngine\Engine\Allocators\;CMake Files\FissionEngine\Engine\Game\;CMake Files\FissionEngine\Engine\fs\;CMake Files\FissionEngine\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/stel/Game/Game/cmake-build-debug"/>
@@ -37,59 +37,11 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ioconsole">
-				<Option output="/home/stel/Game/Game/cmake-build-debug/ioconsole/libioconsole.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stel/Game/Game/cmake-build-debug/ioconsole"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/stel/Game/Game/ioconsole/Engine"/>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/ioconsole/Makefile&quot;  VERBOSE=1 ioconsole"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/ioconsole/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/ioconsole/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/ioconsole/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ioconsole/fast">
-				<Option output="/home/stel/Game/Game/cmake-build-debug/ioconsole/libioconsole.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stel/Game/Game/cmake-build-debug/ioconsole"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/stel/Game/Game/ioconsole/Engine"/>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/ioconsole/Makefile&quot;  VERBOSE=1 ioconsole/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/ioconsole/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/ioconsole/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/ioconsole/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="FissionEngine">
-				<Option output="/home/stel/Game/Game/cmake-build-debug/FissionEngine/libFissionEngine.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/stel/Game/Game/cmake-build-debug/lib/libFissionEngine.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/stel/Game/Game/cmake-build-debug/FissionEngine"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
@@ -112,10 +64,10 @@
 				</MakeCommands>
 			</Target>
 			<Target title="FissionEngine/fast">
-				<Option output="/home/stel/Game/Game/cmake-build-debug/FissionEngine/libFissionEngine.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/stel/Game/Game/cmake-build-debug/lib/libFissionEngine.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/stel/Game/Game/cmake-build-debug/FissionEngine"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
@@ -135,156 +87,6 @@
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/FissionEngine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/FissionEngine/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/FissionEngine/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="freeGame">
-				<Option output="/home/stel/Game/Game/freeGame/freeGame" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stel/Game/Game/freeGame"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/stel/Game/Game/FissionEngine"/>
-					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 freeGame"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="freeGame/fast">
-				<Option output="/home/stel/Game/Game/freeGame/freeGame" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stel/Game/Game/freeGame"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/stel/Game/Game/FissionEngine"/>
-					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 freeGame/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Tests">
-				<Option output="/home/stel/Game/Game/Tests/Tests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stel/Game/Game/Tests"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/stel/Game/Game/FissionEngine"/>
-					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 Tests"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Tests/fast">
-				<Option output="/home/stel/Game/Game/Tests/Tests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stel/Game/Game/Tests"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/stel/Game/Game/FissionEngine"/>
-					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 Tests/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="openGLExamples">
-				<Option output="/home/stel/Game/Game/openGLExamples/openGLExamples" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stel/Game/Game/openGLExamples"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/stel/Game/Game/FissionEngine"/>
-					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 openGLExamples"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="openGLExamples/fast">
-				<Option output="/home/stel/Game/Game/openGLExamples/openGLExamples" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stel/Game/Game/openGLExamples"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/stel/Game/Game/FissionEngine"/>
-					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 openGLExamples/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/openGLExamples/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FieneTestGame">
@@ -412,6 +214,12 @@
 		<Unit filename="/home/stel/Game/Game/FieneTestGame/Source/main.cpp">
 			<Option target="FieneTestGame"/>
 		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/Source/AssetsBrowser.cpp">
+			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FieneToolKit/Source/AssetsBrowser.hpp">
+			<Option target="FieneToolKit"/>
+		</Unit>
 		<Unit filename="/home/stel/Game/Game/FieneToolKit/Source/MainWindow.cpp">
 			<Option target="FieneToolKit"/>
 		</Unit>
@@ -437,7 +245,6 @@
 			<Option target="FieneToolKit"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FieneToolKit/Source/main.cpp">
-			<Option target="FissionEngine"/>
 			<Option target="FieneToolKit"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FieneToolKit/imgui/imconfig.h">
@@ -466,6 +273,12 @@
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FieneToolKit/imgui/stb_truetype.h">
 			<Option target="FieneToolKit"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/2D/Camera2D.cpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/2D/Camera2D.hpp">
+			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/2D/Light2D.cpp">
 			<Option target="FissionEngine"/>
@@ -534,12 +347,6 @@
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Allocators/StackAllocator.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/Camera2D.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/Camera2D.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/DebugConsole.cpp">
@@ -797,17 +604,17 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/Utils.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/Tests/src/AllocatorsNew.cpp">
-			<Option target="Tests"/>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/fs/FileSystem.cpp">
+			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/freeGame/src/main.cpp">
-			<Option target="freeGame"/>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/fs/FileSystem.hpp">
+			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/ioconsole/main.cpp">
-			<Option target="ioconsole"/>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/fs/fs_utils.cpp">
+			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/openGLExamples/main.cpp">
-			<Option target="openGLExamples"/>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/fs/fs_utils.hpp">
+			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
@@ -908,20 +715,11 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Game/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\FissionEngine\Engine\Game\"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2.cmake">
-			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/fs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\fs\"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2_image.cmake">
-			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2_ttf.cmake">
-			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2_mixer.cmake">
-			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindLua.cmake">
-			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/fs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\fs\"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2.cmake">
 			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
@@ -938,29 +736,20 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindLua.cmake">
 			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/ioconsole/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\ioconsole\"/>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/ioconsole/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\ioconsole\"/>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2_image.cmake">
+			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/freeGame/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\freeGame\"/>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2_ttf.cmake">
+			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/freeGame/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\freeGame\"/>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2_mixer.cmake">
+			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/Tests/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Tests\"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/Tests/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Tests\"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/openGLExamples/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\openGLExamples\"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/openGLExamples/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\openGLExamples\"/>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindLua.cmake">
+			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

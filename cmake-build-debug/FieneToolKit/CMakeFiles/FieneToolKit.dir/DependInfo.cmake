@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/stel/Game/Game/FieneToolKit/Source/AssetsBrowser.cpp" "/home/stel/Game/Game/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o"
   "/home/stel/Game/Game/FieneToolKit/Source/MainWindow.cpp" "/home/stel/Game/Game/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o"
   "/home/stel/Game/Game/FieneToolKit/Source/MapDocument.cpp" "/home/stel/Game/Game/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o"
   "/home/stel/Game/Game/FieneToolKit/Source/MapEditor.cpp" "/home/stel/Game/Game/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o"

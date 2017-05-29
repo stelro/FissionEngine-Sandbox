@@ -29,7 +29,7 @@ void MainMenuState::render()
 {
     m_ShaderProgram.use();
 
-    GLuint castleTexture = m_TexturesManager->getTextureID("Textures/castle.png");
+    GLuint castleTexture = m_TexturesManager->getTextureID("castle.png");
 
     Fiene::Vec4 castel_destRect(100,0,300,300);
     Fiene::Vec4 castel_uvRect(0.0f, 0.0f, 1.0f, 1.0f);
@@ -77,11 +77,10 @@ void MainMenuState::onInit()
 
     m_TexturesManager->load("Textures/castle.png");
 
-
 }
 
 void MainMenuState::onExit()
 {
-    //m_TexturesManager->unload("Textures/castle.png");
+    m_TexturesManager->unload("castle.png");
 }
 

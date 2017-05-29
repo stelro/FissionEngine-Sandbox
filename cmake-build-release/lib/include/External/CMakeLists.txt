@@ -1,0 +1,14 @@
+set(FIENE_EXTERNAL_SRC
+        Engine/External/sol.hpp
+        Engine/External/imgui/imconfig.h
+        Engine/External/imgui/imgui.cpp
+        Engine/External/imgui/imgui.h
+        Engine/External/imgui/imgui_demo.cpp
+        Engine/External/imgui/imgui_dock.h
+        Engine/External/imgui/imgui_dock.inl
+        Engine/External/imgui/imgui_draw.cpp
+        Engine/External/imgui/imgui_internal.h
+        Engine/External/imgui/imgui_user.h
+        Engine/External/imgui/imgui_user.inl
+        Engine/External/imgui/imgui_impl_sdl_gl3.cpp
+        Engine/External/imgui/imgui_impl_sdl_gl3.h)

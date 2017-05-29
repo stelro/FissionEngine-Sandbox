@@ -17,6 +17,7 @@ namespace Fiene {
 namespace Editor {
 
     class MapEditor;
+    class AssetsBrowser;
 
     class MainWindow {
     public:
@@ -37,6 +38,7 @@ namespace Editor {
         bool m_IsRunning;
         Fiene::Window* m_Window;
         MapEditor*      m_MapEditorWindow;
+        AssetsBrowser*  m_AssetsBrowser;
 
         void *m_PMemory;
         Fiene::FreeListAllocator*   m_FreeListAllocator;
@@ -44,6 +46,8 @@ namespace Editor {
         Fiene::TexturesManager*     m_TexturesManager;
 
         bool m_CreateNewLevel_Signal;
+        bool m_ShowLevelEditor_Signal;
+        bool m_ShowAssetsBrowser_Signal;
 
     };
 

@@ -252,6 +252,30 @@ FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o.provides: Fien
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o.provides.build: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o
 
 
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: FieneToolKit/CMakeFiles/FieneToolKit.dir/flags.make
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: ../FieneToolKit/Source/AssetsBrowser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o"
+	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o -c /home/stel/Game/Game/FieneToolKit/Source/AssetsBrowser.cpp
+
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.i"
+	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/FieneToolKit/Source/AssetsBrowser.cpp > CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.i
+
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.s"
+	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/FieneToolKit/Source/AssetsBrowser.cpp -o CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.s
+
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o.requires:
+
+.PHONY : FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o.requires
+
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o.provides: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o.requires
+	$(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o.provides.build
+.PHONY : FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o.provides
+
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o.provides.build: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o
+
+
 # Object files for target FieneToolKit
 FieneToolKit_OBJECTS = \
 "CMakeFiles/FieneToolKit.dir/Source/main.cpp.o" \
@@ -261,7 +285,8 @@ FieneToolKit_OBJECTS = \
 "CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o" \
 "CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o" \
 "CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o" \
-"CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o"
+"CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o" \
+"CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o"
 
 # External object files for target FieneToolKit
 FieneToolKit_EXTERNAL_OBJECTS =
@@ -274,8 +299,9 @@ FieneToolKit_EXTERNAL_OBJECTS =
 ../FieneToolKit/FieneToolKit: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o
 ../FieneToolKit/FieneToolKit: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o
 ../FieneToolKit/FieneToolKit: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o
+../FieneToolKit/FieneToolKit: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o
 ../FieneToolKit/FieneToolKit: FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make
-../FieneToolKit/FieneToolKit: FissionEngine/libFissionEngine.a
+../FieneToolKit/FieneToolKit: lib/libFissionEngine.so
 ../FieneToolKit/FieneToolKit: /usr/lib/x86_64-linux-gnu/libSDL2main.a
 ../FieneToolKit/FieneToolKit: /usr/lib/x86_64-linux-gnu/libSDL2.so
 ../FieneToolKit/FieneToolKit: /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so
@@ -285,7 +311,7 @@ FieneToolKit_EXTERNAL_OBJECTS =
 ../FieneToolKit/FieneToolKit: /usr/lib/x86_64-linux-gnu/libGL.so
 ../FieneToolKit/FieneToolKit: /usr/lib/x86_64-linux-gnu/liblua5.3.so
 ../FieneToolKit/FieneToolKit: FieneToolKit/CMakeFiles/FieneToolKit.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../FieneToolKit/FieneToolKit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ../../FieneToolKit/FieneToolKit"
 	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FieneToolKit.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /home/stel/clion-2017.1.1/bin/cmake/bin/cmake -E copy_directory /home/stel/Game/Game/Assets /home/stel/Game/Game/FieneToolKit/Assets
 	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /home/stel/clion-2017.1.1/bin/cmake/bin/cmake -E copy_directory /home/stel/Game/Game/Shaders /home/stel/Game/Game/FieneToolKit/Shaders
@@ -303,6 +329,7 @@ FieneToolKit/CMakeFiles/FieneToolKit.dir/requires: FieneToolKit/CMakeFiles/Fiene
 FieneToolKit/CMakeFiles/FieneToolKit.dir/requires: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o.requires
 FieneToolKit/CMakeFiles/FieneToolKit.dir/requires: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o.requires
 FieneToolKit/CMakeFiles/FieneToolKit.dir/requires: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o.requires
+FieneToolKit/CMakeFiles/FieneToolKit.dir/requires: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o.requires
 
 .PHONY : FieneToolKit/CMakeFiles/FieneToolKit.dir/requires
 

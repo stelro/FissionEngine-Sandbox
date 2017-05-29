@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+../FissionEngine/Engine/2D/SpriteBatch.hpp
+Utils/Utils.hpp
+../FissionEngine/Engine/2D/Utils/Utils.hpp
+Math/Vector.hpp
+../FissionEngine/Engine/2D/Math/Vector.hpp
+GL/glew.h
+-
+glm/glm.hpp
+-
+vector
+-
+algorithm
+-
+
 ../FissionEngine/Engine/2D/picoPNG.hpp
 vector
 -
@@ -37,6 +51,12 @@ BaseAllocator.hpp
 ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
 PointerMath.hpp
 ../FissionEngine/Engine/Allocators/PointerMath.hpp
+
+../FissionEngine/Engine/Core/Camera2D.hpp
+Math/Matrix.hpp
+../FissionEngine/Engine/Core/Math/Matrix.hpp
+Math/Vector.hpp
+../FissionEngine/Engine/Core/Math/Vector.hpp
 
 ../FissionEngine/Engine/Core/IOManager.hpp
 string
@@ -143,6 +163,8 @@ unordered_map
 -
 iostream
 -
+vector
+-
 
 ../FissionEngine/Engine/Resources/Texture.hpp
 Math/Vector.hpp
@@ -172,6 +194,22 @@ SDL2/SDL.h
 GL/glew.h
 -
 
+/home/stel/Game/Game/FieneToolKit/Source/AssetsBrowser.cpp
+AssetsBrowser.hpp
+/home/stel/Game/Game/FieneToolKit/Source/AssetsBrowser.hpp
+../imgui/imgui.h
+/home/stel/Game/Game/FieneToolKit/imgui/imgui.h
+Engine/Resources/TexturesManager.hpp
+-
+Engine/Utils/FDebug.hpp
+-
+vector
+-
+algorithm
+-
+
+/home/stel/Game/Game/FieneToolKit/Source/AssetsBrowser.hpp
+
 /home/stel/Game/Game/FieneToolKit/Source/MainWindow.cpp
 MainWindow.hpp
 /home/stel/Game/Game/FieneToolKit/Source/MainWindow.hpp
@@ -179,6 +217,8 @@ MapEditor.hpp
 /home/stel/Game/Game/FieneToolKit/Source/MapEditor.hpp
 MapDocument.hpp
 /home/stel/Game/Game/FieneToolKit/Source/MapDocument.hpp
+AssetsBrowser.hpp
+/home/stel/Game/Game/FieneToolKit/Source/AssetsBrowser.hpp
 Engine/Engine.hpp
 -
 Engine/Utils/FDebug.hpp
@@ -197,6 +237,8 @@ Engine/Allocators/PoolAllocator.hpp
 -
 Engine/Resources/Texture.hpp
 -
+Engine/Map/Map.hpp
+-
 SDL2/SDL.h
 -
 GL/glew.h
@@ -213,22 +255,40 @@ MapDocument.hpp
 /home/stel/Game/Game/FieneToolKit/Source/MapDocument.hpp
 
 /home/stel/Game/Game/FieneToolKit/Source/MapDocument.hpp
-Engine/Map/Map.hpp
--
 
 /home/stel/Game/Game/FieneToolKit/Source/MapEditor.cpp
 MapEditor.hpp
 /home/stel/Game/Game/FieneToolKit/Source/MapEditor.hpp
-../imgui/imgui.h
-/home/stel/Game/Game/FieneToolKit/imgui/imgui.h
+MapDocument.hpp
+/home/stel/Game/Game/FieneToolKit/Source/MapDocument.hpp
 Engine/Math/Vector.hpp
 -
 Engine/Resources/TexturesManager.hpp
 -
 Engine/Utils/FDebug.hpp
 -
+Engine/Map/Map.hpp
+-
+../imgui/imgui.h
+/home/stel/Game/Game/FieneToolKit/imgui/imgui.h
+algorithm
+-
 
 /home/stel/Game/Game/FieneToolKit/Source/MapEditor.hpp
+string
+-
+vector
+-
+Engine/Resources/Texture.hpp
+-
+Engine/Math/Vector.hpp
+-
+Engine/GLSL/ShaderProgram.hpp
+-
+Engine/2D/SpriteBatch.hpp
+-
+Engine/Core/Camera2D.hpp
+-
 
 /home/stel/Game/Game/FieneToolKit/Source/imgui_impl_sdl_gl3.cpp
 ../imgui/imgui.h

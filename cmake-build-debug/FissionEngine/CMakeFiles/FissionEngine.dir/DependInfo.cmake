@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/stel/Game/Game/FissionEngine/Engine/2D/Camera2D.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Camera2D.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/2D/Light2D.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/2D/Sprite.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Sprite.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/2D/SpriteBatch.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.o"
@@ -15,7 +16,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/stel/Game/Game/FissionEngine/Engine/Allocators/PoolAllocator.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/PoolAllocator.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Allocators/ProxyAllocator.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/ProxyAllocator.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Allocators/StackAllocator.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/StackAllocator.cpp.o"
-  "/home/stel/Game/Game/FissionEngine/Engine/Core/Camera2D.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Camera2D.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Core/DebugConsole.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Core/FpsLimiter.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/FpsLimiter.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o"
@@ -53,7 +53,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/stel/Game/Game/FissionEngine/Engine/Resources/TexturesManager.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Utils/FDebug.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Utils/Utils.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.o"
-  "/home/stel/Game/Game/FieneToolKit/Source/main.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o"
+  "/home/stel/Game/Game/FissionEngine/Engine/fs/FileSystem.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o"
+  "/home/stel/Game/Game/FissionEngine/Engine/fs/fs_utils.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

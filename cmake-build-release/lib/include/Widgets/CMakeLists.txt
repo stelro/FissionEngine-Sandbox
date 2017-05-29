@@ -1,0 +1,1 @@
+set(FIENE_WIDGETS_SRC)

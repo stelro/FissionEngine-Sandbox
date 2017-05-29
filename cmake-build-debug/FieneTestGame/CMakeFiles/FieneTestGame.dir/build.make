@@ -171,7 +171,7 @@ FieneTestGame_EXTERNAL_OBJECTS =
 ../FieneTestGame/FieneTestGame: FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/GamePlayState.cpp.o
 ../FieneTestGame/FieneTestGame: FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o
 ../FieneTestGame/FieneTestGame: FieneTestGame/CMakeFiles/FieneTestGame.dir/build.make
-../FieneTestGame/FieneTestGame: FissionEngine/libFissionEngine.a
+../FieneTestGame/FieneTestGame: lib/libFissionEngine.so
 ../FieneTestGame/FieneTestGame: /usr/lib/x86_64-linux-gnu/libSDL2main.a
 ../FieneTestGame/FieneTestGame: /usr/lib/x86_64-linux-gnu/libSDL2.so
 ../FieneTestGame/FieneTestGame: /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so

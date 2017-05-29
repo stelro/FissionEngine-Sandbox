@@ -5,7 +5,7 @@
 
 #include <Engine/Game/StateBehaviour.hpp>
 #include <Engine/2D/SpriteFont.hpp>
-#include <Engine/Core/Camera2D.hpp>
+#include <Engine/2D/Camera2D.hpp>
 #include <Engine/Core/InputManager.hpp>
 #include <Engine/GLSL/ShaderProgram.hpp>
 #include <Engine/2D/SpriteBatch.hpp>

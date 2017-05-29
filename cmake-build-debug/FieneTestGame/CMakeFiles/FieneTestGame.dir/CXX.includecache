@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../FissionEngine/Engine/2D/Camera2D.hpp
+Math/Matrix.hpp
+../FissionEngine/Engine/2D/Math/Matrix.hpp
+Math/Vector.hpp
+../FissionEngine/Engine/2D/Math/Vector.hpp
+
 ../FissionEngine/Engine/2D/SpriteBatch.hpp
 Utils/Utils.hpp
 ../FissionEngine/Engine/2D/Utils/Utils.hpp
@@ -65,12 +71,6 @@ BaseAllocator.hpp
 ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
 PointerMath.hpp
 ../FissionEngine/Engine/Allocators/PointerMath.hpp
-
-../FissionEngine/Engine/Core/Camera2D.hpp
-Math/Matrix.hpp
-../FissionEngine/Engine/Core/Math/Matrix.hpp
-Math/Vector.hpp
-../FissionEngine/Engine/Core/Math/Vector.hpp
 
 ../FissionEngine/Engine/Core/FpsLimiter.hpp
 
@@ -195,6 +195,8 @@ unordered_map
 -
 iostream
 -
+vector
+-
 
 ../FissionEngine/Engine/Resources/Texture.hpp
 Math/Vector.hpp
@@ -265,7 +267,7 @@ Engine/Game/StateBehaviour.hpp
 -
 Engine/2D/SpriteFont.hpp
 -
-Engine/Core/Camera2D.hpp
+Engine/2D/Camera2D.hpp
 -
 Engine/Core/InputManager.hpp
 -
@@ -291,7 +293,7 @@ Engine/Game/StateBehaviour.hpp
 -
 Engine/2D/SpriteFont.hpp
 -
-Engine/Core/Camera2D.hpp
+Engine/2D/Camera2D.hpp
 -
 Engine/Core/InputManager.hpp
 -

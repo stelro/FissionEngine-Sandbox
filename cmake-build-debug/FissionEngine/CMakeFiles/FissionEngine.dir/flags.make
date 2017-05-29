@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  -std=c++14 -Wall -g -Wextra -Wunused -Wshadow -Woverloaded-virtual -Wunreachable-code -Wconversion -fno-math-errno -g -fPIC  
 
-CXX_DEFINES = 
+CXX_DEFINES = -DFissionEngine_EXPORTS
 
 CXX_INCLUDES = -I/home/stel/Game/Game/FissionEngine/Engine -I/usr/include/SDL2 -I/usr/include/lua5.3 
 

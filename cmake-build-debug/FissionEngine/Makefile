@@ -128,6 +128,33 @@ FissionEngine/fast:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/build
 .PHONY : FissionEngine/fast
 
+Engine/2D/Camera2D.o: Engine/2D/Camera2D.cpp.o
+
+.PHONY : Engine/2D/Camera2D.o
+
+# target to build an object file
+Engine/2D/Camera2D.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Camera2D.cpp.o
+.PHONY : Engine/2D/Camera2D.cpp.o
+
+Engine/2D/Camera2D.i: Engine/2D/Camera2D.cpp.i
+
+.PHONY : Engine/2D/Camera2D.i
+
+# target to preprocess a source file
+Engine/2D/Camera2D.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Camera2D.cpp.i
+.PHONY : Engine/2D/Camera2D.cpp.i
+
+Engine/2D/Camera2D.s: Engine/2D/Camera2D.cpp.s
+
+.PHONY : Engine/2D/Camera2D.s
+
+# target to generate assembly for a file
+Engine/2D/Camera2D.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Camera2D.cpp.s
+.PHONY : Engine/2D/Camera2D.cpp.s
+
 Engine/2D/Light2D.o: Engine/2D/Light2D.cpp.o
 
 .PHONY : Engine/2D/Light2D.o
@@ -424,33 +451,6 @@ Engine/Allocators/StackAllocator.s: Engine/Allocators/StackAllocator.cpp.s
 Engine/Allocators/StackAllocator.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/StackAllocator.cpp.s
 .PHONY : Engine/Allocators/StackAllocator.cpp.s
-
-Engine/Core/Camera2D.o: Engine/Core/Camera2D.cpp.o
-
-.PHONY : Engine/Core/Camera2D.o
-
-# target to build an object file
-Engine/Core/Camera2D.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Camera2D.cpp.o
-.PHONY : Engine/Core/Camera2D.cpp.o
-
-Engine/Core/Camera2D.i: Engine/Core/Camera2D.cpp.i
-
-.PHONY : Engine/Core/Camera2D.i
-
-# target to preprocess a source file
-Engine/Core/Camera2D.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Camera2D.cpp.i
-.PHONY : Engine/Core/Camera2D.cpp.i
-
-Engine/Core/Camera2D.s: Engine/Core/Camera2D.cpp.s
-
-.PHONY : Engine/Core/Camera2D.s
-
-# target to generate assembly for a file
-Engine/Core/Camera2D.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Camera2D.cpp.s
-.PHONY : Engine/Core/Camera2D.cpp.s
 
 Engine/Core/DebugConsole.o: Engine/Core/DebugConsole.cpp.o
 
@@ -1451,32 +1451,59 @@ Engine/Utils/Utils.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.s
 .PHONY : Engine/Utils/Utils.cpp.s
 
-__/FieneToolKit/Source/main.o: __/FieneToolKit/Source/main.cpp.o
+Engine/fs/FileSystem.o: Engine/fs/FileSystem.cpp.o
 
-.PHONY : __/FieneToolKit/Source/main.o
+.PHONY : Engine/fs/FileSystem.o
 
 # target to build an object file
-__/FieneToolKit/Source/main.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o
-.PHONY : __/FieneToolKit/Source/main.cpp.o
+Engine/fs/FileSystem.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o
+.PHONY : Engine/fs/FileSystem.cpp.o
 
-__/FieneToolKit/Source/main.i: __/FieneToolKit/Source/main.cpp.i
+Engine/fs/FileSystem.i: Engine/fs/FileSystem.cpp.i
 
-.PHONY : __/FieneToolKit/Source/main.i
+.PHONY : Engine/fs/FileSystem.i
 
 # target to preprocess a source file
-__/FieneToolKit/Source/main.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.i
-.PHONY : __/FieneToolKit/Source/main.cpp.i
+Engine/fs/FileSystem.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.i
+.PHONY : Engine/fs/FileSystem.cpp.i
 
-__/FieneToolKit/Source/main.s: __/FieneToolKit/Source/main.cpp.s
+Engine/fs/FileSystem.s: Engine/fs/FileSystem.cpp.s
 
-.PHONY : __/FieneToolKit/Source/main.s
+.PHONY : Engine/fs/FileSystem.s
 
 # target to generate assembly for a file
-__/FieneToolKit/Source/main.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.s
-.PHONY : __/FieneToolKit/Source/main.cpp.s
+Engine/fs/FileSystem.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.s
+.PHONY : Engine/fs/FileSystem.cpp.s
+
+Engine/fs/fs_utils.o: Engine/fs/fs_utils.cpp.o
+
+.PHONY : Engine/fs/fs_utils.o
+
+# target to build an object file
+Engine/fs/fs_utils.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o
+.PHONY : Engine/fs/fs_utils.cpp.o
+
+Engine/fs/fs_utils.i: Engine/fs/fs_utils.cpp.i
+
+.PHONY : Engine/fs/fs_utils.i
+
+# target to preprocess a source file
+Engine/fs/fs_utils.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.i
+.PHONY : Engine/fs/fs_utils.cpp.i
+
+Engine/fs/fs_utils.s: Engine/fs/fs_utils.cpp.s
+
+.PHONY : Engine/fs/fs_utils.s
+
+# target to generate assembly for a file
+Engine/fs/fs_utils.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.s
+.PHONY : Engine/fs/fs_utils.cpp.s
 
 # Help Target
 help:
@@ -1487,6 +1514,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... FissionEngine"
+	@echo "... Engine/2D/Camera2D.o"
+	@echo "... Engine/2D/Camera2D.i"
+	@echo "... Engine/2D/Camera2D.s"
 	@echo "... Engine/2D/Light2D.o"
 	@echo "... Engine/2D/Light2D.i"
 	@echo "... Engine/2D/Light2D.s"
@@ -1520,9 +1550,6 @@ help:
 	@echo "... Engine/Allocators/StackAllocator.o"
 	@echo "... Engine/Allocators/StackAllocator.i"
 	@echo "... Engine/Allocators/StackAllocator.s"
-	@echo "... Engine/Core/Camera2D.o"
-	@echo "... Engine/Core/Camera2D.i"
-	@echo "... Engine/Core/Camera2D.s"
 	@echo "... Engine/Core/DebugConsole.o"
 	@echo "... Engine/Core/DebugConsole.i"
 	@echo "... Engine/Core/DebugConsole.s"
@@ -1634,9 +1661,12 @@ help:
 	@echo "... Engine/Utils/Utils.o"
 	@echo "... Engine/Utils/Utils.i"
 	@echo "... Engine/Utils/Utils.s"
-	@echo "... __/FieneToolKit/Source/main.o"
-	@echo "... __/FieneToolKit/Source/main.i"
-	@echo "... __/FieneToolKit/Source/main.s"
+	@echo "... Engine/fs/FileSystem.o"
+	@echo "... Engine/fs/FileSystem.i"
+	@echo "... Engine/fs/FileSystem.s"
+	@echo "... Engine/fs/fs_utils.o"
+	@echo "... Engine/fs/fs_utils.i"
+	@echo "... Engine/fs/fs_utils.s"
 .PHONY : help
 
 

@@ -1,0 +1,21 @@
+set(FIENE_MAP_SRC
+        Engine/Map/CollisionLayer.hpp
+        Engine/Map/CollisionLayer.cpp
+        Engine/Map/IsometricRenderer.hpp
+        Engine/Map/IsometricRenderer.cpp
+        Engine/Map/Layer.cpp
+        Engine/Map/Layer.hpp
+        Engine/Map/Map.hpp
+        Engine/Map/Map.cpp
+        Engine/Map/MapRenderer.cpp
+        Engine/Map/MapRenderer.hpp
+        Engine/Map/ObjectLayer.hpp
+        Engine/Map/ObjectLayer.cpp
+        Engine/Map/OrthogonalRenderer.cpp
+        Engine/Map/OrthogonalRenderer.hpp
+        Engine/Map/Tile.cpp
+        Engine/Map/Tile.hpp
+        Engine/Map/TileSet.hpp
+        Engine/Map/TileSet.cpp
+        Engine/Map/TilesetLayer.hpp
+        Engine/Map/TilesetLayer.cpp)

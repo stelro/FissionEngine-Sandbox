@@ -5,7 +5,9 @@
 #ifndef PROJECT_MAPDOCUMENT_HPP
 #define PROJECT_MAPDOCUMENT_HPP
 
-#include <Engine/Map/Map.hpp>
+namespace Fiene {
+    class Map;
+}
 
 namespace Editor {
 
@@ -14,12 +16,14 @@ namespace Editor {
         MapDocument();
         ~MapDocument();
 
-        bool create();
+        bool create(Fiene::Map* map);
         void destroy();
+
+        Fiene::Map* getMap() const { return m_Map; }
 
     private:
 
-        Fiene::Map m_Map;
+        Fiene::Map* m_Map;
 
     };
 

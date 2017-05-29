@@ -3,6 +3,7 @@
 #include "MainWindow.hpp"
 #include "MapEditor.hpp"
 #include "MapDocument.hpp"
+#include "AssetsBrowser.hpp"
 
 //Fiene Engine
 #include <Engine/Engine.hpp>
@@ -14,6 +15,7 @@
 #include <Engine/Allocators/FreeListAllocator.hpp>
 #include <Engine/Allocators/PoolAllocator.hpp>
 #include <Engine/Resources/Texture.hpp>
+#include <Engine/Map/Map.hpp>
 
 //SDL2 Inlcudes
 #include <SDL2/SDL.h>
@@ -32,6 +34,9 @@ namespace Editor {
     static void ImGui_ImplSdlGL3_SetClipboardText(void*, const char* text)  { SDL_SetClipboardText(text); }
 
     MainWindow::MainWindow()
+        : m_CreateNewLevel_Signal(false)
+        , m_ShowLevelEditor_Signal(false)
+        , m_ShowAssetsBrowser_Signal(true)
     {
         //Empty
     }
@@ -70,8 +75,14 @@ namespace Editor {
 
             if (m_CreateNewLevel_Signal)
                 createNewLevel();
+            if (m_ShowLevelEditor_Signal) {
+                m_MapEditorWindow->render();
+            }
 
-            m_MapEditorWindow->render();
+            if (m_ShowAssetsBrowser_Signal) {
+                m_AssetsBrowser->render();
+            }
+
 
             // Rendering
             glViewport(0, 0, (int) ImGui::GetIO().DisplaySize.x, (int) ImGui::GetIO().DisplaySize.y);
@@ -112,10 +123,9 @@ namespace Editor {
 
         m_TexturesManager = new Fiene::TexturesManager(*m_PoolAllocator);
 
+        m_AssetsBrowser = new AssetsBrowser();
+        m_AssetsBrowser->create(m_TexturesManager);
 
-
-        m_MapEditorWindow = new MapEditor;
-        m_MapEditorWindow->create(m_TexturesManager);
     }
 
     void MainWindow::destroy()
@@ -162,17 +172,23 @@ namespace Editor {
         if (ImGui::BeginPopupModal("New Level", NULL, ImGuiWindowFlags_AlwaysAutoResize))
         {
 
-            static char strName[128];
-            static int map_width = 1024;
-            static int map_height = 768;
+            static char strName[128] = "Untitled";
+            static int map_width_tiles = 3;
+            static int map_height_tiles = 3;
             static int tile_width = 32;
             static int tile_height = 32;
-            static int orientation = 1;
+            static int orientation = 0;
+            static Fiene::MapOrientation orientation_enum =
+                    Fiene::MapOrientation::Orientation_None;
 
             ImGui::Text("Map Settings:");
             ImGui::InputText("Map Name", strName, sizeof(strName));
-            ImGui::InputInt("Map Width", &map_width);
-            ImGui::InputInt("Map Height", &map_height);
+            ImGui::Text(" Width: ");
+            ImGui::SameLine();
+            ImGui::InputInt("Tiles", &map_width_tiles);
+            //ImGui::Text("Height: ");
+            //ImGui::SameLine();
+            //ImGui::InputInt("Tiles", &map_height_tiles);
             ImGui::Separator();
             ImGui::Text("Tiles Settings:");
             ImGui::InputInt("Tile Width", &tile_width);
@@ -180,14 +196,45 @@ namespace Editor {
             ImGui::Combo("Orientation", &orientation, "Orthogonal\0Isometric\0\0");
             ImGui::Separator();
 
+            int map_width = map_width_tiles * tile_width;
+            int map_height = map_height_tiles * tile_height;
 
+            ImGui::Text("(%d x %d)", map_width, map_height);
 
             ImGui::PushStyleVar(ImGuiStyleVar_FramePadding, ImVec2(0,0));
             ImGui::PopStyleVar();
 
             if (ImGui::Button("Craete", ImVec2(120,0))) {
+
+                /* Creating the Map Document */
+
+                if (orientation == 0){
+                    orientation_enum = Fiene::MapOrientation::Orthogonal;
+                } else {
+                    orientation_enum = Fiene::MapOrientation::Isometric;
+                }
+
+                Fiene::Map* map = new Fiene::Map();
+
+                map->create(strName,
+                            map_width,
+                            map_height,
+                            tile_width,
+                            tile_height,
+                            orientation_enum,
+                            m_TexturesManager );
+
+                MapDocument* mapDocument = new MapDocument();
+                mapDocument->create(map);
+                m_MapEditorWindow = new MapEditor();
+                m_MapEditorWindow->create(mapDocument);
+                m_ShowLevelEditor_Signal = true;
+
+
                 ImGui::CloseCurrentPopup();
                 m_CreateNewLevel_Signal = false;
+
+
             }
 
             ImGui::SameLine();

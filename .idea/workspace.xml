@@ -2,14 +2,10 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Project" targetName="UnitTest" />
       <config projectName="Project" targetName="FieneTestGame" />
       <config projectName="Project" targetName="FissionEngine" />
       <config projectName="Project" targetName="FieneToolKit" />
-      <config projectName="Project" targetName="ioconsole" />
-      <config projectName="Project" targetName="freeGame" />
-      <config projectName="Project" targetName="Tests" />
-      <config projectName="Project" targetName="openGLExamples" />
+      <config projectName="Project" targetName="UnitTest" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -19,148 +15,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="669bb110-72a7-4f52-81ec-1ba5efcfa944" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FieneToolKit/Source/MainWindow.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FieneToolKit/Source/MainWindow.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FieneToolKit/Source/MapDocument.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FieneToolKit/Source/MapDocument.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FieneToolKit/Source/MapEditor.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FieneToolKit/Source/MapEditor.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FieneToolKit/Source/imgui_impl_sdl_gl3.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FieneToolKit/Source/imgui_impl_sdl_gl3.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FieneToolKit/Source/main.cpp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Editor" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Shaders/LightShader.frag" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Shaders/LightShader.vert" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Shaders/ObjectShader.frag" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Shaders/ObjectShader.vert" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Textures/32_flagstone_tiles.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Textures/Rect.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Textures/Tiles/Stones.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Textures/Tiles/Stones_shaded.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Textures/Tiles/wall1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Textures/Tiles/wall2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Textures/Tiles/wall_top1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Textures/castle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Textures/grass_and_water.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Textures/light_bricks.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Textures/plates.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Textures/red_bricks.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Textures/tiled_dungeon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/Textures/tiles.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/engine_log.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui/imconfig.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui/imgui.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui/imgui.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui/imgui_demo.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui/imgui_dock.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui/imgui_dock.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui/imgui_draw.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui/imgui_internal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui/imgui_user.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui/imgui_user.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui/stb_rect_pack.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui/stb_textedit.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui/stb_truetype.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/imgui_log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/src/AssetsBrowser.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/src/AssetsBrowser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/src/MainWindow.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/src/MainWindow.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/src/MapView.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/src/MapView.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/src/imgui_impl_sdl_gl3.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Editor/src/imgui_impl_sdl_gl3.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeCCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeCXXCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeSystem.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/main.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/src/AssetsBrowser.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/src/MainWindow.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/src/MapView.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/src/imgui_impl_sdl_gl3.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/src/main.cpp.o" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FieneToolKit/Shaders/fragment.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FieneToolKit/Shaders/vertex.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FieneToolKit/Source/AssetsBrowser.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FieneToolKit/Source/AssetsBrowser.hpp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Camera2D.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/libFissionEngine.a" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/FieneTestGame" afterPath="$PROJECT_DIR$/FieneTestGame/FieneTestGame" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/FieneToolKit" afterPath="$PROJECT_DIR$/FieneToolKit/FieneToolKit" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FissionEngine" afterPath="$PROJECT_DIR$/FissionEngine" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/imgui/imgui.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/imgui/imgui.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/imgui/imgui_demo.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/imgui/imgui_demo.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/imgui/imgui_draw.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/imgui/imgui_draw.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/GamePlayState.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/GamePlayState.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/main.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/main.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteFont.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteFont.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Layer.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Layer.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Sprite.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Sprite.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/OrthogonalRenderer.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/OrthogonalRenderer.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TileSet.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TileSet.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TilesetLayer.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TilesetLayer.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/libFissionEngine.a" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/libFissionEngine.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceBase.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceBase.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freeGame/freeGame" afterPath="$PROJECT_DIR$/freeGame/freeGame" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/CMakeLists.txt" afterPath="$PROJECT_DIR$/FieneTestGame/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/Shaders/fragment.glsl" afterPath="$PROJECT_DIR$/FieneTestGame/Shaders/fragment.glsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/Shaders/vertex.glsl" afterPath="$PROJECT_DIR$/FieneTestGame/Shaders/vertex.glsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/Source/App.cpp" afterPath="$PROJECT_DIR$/FieneTestGame/Source/App.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/Source/App.hpp" afterPath="$PROJECT_DIR$/FieneTestGame/Source/App.hpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.cpp" afterPath="$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.hpp" afterPath="$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.hpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.cpp" afterPath="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.hpp" afterPath="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.hpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/Source/main.cpp" afterPath="$PROJECT_DIR$/FieneTestGame/Source/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/engine_error.log" afterPath="$PROJECT_DIR$/FieneTestGame/engine_error.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/engine_log.log" afterPath="$PROJECT_DIR$/FieneTestGame/engine_log.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/CMakeLists.txt" afterPath="$PROJECT_DIR$/FieneToolKit/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/Source/MainWindow.cpp" afterPath="$PROJECT_DIR$/FieneToolKit/Source/MainWindow.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/Source/MainWindow.hpp" afterPath="$PROJECT_DIR$/FieneToolKit/Source/MainWindow.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/Source/MapDocument.cpp" afterPath="$PROJECT_DIR$/FieneToolKit/Source/MapDocument.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/Source/MapDocument.hpp" afterPath="$PROJECT_DIR$/FieneToolKit/Source/MapDocument.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/Source/MapEditor.cpp" afterPath="$PROJECT_DIR$/FieneToolKit/Source/MapEditor.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/Source/MapEditor.hpp" afterPath="$PROJECT_DIR$/FieneToolKit/Source/MapEditor.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/engine_log.log" afterPath="$PROJECT_DIR$/FieneToolKit/engine_log.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/imgui.ini" afterPath="$PROJECT_DIR$/FieneToolKit/imgui.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/Editor.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/Editor.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/Editor.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Editor/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/build.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/depend.internal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/link.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/FieneTestGame.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/FieneTestGame.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/FieneToolKit.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/FieneToolKit.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/DependInfo.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/build.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/cmake_clean.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/depend.internal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/flags.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/link.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/progress.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/progress.marks" />
@@ -169,35 +93,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Tests/CMakeFiles/Tests.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Tests/CMakeFiles/Tests.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Tests/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/Tests/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Tests/Tests.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Tests/Tests.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/link.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/freeGame/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/freeGame/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/freeGame/freeGame.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/freeGame/freeGame.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/ioconsole/ioconsole.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/ioconsole/ioconsole.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/CMakeFiles/openGLExamples.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/CMakeFiles/openGLExamples.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/CMakeFiles/openGLExamples.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/CMakeFiles/openGLExamples.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/CMakeFiles/openGLExamples.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/CMakeFiles/openGLExamples.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/CMakeFiles/openGLExamples.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/CMakeFiles/openGLExamples.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/CMakeFiles/openGLExamples.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/CMakeFiles/openGLExamples.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/ioconsole/CMakeFiles/ioconsole.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/ioconsole/CMakeFiles/ioconsole.dir/progress.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/CMakeFiles/openGLExamples.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/CMakeFiles/openGLExamples.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/openGLExamples.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/openGLExamples/openGLExamples.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freeGame/CMakeLists.txt" afterPath="$PROJECT_DIR$/freeGame/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioconsole/CMakeLists.txt" afterPath="$PROJECT_DIR$/ioconsole/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openGLExamples/CMakeLists.txt" afterPath="$PROJECT_DIR$/openGLExamples/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freeGame/src/main.cpp" afterPath="$PROJECT_DIR$/freeGame/src/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/FissionEngine/CMakeFiles/" />
     <ignored path="$PROJECT_DIR$/freeGame/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -214,67 +120,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainWindow.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MainWindow.cpp">
+      <file leaf-file-name="MainMenuState.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="167" column="39" lean-forward="true" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
-              <folding>
-                <element signature="e#20#45#0" expanded="true" />
-                <element signature="e#114#142#0" expanded="true" />
-                <element signature="e#576#603#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapDocument.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MapDocument.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="349">
+              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapDocument.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MapDocument.hpp">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainWindow.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MainWindow.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapEditor.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MapEditor.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="47" column="63" lean-forward="false" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
-              <folding>
-                <element signature="e#40#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapEditor.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MapEditor.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="119">
+              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -361,29 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FissionEngine/.gitignore" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/StateBehaviour.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/StateManager.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/AppBehaviour.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/StateManager.hpp" />
-        <option value="$PROJECT_DIR$/FieneTestGame/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/FieneTestGame/maps/map1.lua" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Map/Layer.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Map/Map.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Map/Map.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Map/OrthogonalRenderer.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Map/OrthogonalRenderer.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Map/Tile.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Map/Tile.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Map/TileSet.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Map/TileSet.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Map/TilesetLayer.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Map/TilesetLayer.hpp" />
-        <option value="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Map/Layer.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/2D/SpriteBatch.cpp" />
-        <option value="$PROJECT_DIR$/Editor/src/MainWindow.cpp" />
-        <option value="$PROJECT_DIR$/Editor/Source/main.cpp" />
         <option value="$PROJECT_DIR$/Editor/Source/imgui_impl_sdl_gl3.cpp" />
         <option value="$PROJECT_DIR$/Editor/Source/imgui_impl_sdl_gl3.hpp" />
         <option value="$PROJECT_DIR$/Editor/Source/EditorWindow.cpp" />
@@ -395,23 +232,46 @@
         <option value="$PROJECT_DIR$/Editor/Source/MapEditor.cpp" />
         <option value="$PROJECT_DIR$/Editor/Source/MapEditor.hpp" />
         <option value="$PROJECT_DIR$/Editor/Source/MainWindow.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/openGLExamples/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/freeGame/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/ioconsole/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/FieneToolKit/Source/imgui_impl_sdl_gl3.hpp" />
         <option value="$PROJECT_DIR$/FieneToolKit/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/FieneToolKit/Source/main.cpp" />
         <option value="$PROJECT_DIR$/FieneToolKit/imgui/imconfig.h" />
         <option value="$PROJECT_DIR$/FieneToolKit/Source/imgui_impl_sdl_gl3.cpp" />
-        <option value="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.cpp" />
-        <option value="$PROJECT_DIR$/FieneToolKit/Source/MapEditor.cpp" />
-        <option value="$PROJECT_DIR$/FieneToolKit/Source/MainWindow.hpp" />
-        <option value="$PROJECT_DIR$/FieneToolKit/Source/MapEditor.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Map/Map.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Map/Map.hpp" />
         <option value="$PROJECT_DIR$/FieneToolKit/Source/MapDocument.cpp" />
         <option value="$PROJECT_DIR$/FieneToolKit/Source/MapDocument.hpp" />
+        <option value="$PROJECT_DIR$/FieneToolKit/Shaders/fragment.glsl" />
+        <option value="$PROJECT_DIR$/FieneToolKit/Shaders/vertex.glsl" />
+        <option value="$PROJECT_DIR$/FieneToolKit/Source/MapEditor.hpp" />
+        <option value="$PROJECT_DIR$/FieneToolKit/Source/MapEditor.cpp" />
+        <option value="$PROJECT_DIR$/FieneToolKit/Source/MainWindow.hpp" />
         <option value="$PROJECT_DIR$/FieneToolKit/Source/MainWindow.cpp" />
+        <option value="$PROJECT_DIR$/FieneToolKit/Source/AssetsBrowser.hpp" />
+        <option value="$PROJECT_DIR$/FieneToolKit/Source/AssetsBrowser.cpp" />
+        <option value="$PROJECT_DIR$/freeGame/src/main.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/2D/SpriteBatch.hpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/2D/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/fs/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/FissionEngine/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/fs/FileSystem.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/fs/FileSystem.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/fs/fs_utils.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceBase.h" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceBase.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/fs/fs_utils.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/Texture.hpp" />
+        <option value="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/.gitignore" />
       </list>
     </option>
   </component>
@@ -424,9 +284,9 @@
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
-    <option name="y" value="21" />
+    <option name="y" value="23" />
     <option name="width" value="1922" />
-    <option name="height" value="1060" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -484,25 +344,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FieneToolKit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FieneToolKit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Source" />
+              <option name="myItemId" value="FissionEngine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -513,18 +355,18 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.26641294" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="add_unversioned_files" value="true&#10;/home/stel/Game/Game/FissionEngine/.gitignore" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FissionEngine/Engine/2D" />
       <recent name="$PROJECT_DIR$/Editor" />
       <recent name="$PROJECT_DIR$/FissionEngine/Engine/Core" />
       <recent name="$PROJECT_DIR$/FissionEngine/Engine/Resources" />
       <recent name="$PROJECT_DIR$/FissionEngine/Engine" />
-      <recent name="$PROJECT_DIR$/FissionEngine/Engine/2D" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -539,7 +381,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FieneToolKit">
+  <component name="RunManager" selected="Application.FieneTestGame">
     <configuration default="true" type="#com.sylvanaar.idea.Lua.run.LuaConfigurationType" factoryName="Lua Script">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="" />
@@ -734,15 +576,11 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="freeGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="freeGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="freeGame">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ioconsole" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="ioconsole" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="freeGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="freeGame">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UnitTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Tests">
       <envs />
       <method />
     </configuration>
@@ -754,27 +592,16 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="FissionEngine" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="freeGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="freeGame">
+    <configuration default="false" name="FissionEngine" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="FissionEngine" CONFIG_NAME="Debug">
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="openGLExamples" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="openGLExamples" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="openGLExamples">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="UnitTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Tests">
-      <envs />
-      <method />
-    </configuration>
-    <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="Application.freeGame" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ioconsole" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FieneTestGame" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FieneToolKit" />
-      <item index="5" class="java.lang.String" itemvalue="Application.FissionEngine" />
-      <item index="6" class="java.lang.String" itemvalue="Application.openGLExamples" />
-      <item index="7" class="java.lang.String" itemvalue="Application.UnitTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.UnitTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FieneTestGame" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FieneToolKit" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FissionEngine" />
     </list>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1009,12 +836,20 @@
       <workItem from="1495631136462" duration="5813000" />
       <workItem from="1495636981036" duration="5706000" />
       <workItem from="1495699525323" duration="13546000" />
-      <workItem from="1495786606119" duration="5239000" />
+      <workItem from="1495786606119" duration="17119000" />
+      <workItem from="1495881933698" duration="8549000" />
+      <workItem from="1495891852499" duration="1443000" />
+      <workItem from="1495925217411" duration="3857000" />
+      <workItem from="1495929222934" duration="2822000" />
+      <workItem from="1495935159550" duration="5136000" />
+      <workItem from="1495981746525" duration="2364000" />
+      <workItem from="1495990317873" duration="8218000" />
+      <workItem from="1496068427895" duration="336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="723659000" />
+    <option name="totallyTimeSpent" value="768264000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1026,20 +861,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="21" width="1922" height="1060" extended-state="6" />
+    <frame x="-1" y="23" width="1922" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329863" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32765958" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24893618" sideWeight="0.49315068" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23510638" sideWeight="0.489863" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26170212" sideWeight="0.51492536" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26170212" sideWeight="0.48507464" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2744681" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18123667" sideWeight="0.4953765" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32765958" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24840085" sideWeight="0.49315068" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23454158" sideWeight="0.489863" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26170212" sideWeight="0.51492536" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26012793" sideWeight="0.48507464" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2739872" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15351813" sideWeight="0.4953765" order="0" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2712766" sideWeight="0.4914621" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17662753" sideWeight="0.50462353" order="2" side_tool="true" content_ui="tabs" />
@@ -1049,22 +883,23 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329863" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32765958" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32765958" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24893618" sideWeight="0.49315068" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24840085" sideWeight="0.49315068" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23510638" sideWeight="0.489863" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23454158" sideWeight="0.489863" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25212765" sideWeight="0.51013696" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26170212" sideWeight="0.51492536" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26170212" sideWeight="0.4850587" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2744681" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17963752" sideWeight="0.4953765" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26012793" sideWeight="0.48507464" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2744681" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191898" sideWeight="0.4953765" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1088,112 +923,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Editor/Source/EditorWindow.hpp" />
-    <entry file="file://$PROJECT_DIR$/Editor/Source/EditorWindow.cpp" />
-    <entry file="file://$PROJECT_DIR$/freeGame/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Editor/Source/imgui_impl_sdl_gl3.cpp" />
-    <entry file="file://$PROJECT_DIR$/Editor/Source/imgui_impl_sdl_gl3.hpp" />
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/Vector.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/Quaternion.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Editor/imgui/imconfig.h" />
-    <entry file="file://$PROJECT_DIR$/Editor/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/Editor/Source/MainWindow.cpp" />
-    <entry file="file://$PROJECT_DIR$/Editor/Source/MapEditor.cpp" />
-    <entry file="file://$PROJECT_DIR$/Editor/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/Editor/Source/MapEditor.hpp" />
-    <entry file="file://$PROJECT_DIR$/Editor/Source/MainWindow.hpp" />
-    <entry file="file://$PROJECT_DIR$/FieneTestGame/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freeGame/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ioconsole/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SnakeGame/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openGLExamples/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/imgui_impl_sdl_gl3.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/imgui/imgui_user.inl" />
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="10" column="286" lean-forward="false" selection-start-line="10" selection-start-column="286" selection-end-line="10" selection-end-column="286" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FieneToolKit/imgui/imconfig.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
@@ -1201,68 +930,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceBase.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceBase.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/2D/SpriteBatch.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/Texture.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-702">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1280,34 +951,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/freeGame/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/imgui_impl_sdl_gl3.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1142">
           <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1329,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1337,61 +983,307 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MainWindow.hpp">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Map/Map.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Map/Map.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Shaders/fragment.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneToolKit/Shaders/fragment.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Shaders/vertex.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneToolKit/Shaders/vertex.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MapEditor.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="47" column="63" lean-forward="false" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
-          <folding>
-            <element signature="e#40#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MapEditor.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding />
+          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MapDocument.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="357">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/6/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="119" column="6" lean-forward="false" selection-start-line="119" selection-start-column="6" selection-end-line="119" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MapEditor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="63" lean-forward="false" selection-start-line="87" selection-start-column="63" selection-end-line="87" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MapDocument.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="442">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MainWindow.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MainWindow.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="167" column="39" lean-forward="true" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
+        <state relative-caret-position="0">
+          <caret line="126" column="51" lean-forward="false" selection-start-line="126" selection-start-column="51" selection-end-line="126" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneToolKit/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freeGame/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MapEditor.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="877">
+          <caret line="61" column="25" lean-forward="false" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/2D/SpriteBatch.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/2D/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/AssetsBrowser.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/AssetsBrowser.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/fs/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/fs/FileSystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1164">
+          <caret line="70" column="54" lean-forward="false" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/fs/FileSystem.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/fs/fs_utils.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/fs/fs_utils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="118" column="19" lean-forward="false" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/Texture.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceBase.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/IOManager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/IOManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="63" column="13" lean-forward="false" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
           <folding>
-            <element signature="e#20#45#0" expanded="true" />
-            <element signature="e#114#142#0" expanded="true" />
-            <element signature="e#576#603#0" expanded="true" />
+            <element signature="e#821#845#0" expanded="true" />
+            <element signature="e#949#967#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

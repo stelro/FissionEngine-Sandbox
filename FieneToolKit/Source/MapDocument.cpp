@@ -16,16 +16,15 @@ namespace Editor {
 
     }
 
-    bool MapDocument::create()
+    bool MapDocument::create(Fiene::Map* map)
     {
-        return false;
+        m_Map = map;
     }
 
     void MapDocument::destroy()
     {
 
     }
-
 
 }
 

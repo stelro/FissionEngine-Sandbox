@@ -1,0 +1,12 @@
+set(FIENE_MATH_SRC
+        Engine/Math/def_vector.hpp
+        Engine/Math/def_vector.inl
+        Engine/Math/Matrix.hpp
+        Engine/Math/Matrix.cpp
+        Engine/Math/Quaternion.cpp
+        Engine/Math/Quaternion.hpp
+        Engine/Math/MathUtils.hpp
+        Engine/Math/MathUtils.cpp
+        Engine/Math/MatrixTransformations.hpp
+        Engine/Math/MatrixTransformations.cpp
+        Engine/Math/Vector.hpp)

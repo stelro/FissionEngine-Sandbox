@@ -1,0 +1,15 @@
+set(FIENE_ALLOC_SRC
+        Engine/Allocators/BaseAllocator.hpp
+        Engine/Allocators/BaseAllocator.cpp
+        Engine/Allocators/PointerMath.hpp
+        Engine/Allocators/FreeListAllocator.cpp
+        Engine/Allocators/FreeListAllocator.hpp
+        Engine/Allocators/LinearAllocator.cpp
+        Engine/Allocators/LinearAllocator.hpp
+        Engine/Allocators/PoolAllocator.hpp
+        Engine/Allocators/PoolAllocator.cpp
+        Engine/Allocators/ProxyAllocator.cpp
+        Engine/Allocators/ProxyAllocator.hpp
+        Engine/Allocators/StackAllocator.cpp
+        Engine/Allocators/StackAllocator.hpp
+        )

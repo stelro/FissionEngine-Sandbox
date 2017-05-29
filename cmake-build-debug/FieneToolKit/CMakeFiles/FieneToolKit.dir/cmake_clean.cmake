@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o"
   "CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o"
   "CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o"
+  "CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o"
   "../../FieneToolKit/FieneToolKit.pdb"
   "../../FieneToolKit/FieneToolKit"
 )

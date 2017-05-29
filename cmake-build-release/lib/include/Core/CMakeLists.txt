@@ -1,0 +1,17 @@
+set(FIENE_CORE_SRC
+        Engine/Core/Camera2D.hpp
+        Engine/Core/Camera2D.cpp
+        Engine/Core/FpsLimiter.hpp
+        Engine/Core/FpsLimiter.cpp
+        Engine/Core/InputManager.cpp
+        Engine/Core/InputManager.hpp
+        Engine/Core/Window.hpp
+        Engine/Core/Window.cpp
+        Engine/Core/fglobals.cpp
+        Engine/Core/fglobals.h
+        Engine/Core/IOManager.cpp
+        Engine/Core/IOManager.hpp
+        Engine/Core/DebugConsole.cpp
+        Engine/Core/DebugConsole.hpp
+        Engine/Core/Stack.hpp
+        Engine/Core/Stack.inl)

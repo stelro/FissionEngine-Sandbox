@@ -1,0 +1,6 @@
+/home/stel/clion-2017.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/stel/Game/Game
+<FindSDL2.cmake>
+</FindSDL2.cmake>
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/stel/Game/Game/cmake-build-release

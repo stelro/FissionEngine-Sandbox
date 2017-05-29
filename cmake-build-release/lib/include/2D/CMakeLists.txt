@@ -1,0 +1,11 @@
+set(FIENE_2D_SRC
+        Engine/2D/Light2D.hpp
+        Engine/2D/Light2D.cpp
+        Engine/2D/picoPNG.hpp
+        Engine/2D/picoPNG.cpp
+        Engine/2D/SpriteBatch.hpp
+        Engine/2D/SpriteBatch.cpp
+        Engine/2D/Sprite.hpp
+        Engine/2D/Sprite.cpp
+        Engine/2D/SpriteFont.cpp
+        Engine/2D/SpriteFont.hpp)

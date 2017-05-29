@@ -24,18 +24,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../FissionEngine/Engine/Resources/CMakeLists.txt"
   "../FissionEngine/Engine/Utils/CMakeLists.txt"
   "../FissionEngine/Engine/Widgets/CMakeLists.txt"
+  "../FissionEngine/Engine/fs/CMakeLists.txt"
   "../FissionEngine/cmake/FindLua.cmake"
   "../FissionEngine/cmake/FindSDL2.cmake"
   "../FissionEngine/cmake/FindSDL2_image.cmake"
   "../FissionEngine/cmake/FindSDL2_mixer.cmake"
   "../FissionEngine/cmake/FindSDL2_ttf.cmake"
-  "../Tests/CMakeLists.txt"
   "CMakeFiles/3.7.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.7.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.7.2/CMakeSystem.cmake"
-  "../freeGame/CMakeLists.txt"
-  "../ioconsole/CMakeLists.txt"
-  "../openGLExamples/CMakeLists.txt"
   "/home/stel/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CMakeCInformation.cmake"
   "/home/stel/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CMakeCXXInformation.cmake"
   "/home/stel/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake"
@@ -73,22 +70,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "ioconsole/CMakeFiles/CMakeDirectoryInformation.cmake"
   "FissionEngine/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "freeGame/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Tests/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "openGLExamples/CMakeFiles/CMakeDirectoryInformation.cmake"
   "FieneTestGame/CMakeFiles/CMakeDirectoryInformation.cmake"
   "FieneToolKit/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "ioconsole/CMakeFiles/ioconsole.dir/DependInfo.cmake"
   "FissionEngine/CMakeFiles/FissionEngine.dir/DependInfo.cmake"
-  "freeGame/CMakeFiles/freeGame.dir/DependInfo.cmake"
-  "Tests/CMakeFiles/Tests.dir/DependInfo.cmake"
-  "openGLExamples/CMakeFiles/openGLExamples.dir/DependInfo.cmake"
   "FieneTestGame/CMakeFiles/FieneTestGame.dir/DependInfo.cmake"
   "FieneToolKit/CMakeFiles/FieneToolKit.dir/DependInfo.cmake"
   )
