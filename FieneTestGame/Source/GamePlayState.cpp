@@ -2,9 +2,8 @@
 #include <Engine/Core/Window.hpp>
 #include "StateIndecies.hpp"
 
-GamePlayState::GamePlayState(Fiene::Window *window,Fiene::TexturesManager* texturesManger)
+GamePlayState::GamePlayState(Fiene::Window *window)
         : StateBehaviour(window)
-        , m_TexturesManager(texturesManger)
 {
 
 }

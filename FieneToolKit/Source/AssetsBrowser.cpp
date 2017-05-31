@@ -6,7 +6,7 @@
 
 #include "AssetsBrowser.hpp"
 
-#include "../imgui/imgui.h"
+#include <Engine/External/imgui/imgui.h>
 
 #include <Engine/Resources/TexturesManager.hpp>
 #include <Engine/Utils/FDebug.hpp>

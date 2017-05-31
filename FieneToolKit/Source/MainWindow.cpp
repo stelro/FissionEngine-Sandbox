@@ -16,6 +16,7 @@
 #include <Engine/Allocators/PoolAllocator.hpp>
 #include <Engine/Resources/Texture.hpp>
 #include <Engine/Map/Map.hpp>
+#include <Engine/Allocators/ProxyAllocator.hpp>
 
 //SDL2 Inlcudes
 #include <SDL2/SDL.h>
@@ -24,8 +25,8 @@
 #include <GL/glew.h>
 
 //ImGui Includes
-#include "../imgui/imgui.h"
-#include "imgui_impl_sdl_gl3.hpp"
+#include <Engine/External/imgui/imgui.h>
+#include <Engine/External/imgui/imgui_impl_sdl_gl3.hpp>
 
 
 namespace Editor {
@@ -119,9 +120,9 @@ namespace Editor {
 
         m_PMemory = malloc(ONEGIG_SIZE);
         m_FreeListAllocator = new Fiene::FreeListAllocator(ONEGIG_SIZE, m_PMemory);
-        m_PoolAllocator = Fiene::newPoolAllocator(sizeof(Fiene::Texture), __alignof(Fiene::Texture), EIGHTMEG_SIZE, *m_FreeListAllocator);
+        m_ProxyAllocator = Fiene::newProxyAllocator(*m_FreeListAllocator);
 
-        m_TexturesManager = new Fiene::TexturesManager(*m_PoolAllocator);
+        m_TexturesManager = Fiene::TexturesManager::create(*m_ProxyAllocator);
 
         m_AssetsBrowser = new AssetsBrowser();
         m_AssetsBrowser->create(m_TexturesManager);

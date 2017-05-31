@@ -84,105 +84,9 @@ FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/main.cpp.o.provides: FieneToolKi
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/main.cpp.o.provides.build: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/main.cpp.o
 
 
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o: FieneToolKit/CMakeFiles/FieneToolKit.dir/flags.make
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o: ../FieneToolKit/Source/imgui_impl_sdl_gl3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o"
-	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o -c /home/stel/Game/Game/FieneToolKit/Source/imgui_impl_sdl_gl3.cpp
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.i"
-	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/FieneToolKit/Source/imgui_impl_sdl_gl3.cpp > CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.i
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.s"
-	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/FieneToolKit/Source/imgui_impl_sdl_gl3.cpp -o CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.s
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o.requires:
-
-.PHONY : FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o.requires
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o.provides: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o.requires
-	$(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o.provides.build
-.PHONY : FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o.provides
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o.provides.build: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o
-
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o: FieneToolKit/CMakeFiles/FieneToolKit.dir/flags.make
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o: ../FieneToolKit/imgui/imgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o"
-	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o -c /home/stel/Game/Game/FieneToolKit/imgui/imgui.cpp
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.i"
-	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/FieneToolKit/imgui/imgui.cpp > CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.i
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.s"
-	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/FieneToolKit/imgui/imgui.cpp -o CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.s
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o.requires:
-
-.PHONY : FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o.requires
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o.provides: FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o.requires
-	$(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o.provides.build
-.PHONY : FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o.provides
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o.provides.build: FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o
-
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o: FieneToolKit/CMakeFiles/FieneToolKit.dir/flags.make
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o: ../FieneToolKit/imgui/imgui_demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o"
-	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o -c /home/stel/Game/Game/FieneToolKit/imgui/imgui_demo.cpp
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.i"
-	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/FieneToolKit/imgui/imgui_demo.cpp > CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.i
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.s"
-	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/FieneToolKit/imgui/imgui_demo.cpp -o CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.s
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o.requires:
-
-.PHONY : FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o.requires
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o.provides: FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o.requires
-	$(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o.provides.build
-.PHONY : FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o.provides
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o.provides.build: FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o
-
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o: FieneToolKit/CMakeFiles/FieneToolKit.dir/flags.make
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o: ../FieneToolKit/imgui/imgui_draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o"
-	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o -c /home/stel/Game/Game/FieneToolKit/imgui/imgui_draw.cpp
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.i"
-	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/FieneToolKit/imgui/imgui_draw.cpp > CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.i
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.s"
-	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/FieneToolKit/imgui/imgui_draw.cpp -o CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.s
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o.requires:
-
-.PHONY : FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o.requires
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o.provides: FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o.requires
-	$(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o.provides.build
-.PHONY : FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o.provides
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o.provides.build: FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o
-
-
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: FieneToolKit/CMakeFiles/FieneToolKit.dir/flags.make
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FieneToolKit/Source/MainWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o -c /home/stel/Game/Game/FieneToolKit/Source/MainWindow.cpp
 
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.i: cmake_force
@@ -206,7 +110,7 @@ FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o.provides.build:
 
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: FieneToolKit/CMakeFiles/FieneToolKit.dir/flags.make
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FieneToolKit/Source/MapEditor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o -c /home/stel/Game/Game/FieneToolKit/Source/MapEditor.cpp
 
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.i: cmake_force
@@ -230,7 +134,7 @@ FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o.provides.build: 
 
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o: FieneToolKit/CMakeFiles/FieneToolKit.dir/flags.make
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o: ../FieneToolKit/Source/MapDocument.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o -c /home/stel/Game/Game/FieneToolKit/Source/MapDocument.cpp
 
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.i: cmake_force
@@ -254,7 +158,7 @@ FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o.provides.build
 
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: FieneToolKit/CMakeFiles/FieneToolKit.dir/flags.make
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: ../FieneToolKit/Source/AssetsBrowser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o -c /home/stel/Game/Game/FieneToolKit/Source/AssetsBrowser.cpp
 
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.i: cmake_force
@@ -279,10 +183,6 @@ FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o.provides.bui
 # Object files for target FieneToolKit
 FieneToolKit_OBJECTS = \
 "CMakeFiles/FieneToolKit.dir/Source/main.cpp.o" \
-"CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o" \
-"CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o" \
-"CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o" \
-"CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o" \
 "CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o" \
 "CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o" \
 "CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o" \
@@ -292,10 +192,6 @@ FieneToolKit_OBJECTS = \
 FieneToolKit_EXTERNAL_OBJECTS =
 
 ../FieneToolKit/FieneToolKit: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/main.cpp.o
-../FieneToolKit/FieneToolKit: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o
-../FieneToolKit/FieneToolKit: FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o
-../FieneToolKit/FieneToolKit: FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o
-../FieneToolKit/FieneToolKit: FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o
 ../FieneToolKit/FieneToolKit: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o
 ../FieneToolKit/FieneToolKit: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o
 ../FieneToolKit/FieneToolKit: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o
@@ -311,7 +207,7 @@ FieneToolKit_EXTERNAL_OBJECTS =
 ../FieneToolKit/FieneToolKit: /usr/lib/x86_64-linux-gnu/libGL.so
 ../FieneToolKit/FieneToolKit: /usr/lib/x86_64-linux-gnu/liblua5.3.so
 ../FieneToolKit/FieneToolKit: FieneToolKit/CMakeFiles/FieneToolKit.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ../../FieneToolKit/FieneToolKit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../FieneToolKit/FieneToolKit"
 	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FieneToolKit.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /home/stel/clion-2017.1.1/bin/cmake/bin/cmake -E copy_directory /home/stel/Game/Game/Assets /home/stel/Game/Game/FieneToolKit/Assets
 	cd /home/stel/Game/Game/cmake-build-debug/FieneToolKit && /home/stel/clion-2017.1.1/bin/cmake/bin/cmake -E copy_directory /home/stel/Game/Game/Shaders /home/stel/Game/Game/FieneToolKit/Shaders
@@ -322,10 +218,6 @@ FieneToolKit/CMakeFiles/FieneToolKit.dir/build: ../FieneToolKit/FieneToolKit
 .PHONY : FieneToolKit/CMakeFiles/FieneToolKit.dir/build
 
 FieneToolKit/CMakeFiles/FieneToolKit.dir/requires: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/main.cpp.o.requires
-FieneToolKit/CMakeFiles/FieneToolKit.dir/requires: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o.requires
-FieneToolKit/CMakeFiles/FieneToolKit.dir/requires: FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o.requires
-FieneToolKit/CMakeFiles/FieneToolKit.dir/requires: FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o.requires
-FieneToolKit/CMakeFiles/FieneToolKit.dir/requires: FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o.requires
 FieneToolKit/CMakeFiles/FieneToolKit.dir/requires: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o.requires
 FieneToolKit/CMakeFiles/FieneToolKit.dir/requires: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o.requires
 FieneToolKit/CMakeFiles/FieneToolKit.dir/requires: FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o.requires

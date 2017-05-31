@@ -749,6 +749,60 @@ Engine/External/imgui/imgui_impl_sdl_gl3.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.s
 .PHONY : Engine/External/imgui/imgui_impl_sdl_gl3.cpp.s
 
+Engine/FileSystem/FileSystem.o: Engine/FileSystem/FileSystem.cpp.o
+
+.PHONY : Engine/FileSystem/FileSystem.o
+
+# target to build an object file
+Engine/FileSystem/FileSystem.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o
+.PHONY : Engine/FileSystem/FileSystem.cpp.o
+
+Engine/FileSystem/FileSystem.i: Engine/FileSystem/FileSystem.cpp.i
+
+.PHONY : Engine/FileSystem/FileSystem.i
+
+# target to preprocess a source file
+Engine/FileSystem/FileSystem.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.i
+.PHONY : Engine/FileSystem/FileSystem.cpp.i
+
+Engine/FileSystem/FileSystem.s: Engine/FileSystem/FileSystem.cpp.s
+
+.PHONY : Engine/FileSystem/FileSystem.s
+
+# target to generate assembly for a file
+Engine/FileSystem/FileSystem.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.s
+.PHONY : Engine/FileSystem/FileSystem.cpp.s
+
+Engine/FileSystem/fs_utils.o: Engine/FileSystem/fs_utils.cpp.o
+
+.PHONY : Engine/FileSystem/fs_utils.o
+
+# target to build an object file
+Engine/FileSystem/fs_utils.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o
+.PHONY : Engine/FileSystem/fs_utils.cpp.o
+
+Engine/FileSystem/fs_utils.i: Engine/FileSystem/fs_utils.cpp.i
+
+.PHONY : Engine/FileSystem/fs_utils.i
+
+# target to preprocess a source file
+Engine/FileSystem/fs_utils.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.i
+.PHONY : Engine/FileSystem/fs_utils.cpp.i
+
+Engine/FileSystem/fs_utils.s: Engine/FileSystem/fs_utils.cpp.s
+
+.PHONY : Engine/FileSystem/fs_utils.s
+
+# target to generate assembly for a file
+Engine/FileSystem/fs_utils.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.s
+.PHONY : Engine/FileSystem/fs_utils.cpp.s
+
 Engine/GLSL/ShaderProgram.o: Engine/GLSL/ShaderProgram.cpp.o
 
 .PHONY : Engine/GLSL/ShaderProgram.o
@@ -1451,60 +1505,6 @@ Engine/Utils/Utils.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.s
 .PHONY : Engine/Utils/Utils.cpp.s
 
-Engine/fs/FileSystem.o: Engine/fs/FileSystem.cpp.o
-
-.PHONY : Engine/fs/FileSystem.o
-
-# target to build an object file
-Engine/fs/FileSystem.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o
-.PHONY : Engine/fs/FileSystem.cpp.o
-
-Engine/fs/FileSystem.i: Engine/fs/FileSystem.cpp.i
-
-.PHONY : Engine/fs/FileSystem.i
-
-# target to preprocess a source file
-Engine/fs/FileSystem.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.i
-.PHONY : Engine/fs/FileSystem.cpp.i
-
-Engine/fs/FileSystem.s: Engine/fs/FileSystem.cpp.s
-
-.PHONY : Engine/fs/FileSystem.s
-
-# target to generate assembly for a file
-Engine/fs/FileSystem.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.s
-.PHONY : Engine/fs/FileSystem.cpp.s
-
-Engine/fs/fs_utils.o: Engine/fs/fs_utils.cpp.o
-
-.PHONY : Engine/fs/fs_utils.o
-
-# target to build an object file
-Engine/fs/fs_utils.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o
-.PHONY : Engine/fs/fs_utils.cpp.o
-
-Engine/fs/fs_utils.i: Engine/fs/fs_utils.cpp.i
-
-.PHONY : Engine/fs/fs_utils.i
-
-# target to preprocess a source file
-Engine/fs/fs_utils.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.i
-.PHONY : Engine/fs/fs_utils.cpp.i
-
-Engine/fs/fs_utils.s: Engine/fs/fs_utils.cpp.s
-
-.PHONY : Engine/fs/fs_utils.s
-
-# target to generate assembly for a file
-Engine/fs/fs_utils.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.s
-.PHONY : Engine/fs/fs_utils.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1583,6 +1583,12 @@ help:
 	@echo "... Engine/External/imgui/imgui_impl_sdl_gl3.o"
 	@echo "... Engine/External/imgui/imgui_impl_sdl_gl3.i"
 	@echo "... Engine/External/imgui/imgui_impl_sdl_gl3.s"
+	@echo "... Engine/FileSystem/FileSystem.o"
+	@echo "... Engine/FileSystem/FileSystem.i"
+	@echo "... Engine/FileSystem/FileSystem.s"
+	@echo "... Engine/FileSystem/fs_utils.o"
+	@echo "... Engine/FileSystem/fs_utils.i"
+	@echo "... Engine/FileSystem/fs_utils.s"
 	@echo "... Engine/GLSL/ShaderProgram.o"
 	@echo "... Engine/GLSL/ShaderProgram.i"
 	@echo "... Engine/GLSL/ShaderProgram.s"
@@ -1661,12 +1667,6 @@ help:
 	@echo "... Engine/Utils/Utils.o"
 	@echo "... Engine/Utils/Utils.i"
 	@echo "... Engine/Utils/Utils.s"
-	@echo "... Engine/fs/FileSystem.o"
-	@echo "... Engine/fs/FileSystem.i"
-	@echo "... Engine/fs/FileSystem.s"
-	@echo "... Engine/fs/fs_utils.o"
-	@echo "... Engine/fs/fs_utils.i"
-	@echo "... Engine/fs/fs_utils.s"
 .PHONY : help
 
 

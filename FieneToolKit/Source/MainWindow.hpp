@@ -9,8 +9,8 @@ namespace Fiene {
 
     class Window;
     class FreeListAllocator;
-    class PoolAllocator;
     class TexturesManager;
+    class ProxyAllocator;
 
 }
 
@@ -42,8 +42,8 @@ namespace Editor {
 
         void *m_PMemory;
         Fiene::FreeListAllocator*   m_FreeListAllocator;
-        Fiene::PoolAllocator*       m_PoolAllocator;
         Fiene::TexturesManager*     m_TexturesManager;
+        Fiene::ProxyAllocator*      m_ProxyAllocator;
 
         bool m_CreateNewLevel_Signal;
         bool m_ShowLevelEditor_Signal;

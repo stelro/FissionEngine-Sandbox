@@ -16,7 +16,7 @@ namespace Fiene {
 
 class GamePlayState : public Fiene::StateBehaviour {
 public:
-    GamePlayState(Fiene::Window* window,Fiene::TexturesManager* texturesManger);
+    GamePlayState(Fiene::Window* window);
     ~GamePlayState();
     virtual int                             changeStateNext();
     virtual int                             changeStatePrevious();
@@ -29,11 +29,11 @@ public:
 private:
     Fiene::Camera2D                         m_Camera;
     Fiene::InputManager*                    m_InputManager;
-    Fiene::ShaderProgram                   m_ShaderProgram;
-    Fiene::SpriteBatch                     m_SpriteBatch;
-    Fiene::SpriteFont                      m_SpriteFont;
+    Fiene::ShaderProgram                    m_ShaderProgram;
+    Fiene::SpriteBatch                      m_SpriteBatch;
+    Fiene::SpriteFont                       m_SpriteFont;
 
-    Fiene::TexturesManager* m_TexturesManager;
+    Fiene::TexturesManager*                 m_TexturesManager;
 };
 
 #endif //GAMEPLAYSTATE_HPP

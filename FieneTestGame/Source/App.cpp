@@ -21,14 +21,10 @@ App::~App()
 
 void App::init()
 {
-    m_PMemmory = malloc(ONEGIG_SIZE);
-    m_FreeListAllocator = new Fiene::FreeListAllocator(ONEGIG_SIZE, m_PMemmory);
-    m_PoolAllocator = Fiene::newPoolAllocator(sizeof(Fiene::Texture), __alignof(Fiene::Texture), EIGHTMEG_SIZE, *m_FreeListAllocator);
 
-    m_TexturesManager = new Fiene::TexturesManager(*m_PoolAllocator);
 
-    m_MainMenuState = new MainMenuState(&window, m_TexturesManager);
-    m_GamePlayState = new GamePlayState(&window, m_TexturesManager);
+    m_MainMenuState = new MainMenuState(&window);
+    m_GamePlayState = new GamePlayState(&window);
 
 
 }
@@ -43,11 +39,6 @@ void App::addStates()
 
 void App::exit()
 {
-    delete m_TexturesManager;
-
-    Fiene::deletePoolAllocator(*m_PoolAllocator, *m_FreeListAllocator);
-    delete m_FreeListAllocator;
-    free(m_PMemmory);
     delete m_MainMenuState;
     delete m_GamePlayState;
 

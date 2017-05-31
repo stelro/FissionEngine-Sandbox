@@ -8,7 +8,7 @@ set(CMAKE_BUILD_FILES_DIRECTORY ${dir})
 set(CMAKE_BUILD_DIRECTORY ${dir})
 set(CMAKE_BINARY_DIR  ${dir})
 
-set(SOURCE_FILES Source/main.cpp Source/imgui_impl_sdl_gl3.cpp Source/imgui_impl_sdl_gl3.hpp imgui/imconfig.h imgui/imgui.cpp imgui/imgui.h imgui/imgui_demo.cpp imgui/imgui_draw.cpp imgui/imgui_internal.h imgui/stb_rect_pack.h imgui/stb_textedit.h imgui/stb_truetype.h imgui/imconfig.h Source/MainWindow.cpp Source/MainWindow.hpp Source/MapEditor.cpp Source/MapEditor.hpp Source/MapDocument.cpp Source/MapDocument.hpp Source/AssetsBrowser.cpp Source/AssetsBrowser.hpp)
+set(SOURCE_FILES Source/main.cpp Source/MainWindow.cpp Source/MainWindow.hpp Source/MapEditor.cpp Source/MapEditor.hpp Source/MapDocument.cpp Source/MapDocument.hpp Source/AssetsBrowser.cpp Source/AssetsBrowser.hpp)
 file(GLOB_RECURSE data Shaders/*)
 
 add_definitions(${FissionEngine_DEFINITIONS})

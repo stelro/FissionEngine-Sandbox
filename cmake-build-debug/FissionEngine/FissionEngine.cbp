@@ -5,7 +5,7 @@
 		<Option title="FissionEngine"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\FieneTestGame\;CMake Files\FieneToolKit\;CMake Files\FissionEngine\;CMake Files\FissionEngine\Engine\;CMake Files\FissionEngine\Engine\Lua\;CMake Files\FissionEngine\Engine\2D\;CMake Files\FissionEngine\Engine\Core\;CMake Files\FissionEngine\Engine\GLSL\;CMake Files\FissionEngine\Engine\Map\;CMake Files\FissionEngine\Engine\Math\;CMake Files\FissionEngine\Engine\Physics\;CMake Files\FissionEngine\Engine\Resources\;CMake Files\FissionEngine\Engine\Utils\;CMake Files\FissionEngine\Engine\Widgets\;CMake Files\FissionEngine\Engine\External\;CMake Files\FissionEngine\Engine\Allocators\;CMake Files\FissionEngine\Engine\Game\;CMake Files\FissionEngine\Engine\fs\;CMake Files\FissionEngine\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\FieneTestGame\;CMake Files\FieneToolKit\;CMake Files\FissionEngine\;CMake Files\FissionEngine\Engine\;CMake Files\FissionEngine\Engine\Lua\;CMake Files\FissionEngine\Engine\2D\;CMake Files\FissionEngine\Engine\Core\;CMake Files\FissionEngine\Engine\GLSL\;CMake Files\FissionEngine\Engine\Map\;CMake Files\FissionEngine\Engine\Math\;CMake Files\FissionEngine\Engine\Physics\;CMake Files\FissionEngine\Engine\Resources\;CMake Files\FissionEngine\Engine\Utils\;CMake Files\FissionEngine\Engine\Widgets\;CMake Files\FissionEngine\Engine\External\;CMake Files\FissionEngine\Engine\Allocators\;CMake Files\FissionEngine\Engine\Game\;CMake Files\FissionEngine\Engine\FileSystem\;CMake Files\FissionEngine\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/stel/Game/Game/cmake-build-debug/FissionEngine"/>
@@ -205,31 +205,31 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_demo.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_dock.h">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_dock.inl">
-			<Option target="FissionEngine"/>
-		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_draw.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.h">
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_internal.h">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_user.h">
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/External/lua-sol/sol.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_user.inl">
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/FileSystem/FileSystem.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/External/sol.hpp">
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/FileSystem/FileSystem.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/FileSystem/fs_utils.cpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/FileSystem/fs_utils.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/GLSL/ShaderProgram.cpp">
@@ -400,18 +400,6 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/Utils.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/fs/FileSystem.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/fs/FileSystem.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/fs/fs_utils.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/fs/fs_utils.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
 		<Unit filename="/home/stel/Game/Game/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -511,11 +499,11 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Game/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\FissionEngine\Engine\Game\"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/fs/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\FissionEngine\Engine\fs\"/>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/FileSystem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\FileSystem\"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/fs/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\FissionEngine\Engine\fs\"/>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/FileSystem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\FileSystem\"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindSDL2.cmake">
 			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>

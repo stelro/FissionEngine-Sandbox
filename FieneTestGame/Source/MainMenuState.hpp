@@ -18,8 +18,11 @@ namespace Fiene {
 
 class MainMenuState : public Fiene::StateBehaviour {
 public:
-    MainMenuState(Fiene::Window* window,Fiene::TexturesManager* texturesManger);
+    MainMenuState(Fiene::Window* window);
     ~MainMenuState();
+
+    virtual void                            onInit();
+    virtual void                            onExit();
 
     virtual int                             changeStateNext();
     virtual int                             changeStatePrevious();
@@ -27,8 +30,7 @@ public:
     virtual void                            render();
     virtual void                            update();
 
-    virtual void                            onInit();
-    virtual void                            onExit();
+
 private:
     Fiene::Camera2D                         m_Camera;
     Fiene::InputManager*                    m_InputManager;

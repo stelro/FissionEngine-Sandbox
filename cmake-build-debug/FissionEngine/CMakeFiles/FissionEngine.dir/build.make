@@ -396,52 +396,52 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o.provid
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o.provides.build: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o
 
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o: ../FissionEngine/Engine/fs/fs_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o"
-	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/fs/fs_utils.cpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o: ../FissionEngine/Engine/FileSystem/fs_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/FileSystem/fs_utils.cpp
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.i"
-	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/FissionEngine/Engine/fs/fs_utils.cpp > CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.i
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.i"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/FissionEngine/Engine/FileSystem/fs_utils.cpp > CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.i
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.s"
-	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/FissionEngine/Engine/fs/fs_utils.cpp -o CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.s
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.s"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/FissionEngine/Engine/FileSystem/fs_utils.cpp -o CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.s
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o.requires:
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o.requires:
 
-.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o.requires
+.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o.requires
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o.provides: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o.requires
-	$(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o.provides.build
-.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o.provides
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o.provides: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o.requires
+	$(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o.provides.build
+.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o.provides
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o.provides.build: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o.provides.build: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o
 
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o: ../FissionEngine/Engine/fs/FileSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o"
-	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/fs/FileSystem.cpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o: ../FissionEngine/Engine/FileSystem/FileSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/FileSystem/FileSystem.cpp
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.i"
-	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/FissionEngine/Engine/fs/FileSystem.cpp > CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.i
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.i"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/FissionEngine/Engine/FileSystem/FileSystem.cpp > CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.i
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.s"
-	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/FissionEngine/Engine/fs/FileSystem.cpp -o CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.s
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.s"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/FissionEngine/Engine/FileSystem/FileSystem.cpp -o CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.s
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o.requires:
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o.requires:
 
-.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o.requires
+.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o.requires
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o.provides: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o.requires
-	$(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o.provides.build
-.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o.provides
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o.provides: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o.requires
+	$(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o.provides.build
+.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o.provides
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o.provides.build: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o.provides.build: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o
 
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
@@ -1300,8 +1300,8 @@ FissionEngine_OBJECTS = \
 "CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.o" \
 "CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o" \
 "CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o" \
-"CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o" \
-"CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o" \
+"CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o" \
+"CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o" \
 "CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o" \
 "CMakeFiles/FissionEngine.dir/Engine/Map/CollisionLayer.cpp.o" \
 "CMakeFiles/FissionEngine.dir/Engine/Map/IsometricRenderer.cpp.o" \
@@ -1355,8 +1355,8 @@ lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/
 lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.o
 lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o
 lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o
-lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o
-lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o
+lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o
+lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o
 lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o
 lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/CollisionLayer.cpp.o
 lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/IsometricRenderer.cpp.o
@@ -1424,8 +1424,8 @@ FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/Fi
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.o.requires
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o.requires
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o.requires
-FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o.requires
-FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o.requires
+FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o.requires
+FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o.requires
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o.requires
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/CollisionLayer.cpp.o.requires
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/IsometricRenderer.cpp.o.requires

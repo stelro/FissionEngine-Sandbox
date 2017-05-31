@@ -236,33 +236,6 @@ Source/MapEditor.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.s
 .PHONY : Source/MapEditor.cpp.s
 
-Source/imgui_impl_sdl_gl3.o: Source/imgui_impl_sdl_gl3.cpp.o
-
-.PHONY : Source/imgui_impl_sdl_gl3.o
-
-# target to build an object file
-Source/imgui_impl_sdl_gl3.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o
-.PHONY : Source/imgui_impl_sdl_gl3.cpp.o
-
-Source/imgui_impl_sdl_gl3.i: Source/imgui_impl_sdl_gl3.cpp.i
-
-.PHONY : Source/imgui_impl_sdl_gl3.i
-
-# target to preprocess a source file
-Source/imgui_impl_sdl_gl3.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.i
-.PHONY : Source/imgui_impl_sdl_gl3.cpp.i
-
-Source/imgui_impl_sdl_gl3.s: Source/imgui_impl_sdl_gl3.cpp.s
-
-.PHONY : Source/imgui_impl_sdl_gl3.s
-
-# target to generate assembly for a file
-Source/imgui_impl_sdl_gl3.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.s
-.PHONY : Source/imgui_impl_sdl_gl3.cpp.s
-
 Source/main.o: Source/main.cpp.o
 
 .PHONY : Source/main.o
@@ -290,87 +263,6 @@ Source/main.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/main.cpp.s
 .PHONY : Source/main.cpp.s
 
-imgui/imgui.o: imgui/imgui.cpp.o
-
-.PHONY : imgui/imgui.o
-
-# target to build an object file
-imgui/imgui.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o
-.PHONY : imgui/imgui.cpp.o
-
-imgui/imgui.i: imgui/imgui.cpp.i
-
-.PHONY : imgui/imgui.i
-
-# target to preprocess a source file
-imgui/imgui.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.i
-.PHONY : imgui/imgui.cpp.i
-
-imgui/imgui.s: imgui/imgui.cpp.s
-
-.PHONY : imgui/imgui.s
-
-# target to generate assembly for a file
-imgui/imgui.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.s
-.PHONY : imgui/imgui.cpp.s
-
-imgui/imgui_demo.o: imgui/imgui_demo.cpp.o
-
-.PHONY : imgui/imgui_demo.o
-
-# target to build an object file
-imgui/imgui_demo.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o
-.PHONY : imgui/imgui_demo.cpp.o
-
-imgui/imgui_demo.i: imgui/imgui_demo.cpp.i
-
-.PHONY : imgui/imgui_demo.i
-
-# target to preprocess a source file
-imgui/imgui_demo.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.i
-.PHONY : imgui/imgui_demo.cpp.i
-
-imgui/imgui_demo.s: imgui/imgui_demo.cpp.s
-
-.PHONY : imgui/imgui_demo.s
-
-# target to generate assembly for a file
-imgui/imgui_demo.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.s
-.PHONY : imgui/imgui_demo.cpp.s
-
-imgui/imgui_draw.o: imgui/imgui_draw.cpp.o
-
-.PHONY : imgui/imgui_draw.o
-
-# target to build an object file
-imgui/imgui_draw.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o
-.PHONY : imgui/imgui_draw.cpp.o
-
-imgui/imgui_draw.i: imgui/imgui_draw.cpp.i
-
-.PHONY : imgui/imgui_draw.i
-
-# target to preprocess a source file
-imgui/imgui_draw.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.i
-.PHONY : imgui/imgui_draw.cpp.i
-
-imgui/imgui_draw.s: imgui/imgui_draw.cpp.s
-
-.PHONY : imgui/imgui_draw.s
-
-# target to generate assembly for a file
-imgui/imgui_draw.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.s
-.PHONY : imgui/imgui_draw.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -392,21 +284,9 @@ help:
 	@echo "... Source/MapEditor.o"
 	@echo "... Source/MapEditor.i"
 	@echo "... Source/MapEditor.s"
-	@echo "... Source/imgui_impl_sdl_gl3.o"
-	@echo "... Source/imgui_impl_sdl_gl3.i"
-	@echo "... Source/imgui_impl_sdl_gl3.s"
 	@echo "... Source/main.o"
 	@echo "... Source/main.i"
 	@echo "... Source/main.s"
-	@echo "... imgui/imgui.o"
-	@echo "... imgui/imgui.i"
-	@echo "... imgui/imgui.s"
-	@echo "... imgui/imgui_demo.o"
-	@echo "... imgui/imgui_demo.i"
-	@echo "... imgui/imgui_demo.s"
-	@echo "... imgui/imgui_draw.o"
-	@echo "... imgui/imgui_draw.i"
-	@echo "... imgui/imgui_draw.s"
 .PHONY : help
 
 

@@ -102,12 +102,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/StackAllocator.cpp.
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/StackAllocator.cpp.o: ../FissionEngine/Engine/Allocators/StackAllocator.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/StackAllocator.cpp.o: ../FissionEngine/Engine/Allocators/StackAllocator.hpp
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o: ../FissionEngine/Engine/External/imgui/imconfig.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o: ../FissionEngine/Engine/External/imgui/imgui.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_dock.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_user.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o: ../FissionEngine/Engine/Core/DebugConsole.cpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o: ../FissionEngine/Engine/Core/DebugConsole.hpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/FpsLimiter.cpp.o: ../FissionEngine/Engine/Core/FpsLimiter.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/FpsLimiter.cpp.o: ../FissionEngine/Engine/Core/FpsLimiter.hpp
@@ -151,38 +146,50 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Engine.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Engine.hpp
 
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o: ../FissionEngine/Engine/External/imgui/imconfig.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o: ../FissionEngine/Engine/External/imgui/imgui.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o: ../FissionEngine/Engine/External/imgui/imgui.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_dock.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_dock.inl
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_internal.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_user.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_user.inl
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o: ../FissionEngine/Engine/External/imgui/stb_textedit.h
 
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o: ../FissionEngine/Engine/External/imgui/imconfig.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o: ../FissionEngine/Engine/External/imgui/imgui.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_demo.cpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_dock.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_user.h
 
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/External/imgui/imconfig.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/External/imgui/imgui.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_dock.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_draw.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_internal.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_user.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/External/imgui/stb_rect_pack.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/External/imgui/stb_textedit.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/External/imgui/stb_truetype.h
 
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/GLSL/ShaderProgram.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/Math/Matrix.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/Math/Quaternion.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/External/imgui/imconfig.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/External/imgui/imgui.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_dock.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.cpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_user.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.hpp
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o: ../FissionEngine/Engine/FileSystem/FileSystem.cpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o: ../FissionEngine/Engine/FileSystem/FileSystem.hpp
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o: ../FissionEngine/Engine/FileSystem/fs_utils.cpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o: ../FissionEngine/Engine/FileSystem/fs_utils.hpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: ../FissionEngine/Engine/Core/IOManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: ../FissionEngine/Engine/Math/Matrix.hpp
@@ -194,7 +201,14 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: ../F
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: ../FissionEngine/Engine/GLSL/ShaderProgram.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: ../FissionEngine/Engine/GLSL/ShaderProgram.hpp
 
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/2D/picoPNG.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Allocators/FreeListAllocator.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Allocators/PointerMath.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Allocators/PoolAllocator.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Allocators/ProxyAllocator.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Core/FpsLimiter.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Core/IOManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Core/InputManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Core/Stack.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Core/Stack.inl
@@ -204,6 +218,10 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../Fi
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Resources/ResourceBase.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Resources/ResourceManager.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Resources/Texture.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Resources/TexturesManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Utils/Utils.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Game/AppBehaviour.cpp
@@ -224,7 +242,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o: ../Fi
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o: ../FissionEngine/Engine/Game/StateManager.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o: ../FissionEngine/Engine/Game/StateManager.hpp
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: ../FissionEngine/Engine/External/sol.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: ../FissionEngine/Engine/External/lua-sol/sol.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: ../FissionEngine/Engine/Lua/lua_script_manager.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: ../FissionEngine/Engine/Lua/lua_script_manager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: /usr/include/lua5.3/lauxlib.h
@@ -232,7 +250,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: /usr/include/lua5.3/luaconf.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: /usr/include/lua5.3/lualib.h
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o: ../FissionEngine/Engine/External/sol.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o: ../FissionEngine/Engine/External/lua-sol/sol.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o: ../FissionEngine/Engine/Lua/lua_script_manager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o: ../FissionEngine/Engine/Lua/lua_script_system.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o: ../FissionEngine/Engine/Lua/lua_script_system.hpp
@@ -263,7 +281,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Layer.cpp.o: ../FissionEng
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/2D/picoPNG.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/Core/IOManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/External/sol.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/External/lua-sol/sol.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/Lua/lua_script_system.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
@@ -385,28 +403,30 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Physics/SimpleCollision.cpp.o:
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Physics/SimpleCollision.cpp.o: ../FissionEngine/Engine/Physics/SimpleCollision.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Physics/SimpleCollision.cpp.o: ../FissionEngine/Engine/Physics/SimpleCollision.hpp
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceBase.cpp.o: ../FissionEngine/Engine/fs/fs_utils.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceBase.cpp.o: ../FissionEngine/Engine/FileSystem/fs_utils.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceBase.cpp.o: ../FissionEngine/Engine/Resources/ResourceBase.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceBase.cpp.o: ../FissionEngine/Engine/Resources/ResourceBase.h
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o: ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o: ../FissionEngine/Engine/FileSystem/fs_utils.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o: ../FissionEngine/Engine/fs/fs_utils.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o: ../FissionEngine/Engine/Resources/ResourceBase.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o: ../FissionEngine/Engine/Resources/ResourceManager.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o: ../FissionEngine/Engine/Resources/ResourceManager.hpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/2D/picoPNG.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Allocators/PointerMath.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Allocators/PoolAllocator.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Core/IOManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/FileSystem/FileSystem.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/FileSystem/fs_utils.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/fs/FileSystem.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/fs/fs_utils.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Resources/ResourceBase.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Resources/ResourceManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Resources/Texture.hpp
@@ -418,11 +438,4 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.o: ../Fission
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.o: ../FissionEngine/Engine/Utils/Utils.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.o: ../FissionEngine/Engine/Utils/Utils.hpp
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o: ../FissionEngine/Engine/fs/FileSystem.cpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o: ../FissionEngine/Engine/fs/FileSystem.hpp
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o: ../FissionEngine/Engine/fs/fs_utils.cpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o: ../FissionEngine/Engine/fs/fs_utils.hpp
 

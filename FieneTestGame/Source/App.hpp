@@ -28,9 +28,4 @@ private:
     GamePlayState* m_GamePlayState;
     MainMenuState* m_MainMenuState;
 
-    void *m_PMemmory;
-    Fiene::FreeListAllocator* m_FreeListAllocator;
-    Fiene::PoolAllocator* m_PoolAllocator;
-
-    Fiene::TexturesManager* m_TexturesManager;
 };

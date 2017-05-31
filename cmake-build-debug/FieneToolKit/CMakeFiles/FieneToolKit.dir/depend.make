@@ -3,6 +3,8 @@
 
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: ../FissionEngine/Engine/External/imgui/imconfig.h
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: ../FissionEngine/Engine/External/imgui/imgui.h
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
@@ -11,21 +13,23 @@ FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: ../FissionE
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: ../FieneToolKit/Source/AssetsBrowser.cpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: ../FieneToolKit/Source/AssetsBrowser.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: ../FieneToolKit/imgui/imconfig.h
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o: ../FieneToolKit/imgui/imgui.h
 
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/2D/Camera2D.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/2D/SpriteBatch.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/2D/picoPNG.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/Allocators/FreeListAllocator.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/Allocators/PointerMath.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/Allocators/PoolAllocator.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/Core/Camera2D.hpp
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/Allocators/ProxyAllocator.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/Core/IOManager.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/Core/InputManager.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/Core/Window.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/Engine.hpp
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/External/imgui/imconfig.h
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/External/imgui/imgui.h
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/GLSL/ShaderProgram.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/Map/Map.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FissionEngine/Engine/Map/TileSet.hpp
@@ -45,19 +49,18 @@ FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FieneToolKi
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FieneToolKit/Source/MainWindow.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FieneToolKit/Source/MapDocument.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FieneToolKit/Source/MapEditor.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FieneToolKit/Source/imgui_impl_sdl_gl3.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FieneToolKit/imgui/imconfig.h
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o: ../FieneToolKit/imgui/imgui.h
 
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o: ../FieneToolKit/Source/MapDocument.cpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapDocument.cpp.o: ../FieneToolKit/Source/MapDocument.hpp
 
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FissionEngine/Engine/2D/Camera2D.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FissionEngine/Engine/2D/SpriteBatch.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FissionEngine/Engine/2D/picoPNG.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FissionEngine/Engine/Core/Camera2D.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FissionEngine/Engine/Core/IOManager.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FissionEngine/Engine/External/imgui/imconfig.h
+FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FissionEngine/Engine/External/imgui/imgui.h
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FissionEngine/Engine/GLSL/ShaderProgram.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FissionEngine/Engine/Map/Map.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FissionEngine/Engine/Map/TileSet.hpp
@@ -75,47 +78,7 @@ FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FissionEngin
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FieneToolKit/Source/MapDocument.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FieneToolKit/Source/MapEditor.cpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FieneToolKit/Source/MapEditor.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FieneToolKit/imgui/imconfig.h
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o: ../FieneToolKit/imgui/imgui.h
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/GLSL/ShaderProgram.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/Math/Matrix.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/Math/Quaternion.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o: ../FieneToolKit/Source/imgui_impl_sdl_gl3.cpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o: ../FieneToolKit/Source/imgui_impl_sdl_gl3.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o: ../FieneToolKit/imgui/imconfig.h
-FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o: ../FieneToolKit/imgui/imgui.h
 
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/main.cpp.o: ../FieneToolKit/Source/MainWindow.hpp
 FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/main.cpp.o: ../FieneToolKit/Source/main.cpp
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o: ../FieneToolKit/imgui/imconfig.h
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o: ../FieneToolKit/imgui/imgui.cpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o: ../FieneToolKit/imgui/imgui.h
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o: ../FieneToolKit/imgui/imgui_internal.h
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o: ../FieneToolKit/imgui/stb_textedit.h
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o: ../FieneToolKit/imgui/imconfig.h
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o: ../FieneToolKit/imgui/imgui.h
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o: ../FieneToolKit/imgui/imgui_demo.cpp
-
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o: ../FieneToolKit/imgui/imconfig.h
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o: ../FieneToolKit/imgui/imgui.h
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o: ../FieneToolKit/imgui/imgui_draw.cpp
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o: ../FieneToolKit/imgui/imgui_internal.h
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o: ../FieneToolKit/imgui/stb_rect_pack.h
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o: ../FieneToolKit/imgui/stb_textedit.h
-FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o: ../FieneToolKit/imgui/stb_truetype.h
 

@@ -13,7 +13,7 @@
 #include <Engine/Map/Map.hpp>
 
 //ImGui Includes
-#include "../imgui/imgui.h"
+#include <Engine/External/imgui/imgui.h>
 
 //C++ Includes
 #include <algorithm>
@@ -78,6 +78,7 @@ namespace Editor {
 
         placeTiles();
         drawTiles();
+        drawGrid();
 
 
         ImGui::End();
@@ -173,7 +174,7 @@ namespace Editor {
         ImDrawList *draw_list = ImGui::GetWindowDrawList();
         const int tile_width = m_MapDocument->getMap()->getTileWidth();
         const int tile_height = m_MapDocument->getMap()->getTileHeight();
-        GLuint texture = m_TexturesManager->getTextureID("Assets/Stones.png");
+        GLuint texture = m_TexturesManager->getTextureID("stones.png");
         const ImVec2 p = ImGui::GetCursorScreenPos();
         float x = p.x, y = p.y;
 

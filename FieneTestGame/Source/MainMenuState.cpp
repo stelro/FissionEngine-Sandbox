@@ -3,9 +3,8 @@
 #include "StateIndecies.hpp"
 #include <Engine/Resources/Texture.hpp>
 
-MainMenuState::MainMenuState(Fiene::Window *window,Fiene::TexturesManager* texturesManger)
+MainMenuState::MainMenuState(Fiene::Window *window)
         : StateBehaviour(window)
-        , m_TexturesManager(texturesManger)
 {
 
 }
@@ -14,6 +13,32 @@ MainMenuState::~MainMenuState()
 {
 
 }
+
+void MainMenuState::onInit()
+{
+    m_InputManager =  Fiene::InputManager::instance();
+    m_Camera.startUp(getWindow()->getScreenWidth(), getWindow()->getScreenHeight());
+    m_Camera.setPosition(getWindow()->getScreenWidth() / 2, getWindow()->getScreenHeight() / 2);
+
+    m_ShaderProgram.startUp();
+    m_ShaderProgram.compileVertexShader("Shaders/vertex.glsl");
+    m_ShaderProgram.compileFragmentShader("Shaders/fragment.glsl");
+    m_ShaderProgram.linkShaders();
+
+    m_SpriteBatch.startUp();
+    m_SpriteFont.startUp("Textures/Monaco-Stel.ttf", 32);
+
+    m_TexturesManager = Fiene::TexturesManager::getInstance();
+    m_TexturesManager->load("Textures/castle.png");
+
+
+}
+
+void MainMenuState::onExit()
+{
+    m_TexturesManager->unload("castle.png");
+}
+
 
 int MainMenuState::changeStateNext()
 {
@@ -61,26 +86,4 @@ void MainMenuState::update()
     }
 }
 
-void MainMenuState::onInit()
-{
-    m_InputManager =  Fiene::InputManager::instance();
-    m_Camera.startUp(getWindow()->getScreenWidth(), getWindow()->getScreenHeight());
-    m_Camera.setPosition(getWindow()->getScreenWidth() / 2, getWindow()->getScreenHeight() / 2);
-
-    m_ShaderProgram.startUp();
-    m_ShaderProgram.compileVertexShader("Shaders/vertex.glsl");
-    m_ShaderProgram.compileFragmentShader("Shaders/fragment.glsl");
-    m_ShaderProgram.linkShaders();
-
-    m_SpriteBatch.startUp();
-    m_SpriteFont.startUp("Textures/Monaco-Stel.ttf", 32);
-
-    m_TexturesManager->load("Textures/castle.png");
-
-}
-
-void MainMenuState::onExit()
-{
-    m_TexturesManager->unload("castle.png");
-}
 
