@@ -911,60 +911,6 @@ Engine/Game/StateManager.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.s
 .PHONY : Engine/Game/StateManager.cpp.s
 
-Engine/Lua/lua_script_manager.o: Engine/Lua/lua_script_manager.cpp.o
-
-.PHONY : Engine/Lua/lua_script_manager.o
-
-# target to build an object file
-Engine/Lua/lua_script_manager.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o
-.PHONY : Engine/Lua/lua_script_manager.cpp.o
-
-Engine/Lua/lua_script_manager.i: Engine/Lua/lua_script_manager.cpp.i
-
-.PHONY : Engine/Lua/lua_script_manager.i
-
-# target to preprocess a source file
-Engine/Lua/lua_script_manager.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.i
-.PHONY : Engine/Lua/lua_script_manager.cpp.i
-
-Engine/Lua/lua_script_manager.s: Engine/Lua/lua_script_manager.cpp.s
-
-.PHONY : Engine/Lua/lua_script_manager.s
-
-# target to generate assembly for a file
-Engine/Lua/lua_script_manager.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.s
-.PHONY : Engine/Lua/lua_script_manager.cpp.s
-
-Engine/Lua/lua_script_system.o: Engine/Lua/lua_script_system.cpp.o
-
-.PHONY : Engine/Lua/lua_script_system.o
-
-# target to build an object file
-Engine/Lua/lua_script_system.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o
-.PHONY : Engine/Lua/lua_script_system.cpp.o
-
-Engine/Lua/lua_script_system.i: Engine/Lua/lua_script_system.cpp.i
-
-.PHONY : Engine/Lua/lua_script_system.i
-
-# target to preprocess a source file
-Engine/Lua/lua_script_system.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.i
-.PHONY : Engine/Lua/lua_script_system.cpp.i
-
-Engine/Lua/lua_script_system.s: Engine/Lua/lua_script_system.cpp.s
-
-.PHONY : Engine/Lua/lua_script_system.s
-
-# target to generate assembly for a file
-Engine/Lua/lua_script_system.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.s
-.PHONY : Engine/Lua/lua_script_system.cpp.s
-
 Engine/Map/CollisionLayer.o: Engine/Map/CollisionLayer.cpp.o
 
 .PHONY : Engine/Map/CollisionLayer.o
@@ -1451,6 +1397,87 @@ Engine/Resources/TexturesManager.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.s
 .PHONY : Engine/Resources/TexturesManager.cpp.s
 
+Engine/ScriptSystem/Script.o: Engine/ScriptSystem/Script.cpp.o
+
+.PHONY : Engine/ScriptSystem/Script.o
+
+# target to build an object file
+Engine/ScriptSystem/Script.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o
+.PHONY : Engine/ScriptSystem/Script.cpp.o
+
+Engine/ScriptSystem/Script.i: Engine/ScriptSystem/Script.cpp.i
+
+.PHONY : Engine/ScriptSystem/Script.i
+
+# target to preprocess a source file
+Engine/ScriptSystem/Script.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.i
+.PHONY : Engine/ScriptSystem/Script.cpp.i
+
+Engine/ScriptSystem/Script.s: Engine/ScriptSystem/Script.cpp.s
+
+.PHONY : Engine/ScriptSystem/Script.s
+
+# target to generate assembly for a file
+Engine/ScriptSystem/Script.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.s
+.PHONY : Engine/ScriptSystem/Script.cpp.s
+
+Engine/ScriptSystem/ScriptManager.o: Engine/ScriptSystem/ScriptManager.cpp.o
+
+.PHONY : Engine/ScriptSystem/ScriptManager.o
+
+# target to build an object file
+Engine/ScriptSystem/ScriptManager.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o
+.PHONY : Engine/ScriptSystem/ScriptManager.cpp.o
+
+Engine/ScriptSystem/ScriptManager.i: Engine/ScriptSystem/ScriptManager.cpp.i
+
+.PHONY : Engine/ScriptSystem/ScriptManager.i
+
+# target to preprocess a source file
+Engine/ScriptSystem/ScriptManager.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.i
+.PHONY : Engine/ScriptSystem/ScriptManager.cpp.i
+
+Engine/ScriptSystem/ScriptManager.s: Engine/ScriptSystem/ScriptManager.cpp.s
+
+.PHONY : Engine/ScriptSystem/ScriptManager.s
+
+# target to generate assembly for a file
+Engine/ScriptSystem/ScriptManager.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.s
+.PHONY : Engine/ScriptSystem/ScriptManager.cpp.s
+
+Engine/ScriptSystem/ScriptSystem.o: Engine/ScriptSystem/ScriptSystem.cpp.o
+
+.PHONY : Engine/ScriptSystem/ScriptSystem.o
+
+# target to build an object file
+Engine/ScriptSystem/ScriptSystem.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o
+.PHONY : Engine/ScriptSystem/ScriptSystem.cpp.o
+
+Engine/ScriptSystem/ScriptSystem.i: Engine/ScriptSystem/ScriptSystem.cpp.i
+
+.PHONY : Engine/ScriptSystem/ScriptSystem.i
+
+# target to preprocess a source file
+Engine/ScriptSystem/ScriptSystem.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.i
+.PHONY : Engine/ScriptSystem/ScriptSystem.cpp.i
+
+Engine/ScriptSystem/ScriptSystem.s: Engine/ScriptSystem/ScriptSystem.cpp.s
+
+.PHONY : Engine/ScriptSystem/ScriptSystem.s
+
+# target to generate assembly for a file
+Engine/ScriptSystem/ScriptSystem.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.s
+.PHONY : Engine/ScriptSystem/ScriptSystem.cpp.s
+
 Engine/Utils/FDebug.o: Engine/Utils/FDebug.cpp.o
 
 .PHONY : Engine/Utils/FDebug.o
@@ -1601,12 +1628,6 @@ help:
 	@echo "... Engine/Game/StateManager.o"
 	@echo "... Engine/Game/StateManager.i"
 	@echo "... Engine/Game/StateManager.s"
-	@echo "... Engine/Lua/lua_script_manager.o"
-	@echo "... Engine/Lua/lua_script_manager.i"
-	@echo "... Engine/Lua/lua_script_manager.s"
-	@echo "... Engine/Lua/lua_script_system.o"
-	@echo "... Engine/Lua/lua_script_system.i"
-	@echo "... Engine/Lua/lua_script_system.s"
 	@echo "... Engine/Map/CollisionLayer.o"
 	@echo "... Engine/Map/CollisionLayer.i"
 	@echo "... Engine/Map/CollisionLayer.s"
@@ -1661,6 +1682,15 @@ help:
 	@echo "... Engine/Resources/TexturesManager.o"
 	@echo "... Engine/Resources/TexturesManager.i"
 	@echo "... Engine/Resources/TexturesManager.s"
+	@echo "... Engine/ScriptSystem/Script.o"
+	@echo "... Engine/ScriptSystem/Script.i"
+	@echo "... Engine/ScriptSystem/Script.s"
+	@echo "... Engine/ScriptSystem/ScriptManager.o"
+	@echo "... Engine/ScriptSystem/ScriptManager.i"
+	@echo "... Engine/ScriptSystem/ScriptManager.s"
+	@echo "... Engine/ScriptSystem/ScriptSystem.o"
+	@echo "... Engine/ScriptSystem/ScriptSystem.i"
+	@echo "... Engine/ScriptSystem/ScriptSystem.s"
 	@echo "... Engine/Utils/FDebug.o"
 	@echo "... Engine/Utils/FDebug.i"
 	@echo "... Engine/Utils/FDebug.s"

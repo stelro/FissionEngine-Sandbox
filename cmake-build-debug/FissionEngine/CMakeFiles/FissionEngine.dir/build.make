@@ -60,57 +60,9 @@ include FissionEngine/CMakeFiles/FissionEngine.dir/progress.make
 # Include the compile flags for this target's objects.
 include FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o: ../FissionEngine/Engine/Lua/lua_script_system.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o"
-	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_system.cpp
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.i"
-	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_system.cpp > CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.i
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.s"
-	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_system.cpp -o CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.s
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o.requires:
-
-.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o.requires
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o.provides: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o.requires
-	$(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o.provides.build
-.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o.provides
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o.provides.build: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o
-
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: ../FissionEngine/Engine/Lua/lua_script_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o"
-	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_manager.cpp
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.i"
-	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_manager.cpp > CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.i
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.s"
-	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_manager.cpp -o CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.s
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o.requires:
-
-.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o.requires
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o.provides: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o.requires
-	$(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o.provides.build
-.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o.provides
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o.provides.build: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o
-
-
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.o: ../FissionEngine/Engine/2D/Light2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/2D/Light2D.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.i: cmake_force
@@ -134,7 +86,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.o.provides.buil
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/picoPNG.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/picoPNG.cpp.o: ../FissionEngine/Engine/2D/picoPNG.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/picoPNG.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/picoPNG.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/2D/picoPNG.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/2D/picoPNG.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/picoPNG.cpp.i: cmake_force
@@ -158,7 +110,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/picoPNG.cpp.o.provides.buil
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.o: ../FissionEngine/Engine/2D/SpriteBatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/2D/SpriteBatch.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.i: cmake_force
@@ -182,7 +134,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.o.provides.
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Sprite.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Sprite.cpp.o: ../FissionEngine/Engine/2D/Sprite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Sprite.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Sprite.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/2D/Sprite.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/2D/Sprite.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Sprite.cpp.i: cmake_force
@@ -206,7 +158,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Sprite.cpp.o.provides.build
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteFont.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteFont.cpp.o: ../FissionEngine/Engine/2D/SpriteFont.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteFont.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteFont.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/2D/SpriteFont.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/2D/SpriteFont.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteFont.cpp.i: cmake_force
@@ -230,7 +182,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteFont.cpp.o.provides.b
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Camera2D.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Camera2D.cpp.o: ../FissionEngine/Engine/2D/Camera2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Camera2D.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Camera2D.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/2D/Camera2D.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/2D/Camera2D.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Camera2D.cpp.i: cmake_force
@@ -254,7 +206,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Camera2D.cpp.o.provides.bui
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/FpsLimiter.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/FpsLimiter.cpp.o: ../FissionEngine/Engine/Core/FpsLimiter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/FpsLimiter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/FpsLimiter.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Core/FpsLimiter.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Core/FpsLimiter.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/FpsLimiter.cpp.i: cmake_force
@@ -278,7 +230,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/FpsLimiter.cpp.o.provides
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/InputManager.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/InputManager.cpp.o: ../FissionEngine/Engine/Core/InputManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/InputManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/InputManager.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Core/InputManager.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Core/InputManager.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/InputManager.cpp.i: cmake_force
@@ -302,7 +254,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/InputManager.cpp.o.provid
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Window.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Window.cpp.o: ../FissionEngine/Engine/Core/Window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Window.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Core/Window.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Core/Window.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Window.cpp.i: cmake_force
@@ -326,7 +278,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Window.cpp.o.provides.bui
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.o: ../FissionEngine/Engine/Core/fglobals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Core/fglobals.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.i: cmake_force
@@ -350,7 +302,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.o.provides.b
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o: ../FissionEngine/Engine/Core/IOManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.i: cmake_force
@@ -374,7 +326,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o.provides.
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o: ../FissionEngine/Engine/Core/DebugConsole.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Core/DebugConsole.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.i: cmake_force
@@ -398,7 +350,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o.provid
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o: ../FissionEngine/Engine/FileSystem/fs_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/FileSystem/fs_utils.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.i: cmake_force
@@ -422,7 +374,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/fs_utils.cpp.o.prov
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o: ../FissionEngine/Engine/FileSystem/FileSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/FileSystem/FileSystem.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.i: cmake_force
@@ -446,7 +398,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FileSystem/FileSystem.cpp.o.pr
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o: ../FissionEngine/Engine/GLSL/ShaderProgram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/GLSL/ShaderProgram.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.i: cmake_force
@@ -470,7 +422,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o.provi
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/CollisionLayer.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/CollisionLayer.cpp.o: ../FissionEngine/Engine/Map/CollisionLayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/CollisionLayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/CollisionLayer.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Map/CollisionLayer.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Map/CollisionLayer.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/CollisionLayer.cpp.i: cmake_force
@@ -494,7 +446,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/CollisionLayer.cpp.o.provi
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/IsometricRenderer.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/IsometricRenderer.cpp.o: ../FissionEngine/Engine/Map/IsometricRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/IsometricRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/IsometricRenderer.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Map/IsometricRenderer.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Map/IsometricRenderer.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/IsometricRenderer.cpp.i: cmake_force
@@ -518,7 +470,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/IsometricRenderer.cpp.o.pr
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Layer.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Layer.cpp.o: ../FissionEngine/Engine/Map/Layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Layer.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Map/Layer.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Map/Layer.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Layer.cpp.i: cmake_force
@@ -542,7 +494,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Layer.cpp.o.provides.build
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/Map/Map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Map/Map.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.i: cmake_force
@@ -566,7 +518,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o.provides.build: 
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/MapRenderer.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/MapRenderer.cpp.o: ../FissionEngine/Engine/Map/MapRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/MapRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/MapRenderer.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Map/MapRenderer.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Map/MapRenderer.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/MapRenderer.cpp.i: cmake_force
@@ -590,7 +542,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/MapRenderer.cpp.o.provides
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/ObjectLayer.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/ObjectLayer.cpp.o: ../FissionEngine/Engine/Map/ObjectLayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/ObjectLayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/ObjectLayer.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Map/ObjectLayer.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Map/ObjectLayer.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/ObjectLayer.cpp.i: cmake_force
@@ -614,7 +566,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/ObjectLayer.cpp.o.provides
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/OrthogonalRenderer.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/OrthogonalRenderer.cpp.o: ../FissionEngine/Engine/Map/OrthogonalRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/OrthogonalRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/OrthogonalRenderer.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Map/OrthogonalRenderer.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Map/OrthogonalRenderer.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/OrthogonalRenderer.cpp.i: cmake_force
@@ -638,7 +590,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/OrthogonalRenderer.cpp.o.p
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Tile.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Tile.cpp.o: ../FissionEngine/Engine/Map/Tile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Tile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Tile.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Map/Tile.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Map/Tile.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Tile.cpp.i: cmake_force
@@ -662,7 +614,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Tile.cpp.o.provides.build:
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TileSet.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TileSet.cpp.o: ../FissionEngine/Engine/Map/TileSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TileSet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TileSet.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Map/TileSet.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Map/TileSet.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TileSet.cpp.i: cmake_force
@@ -686,7 +638,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TileSet.cpp.o.provides.bui
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TilesetLayer.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TilesetLayer.cpp.o: ../FissionEngine/Engine/Map/TilesetLayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TilesetLayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TilesetLayer.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Map/TilesetLayer.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Map/TilesetLayer.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TilesetLayer.cpp.i: cmake_force
@@ -710,7 +662,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/TilesetLayer.cpp.o.provide
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Matrix.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Matrix.cpp.o: ../FissionEngine/Engine/Math/Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Matrix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Matrix.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Math/Matrix.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Math/Matrix.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Matrix.cpp.i: cmake_force
@@ -734,7 +686,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Matrix.cpp.o.provides.bui
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Quaternion.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Quaternion.cpp.o: ../FissionEngine/Engine/Math/Quaternion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Quaternion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Quaternion.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Math/Quaternion.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Math/Quaternion.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Quaternion.cpp.i: cmake_force
@@ -758,7 +710,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Quaternion.cpp.o.provides
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MathUtils.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MathUtils.cpp.o: ../FissionEngine/Engine/Math/MathUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MathUtils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MathUtils.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Math/MathUtils.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Math/MathUtils.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MathUtils.cpp.i: cmake_force
@@ -782,7 +734,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MathUtils.cpp.o.provides.
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MatrixTransformations.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MatrixTransformations.cpp.o: ../FissionEngine/Engine/Math/MatrixTransformations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MatrixTransformations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MatrixTransformations.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Math/MatrixTransformations.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Math/MatrixTransformations.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MatrixTransformations.cpp.i: cmake_force
@@ -806,7 +758,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MatrixTransformations.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Physics/SimpleCollision.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Physics/SimpleCollision.cpp.o: ../FissionEngine/Engine/Physics/SimpleCollision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Physics/SimpleCollision.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Physics/SimpleCollision.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Physics/SimpleCollision.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Physics/SimpleCollision.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Physics/SimpleCollision.cpp.i: cmake_force
@@ -830,7 +782,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Physics/SimpleCollision.cpp.o.
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceBase.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceBase.cpp.o: ../FissionEngine/Engine/Resources/ResourceBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceBase.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceBase.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceBase.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Resources/ResourceBase.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceBase.cpp.i: cmake_force
@@ -854,7 +806,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceBase.cpp.o.p
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o: ../FissionEngine/Engine/Resources/ResourceManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Resources/ResourceManager.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.i: cmake_force
@@ -878,7 +830,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Resources/TexturesManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Resources/TexturesManager.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.i: cmake_force
@@ -902,7 +854,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.o: ../FissionEngine/Engine/Utils/FDebug.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Utils/FDebug.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.i: cmake_force
@@ -926,7 +878,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.o.provides.bu
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.o: ../FissionEngine/Engine/Utils/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Utils/Utils.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.i: cmake_force
@@ -950,7 +902,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.o.provides.bui
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o: ../FissionEngine/Engine/External/imgui/imgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.i: cmake_force
@@ -974,7 +926,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o.pro
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_demo.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.i: cmake_force
@@ -998,7 +950,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_draw.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.i: cmake_force
@@ -1022,7 +974,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.i: cmake_force
@@ -1046,7 +998,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/BaseAllocator.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/BaseAllocator.cpp.o: ../FissionEngine/Engine/Allocators/BaseAllocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/BaseAllocator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/BaseAllocator.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Allocators/BaseAllocator.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Allocators/BaseAllocator.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/BaseAllocator.cpp.i: cmake_force
@@ -1070,7 +1022,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/BaseAllocator.cpp.o
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/FreeListAllocator.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/FreeListAllocator.cpp.o: ../FissionEngine/Engine/Allocators/FreeListAllocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/FreeListAllocator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/FreeListAllocator.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Allocators/FreeListAllocator.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Allocators/FreeListAllocator.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/FreeListAllocator.cpp.i: cmake_force
@@ -1094,7 +1046,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/FreeListAllocator.c
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/LinearAllocator.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/LinearAllocator.cpp.o: ../FissionEngine/Engine/Allocators/LinearAllocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/LinearAllocator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/LinearAllocator.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Allocators/LinearAllocator.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Allocators/LinearAllocator.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/LinearAllocator.cpp.i: cmake_force
@@ -1118,7 +1070,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/LinearAllocator.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/PoolAllocator.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/PoolAllocator.cpp.o: ../FissionEngine/Engine/Allocators/PoolAllocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/PoolAllocator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/PoolAllocator.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Allocators/PoolAllocator.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Allocators/PoolAllocator.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/PoolAllocator.cpp.i: cmake_force
@@ -1142,7 +1094,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/PoolAllocator.cpp.o
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/ProxyAllocator.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/ProxyAllocator.cpp.o: ../FissionEngine/Engine/Allocators/ProxyAllocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/ProxyAllocator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/ProxyAllocator.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Allocators/ProxyAllocator.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Allocators/ProxyAllocator.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/ProxyAllocator.cpp.i: cmake_force
@@ -1166,7 +1118,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/ProxyAllocator.cpp.
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/StackAllocator.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/StackAllocator.cpp.o: ../FissionEngine/Engine/Allocators/StackAllocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/StackAllocator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/StackAllocator.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Allocators/StackAllocator.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Allocators/StackAllocator.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/StackAllocator.cpp.i: cmake_force
@@ -1190,7 +1142,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/StackAllocator.cpp.
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Game/AppBehaviour.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Game/AppBehaviour.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.i: cmake_force
@@ -1214,7 +1166,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o.provid
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o: ../FissionEngine/Engine/Game/StateBehaviour.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.i: cmake_force
@@ -1238,7 +1190,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o.prov
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o: ../FissionEngine/Engine/Game/StateManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Game/StateManager.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.i: cmake_force
@@ -1260,9 +1212,81 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o.provid
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o.provides.build: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o
 
 
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o: ../FissionEngine/Engine/ScriptSystem/Script.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.cpp
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.i"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.cpp > CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.i
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.s"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.cpp -o CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.s
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o.requires:
+
+.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o.requires
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o.provides: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o.requires
+	$(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o.provides.build
+.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o.provides
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o.provides.build: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o
+
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o: ../FissionEngine/Engine/ScriptSystem/ScriptManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptManager.cpp
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.i"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptManager.cpp > CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.i
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.s"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptManager.cpp -o CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.s
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o.requires:
+
+.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o.requires
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o.provides: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o.requires
+	$(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o.provides.build
+.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o.provides
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o.provides.build: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o
+
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: ../FissionEngine/Engine/ScriptSystem/ScriptSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptSystem.cpp
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.i"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptSystem.cpp > CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.i
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.s"
+	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptSystem.cpp -o CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.s
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o.requires:
+
+.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o.requires
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o.provides: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o.requires
+	$(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o.provides.build
+.PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o.provides
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o.provides.build: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o
+
+
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: FissionEngine/CMakeFiles/FissionEngine.dir/flags.make
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o -c /home/stel/Game/Game/FissionEngine/Engine/Engine.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.i: cmake_force
@@ -1286,8 +1310,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o.provides.build: F
 
 # Object files for target FissionEngine
 FissionEngine_OBJECTS = \
-"CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o" \
-"CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o" \
 "CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.o" \
 "CMakeFiles/FissionEngine.dir/Engine/2D/picoPNG.cpp.o" \
 "CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.o" \
@@ -1336,13 +1358,14 @@ FissionEngine_OBJECTS = \
 "CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o" \
 "CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o" \
 "CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o" \
+"CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o" \
+"CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o" \
+"CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o" \
 "CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o"
 
 # External object files for target FissionEngine
 FissionEngine_EXTERNAL_OBJECTS =
 
-lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o
-lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o
 lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.o
 lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/picoPNG.cpp.o
 lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.o
@@ -1391,6 +1414,9 @@ lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Alloc
 lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o
 lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o
 lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o
+lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o
+lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o
+lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o
 lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o
 lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/build.make
 lib/libFissionEngine.so: /usr/lib/x86_64-linux-gnu/libSDL2main.a
@@ -1402,7 +1428,7 @@ lib/libFissionEngine.so: /usr/lib/x86_64-linux-gnu/libGLU.so
 lib/libFissionEngine.so: /usr/lib/x86_64-linux-gnu/libGL.so
 lib/libFissionEngine.so: /usr/lib/x86_64-linux-gnu/liblua5.3.so
 lib/libFissionEngine.so: FissionEngine/CMakeFiles/FissionEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking CXX shared library ../lib/libFissionEngine.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Linking CXX shared library ../lib/libFissionEngine.so"
 	cd /home/stel/Game/Game/cmake-build-debug/FissionEngine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FissionEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1410,8 +1436,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/build: lib/libFissionEngine.so
 
 .PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/build
 
-FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o.requires
-FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o.requires
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.o.requires
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/picoPNG.cpp.o.requires
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.o.requires
@@ -1460,6 +1484,9 @@ FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/Fi
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o.requires
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o.requires
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o.requires
+FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o.requires
+FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o.requires
+FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o.requires
 FissionEngine/CMakeFiles/FissionEngine.dir/requires: FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o.requires
 
 .PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/requires

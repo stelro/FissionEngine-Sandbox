@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o"
-  "CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/2D/picoPNG.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.o"
@@ -49,6 +47,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o"
+  "CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o"
+  "CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o"
+  "CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o"
   "../lib/libFissionEngine.pdb"
   "../lib/libFissionEngine.so"

@@ -15,193 +15,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="669bb110-72a7-4f52-81ec-1ba5efcfa944" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/Source/imgui_impl_sdl_gl3.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/Source/imgui_impl_sdl_gl3.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/allegro5_example/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/allegro5_example/imgui_impl_a5.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/allegro5_example/imgui_impl_a5.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/allegro5_example/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/AppDelegate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/AppDelegate.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/Base.lproj/LaunchScreen.xib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/Base.lproj/Main.storyboard" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/GameViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/GameViewController.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/Images.xcassets/AppIcon.appiconset/icon_imgui_60@2x~iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/Images.xcassets/AppIcon.appiconset/icon_imgui_60@3x~iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/Images.xcassets/AppIcon.appiconset/icon_imgui_76@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/Images.xcassets/AppIcon.appiconset/icon_imgui_76~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/Shaders/Shader.fsh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/Shaders/Shader.vsh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/debug_hud.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/debug_hud.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/imgui_ex_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/imgui_impl_ios.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/imgui_impl_ios.mm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-ios/main.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-osx/AppDelegate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-osx/AppDelegate.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-osx/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-osx/Assets.xcassets/AppIcon.appiconset/icon_imgui_180x180.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-osx/Assets.xcassets/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-osx/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex-osx/main.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/apple_example/imguiex.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx10_example/build_win32.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx10_example/directx10_example.vcxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx10_example/directx10_example.vcxproj.filters" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx10_example/imgui_impl_dx10.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx10_example/imgui_impl_dx10.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx10_example/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx11_example/build_win32.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx11_example/directx11_example.vcxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx11_example/directx11_example.vcxproj.filters" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx11_example/imgui_impl_dx11.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx11_example/imgui_impl_dx11.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx11_example/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx9_example/build_win32.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx9_example/directx9_example.vcxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx9_example/directx9_example.vcxproj.filters" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx9_example/imgui_impl_dx9.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx9_example/imgui_impl_dx9.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/directx9_example/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/imgui_examples_msvc2010.sln" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/libs/gl3w/GL/gl3w.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/libs/gl3w/GL/gl3w.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/libs/gl3w/GL/glcorearb.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/libs/glfw/COPYING.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/libs/glfw/include/GLFW/glfw3.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/libs/glfw/include/GLFW/glfw3native.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/libs/glfw/lib-vc2010-32/glfw3.lib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/libs/glfw/lib-vc2010-64/glfw3.lib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/libs/usynergy/uSynergy.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/libs/usynergy/uSynergy.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/marmalade_example/data/app.icf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/marmalade_example/imgui_impl_marmalade.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/marmalade_example/imgui_impl_marmalade.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/marmalade_example/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/marmalade_example/marmalade_example.mkb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/opengl2_example/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/opengl2_example/build_win32.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/opengl2_example/imgui_impl_glfw.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/opengl2_example/imgui_impl_glfw.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/opengl2_example/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/opengl2_example/opengl2_example.vcxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/opengl2_example/opengl2_example.vcxproj.filters" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/opengl3_example/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/opengl3_example/build_win32.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/opengl3_example/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/opengl3_example/opengl3_example.vcxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/opengl3_example/opengl3_example.vcxproj.filters" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/sdl_opengl2_example/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/sdl_opengl2_example/build_win32.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/sdl_opengl2_example/imgui_impl_sdl.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/sdl_opengl2_example/imgui_impl_sdl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/sdl_opengl2_example/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/sdl_opengl3_example/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/sdl_opengl3_example/build_win32.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/sdl_opengl3_example/imgui_impl_sdl_gl3.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/sdl_opengl3_example/imgui_impl_sdl_gl3.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/sdl_opengl3_example/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/vulkan_example/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/vulkan_example/build_win32.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/vulkan_example/build_win64.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/vulkan_example/gen_spv.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/vulkan_example/glsl_shader.frag" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/vulkan_example/glsl_shader.vert" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/vulkan_example/imgui_impl_glfw_vulkan.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/vulkan_example/imgui_impl_glfw_vulkan.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/examples/vulkan_example/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/extra_fonts/Cousine-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/extra_fonts/DroidSans.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/extra_fonts/Karla-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/extra_fonts/ProggyClean.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/extra_fonts/ProggyTiny.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/extra_fonts/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/extra_fonts/Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/extra_fonts/binary_to_compressed_c.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/imconfig.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/imgui.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/imgui.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/imgui_demo.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/imgui_draw.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/imgui_internal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/stb_rect_pack.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/stb_textedit.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FieneToolKit/imgui/stb_truetype.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/imgui_impl_sdl_gl3.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_demo.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/imgui/imgui_draw.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/FileSystem.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/fs/fs_utils.cpp.o" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FieneTestGame/maps/hello.lua" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/FieneTestGame" afterPath="$PROJECT_DIR$/FieneTestGame/FieneTestGame" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/FieneToolKit" afterPath="$PROJECT_DIR$/FieneToolKit/FieneToolKit" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FissionEngine" afterPath="$PROJECT_DIR$/FissionEngine" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/GamePlayState.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/GamePlayState.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/AssetsBrowser.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MainWindow.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/MapEditor.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/Source/main.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Camera2D.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Camera2D.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_draw.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_impl_sdl_gl3.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Sprite.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Sprite.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/BaseAllocator.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/BaseAllocator.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/ProxyAllocator.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/ProxyAllocator.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Matrix.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Matrix.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MatrixTransformations.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MatrixTransformations.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MathUtils.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/MathUtils.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Quaternion.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Quaternion.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libFissionEngine.so" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libFissionEngine.so" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/Source/App.cpp" afterPath="$PROJECT_DIR$/FieneTestGame/Source/App.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/Source/App.hpp" afterPath="$PROJECT_DIR$/FieneTestGame/Source/App.hpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.cpp" afterPath="$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.hpp" afterPath="$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.hpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.cpp" afterPath="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.hpp" afterPath="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/engine_error.log" afterPath="$PROJECT_DIR$/FieneTestGame/engine_error.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneTestGame/engine_log.log" afterPath="$PROJECT_DIR$/FieneTestGame/engine_log.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/CMakeLists.txt" afterPath="$PROJECT_DIR$/FieneToolKit/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/Source/AssetsBrowser.cpp" afterPath="$PROJECT_DIR$/FieneToolKit/Source/AssetsBrowser.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/Source/MainWindow.cpp" afterPath="$PROJECT_DIR$/FieneToolKit/Source/MainWindow.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/Source/MainWindow.hpp" afterPath="$PROJECT_DIR$/FieneToolKit/Source/MainWindow.hpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/Source/MapEditor.cpp" afterPath="$PROJECT_DIR$/FieneToolKit/Source/MapEditor.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/engine_log.log" afterPath="$PROJECT_DIR$/FieneToolKit/engine_log.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FieneToolKit/imgui.ini" afterPath="$PROJECT_DIR$/FieneToolKit/imgui.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/FieneTestGame.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/FieneTestGame.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneTestGame/FieneTestGame.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir/progress.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/FieneToolKit.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/FieneToolKit.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/FieneToolKit/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/DependInfo.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/build.make" />
@@ -210,10 +55,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/depend.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/link.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/FissionEngine.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/FissionEngine.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-release/lib/include/External/imgui/imgui_draw.cpp" afterPath="$PROJECT_DIR$/cmake-build-release/lib/include/External/imgui/imgui_draw.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/FissionEngine/CMakeFiles/" />
@@ -235,24 +80,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="imconfig.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imconfig.h">
+      <file leaf-file-name="MainMenuState.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="262">
+              <caret line="46" column="40" lean-forward="false" selection-start-line="45" selection-start-column="3" selection-end-line="46" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imgui_impl_sdl_gl3.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.cpp">
+      <file leaf-file-name="hello.lua" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FieneTestGame/maps/hello.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="270">
+              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScriptSystem.hpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-420">
+              <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
               <folding>
-                <element signature="e#572#590#0" expanded="true" />
+                <element signature="e#581#590#0" expanded="true" />
+                <element signature="e#2124#2136#0" expanded="true" />
+                <element signature="e#3691#3715#0" expanded="true" />
+                <element signature="e#3949#3961#0" expanded="true" />
+                <element signature="e#4153#4177#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Map.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Map/Map.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="58" column="52" lean-forward="false" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+              <folding>
+                <element signature="e#821#839#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScriptSystem.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/ScriptSystem.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="948">
+              <caret line="68" column="33" lean-forward="false" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map1.lua" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FieneTestGame/maps/map1.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -263,6 +164,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="GLSL Shader" />
+        <option value="Lua Script" />
       </list>
     </option>
   </component>
@@ -277,7 +179,6 @@
       <find>mIsVisible</find>
       <find>mTiles</find>
       <find>sol</find>
-      <find>load_file</find>
       <find>load_result</find>
       <find>CurrentWindowStack</find>
       <find>operator[]</find>
@@ -298,6 +199,7 @@
       <find>terminate()</find>
       <find>ImGui_ImplSdlGL3_RenderDrawLists</find>
       <find>RenderDrawListsFn</find>
+      <find>load_file</find>
     </findStrings>
     <replaceStrings>
       <replace>220</replace>
@@ -338,48 +240,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FieneToolKit/Source/MapDocument.hpp" />
-        <option value="$PROJECT_DIR$/FieneToolKit/Shaders/fragment.glsl" />
-        <option value="$PROJECT_DIR$/FieneToolKit/Shaders/vertex.glsl" />
-        <option value="$PROJECT_DIR$/FieneToolKit/Source/MapEditor.hpp" />
-        <option value="$PROJECT_DIR$/FieneToolKit/Source/AssetsBrowser.hpp" />
-        <option value="$PROJECT_DIR$/freeGame/src/main.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/2D/SpriteBatch.hpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/2D/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/fs/FileSystem.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/fs/FileSystem.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/fs/fs_utils.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceBase.h" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/fs/fs_utils.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/Texture.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/.gitignore" />
-        <option value="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.hpp" />
-        <option value="$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.cpp" />
-        <option value="$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.hpp" />
         <option value="$PROJECT_DIR$/FieneTestGame/Source/App.hpp" />
         <option value="$PROJECT_DIR$/FieneTestGame/Source/App.cpp" />
-        <option value="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/AppBehaviour.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/AppBehaviour.cpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/fs/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/FileSystem/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.cpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/DebugConsole.hpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/DebugConsole.cpp" />
         <option value="$PROJECT_DIR$/FieneToolKit/Source/MainWindow.hpp" />
         <option value="$PROJECT_DIR$/FieneToolKit/imgui/imgui_draw.cpp" />
         <option value="$PROJECT_DIR$/FieneToolKit/imgui/imconfig.h" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Core/Stack.inl" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.hpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Math/Quaternion.hpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Math/Matrix.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceBase.cpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Lua/lua_script_manager.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/External/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/FieneToolKit/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Lua/lua_script_manager.hpp" />
@@ -389,6 +262,35 @@
         <option value="$PROJECT_DIR$/FieneToolKit/Source/MapEditor.cpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imconfig.h" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/ScriptsManager.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/ScriptsManager.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/LuaState.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/LuaState.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/Script.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Allocators/PoolAllocator.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Allocators/PoolAllocator.cpp" />
+        <option value="$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceBase.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/AppBehaviour.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Allocators/BaseAllocator.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Math/MathUtils.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/CHAGNES.md" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/Script.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/AppBehaviour.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/Texture.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/ScriptManager.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/ScriptManager.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/ScriptSystem.cpp" />
+        <option value="$PROJECT_DIR$/FieneTestGame/maps/hello.lua" />
+        <option value="$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Map/Map.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp" />
       </list>
     </option>
   </component>
@@ -461,38 +363,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="freeGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="FissionEngine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -533,7 +403,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
+              <option name="myItemId" value="ScriptSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -547,245 +417,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FissionEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Math" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FissionEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Map" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FissionEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lua" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FissionEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GLSL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FissionEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FissionEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FileSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FissionEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FissionEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FissionEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Allocators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FissionEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2D" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FieneToolKit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FieneToolKit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Source" />
+              <option name="myItemId" value="FieneTestGame" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -796,7 +428,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.26641294" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="add_unversioned_files" value="true&#10;/home/stel/Game/Game/FissionEngine/.gitignore" />
@@ -822,7 +454,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FieneToolKit">
+  <component name="RunManager" selected="Application.FieneTestGame">
     <configuration default="true" type="#com.sylvanaar.idea.Lua.run.LuaConfigurationType" factoryName="Lua Script">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="" />
@@ -1293,12 +925,31 @@
       <workItem from="1496134454122" duration="532000" />
       <workItem from="1496158723062" duration="4891000" />
       <workItem from="1496173365348" duration="3523000" />
-      <workItem from="1496223550793" duration="675000" />
+      <workItem from="1496223550793" duration="2335000" />
+      <workItem from="1496231833163" duration="22000" />
+      <workItem from="1496231870767" duration="16000" />
+      <workItem from="1496231902912" duration="666000" />
+      <workItem from="1496233566710" duration="27000" />
+      <workItem from="1496233609603" duration="1419000" />
+      <workItem from="1496235049406" duration="35000" />
+      <workItem from="1496235098959" duration="9292000" />
+      <workItem from="1496267325961" duration="51000" />
+      <workItem from="1496278216246" duration="695000" />
+      <workItem from="1496279119115" duration="8953000" />
+      <workItem from="1496429536981" duration="130000" />
+      <workItem from="1496538393998" duration="4154000" />
+      <workItem from="1496542564656" duration="65000" />
+      <workItem from="1496542642954" duration="30000" />
+      <workItem from="1496542689811" duration="61000" />
+      <workItem from="1496542767462" duration="39000" />
+      <workItem from="1496542819555" duration="110000" />
+      <workItem from="1496542943593" duration="590000" />
+      <workItem from="1496570994752" duration="7113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="788403000" />
+    <option name="totallyTimeSpent" value="823531000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1311,7 +962,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1922" height="1058" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32765958" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24840085" sideWeight="0.49315068" order="6" side_tool="false" content_ui="tabs" />
@@ -1319,11 +969,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26170212" sideWeight="0.51492536" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26012793" sideWeight="0.48507464" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23560767" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16897655" sideWeight="0.4953765" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23454158" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20469083" sideWeight="0.4953765" order="0" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2712766" sideWeight="0.4914621" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2707889" sideWeight="0.4914621" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17662753" sideWeight="0.50462353" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329863" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329863" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1346,12 +996,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26170212" sideWeight="0.51492536" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26012793" sideWeight="0.48507464" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2744681" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191898" sideWeight="0.4953765" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23535676" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18017058" sideWeight="0.4953765" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2712766" sideWeight="0.4914621" order="2" side_tool="false" content_ui="tabs" />
@@ -1367,411 +1017,632 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="69" />
+      <option name="time" value="78" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/Stack.inl">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/LuaState.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-560">
-          <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
+        <state relative-caret-position="396">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/Stack.hpp">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="45" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+        <state relative-caret-position="162">
+          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.hpp">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/lua-sol/sol.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="46" column="60" lean-forward="false" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
+        <state relative-caret-position="284">
+          <caret line="12709" column="29" lean-forward="false" selection-start-line="12709" selection-start-column="20" selection-end-line="12709" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/fglobals.h">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/LuaState.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        <state relative-caret-position="576">
+          <caret line="32" column="72" lean-forward="false" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/Window.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3780">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/2D/Camera2D.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2928">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Allocators/BaseAllocator.hpp">
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/App.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Allocators/FreeListAllocator.cpp">
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/App.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-928">
-          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/2D/SpriteBatch.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="206" column="37" lean-forward="true" selection-start-line="206" selection-start-column="37" selection-end-line="206" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Game/AppBehaviour.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" column="32" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="24" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Game/AppBehaviour.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="75" column="50" lean-forward="true" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
-          <folding>
-            <element signature="e#900#921#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Allocators/PointerMath.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1060">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/Quaternion.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/Quaternion.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/def_vector.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="338" column="0" lean-forward="true" selection-start-line="338" selection-start-column="0" selection-end-line="340" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/def_vector.inl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3012">
-          <caret line="1262" column="18" lean-forward="true" selection-start-line="1262" selection-start-column="18" selection-end-line="1262" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/Matrix.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1442">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/Matrix.cpp">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/FileSystem/fs_utils.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="252">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/MatrixTransformations.cpp">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/FileSystem/FileSystem.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="74" column="34" lean-forward="true" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+        <state relative-caret-position="417">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.hpp">
+    <entry file="file:///usr/include/c++/6/new">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="316">
+          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/Script.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Utils/FDebug.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/fglobals.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="53" column="15" lean-forward="false" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Allocators/LinearAllocator.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceBase.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
+        <state relative-caret-position="462">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Allocators/PoolAllocator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/GamePlayState.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Game/AppBehaviour.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Allocators/PoolAllocator.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Allocators/BaseAllocator.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="876">
+          <caret line="116" column="18" lean-forward="false" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/MathUtils.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/MatrixTransformations.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/Vector.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/Matrix.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/MatrixTransformations.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/CHAGNES.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="468">
+            <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/def_vector.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/2D/Camera2D.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Math/MathUtils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/Texture.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Game/AppBehaviour.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="127" column="8" lean-forward="true" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/6/bits/unordered_map.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="850" column="0" lean-forward="false" selection-start-line="850" selection-start-column="0" selection-end-line="850" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/6/bits/hashtable_policy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="982" column="0" lean-forward="false" selection-start-line="982" selection-start-column="0" selection-end-line="982" selection-end-column="0" />
           <folding>
-            <element signature="e#821#846#0" expanded="false" />
+            <marker date="1491567716000" expanded="true" signature="1412:63988" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="1450:1644" ph="&lt;_Key,_Value,_Alloc,_ExtractKey,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="1719:63964" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="1891:2040" ph="&lt;_Key,_Value,_ExtractKey,_Equal,_H1,_H2,_Hash,_Traits&gt;" />
+            <marker date="1491567716000" expanded="false" signature="2177:2202" ph="&lt;_Iterator&gt;" />
+            <marker date="1491567716000" expanded="false" signature="2377:2402" ph="&lt;_Iterator&gt;" />
+            <marker date="1491567716000" expanded="false" signature="2608:2633" ph="&lt;_Iterator&gt;" />
+            <marker date="1491567716000" expanded="true" signature="2762:2902" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="2976:3016" ph="&lt;_Key,_Hash&gt;" />
+            <marker date="1491567716000" expanded="true" signature="3069:3130" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="3162:3281" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="3168:3190" ph="&lt;_Tp&gt;" />
+            <marker date="1491567716000" expanded="true" signature="3306:3492" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="3312:3334" ph="&lt;_Tp&gt;" />
+            <marker date="1491567716000" expanded="false" signature="3497:3526" ph="&lt;_NodeAlloc&gt;" />
+            <marker date="1491567716000" expanded="false" signature="3648:3677" ph="&lt;_NodeAlloc&gt;" />
+            <marker date="1491567716000" expanded="true" signature="3711:5211" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="4417:4440" ph="&lt;_Arg&gt;" />
+            <marker date="1491567716000" expanded="true" signature="4488:5123" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="5304:5333" ph="&lt;_NodeAlloc&gt;" />
+            <marker date="1491567716000" expanded="true" signature="5360:5764" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="5582:5605" ph="&lt;_Arg&gt;" />
+            <marker date="1491567716000" expanded="false" signature="6764:6840" ph="&lt;bool _Cache_hash_code,bool _Constant_iterators,bool _Unique_keys&gt;" />
+            <marker date="1491567716000" expanded="true" signature="6874:7076" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="7396:7553" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="7651:7676" ph="&lt;_Value&gt;" />
+            <marker date="1491567716000" expanded="true" signature="7732:8147" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="8206:8254" ph="&lt;_Value,bool _Cache_hash_code&gt;" />
+            <marker date="1491567716000" expanded="false" signature="8414:8439" ph="&lt;_Value&gt;" />
+            <marker date="1491567716000" expanded="true" signature="8512:8659" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="8800:8825" ph="&lt;_Value&gt;" />
+            <marker date="1491567716000" expanded="true" signature="8899:9012" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="9054:9102" ph="&lt;_Value,bool _Cache_hash_code&gt;" />
+            <marker date="1491567716000" expanded="true" signature="9138:9391" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="9396:9444" ph="&lt;_Value,bool _Cache_hash_code&gt;" />
+            <marker date="1491567716000" expanded="false" signature="9658:9706" ph="&lt;_Value,bool _Cache_hash_code&gt;" />
+            <marker date="1491567716000" expanded="false" signature="9984:10050" ph="&lt;_Value,bool __constant_iterators,bool __cache&gt;" />
+            <marker date="1491567716000" expanded="true" signature="10131:11223" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="10479:10531" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="10589:10643" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="11043:11085" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="11145:11217" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="11299:11365" ph="&lt;_Value,bool __constant_iterators,bool __cache&gt;" />
+            <marker date="1491567716000" expanded="true" signature="11452:12582" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="12048:12093" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="12390:12432" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="12498:12576" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="12843:13116" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="13643:14901" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="15797:16046" ph="&lt;_Key,_Value,_Alloc,_ExtractKey,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits,bool _Unique_keys=_Traits::__unique_keys::value&gt;" />
+            <marker date="1491567716000" expanded="false" signature="16134:16301" ph="&lt;_Key,_Pair,_Alloc,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="16322:16418" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="16423:16501" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="16563:16730" ph="&lt;_Key,_Pair,_Alloc,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="16751:16846" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="16851:17815" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="16922:17005" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="17044:17144" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="false" signature="17820:17987" ph="&lt;_Key,_Pair,_Alloc,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="18010:18105" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="18168:18654" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="18658:18825" ph="&lt;_Key,_Pair,_Alloc,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="18848:18943" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="19001:19492" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="19496:19663" ph="&lt;_Key,_Pair,_Alloc,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="19686:19781" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="19836:20168" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="20172:20339" ph="&lt;_Key,_Pair,_Alloc,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="20362:20457" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="20524:20868" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="20994:21188" ph="&lt;_Key,_Value,_Alloc,_ExtractKey,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="21217:23191" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="21270:21372" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="21421:21506" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="false" signature="22227:22282" ph="&lt;_InputIterator,_NodeGetter&gt;" />
+            <marker date="1491567716000" expanded="true" signature="22453:22597" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="22679:22832" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="22947:22980" ph="&lt;_InputIterator&gt;" />
+            <marker date="1491567716000" expanded="true" signature="23043:23185" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="23196:23390" ph="&lt;_Key,_Value,_Alloc,_ExtractKey,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="false" signature="23395:23450" ph="&lt;_InputIterator,_NodeGetter&gt;" />
+            <marker date="1491567716000" expanded="true" signature="23480:23570" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="23687:24375" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="24513:24831" ph="&lt;_Key,_Value,_Alloc,_ExtractKey,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits,bool _Constant_iterators=_Traits::__constant_iterators::value,bool _Unique_keys=_Traits::__unique_keys::value&gt;" />
+            <marker date="1491567716000" expanded="false" signature="24877:25071" ph="&lt;_Key,_Value,_Alloc,_ExtractKey,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="25090:25191" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="25217:25307" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="25312:26351" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="25352:25446" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="25930:26091" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="26168:26345" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="26378:26572" ph="&lt;_Key,_Value,_Alloc,_ExtractKey,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="26591:26693" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="26719:26809" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="26814:27836" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="26854:26948" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="27415:27576" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="27653:27830" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="27863:28076" ph="&lt;_Key,_Value,_Alloc,_ExtractKey,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits,bool _Unique_keys&gt;" />
+            <marker date="1491567716000" expanded="true" signature="28095:28205" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="28231:28321" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="28326:29631" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="28366:28472" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="false" signature="28891:28915" ph="&lt;_Pair&gt;" />
+            <marker date="1491567716000" expanded="false" signature="28986:29010" ph="&lt;_Pair&gt;" />
+            <marker date="1491567716000" expanded="false" signature="29076:29100" ph="&lt;_Pair&gt;" />
+            <marker date="1491567716000" expanded="false" signature="29157:29209" ph="&lt;_Pair,=_IFconsp&lt;_Pair&gt;&gt;" />
+            <marker date="1491567716000" expanded="true" signature="29248:29373" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="29381:29433" ph="&lt;_Pair,=_IFconsp&lt;_Pair&gt;&gt;" />
+            <marker date="1491567716000" expanded="true" signature="29489:29626" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="29812:30006" ph="&lt;_Key,_Value,_Alloc,_ExtractKey,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="false" signature="30057:30223" ph="&lt;_Key,_Value,_Alloc,_ExtractKey,_Equal,_H1,_H2,_Hash,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="30247:30341" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="30346:31032" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="30384:30493" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="30553:30683" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="30735:30853" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="30903:31026" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="31235:31324" ph="&lt;int _Nm,_Tp,bool __use_ebo=!__is_final(_Tp)&amp;&amp;__is_empty(_Tp)&gt;" />
+            <marker date="1491567716000" expanded="false" signature="31394:31425" ph="&lt;int _Nm,_Tp&gt;" />
+            <marker date="1491567716000" expanded="true" signature="31497:31897" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="31547:31574" ph="&lt;_OtherTp&gt;" />
+            <marker date="1491567716000" expanded="false" signature="31938:31969" ph="&lt;int _Nm,_Tp&gt;" />
+            <marker date="1491567716000" expanded="true" signature="32024:32425" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="32074:32101" ph="&lt;_OtherTp&gt;" />
+            <marker date="1491567716000" expanded="false" signature="32599:32737" ph="&lt;_Key,_Value,_ExtractKey,_H1,_H2,_Hash,bool __cache_hash_code&gt;" />
+            <marker date="1491567716000" expanded="false" signature="33794:33932" ph="&lt;_Key,_Value,_ExtractKey,_H1,_H2,_Hash,bool __cache_hash_code&gt;" />
+            <marker date="1491567716000" expanded="false" signature="34109:34219" ph="&lt;_Key,_Value,_ExtractKey,_H1,_H2,_Hash&gt;" />
+            <marker date="1491567716000" expanded="true" signature="34401:36089" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="35634:35739" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="36400:36510" ph="&lt;_Key,_Value,_ExtractKey,_H1,_H2,_Hash&gt;" />
+            <marker date="1491567716000" expanded="false" signature="36744:36838" ph="&lt;_Key,_Value,_ExtractKey,_H1,_H2&gt;" />
+            <marker date="1491567716000" expanded="true" signature="36865:36937" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="37084:39357" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="37397:37469" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="38775:38896" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="39537:39631" ph="&lt;_Key,_Value,_ExtractKey,_H1,_H2&gt;" />
+            <marker date="1491567716000" expanded="true" signature="39658:39729" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="39876:42116" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="39999:40070" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="41534:41655" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="42182:42320" ph="&lt;_Key,_Value,_ExtractKey,_Equal,_HashCodeType,bool __cache_hash_code&gt;" />
+            <marker date="1491567716000" expanded="false" signature="42370:42477" ph="&lt;_Key,_Value,_ExtractKey,_Equal,_HashCodeType&gt;" />
+            <marker date="1491567716000" expanded="true" signature="42559:42796" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="42823:42930" ph="&lt;_Key,_Value,_ExtractKey,_Equal,_HashCodeType&gt;" />
+            <marker date="1491567716000" expanded="true" signature="43013:43219" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="43298:43408" ph="&lt;_Key,_Value,_ExtractKey,_H1,_H2,_Hash&gt;" />
+            <marker date="1491567716000" expanded="true" signature="43440:43494" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="43543:44565" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="43663:43725" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="44050:44272" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="44809:44874" ph="&lt;_Tp,bool _IsEmpty=std::is_empty&lt;_Tp&gt;::value&gt;" />
+            <marker date="1491567716000" expanded="true" signature="44909:45093" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="45165:45187" ph="&lt;_Tp&gt;" />
+            <marker date="1491567716000" expanded="true" signature="45233:45599" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="45604:45714" ph="&lt;_Key,_Value,_ExtractKey,_H1,_H2,_Hash&gt;" />
+            <marker date="1491567716000" expanded="true" signature="45778:45854" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="45794:45854" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="false" signature="45923:46033" ph="&lt;_Key,_Value,_ExtractKey,_H1,_H2,_Hash&gt;" />
+            <marker date="1491567716000" expanded="true" signature="46065:46120" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="46202:48013" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="46265:46328" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="46666:46720" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="46899:46964" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="47052:47276" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="47311:47520" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="48018:48142" ph="&lt;_Key,_Value,_ExtractKey,_H1,_H2,_Hash,bool __cache&gt;" />
+            <marker date="1491567716000" expanded="true" signature="48200:48260" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="48301:48361" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="false" signature="48418:48542" ph="&lt;_Key,_Value,_ExtractKey,_H1,_H2,_Hash,bool __cache&gt;" />
+            <marker date="1491567716000" expanded="true" signature="48600:48660" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="48701:48761" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="false" signature="48840:48995" ph="&lt;_Key,_Value,_ExtractKey,_H1,_H2,_Hash,bool __constant_iterators,bool __cache&gt;" />
+            <marker date="1491567716000" expanded="true" signature="49056:49115" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="49120:50347" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="49181:49246" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="49407:49458" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="49526:49577" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="50174:50216" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="50268:50341" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="50380:50535" ph="&lt;_Key,_Value,_ExtractKey,_H1,_H2,_Hash,bool __constant_iterators,bool __cache&gt;" />
+            <marker date="1491567716000" expanded="true" signature="50602:50661" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="50666:51950" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="50727:50792" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="51410:51509" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="51765:51807" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="51865:51944" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="52219:52368" ph="&lt;_Key,_Value,_ExtractKey,_Equal,_H1,_H2,_Hash,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="52420:52501" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="52550:54938" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="53038:53124" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="53301:53386" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="53446:53527" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="53582:53712" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="53779:53906" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="53961:54042" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="54156:54231" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="54566:54664" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="54713:54797" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="55067:55198" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="55086:55115" ph="&lt;_Uiterator&gt;" />
+            <marker date="1491567716000" expanded="false" signature="55242:55271" ph="&lt;_Uiterator&gt;" />
+            <marker date="1491567716000" expanded="true" signature="55398:56238" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="56513:56762" ph="&lt;_Key,_Value,_Alloc,_ExtractKey,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits,bool _Unique_keys=_Traits::__unique_keys::value&gt;" />
+            <marker date="1491567716000" expanded="false" signature="56810:57004" ph="&lt;_Key,_Value,_Alloc,_ExtractKey,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="57025:57122" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="57127:57319" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="57165:57258" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="false" signature="57324:57518" ph="&lt;_Key,_Value,_Alloc,_ExtractKey,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="57541:57638" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="57692:58068" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="58094:58288" ph="&lt;_Key,_Value,_Alloc,_ExtractKey,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="58309:58407" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="58440:58632" ph="{...}" />
+            <marker date="1491567716000" expanded="true" signature="58478:58571" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="false" signature="58637:58831" ph="&lt;_Key,_Value,_Alloc,_ExtractKey,_Equal,_H1,_H2,_Hash,_RehashPolicy,_Traits&gt;" />
+            <marker date="1491567716000" expanded="true" signature="58854:58952" ph="&lt;~&gt;" />
+            <marker date="1491567716000" expanded="true" signature="59006:59638" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="59787:59816" ph="&lt;_NodeAlloc&gt;" />
+            <marker date="1491567716000" expanded="true" signature="59896:61622" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="60885:60910" ph="&lt;_Alloc&gt;" />
+            <marker date="1491567716000" expanded="false" signature="61221:61248" ph="&lt;..._Args&gt;" />
+            <marker date="1491567716000" expanded="false" signature="61716:61745" ph="&lt;_NodeAlloc&gt;" />
+            <marker date="1491567716000" expanded="false" signature="61750:61777" ph="&lt;..._Args&gt;" />
+            <marker date="1491567716000" expanded="true" signature="61914:62387" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="62391:62420" ph="&lt;_NodeAlloc&gt;" />
+            <marker date="1491567716000" expanded="true" signature="62505:62842" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="62846:62875" ph="&lt;_NodeAlloc&gt;" />
+            <marker date="1491567716000" expanded="true" signature="62961:63076" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="63080:63109" ph="&lt;_NodeAlloc&gt;" />
+            <marker date="1491567716000" expanded="true" signature="63243:63505" ph="{...}" />
+            <marker date="1491567716000" expanded="false" signature="63509:63538" ph="&lt;_NodeAlloc&gt;" />
+            <marker date="1491567716000" expanded="true" signature="63655:63907" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.cpp">
+    <entry file="file:///usr/include/c++/6/bits/basic_string.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274">
-          <caret line="16" column="73" lean-forward="false" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        <state relative-caret-position="219">
+          <caret line="5658" column="0" lean-forward="false" selection-start-line="5658" selection-start-column="0" selection-end-line="5658" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/ScriptManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#68#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/Script.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="129" column="33" lean-forward="true" selection-start-line="129" selection-start-column="33" selection-end-line="129" selection-end-column="33" />
-          <folding>
-            <element signature="e#39#69#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Game/StateManager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="396">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/GLSL/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/TexturesManager.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="263">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/GLSL/ShaderProgram.hpp">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/ResourceManager.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="514">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/freeGame/maps/map1.lua">
+    <entry file="file:///usr/include/c++/6/bits/hashtable.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="1295" column="0" lean-forward="false" selection-start-line="1295" selection-start-column="0" selection-end-line="1295" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/GLSL/ShaderProgram.cpp">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/ScriptManager.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="606">
+          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/FileSystem/fs_utils.cpp">
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/maps/map1.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/FileSystem/FileSystem.cpp">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/ScriptSystem.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1112">
-          <caret line="70" column="54" lean-forward="false" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+        <state relative-caret-position="948">
+          <caret line="68" column="33" lean-forward="false" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Game/StateManager.hpp">
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/Source/MainMenuState.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="262">
+          <caret line="46" column="40" lean-forward="false" selection-start-line="45" selection-start-column="3" selection-end-line="46" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Resources/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/FieneTestGame/maps/hello.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="270">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FissionEngine/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="194">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Map/Map.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Lua/lua_script_manager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Lua/lua_script_manager.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Lua/lua_script_system.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="408">
+          <caret line="58" column="52" lean-forward="false" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
           <folding>
-            <element signature="e#803#822#0" expanded="false" />
+            <element signature="e#821#839#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Lua/lua_script_system.hpp">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/AssetsBrowser.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/AssetsBrowser.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MainWindow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="55" lean-forward="false" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        <state relative-caret-position="-420">
+          <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
           <folding>
-            <element signature="e#683#723#0" expanded="true" />
+            <element signature="e#581#590#0" expanded="true" />
+            <element signature="e#2124#2136#0" expanded="true" />
+            <element signature="e#3691#3715#0" expanded="true" />
+            <element signature="e#3949#3961#0" expanded="true" />
+            <element signature="e#4153#4177#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="e#572#590#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MainWindow.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MapDocument.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MapDocument.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MapEditor.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieneToolKit/Source/MapEditor.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imconfig.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>

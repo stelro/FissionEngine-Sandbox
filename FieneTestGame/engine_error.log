@@ -18,4 +18,5 @@ Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManage
 Shaders failed to link!Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
 (null)
 Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
-Shaders failed to link!
+Shaders failed to link!Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+SDL_GLContext could not be created Could not create GL context: BadValue (integer parameter out of range for operation)

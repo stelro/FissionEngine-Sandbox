@@ -222,6 +222,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../Fi
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Resources/ResourceManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Resources/Texture.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Resources/TexturesManager.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/ScriptSystem/ScriptManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Utils/Utils.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Game/AppBehaviour.cpp
@@ -241,23 +242,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o: ../Fi
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o: ../FissionEngine/Engine/Game/StateBehaviour.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o: ../FissionEngine/Engine/Game/StateManager.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o: ../FissionEngine/Engine/Game/StateManager.hpp
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: ../FissionEngine/Engine/External/lua-sol/sol.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: ../FissionEngine/Engine/Lua/lua_script_manager.cpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: ../FissionEngine/Engine/Lua/lua_script_manager.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: /usr/include/lua5.3/lauxlib.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: /usr/include/lua5.3/lua.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: /usr/include/lua5.3/luaconf.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o: /usr/include/lua5.3/lualib.h
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o: ../FissionEngine/Engine/External/lua-sol/sol.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o: ../FissionEngine/Engine/Lua/lua_script_manager.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o: ../FissionEngine/Engine/Lua/lua_script_system.cpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o: ../FissionEngine/Engine/Lua/lua_script_system.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o: /usr/include/lua5.3/lauxlib.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o: /usr/include/lua5.3/lua.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o: /usr/include/lua5.3/luaconf.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o: /usr/include/lua5.3/lualib.h
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/CollisionLayer.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/CollisionLayer.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
@@ -281,8 +265,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Layer.cpp.o: ../FissionEng
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/2D/picoPNG.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/Core/IOManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/External/lua-sol/sol.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/Lua/lua_script_system.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
@@ -297,10 +279,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngin
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/Map/ObjectLayer.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/Map/TileSet.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: ../FissionEngine/Engine/Map/TilesetLayer.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: /usr/include/lua5.3/lauxlib.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: /usr/include/lua5.3/lua.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: /usr/include/lua5.3/luaconf.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Map.cpp.o: /usr/include/lua5.3/lualib.h
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/MapRenderer.cpp.o: ../FissionEngine/Engine/Map/MapRenderer.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/MapRenderer.cpp.o: ../FissionEngine/Engine/Map/MapRenderer.hpp
@@ -432,6 +410,39 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Resources/Texture.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Resources/TexturesManager.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o: ../FissionEngine/Engine/Resources/TexturesManager.hpp
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o: ../FissionEngine/Engine/FileSystem/FileSystem.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o: ../FissionEngine/Engine/Resources/ResourceBase.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o: ../FissionEngine/Engine/ScriptSystem/Script.cpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o: ../FissionEngine/Engine/ScriptSystem/Script.hpp
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o: ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o: ../FissionEngine/Engine/Allocators/PointerMath.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o: ../FissionEngine/Engine/Allocators/PoolAllocator.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o: ../FissionEngine/Engine/Resources/ResourceBase.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o: ../FissionEngine/Engine/Resources/ResourceManager.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o: ../FissionEngine/Engine/ScriptSystem/Script.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o: ../FissionEngine/Engine/ScriptSystem/ScriptManager.cpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o: ../FissionEngine/Engine/ScriptSystem/ScriptManager.hpp
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: ../FissionEngine/Engine/External/lua-sol/sol.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: ../FissionEngine/Engine/Resources/ResourceBase.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: ../FissionEngine/Engine/Resources/ResourceManager.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: ../FissionEngine/Engine/ScriptSystem/Script.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: ../FissionEngine/Engine/ScriptSystem/ScriptManager.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: ../FissionEngine/Engine/ScriptSystem/ScriptSystem.cpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: ../FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: /usr/include/lua5.3/lauxlib.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: /usr/include/lua5.3/lua.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: /usr/include/lua5.3/luaconf.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: /usr/include/lua5.3/lualib.h
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.o: ../FissionEngine/Engine/Utils/FDebug.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp

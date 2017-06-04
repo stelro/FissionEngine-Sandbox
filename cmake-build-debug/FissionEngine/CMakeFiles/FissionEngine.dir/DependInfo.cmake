@@ -33,8 +33,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/stel/Game/Game/FissionEngine/Engine/Game/AppBehaviour.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Game/StateManager.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o"
-  "/home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_manager.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_manager.cpp.o"
-  "/home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_system.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Lua/lua_script_system.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Map/CollisionLayer.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/CollisionLayer.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Map/IsometricRenderer.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/IsometricRenderer.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Map/Layer.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map/Layer.cpp.o"
@@ -53,6 +51,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/stel/Game/Game/FissionEngine/Engine/Resources/ResourceBase.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceBase.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Resources/ResourceManager.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Resources/TexturesManager.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o"
+  "/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o"
+  "/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptManager.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o"
+  "/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptSystem.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Utils/FDebug.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Utils/Utils.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.o"
   )

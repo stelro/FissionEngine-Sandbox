@@ -2,6 +2,9 @@
 #include <Engine/Core/Window.hpp>
 #include "StateIndecies.hpp"
 #include <Engine/Resources/Texture.hpp>
+#include <Engine/FileSystem/FileSystem.hpp>
+#include <Engine/ScriptSystem/ScriptManager.hpp>
+#include <Engine/ScriptSystem/ScriptSystem.hpp>
 
 MainMenuState::MainMenuState(Fiene::Window *window)
         : StateBehaviour(window)
@@ -30,13 +33,27 @@ void MainMenuState::onInit()
 
     m_TexturesManager = Fiene::TexturesManager::getInstance();
     m_TexturesManager->load("Textures/castle.png");
+    Fiene::infoLog("txt mng size: %d", m_TexturesManager->size());
+
+
+    Fiene::ScriptManager *scriptManager = Fiene::ScriptManager::getInstance();
+    scriptManager->load("maps/hello.lua");
+
+    Fiene::ScriptSystem scriptSystem;
+    scriptSystem.executeAndRun(scriptManager->getScriptSrc("maps/hello.lua"));
+
+
+    auto func = scriptSystem.getFunction<int,int,int>("add");
+    std::cout << func(4,5) << std::endl;
+
+
 
 
 }
 
 void MainMenuState::onExit()
 {
-    m_TexturesManager->unload("castle.png");
+   // m_TexturesManager->unload("Textures/castle.png");
 }
 
 
@@ -54,7 +71,7 @@ void MainMenuState::render()
 {
     m_ShaderProgram.use();
 
-    GLuint castleTexture = m_TexturesManager->getTextureID("castle.png");
+    GLuint castleTexture = m_TexturesManager->getTextureID("Textures/castle.png");
 
     Fiene::Vec4 castel_destRect(100,0,300,300);
     Fiene::Vec4 castel_uvRect(0.0f, 0.0f, 1.0f, 1.0f);

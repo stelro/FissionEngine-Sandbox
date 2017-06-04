@@ -67,6 +67,8 @@ FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o
  ../FissionEngine/Engine/Core/InputManager.hpp
  ../FissionEngine/Engine/Core/Window.hpp
  ../FissionEngine/Engine/Core/fglobals.h
+ ../FissionEngine/Engine/External/lua-sol/sol.hpp
+ ../FissionEngine/Engine/FileSystem/FileSystem.hpp
  ../FissionEngine/Engine/GLSL/ShaderProgram.hpp
  ../FissionEngine/Engine/Game/StateBehaviour.hpp
  ../FissionEngine/Engine/Math/Matrix.hpp
@@ -78,6 +80,9 @@ FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o
  ../FissionEngine/Engine/Resources/ResourceManager.hpp
  ../FissionEngine/Engine/Resources/Texture.hpp
  ../FissionEngine/Engine/Resources/TexturesManager.hpp
+ ../FissionEngine/Engine/ScriptSystem/Script.hpp
+ ../FissionEngine/Engine/ScriptSystem/ScriptManager.hpp
+ ../FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp
  ../FissionEngine/Engine/Utils/FDebug.hpp
  ../FissionEngine/Engine/Utils/Utils.hpp
  /home/stel/Game/Game/FieneTestGame/Source/MainMenuState.cpp

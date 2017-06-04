@@ -66,6 +66,8 @@ FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../Fissio
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Core/InputManager.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Core/Window.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
+FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/External/lua-sol/sol.hpp
+FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/FileSystem/FileSystem.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/GLSL/ShaderProgram.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Game/StateBehaviour.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Math/Matrix.hpp
@@ -77,6 +79,9 @@ FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../Fissio
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Resources/ResourceManager.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Resources/Texture.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Resources/TexturesManager.hpp
+FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/ScriptSystem/Script.hpp
+FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/ScriptSystem/ScriptManager.hpp
+FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FissionEngine/Engine/Utils/Utils.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o: ../FieneTestGame/Source/MainMenuState.cpp
