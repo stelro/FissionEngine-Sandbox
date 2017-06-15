@@ -6,8 +6,6 @@
 -- To change this template use File | Settings | File Templates.
 --
 
-print("Hello form new lua script");
-
 function add(a, b)
     return a * b;
 end
@@ -15,3 +13,4 @@ end
 function print()
     return "Hello Orestis";
 end
+

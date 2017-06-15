@@ -133,6 +133,8 @@ memory
 -
 functional
 -
+iterator
+-
 lua.h
 -
 lualib.h
@@ -177,13 +179,13 @@ vector
 -
 cctype
 -
+locale
+-
 atomic
 -
 utility
 -
 codecvt
--
-locale
 -
 cstring
 -
@@ -192,8 +194,6 @@ cstdint
 algorithm
 -
 limits
--
-iterator
 -
 unordered_map
 -

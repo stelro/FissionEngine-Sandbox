@@ -50,6 +50,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o"
+  "CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o"
   "../lib/libFissionEngine.pdb"
   "../lib/libFissionEngine.so"

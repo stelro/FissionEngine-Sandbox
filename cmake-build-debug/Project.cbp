@@ -565,6 +565,12 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/FDebug.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>

@@ -440,6 +440,32 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.
  /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptManager.hpp
  /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptSystem.cpp
  /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp
+ /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.hpp
+ /usr/include/lua5.3/lauxlib.h
+ /usr/include/lua5.3/lua.h
+ /usr/include/lua5.3/luaconf.h
+ /usr/include/lua5.3/lualib.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o
+ ../FissionEngine/Engine/Core/FpsLimiter.hpp
+ ../FissionEngine/Engine/Core/Stack.hpp
+ ../FissionEngine/Engine/Core/Stack.inl
+ ../FissionEngine/Engine/Core/Window.hpp
+ ../FissionEngine/Engine/Core/fglobals.h
+ ../FissionEngine/Engine/Engine.hpp
+ ../FissionEngine/Engine/External/lua-sol/sol.hpp
+ ../FissionEngine/Engine/Game/AppBehaviour.hpp
+ ../FissionEngine/Engine/Game/StateBehaviour.hpp
+ ../FissionEngine/Engine/Game/StateManager.hpp
+ ../FissionEngine/Engine/Math/Vector.hpp
+ ../FissionEngine/Engine/Math/def_vector.hpp
+ ../FissionEngine/Engine/Math/def_vector.inl
+ ../FissionEngine/Engine/Resources/ResourceBase.h
+ ../FissionEngine/Engine/ScriptSystem/Script.hpp
+ ../FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp
+ ../FissionEngine/Engine/Utils/FDebug.hpp
+ ../FissionEngine/Engine/Utils/Utils.hpp
+ /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp
+ /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.hpp
  /usr/include/lua5.3/lauxlib.h
  /usr/include/lua5.3/lua.h
  /usr/include/lua5.3/luaconf.h

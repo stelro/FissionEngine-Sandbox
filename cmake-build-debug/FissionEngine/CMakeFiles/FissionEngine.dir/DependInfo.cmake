@@ -54,6 +54,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptManager.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptSystem.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o"
+  "/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Utils/FDebug.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Utils/Utils.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.o"
   )

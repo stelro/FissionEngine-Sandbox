@@ -184,12 +184,12 @@ namespace Editor {
 
             ImGui::Text("Map Settings:");
             ImGui::InputText("Map Name", strName, sizeof(strName));
-            ImGui::Text(" Width: ");
+            ImGui::Text("Tiles:");
             ImGui::SameLine();
-            ImGui::InputInt("Tiles", &map_width_tiles);
-            //ImGui::Text("Height: ");
-            //ImGui::SameLine();
-            //ImGui::InputInt("Tiles", &map_height_tiles);
+            ImGui::InputInt("Width", &map_width_tiles);
+            ImGui::Text("Tiles:");
+            ImGui::SameLine();
+            ImGui::InputInt("Height", &map_height_tiles);
             ImGui::Separator();
             ImGui::Text("Tiles Settings:");
             ImGui::InputInt("Tile Width", &tile_width);
@@ -218,8 +218,8 @@ namespace Editor {
                 Fiene::Map* map = new Fiene::Map();
 
                 map->create(strName,
-                            map_width,
-                            map_height,
+                            map_width_tiles,
+                            map_height_tiles,
                             tile_width,
                             tile_height,
                             orientation_enum,
@@ -234,7 +234,6 @@ namespace Editor {
 
                 ImGui::CloseCurrentPopup();
                 m_CreateNewLevel_Signal = false;
-
 
             }
 

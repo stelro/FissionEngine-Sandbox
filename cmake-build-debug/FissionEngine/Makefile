@@ -1478,6 +1478,33 @@ Engine/ScriptSystem/ScriptSystem.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.s
 .PHONY : Engine/ScriptSystem/ScriptSystem.cpp.s
 
+Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.o: Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o
+
+.PHONY : Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.o
+
+# target to build an object file
+Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o
+.PHONY : Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o
+
+Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.i: Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.i
+
+.PHONY : Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.i
+
+# target to preprocess a source file
+Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.i
+.PHONY : Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.i
+
+Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.s: Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.s
+
+.PHONY : Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.s
+
+# target to generate assembly for a file
+Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.s
+.PHONY : Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.s
+
 Engine/Utils/FDebug.o: Engine/Utils/FDebug.cpp.o
 
 .PHONY : Engine/Utils/FDebug.o
@@ -1691,6 +1718,9 @@ help:
 	@echo "... Engine/ScriptSystem/ScriptSystem.o"
 	@echo "... Engine/ScriptSystem/ScriptSystem.i"
 	@echo "... Engine/ScriptSystem/ScriptSystem.s"
+	@echo "... Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.o"
+	@echo "... Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.i"
+	@echo "... Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.s"
 	@echo "... Engine/Utils/FDebug.o"
 	@echo "... Engine/Utils/FDebug.i"
 	@echo "... Engine/Utils/FDebug.s"

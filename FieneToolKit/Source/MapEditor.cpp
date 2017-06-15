@@ -114,14 +114,10 @@ namespace Editor {
     {
         ImDrawList *draw_list = ImGui::GetWindowDrawList();
 
-        static float sz = 64.0f;
-        static ImVec4 col = ImVec4(1.0f,1.0f,0.4f,1.0f);
-        const ImVec2 p = ImGui::GetCursorScreenPos();
-        const ImU32 col32 = ImColor(224,224,224,200);
-        float x = p.x, y = p.y;
-        float thickness = 1.0f;
 
-        const ImVec2 snd = ImGui::GetWindowSize();
+        const ImVec2 p = ImGui::GetCursorScreenPos();
+        const ImU32 col32 = ImColor(224,224,224,100);
+        float x = p.x, y = p.y;
 
         const int tile_width = m_MapDocument->getMap()->getTileWidth();
         const int tile_height = m_MapDocument->getMap()->getTileHeight();
@@ -129,19 +125,26 @@ namespace Editor {
         const int map_width = m_MapDocument->getMap()->getMapWidth();
         const int map_height = m_MapDocument->getMap()->getMapHeight();
 
-        int startX = std::max(0,(int)(p.x / tile_width) * tile_width);
-        int startY = std::max(0,(int)(p.y / tile_height) * tile_height);
 
-        int endX = std::min((int)std::ceil(snd.x), (map_width * tile_width + 1));
-        int endY = std::min((int)std::ceil(snd.y), (map_height * tile_height + 1));
+        ImVec2 win_size = ImGui::GetWindowSize();
+        int a = static_cast<int>((win_size.x / 2) -((tile_width * map_width) / 2 ) );
+        int b = static_cast<int>((win_size.y / 2) - ((tile_height * map_height) / 2) );
 
-        for (int i = startX; i < endX; i += tile_width) {
-            draw_list->AddLine(ImVec2(i, startY), ImVec2(i, endY - 1), col32);
+
+        for ( auto i = 0; i < map_width; i++) {
+
+            for (auto j = 0; j < map_height; j++) {
+
+                draw_list->AddRect(ImVec2(a+x+i * tile_width, b+y+j * tile_height),
+                                   ImVec2(a+x+tile_width + i * tile_width, b+y+tile_height + j * tile_height),
+                                   col32,
+                                   0.0f,
+                                   ~0,
+                                   0.1f
+                );
+            }
         }
 
-        for (int j = startY; j < endY; j += tile_height) {
-            draw_list->AddLine(ImVec2(startX, j), ImVec2(endX - 1, j), col32);
-        }
 
     }
 
@@ -158,25 +161,34 @@ namespace Editor {
         float x = p.x, y = p.y;
 
         for ( auto &i : m_Tiles) {
-            iVec2 a = iVec2((int)((i->topLeft.x + x) - x), (int)( ( i->topLeft.y + y) - y));
-            iVec2 b = iVec2((int)((i->bottomRight.x + x)-x ), (int)((i->bottomRight.y + y) - y));
+            iVec2 a = iVec2((int)((i->topLeft.x)), (int)( ( i->topLeft.y )));
+            iVec2 b = iVec2((int)((i->bottomRight.x)), (int)((i->bottomRight.y)));
             draw_list->AddImage((GLuint*)i->texture, a, b);
         }
 
-        if (ImGui::IsMouseClicked(0)) {
-            infoLog("x: %f", x);
-            infoLog("y: %f", y);
-        }
+
     }
 
     void MapEditor::placeTiles()
     {
         ImDrawList *draw_list = ImGui::GetWindowDrawList();
-        const int tile_width = m_MapDocument->getMap()->getTileWidth();
-        const int tile_height = m_MapDocument->getMap()->getTileHeight();
-        GLuint texture = m_TexturesManager->getTextureID("stones.png");
+
+        GLuint texture = m_TexturesManager->getTextureID("Assets/Stones.png");
+
+
         const ImVec2 p = ImGui::GetCursorScreenPos();
         float x = p.x, y = p.y;
+
+        const int tile_width = m_MapDocument->getMap()->getTileWidth();
+        const int tile_height = m_MapDocument->getMap()->getTileHeight();
+
+        const int map_width = m_MapDocument->getMap()->getMapWidth();
+        const int map_height = m_MapDocument->getMap()->getMapHeight();
+
+
+        ImVec2 win_size = ImGui::GetWindowSize();
+        int half_sz_x = static_cast<int>((win_size.x / 2) -((tile_width * map_width) / 2 ) );
+        int half_sz_y = static_cast<int>((win_size.y / 2) - ((tile_height * map_height) / 2) );
 
         int mouseX = (int)ImGui::GetIO().MousePos.x;
         int mouseY = (int)ImGui::GetIO().MousePos.y;
@@ -184,14 +196,25 @@ namespace Editor {
 
         if(ImGui::IsMouseClicked(0)) {
 
-            Cell* cell = new Cell();
-            cell->texture = texture;
-            cell->topLeft = iVec2((int)(mouseX), (int)(mouseY));
-            cell->bottomRight = iVec2((int)(mouseX + tile_width),(int)(mouseY + tile_height ));
+            if (  ((mouseX >= x + half_sz_x) && (mouseX <= x + half_sz_x + (tile_width * map_width))) &&
+                    ((mouseY >= y + half_sz_y) && (mouseY <= y + half_sz_y + (tile_height * map_height)))) {
+
+                Cell *cell = new Cell();
+                cell->texture = texture;
+                int a = 0;
+                int b = 0;
+
+                a = 32 - (mouseX % 32);
+                b = 32 - (mouseY % 32);
+
+                ImGui::SetCursorPos(ImVec2(a + mouseX, b + mouseY));
+
+                cell->topLeft = iVec2((int) (a + mouseX), (int) (b + mouseY));
+                cell->bottomRight = iVec2((int) (a + mouseX + tile_width), (int) (b + mouseY + tile_height));
 
 
-
-            m_Tiles.push_back(cell);
+                m_Tiles.push_back(cell);
+            }
         }
 
     }

@@ -205,6 +205,8 @@ Core/fglobals.h
 ../FissionEngine/Engine/Resources/Core/fglobals.h
 2D/picoPNG.hpp
 ../FissionEngine/Engine/Resources/2D/picoPNG.hpp
+Utils/FDebug.hpp
+../FissionEngine/Engine/Resources/Utils/FDebug.hpp
 GL/glew.h
 -
 

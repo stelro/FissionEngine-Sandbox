@@ -439,10 +439,36 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: ../FissionEngine/Engine/ScriptSystem/ScriptManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: ../FissionEngine/Engine/ScriptSystem/ScriptSystem.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: ../FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: ../FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: /usr/include/lua5.3/lauxlib.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: /usr/include/lua5.3/lua.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: /usr/include/lua5.3/luaconf.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o: /usr/include/lua5.3/lualib.h
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Core/FpsLimiter.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Core/Stack.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Core/Stack.inl
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Core/Window.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Engine.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/External/lua-sol/sol.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Game/AppBehaviour.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Game/StateBehaviour.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Game/StateManager.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Resources/ResourceBase.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/ScriptSystem/Script.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Utils/Utils.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: /usr/include/lua5.3/lauxlib.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: /usr/include/lua5.3/lua.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: /usr/include/lua5.3/luaconf.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: /usr/include/lua5.3/lualib.h
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.o: ../FissionEngine/Engine/Utils/FDebug.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/FDebug.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp

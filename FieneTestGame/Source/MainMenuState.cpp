@@ -46,8 +46,8 @@ void MainMenuState::onInit()
     auto func = scriptSystem.getFunction<int,int,int>("add");
     std::cout << func(4,5) << std::endl;
 
-
-
+    scriptSystem.setInt("number", 44);
+    std::cout << scriptSystem.getInt("number") << std::endl;
 
 }
 
