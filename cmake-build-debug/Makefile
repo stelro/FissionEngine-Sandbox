@@ -152,6 +152,19 @@ FieneToolKit/fast:
 	$(MAKE) -f FieneToolKit/CMakeFiles/FieneToolKit.dir/build.make FieneToolKit/CMakeFiles/FieneToolKit.dir/build
 .PHONY : FieneToolKit/fast
 
+#=============================================================================
+# Target rules for targets named SpaceX
+
+# Build rule for target.
+SpaceX: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SpaceX
+.PHONY : SpaceX
+
+# fast build rule for target.
+SpaceX/fast:
+	$(MAKE) -f SpaceX/CMakeFiles/SpaceX.dir/build.make SpaceX/CMakeFiles/SpaceX.dir/build
+.PHONY : SpaceX/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,6 +176,7 @@ help:
 	@echo "... FissionEngine"
 	@echo "... FieneTestGame"
 	@echo "... FieneToolKit"
+	@echo "... SpaceX"
 .PHONY : help
 
 

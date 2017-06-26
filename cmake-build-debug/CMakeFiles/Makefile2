@@ -87,7 +87,7 @@ FissionEngine/preinstall:
 FissionEngine/CMakeFiles/FissionEngine.dir/all:
 	$(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/depend
 	$(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target FissionEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78 "Built target FissionEngine"
 .PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/all
 
 # Include target in all.
@@ -97,7 +97,7 @@ all: FissionEngine/CMakeFiles/FissionEngine.dir/all
 
 # Build rule for subdir invocation for target.
 FissionEngine/CMakeFiles/FissionEngine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stel/Game/Game/cmake-build-debug/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stel/Game/Game/cmake-build-debug/CMakeFiles 67
 	$(MAKE) -f CMakeFiles/Makefile2 FissionEngine/CMakeFiles/FissionEngine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/stel/Game/Game/cmake-build-debug/CMakeFiles 0
 .PHONY : FissionEngine/CMakeFiles/FissionEngine.dir/rule
@@ -152,7 +152,7 @@ all: FieneTestGame/CMakeFiles/FieneTestGame.dir/all
 
 # Build rule for subdir invocation for target.
 FieneTestGame/CMakeFiles/FieneTestGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stel/Game/Game/cmake-build-debug/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stel/Game/Game/cmake-build-debug/CMakeFiles 72
 	$(MAKE) -f CMakeFiles/Makefile2 FieneTestGame/CMakeFiles/FieneTestGame.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/stel/Game/Game/cmake-build-debug/CMakeFiles 0
 .PHONY : FieneTestGame/CMakeFiles/FieneTestGame.dir/rule
@@ -207,7 +207,7 @@ all: FieneToolKit/CMakeFiles/FieneToolKit.dir/all
 
 # Build rule for subdir invocation for target.
 FieneToolKit/CMakeFiles/FieneToolKit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stel/Game/Game/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stel/Game/Game/cmake-build-debug/CMakeFiles 73
 	$(MAKE) -f CMakeFiles/Makefile2 FieneToolKit/CMakeFiles/FieneToolKit.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/stel/Game/Game/cmake-build-debug/CMakeFiles 0
 .PHONY : FieneToolKit/CMakeFiles/FieneToolKit.dir/rule
@@ -224,6 +224,61 @@ FieneToolKit/CMakeFiles/FieneToolKit.dir/clean:
 
 # clean rule for target.
 clean: FieneToolKit/CMakeFiles/FieneToolKit.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory SpaceX
+
+# Convenience name for "all" pass in the directory.
+SpaceX/all: SpaceX/CMakeFiles/SpaceX.dir/all
+
+.PHONY : SpaceX/all
+
+# Convenience name for "clean" pass in the directory.
+SpaceX/clean: SpaceX/CMakeFiles/SpaceX.dir/clean
+
+.PHONY : SpaceX/clean
+
+# Convenience name for "preinstall" pass in the directory.
+SpaceX/preinstall:
+
+.PHONY : SpaceX/preinstall
+
+#=============================================================================
+# Target rules for target SpaceX/CMakeFiles/SpaceX.dir
+
+# All Build rule for target.
+SpaceX/CMakeFiles/SpaceX.dir/all: FissionEngine/CMakeFiles/FissionEngine.dir/all
+	$(MAKE) -f SpaceX/CMakeFiles/SpaceX.dir/build.make SpaceX/CMakeFiles/SpaceX.dir/depend
+	$(MAKE) -f SpaceX/CMakeFiles/SpaceX.dir/build.make SpaceX/CMakeFiles/SpaceX.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stel/Game/Game/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target SpaceX"
+.PHONY : SpaceX/CMakeFiles/SpaceX.dir/all
+
+# Include target in all.
+all: SpaceX/CMakeFiles/SpaceX.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+SpaceX/CMakeFiles/SpaceX.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stel/Game/Game/cmake-build-debug/CMakeFiles 69
+	$(MAKE) -f CMakeFiles/Makefile2 SpaceX/CMakeFiles/SpaceX.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stel/Game/Game/cmake-build-debug/CMakeFiles 0
+.PHONY : SpaceX/CMakeFiles/SpaceX.dir/rule
+
+# Convenience name for target.
+SpaceX: SpaceX/CMakeFiles/SpaceX.dir/rule
+
+.PHONY : SpaceX
+
+# clean rule for target.
+SpaceX/CMakeFiles/SpaceX.dir/clean:
+	$(MAKE) -f SpaceX/CMakeFiles/SpaceX.dir/build.make SpaceX/CMakeFiles/SpaceX.dir/clean
+.PHONY : SpaceX/CMakeFiles/SpaceX.dir/clean
+
+# clean rule for target.
+clean: SpaceX/CMakeFiles/SpaceX.dir/clean
 
 .PHONY : clean
 

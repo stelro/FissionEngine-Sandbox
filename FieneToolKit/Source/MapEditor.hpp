@@ -28,6 +28,7 @@ namespace Editor {
         Fiene::iVec2 bottomRight;
     };
 
+
     class MapEditor {
     public:
         MapEditor();

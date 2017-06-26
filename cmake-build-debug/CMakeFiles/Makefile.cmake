@@ -23,6 +23,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../FissionEngine/Engine/Physics/CMakeLists.txt"
   "../FissionEngine/Engine/Resources/CMakeLists.txt"
   "../FissionEngine/Engine/ScriptSystem/CMakeLists.txt"
+  "../FissionEngine/Engine/Shaders/CMakeLists.txt"
+  "../FissionEngine/Engine/Universe/CMakeLists.txt"
   "../FissionEngine/Engine/Utils/CMakeLists.txt"
   "../FissionEngine/Engine/Widgets/CMakeLists.txt"
   "../FissionEngine/cmake/FindLua.cmake"
@@ -30,6 +32,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../FissionEngine/cmake/FindSDL2_image.cmake"
   "../FissionEngine/cmake/FindSDL2_mixer.cmake"
   "../FissionEngine/cmake/FindSDL2_ttf.cmake"
+  "../SpaceX/CMakeLists.txt"
   "CMakeFiles/3.7.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.7.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.7.2/CMakeSystem.cmake"
@@ -73,6 +76,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "FissionEngine/CMakeFiles/CMakeDirectoryInformation.cmake"
   "FieneTestGame/CMakeFiles/CMakeDirectoryInformation.cmake"
   "FieneToolKit/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "SpaceX/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -80,4 +84,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "FissionEngine/CMakeFiles/FissionEngine.dir/DependInfo.cmake"
   "FieneTestGame/CMakeFiles/FieneTestGame.dir/DependInfo.cmake"
   "FieneToolKit/CMakeFiles/FieneToolKit.dir/DependInfo.cmake"
+  "SpaceX/CMakeFiles/SpaceX.dir/DependInfo.cmake"
   )

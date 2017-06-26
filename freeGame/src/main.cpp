@@ -177,21 +177,21 @@ int main()
 //
 //        shaderProgram.unuse();
 //
-////        lightShader.useGLSLProgram();
-////
-////        pUniform = lightShader.getUniformLocation("P");
-////        glUniformMatrix4fv(pUniform, 1, GL_FALSE, &projectionMatrix[0][0]);
-////
-////        batch.begin();
-////        Fiene::Light2D light;
-////        light.setColor(Fiene::Color(0,255,130,180));
-////        light.setPosition(camera.convertCameraToWorld(inputManager->getMouseCoords()));
-////        light.setSize(249.0f);
-////        light.render(batch);
-////        batch.end();
-////        batch.render();
-////
-////        lightShader.unuseGLSLProgram();
+//        lightShader.useGLSLProgram();
+//
+//        pUniform = lightShader.getUniformLocation("P");
+//        glUniformMatrix4fv(pUniform, 1, GL_FALSE, &projectionMatrix[0][0]);
+//
+//        batch.begin();
+//        Fiene::Light2D light;
+//        light.setColor(Fiene::Color(0,255,130,180));
+//        light.setPosition(camera.convertCameraToWorld(inputManager->getMouseCoords()));
+//        light.setSize(249.0f);
+//        light.render(batch);
+//        batch.end();
+//        batch.render();
+//
+//        lightShader.unuseGLSLProgram();
 ////
 //        // glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 //

@@ -12,6 +12,14 @@ Math/Matrix.hpp
 Math/Vector.hpp
 ../FissionEngine/Engine/2D/Math/Vector.hpp
 
+../FissionEngine/Engine/2D/Light2D.hpp
+Math/Vector.hpp
+../FissionEngine/Engine/2D/Math/Vector.hpp
+Utils/Utils.hpp
+../FissionEngine/Engine/2D/Utils/Utils.hpp
+SpriteBatch.hpp
+../FissionEngine/Engine/2D/SpriteBatch.hpp
+
 ../FissionEngine/Engine/2D/SpriteBatch.hpp
 Utils/Utils.hpp
 ../FissionEngine/Engine/2D/Utils/Utils.hpp
@@ -328,6 +336,22 @@ Script.hpp
 Core/fglobals.h
 ../FissionEngine/Engine/ScriptSystem/Core/fglobals.h
 
+../FissionEngine/Engine/Universe/IComponent.hpp
+Core/fglobals.h
+../FissionEngine/Engine/Universe/Core/fglobals.h
+Resources/Texture.hpp
+../FissionEngine/Engine/Universe/Resources/Texture.hpp
+Utils/Utils.hpp
+../FissionEngine/Engine/Universe/Utils/Utils.hpp
+Math/Quaternion.hpp
+../FissionEngine/Engine/Universe/Math/Quaternion.hpp
+
+../FissionEngine/Engine/Universe/Universe.hpp
+vector
+-
+IComponent.hpp
+../FissionEngine/Engine/Universe/IComponent.hpp
+
 ../FissionEngine/Engine/Utils/FDebug.hpp
 
 ../FissionEngine/Engine/Utils/Utils.hpp
@@ -401,6 +425,14 @@ Engine/ScriptSystem/ScriptManager.hpp
 -
 Engine/ScriptSystem/ScriptSystem.hpp
 -
+Engine/2D/Light2D.hpp
+-
+Engine/Universe/Universe.hpp
+-
+Engine/Universe/IComponent.hpp
+-
+External/lua-sol/sol.hpp
+/home/stel/Game/Game/FieneTestGame/Source/External/lua-sol/sol.hpp
 
 /home/stel/Game/Game/FieneTestGame/Source/MainMenuState.hpp
 memory
@@ -418,6 +450,10 @@ Engine/GLSL/ShaderProgram.hpp
 Engine/2D/SpriteBatch.hpp
 -
 Engine/Resources/TexturesManager.hpp
+-
+functional
+-
+Engine/External/lua-sol/sol.hpp
 -
 
 /home/stel/Game/Game/FieneTestGame/Source/StateIndecies.hpp

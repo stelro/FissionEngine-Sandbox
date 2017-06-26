@@ -1,22 +1,69 @@
-Fission Engine Error File @ local time: Thu Apr 13 19:17:00 2017
-
 Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
-Glew could not be initialized : 
+Could not Load Vertex Shader from source [ shader file: ¿+Îê.V ]
 Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
-Glew could not be initialized : 
+Could not Load Vertex Shader from source [ shader file: ‡Î ]
 Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
-Vertex info
------------
-(0) : error C5145: must write to gl_Position
-
+Could not Load Vertex Shader from source [ shader file: Ää\>qU ]
 Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
-Shaders failed to link!Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
-Faild to open TTF font Textures/Monaco-Stel.ttf
+Could not Load Vertex Shader from source [ shader file: p[2˝´U ]
 Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
-(null)
+Could not Load Vertex Shader from source [ shader file: †ãöúU ]
 Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
-Shaders failed to link!Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
-(null)
+Could not Load Vertex Shader from source [ shader file: êJÓéÌU ]
 Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
-Shaders failed to link!Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
-SDL_GLContext could not be created Could not create GL context: BadValue (integer parameter out of range for operation)
+Could not Load Vertex Shader from source [ shader file: –
+–7hU ]
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source [ shader file: ¿Jﬂ‰oU ]
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source [ shader file: Ä´b`UU ]
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source [ shader file: P˙π÷ñU ]
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source [ shader file: ê<ÉU ]
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source [ shader file: êJØ∑∆U ]
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source [ shader file: [7yV ]
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source [ shader file: ‡+9V ]
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source [ shader file: ../../Shaders/simple_draw_vertex.glsl ]
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: ../../Shaders/simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: Shaders/simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: Engine/Shaders/simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: /Engine/Shaders/simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: ../Shaders/simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: ../Shaders/simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: FissionEngine/Engine/Shaders/simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: Engine/Shaders/simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: Shaders/simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: Shaders/simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: Engine/Shaders/simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: Engine/Shaders/simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: Engine/Shaders/simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: Engine/Shaders/simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: Engine/Shaders/simple_draw_vertex.glsl 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: Engine/Resources/Texture.hpp 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: Resources/Texture.hpp 
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Could not Load Vertex Shader from source shader file: Resources/Texture.hpp 

@@ -10,10 +10,14 @@
 #include <Engine/GLSL/ShaderProgram.hpp>
 #include <Engine/2D/SpriteBatch.hpp>
 #include <Engine/Resources/TexturesManager.hpp>
+#include <functional>
+#include <Engine/External/lua-sol/sol.hpp>
 
 
 namespace Fiene {
     class BaseAllocator;
+    class Primitives;
+    class Universe;
 }
 
 class MainMenuState : public Fiene::StateBehaviour {
@@ -35,11 +39,18 @@ private:
     Fiene::Camera2D                         m_Camera;
     Fiene::InputManager*                    m_InputManager;
     Fiene::ShaderProgram                    m_ShaderProgram;
+    Fiene::ShaderProgram                    m_LightShader;
     Fiene::SpriteBatch                      m_SpriteBatch;
     Fiene::SpriteFont                       m_SpriteFont;
 
     Fiene::TexturesManager*                 m_TexturesManager;
 
+    Fiene::Primitives* prims;
+
+	std::function<void()> render_script;
+	sol::function func;
+
+    Fiene::Universe* m_Universe;
 
 };
 

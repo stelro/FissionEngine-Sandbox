@@ -9,3 +9,6 @@
 /home/stel/Game/Game/cmake-build-debug/FieneToolKit/CMakeFiles/rebuild_cache.dir
 /home/stel/Game/Game/cmake-build-debug/FieneToolKit/CMakeFiles/edit_cache.dir
 /home/stel/Game/Game/cmake-build-debug/FieneToolKit/CMakeFiles/FieneToolKit.dir
+/home/stel/Game/Game/cmake-build-debug/SpaceX/CMakeFiles/rebuild_cache.dir
+/home/stel/Game/Game/cmake-build-debug/SpaceX/CMakeFiles/edit_cache.dir
+/home/stel/Game/Game/cmake-build-debug/SpaceX/CMakeFiles/SpaceX.dir

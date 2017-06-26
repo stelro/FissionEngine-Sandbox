@@ -18,6 +18,7 @@ FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/App.cpp.o
  ../FissionEngine/Engine/Core/Window.hpp
  ../FissionEngine/Engine/Core/fglobals.h
  ../FissionEngine/Engine/Engine.hpp
+ ../FissionEngine/Engine/External/lua-sol/sol.hpp
  ../FissionEngine/Engine/GLSL/ShaderProgram.hpp
  ../FissionEngine/Engine/Game/AppBehaviour.hpp
  ../FissionEngine/Engine/Game/StateBehaviour.hpp
@@ -59,6 +60,7 @@ FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/GamePlayState.cpp.o
  /home/stel/Game/Game/FieneTestGame/Source/StateIndecies.hpp
 FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o
  ../FissionEngine/Engine/2D/Camera2D.hpp
+ ../FissionEngine/Engine/2D/Light2D.hpp
  ../FissionEngine/Engine/2D/SpriteBatch.hpp
  ../FissionEngine/Engine/2D/SpriteFont.hpp
  ../FissionEngine/Engine/2D/picoPNG.hpp
@@ -83,6 +85,8 @@ FieneTestGame/CMakeFiles/FieneTestGame.dir/Source/MainMenuState.cpp.o
  ../FissionEngine/Engine/ScriptSystem/Script.hpp
  ../FissionEngine/Engine/ScriptSystem/ScriptManager.hpp
  ../FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp
+ ../FissionEngine/Engine/Universe/IComponent.hpp
+ ../FissionEngine/Engine/Universe/Universe.hpp
  ../FissionEngine/Engine/Utils/FDebug.hpp
  ../FissionEngine/Engine/Utils/Utils.hpp
  /home/stel/Game/Game/FieneTestGame/Source/MainMenuState.cpp

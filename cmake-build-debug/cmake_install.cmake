@@ -37,6 +37,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/stel/Game/Game/cmake-build-debug/FissionEngine/cmake_install.cmake")
   include("/home/stel/Game/Game/cmake-build-debug/FieneTestGame/cmake_install.cmake")
   include("/home/stel/Game/Game/cmake-build-debug/FieneToolKit/cmake_install.cmake")
+  include("/home/stel/Game/Game/cmake-build-debug/SpaceX/cmake_install.cmake")
 
 endif()
 
