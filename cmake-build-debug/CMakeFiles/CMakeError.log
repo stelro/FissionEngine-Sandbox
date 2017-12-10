@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/stel/Game/Game/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9de4c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9de4c.dir/build.make CMakeFiles/cmTC_9de4c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0dc37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0dc37.dir/build.make CMakeFiles/cmTC_0dc37.dir/build
 make[1]: Entering directory '/home/stel/Game/Game/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9de4c.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_9de4c.dir/CheckSymbolExists.c.o   -c /home/stel/Game/Game/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_9de4c
-/home/stel/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9de4c.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_9de4c.dir/CheckSymbolExists.c.o  -o cmTC_9de4c 
-CMakeFiles/cmTC_9de4c.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_0dc37.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0dc37.dir/CheckSymbolExists.c.o   -c /home/stel/Game/Game/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0dc37
+/home/stel/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dc37.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_0dc37.dir/CheckSymbolExists.c.o  -o cmTC_0dc37 
+CMakeFiles/cmTC_0dc37.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_9de4c.dir/build.make:97: recipe for target 'cmTC_9de4c' failed
-make[1]: *** [cmTC_9de4c] Error 1
+CMakeFiles/cmTC_0dc37.dir/build.make:97: recipe for target 'cmTC_0dc37' failed
+make[1]: *** [cmTC_0dc37] Error 1
 make[1]: Leaving directory '/home/stel/Game/Game/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_9de4c/fast' failed
-make: *** [cmTC_9de4c/fast] Error 2
+Makefile:126: recipe for target 'cmTC_0dc37/fast' failed
+make: *** [cmTC_0dc37/fast] Error 2
 
 File /home/stel/Game/Game/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/stel/Game/Game/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e4e19/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e4e19.dir/build.make CMakeFiles/cmTC_e4e19.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2c6b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c6b6.dir/build.make CMakeFiles/cmTC_2c6b6.dir/build
 make[1]: Entering directory '/home/stel/Game/Game/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e4e19.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e4e19.dir/CheckFunctionExists.c.o   -c /home/stel/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e4e19
-/home/stel/clion-2017.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4e19.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e4e19.dir/CheckFunctionExists.c.o  -o cmTC_e4e19 -lpthreads 
+Building C object CMakeFiles/cmTC_2c6b6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2c6b6.dir/CheckFunctionExists.c.o   -c /home/stel/clion-2017.2.2/bin/cmake/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2c6b6
+/home/stel/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c6b6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2c6b6.dir/CheckFunctionExists.c.o  -o cmTC_2c6b6 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_e4e19.dir/build.make:97: recipe for target 'cmTC_e4e19' failed
-make[1]: *** [cmTC_e4e19] Error 1
+CMakeFiles/cmTC_2c6b6.dir/build.make:97: recipe for target 'cmTC_2c6b6' failed
+make[1]: *** [cmTC_2c6b6] Error 1
 make[1]: Leaving directory '/home/stel/Game/Game/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_e4e19/fast' failed
-make: *** [cmTC_e4e19/fast] Error 2
+Makefile:126: recipe for target 'cmTC_2c6b6/fast' failed
+make: *** [cmTC_2c6b6/fast] Error 2
 
 

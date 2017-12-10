@@ -1,4 +1,4 @@
-/home/stel/clion-2017.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/stel/Game/Game
+/home/stel/clion-2017.2.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/stel/Game/Game
 <FindSDL2.cmake>
 </FindSDL2.cmake>
 -- Configuring done

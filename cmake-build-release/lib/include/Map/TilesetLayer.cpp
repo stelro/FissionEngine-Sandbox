@@ -19,7 +19,7 @@
 
 //Engine Internal
 #include "TilesetLayer.hpp"
-#include "Core/fglobals.h"
+#include "Core/Fiene.h"
 #include "Tile.hpp"
 
 namespace Fiene {

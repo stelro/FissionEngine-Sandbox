@@ -25,7 +25,7 @@
 #include <new>
 
 //Engine Internal
-#include "Core/fglobals.h"
+#include "Core/Fiene.h"
 
 namespace Fiene {
 

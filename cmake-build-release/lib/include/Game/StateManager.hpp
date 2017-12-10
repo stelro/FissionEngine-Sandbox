@@ -21,7 +21,7 @@
 #define FISSIONENGINE_STATEMANAGER_HPP
 
 //Engine Internal
-#include "Core/fglobals.h"
+#include "Core/Fiene.h"
 #include "Core/Stack.hpp"
 
 //C++ Includes

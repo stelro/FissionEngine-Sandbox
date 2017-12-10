@@ -22,7 +22,7 @@
 //Engine Internal
 #include "SpriteFont.hpp"
 #include "SpriteBatch.hpp"
-#include "Core/fglobals.h"
+#include "Core/Fiene.h"
 #include "Core/IOManager.hpp"
 
 //SDL2 Includes

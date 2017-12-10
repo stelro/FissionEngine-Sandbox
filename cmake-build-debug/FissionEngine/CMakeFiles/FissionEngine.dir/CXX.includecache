@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -37,8 +37,8 @@ cstddef
 -
 new
 -
-Core/fglobals.h
-../FissionEngine/Engine/Allocators/Core/fglobals.h
+Core/Fiene.h
+../FissionEngine/Engine/Allocators/Core/Fiene.h
 
 ../FissionEngine/Engine/Allocators/FreeListAllocator.hpp
 BaseAllocator.hpp
@@ -46,15 +46,9 @@ BaseAllocator.hpp
 PointerMath.hpp
 ../FissionEngine/Engine/Allocators/PointerMath.hpp
 
-../FissionEngine/Engine/Allocators/LinearAllocator.hpp
-BaseAllocator.hpp
-../FissionEngine/Engine/Allocators/BaseAllocator.hpp
-PointerMath.hpp
 ../FissionEngine/Engine/Allocators/PointerMath.hpp
-
-../FissionEngine/Engine/Allocators/PointerMath.hpp
-Core/fglobals.h
-../FissionEngine/Engine/Allocators/Core/fglobals.h
+Core/Fiene.h
+../FissionEngine/Engine/Allocators/Core/Fiene.h
 cstddef
 -
 
@@ -64,11 +58,13 @@ BaseAllocator.hpp
 PointerMath.hpp
 ../FissionEngine/Engine/Allocators/PointerMath.hpp
 
-../FissionEngine/Engine/Allocators/ProxyAllocator.hpp
-BaseAllocator.hpp
-../FissionEngine/Engine/Allocators/BaseAllocator.hpp
-PointerMath.hpp
-../FissionEngine/Engine/Allocators/PointerMath.hpp
+../FissionEngine/Engine/Core/Fiene.h
+Utils/FDebug.hpp
+../FissionEngine/Engine/Core/Utils/FDebug.hpp
+cstdint
+-
+cstddef
+-
 
 ../FissionEngine/Engine/Core/FpsLimiter.hpp
 
@@ -76,16 +72,6 @@ PointerMath.hpp
 string
 -
 vector
--
-
-../FissionEngine/Engine/Core/InputManager.hpp
-Utils/Utils.hpp
-../FissionEngine/Engine/Core/Utils/Utils.hpp
-Math/Vector.hpp
-../FissionEngine/Engine/Core/Math/Vector.hpp
-Core/fglobals.h
-../FissionEngine/Engine/Core/Core/fglobals.h
-unordered_map
 -
 
 ../FissionEngine/Engine/Core/Stack.hpp
@@ -101,22 +87,24 @@ Utils/Utils.hpp
 ../FissionEngine/Engine/Core/Utils/Utils.hpp
 Math/Vector.hpp
 ../FissionEngine/Engine/Core/Math/Vector.hpp
-fglobals.h
-../FissionEngine/Engine/Core/fglobals.h
+Fiene.h
+../FissionEngine/Engine/Core/Fiene.h
 SDL2/SDL.h
 -
 string
 -
 
-../FissionEngine/Engine/Core/fglobals.h
-Utils/FDebug.hpp
-../FissionEngine/Engine/Core/Utils/FDebug.hpp
-cstdint
--
-cstddef
--
-
 ../FissionEngine/Engine/Engine.hpp
+string
+-
+Allocators/FreeListAllocator.hpp
+-
+Core/Fiene.h
+../FissionEngine/Engine/Core/Fiene.h
+Core/FpsLimiter.hpp
+../FissionEngine/Engine/Core/FpsLimiter.hpp
+Universe/Universe.hpp
+../FissionEngine/Engine/Universe/Universe.hpp
 
 ../FissionEngine/Engine/External/lua-sol/sol.hpp
 stdexcept
@@ -200,6 +188,88 @@ unordered_map
 cstdio
 -
 
+../FissionEngine/Engine/External/sol.hpp
+stdexcept
+-
+string
+-
+tuple
+-
+cstddef
+-
+type_traits
+-
+memory
+-
+functional
+-
+lua.h
+-
+lualib.h
+-
+lauxlib.h
+-
+lua5.3/lua.hpp
+-
+stddef.h
+-
+string.h
+-
+stdio.h
+-
+limits.h
+-
+errno.h
+-
+math.h
+-
+boost/optional.hpp
+-
+utility
+-
+type_traits
+-
+initializer_list
+-
+cassert
+-
+functional
+-
+string
+-
+stdexcept
+-
+cstdlib
+-
+array
+-
+vector
+-
+cctype
+-
+atomic
+-
+utility
+-
+codecvt
+-
+locale
+-
+cstring
+-
+cstdint
+-
+algorithm
+-
+limits
+-
+iterator
+-
+unordered_map
+-
+cstdio
+-
+
 ../FissionEngine/Engine/FileSystem/FileSystem.hpp
 cstdio
 -
@@ -227,6 +297,8 @@ Engine.hpp
 ../FissionEngine/Engine/Game/Engine.hpp
 Core/Window.hpp
 ../FissionEngine/Engine/Game/Core/Window.hpp
+Core/Fiene.h
+../FissionEngine/Engine/Game/Core/Fiene.h
 Core/FpsLimiter.hpp
 ../FissionEngine/Engine/Game/Core/FpsLimiter.hpp
 StateManager.hpp
@@ -235,34 +307,16 @@ StateBehaviour.hpp
 ../FissionEngine/Engine/Game/StateBehaviour.hpp
 
 ../FissionEngine/Engine/Game/StateBehaviour.hpp
-Core/fglobals.h
-../FissionEngine/Engine/Game/Core/fglobals.h
+Core/Fiene.h
+../FissionEngine/Engine/Game/Core/Fiene.h
 
 ../FissionEngine/Engine/Game/StateManager.hpp
-Core/fglobals.h
-../FissionEngine/Engine/Game/Core/fglobals.h
+Core/Fiene.h
+../FissionEngine/Engine/Game/Core/Fiene.h
 Core/Stack.hpp
 ../FissionEngine/Engine/Game/Core/Stack.hpp
 unordered_map
 -
-
-../FissionEngine/Engine/Map/Layer.hpp
-string
--
-vector
--
-Math/Vector.hpp
-../FissionEngine/Engine/Map/Math/Vector.hpp
-Utils/Utils.hpp
-../FissionEngine/Engine/Map/Utils/Utils.hpp
-
-../FissionEngine/Engine/Map/Tile.hpp
-Math/Vector.hpp
-../FissionEngine/Engine/Map/Math/Vector.hpp
-Utils/Utils.hpp
-../FissionEngine/Engine/Map/Utils/Utils.hpp
-Resources/Texture.hpp
-../FissionEngine/Engine/Map/Resources/Texture.hpp
 
 ../FissionEngine/Engine/Math/Matrix.hpp
 Vector.hpp
@@ -301,8 +355,8 @@ string
 -
 
 ../FissionEngine/Engine/Resources/ResourceManager.hpp
-Core/fglobals.h
-../FissionEngine/Engine/Resources/Core/fglobals.h
+Core/Fiene.h
+../FissionEngine/Engine/Resources/Core/Fiene.h
 Allocators/BaseAllocator.hpp
 ../FissionEngine/Engine/Resources/Allocators/BaseAllocator.hpp
 string
@@ -321,8 +375,8 @@ ResourceBase.h
 ../FissionEngine/Engine/Resources/ResourceBase.h
 Core/IOManager.hpp
 ../FissionEngine/Engine/Resources/Core/IOManager.hpp
-Core/fglobals.h
-../FissionEngine/Engine/Resources/Core/fglobals.h
+Core/Fiene.h
+../FissionEngine/Engine/Resources/Core/Fiene.h
 2D/picoPNG.hpp
 ../FissionEngine/Engine/Resources/2D/picoPNG.hpp
 Utils/FDebug.hpp
@@ -339,8 +393,8 @@ ResourceManager.hpp
 ../FissionEngine/Engine/ScriptSystem/Script.hpp
 Resources/ResourceBase.h
 ../FissionEngine/Engine/ScriptSystem/Resources/ResourceBase.h
-Core/fglobals.h
-../FissionEngine/Engine/ScriptSystem/Core/fglobals.h
+Core/Fiene.h
+../FissionEngine/Engine/ScriptSystem/Core/Fiene.h
 
 ../FissionEngine/Engine/ScriptSystem/ScriptManager.hpp
 Resources/ResourceManager.hpp
@@ -351,8 +405,24 @@ External/lua-sol/sol.hpp
 ../FissionEngine/Engine/ScriptSystem/External/lua-sol/sol.hpp
 Script.hpp
 ../FissionEngine/Engine/ScriptSystem/Script.hpp
-Core/fglobals.h
-../FissionEngine/Engine/ScriptSystem/Core/fglobals.h
+Core/Fiene.h
+../FissionEngine/Engine/ScriptSystem/Core/Fiene.h
+
+../FissionEngine/Engine/Universe/IComponent.hpp
+Core/Fiene.h
+../FissionEngine/Engine/Universe/Core/Fiene.h
+Resources/Texture.hpp
+../FissionEngine/Engine/Universe/Resources/Texture.hpp
+Utils/Utils.hpp
+../FissionEngine/Engine/Universe/Utils/Utils.hpp
+Math/Quaternion.hpp
+../FissionEngine/Engine/Universe/Math/Quaternion.hpp
+
+../FissionEngine/Engine/Universe/Universe.hpp
+vector
+-
+IComponent.hpp
+../FissionEngine/Engine/Universe/IComponent.hpp
 
 ../FissionEngine/Engine/Utils/FDebug.hpp
 
@@ -401,8 +471,8 @@ SpriteBatch.hpp
 /home/stel/Game/Game/FissionEngine/Engine/2D/Primitives.hpp
 GL/glew.h
 -
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/2D/Core/fglobals.h
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/2D/Core/Fiene.h
 
 /home/stel/Game/Game/FissionEngine/Engine/2D/Sprite.cpp
 cstddef
@@ -423,10 +493,6 @@ string
 /home/stel/Game/Game/FissionEngine/Engine/2D/SpriteBatch.cpp
 SpriteBatch.hpp
 /home/stel/Game/Game/FissionEngine/Engine/2D/SpriteBatch.hpp
-Map/Layer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/2D/Map/Layer.hpp
-Map/Tile.hpp
-/home/stel/Game/Game/FissionEngine/Engine/2D/Map/Tile.hpp
 algorithm
 -
 
@@ -449,8 +515,8 @@ SpriteFont.hpp
 /home/stel/Game/Game/FissionEngine/Engine/2D/SpriteFont.hpp
 SpriteBatch.hpp
 /home/stel/Game/Game/FissionEngine/Engine/2D/SpriteBatch.hpp
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/2D/Core/fglobals.h
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/2D/Core/Fiene.h
 Core/IOManager.hpp
 /home/stel/Game/Game/FissionEngine/Engine/2D/Core/IOManager.hpp
 SDL2/SDL.h
@@ -495,8 +561,8 @@ cstddef
 -
 new
 -
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Allocators/Core/fglobals.h
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Allocators/Core/Fiene.h
 
 /home/stel/Game/Game/FissionEngine/Engine/Allocators/FreeListAllocator.cpp
 FreeListAllocator.hpp
@@ -519,8 +585,8 @@ PointerMath.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Allocators/PointerMath.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/Allocators/PointerMath.hpp
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Allocators/Core/fglobals.h
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Allocators/Core/Fiene.h
 cstddef
 -
 
@@ -565,6 +631,18 @@ FEObject.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Core/FEObject.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/Core/FEObject.hpp
+
+/home/stel/Game/Game/FissionEngine/Engine/Core/Fiene.cpp
+Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Core/Fiene.h
+
+/home/stel/Game/Game/FissionEngine/Engine/Core/Fiene.h
+Utils/FDebug.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Core/Utils/FDebug.hpp
+cstdint
+-
+cstddef
+-
 
 /home/stel/Game/Game/FissionEngine/Engine/Core/FpsLimiter.cpp
 FpsLimiter.hpp
@@ -611,8 +689,8 @@ Utils/Utils.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Core/Utils/Utils.hpp
 Math/Vector.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Core/Math/Vector.hpp
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Core/Core/fglobals.h
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Core/Core/Fiene.h
 unordered_map
 -
 
@@ -629,23 +707,11 @@ Utils/Utils.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Core/Utils/Utils.hpp
 Math/Vector.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Core/Math/Vector.hpp
-fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Core/fglobals.h
+Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Core/Fiene.h
 SDL2/SDL.h
 -
 string
--
-
-/home/stel/Game/Game/FissionEngine/Engine/Core/fglobals.cpp
-fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Core/fglobals.h
-
-/home/stel/Game/Game/FissionEngine/Engine/Core/fglobals.h
-Utils/FDebug.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Core/Utils/FDebug.hpp
-cstdint
--
-cstddef
 -
 
 /home/stel/Game/Game/FissionEngine/Engine/Engine.cpp
@@ -653,10 +719,38 @@ Engine.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Engine.hpp
 Core/IOManager.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.hpp
+Allocators/FreeListAllocator.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Allocators/FreeListAllocator.hpp
+Allocators/LinearAllocator.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Allocators/LinearAllocator.hpp
+Allocators/ProxyAllocator.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Allocators/ProxyAllocator.hpp
+Core/Window.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Core/Window.hpp
+Core/FpsLimiter.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Core/FpsLimiter.hpp
+Resources/TexturesManager.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Resources/TexturesManager.hpp
+ScriptSystem/ScriptSystem.hpp
+/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp
+ScriptSystem/ScriptManager.hpp
+/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptManager.hpp
+Core/InputManager.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Core/InputManager.hpp
 SDL2/SDL.h
 -
 
 /home/stel/Game/Game/FissionEngine/Engine/Engine.hpp
+string
+-
+Allocators/FreeListAllocator.hpp
+-
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Core/Fiene.h
+Core/FpsLimiter.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Core/FpsLimiter.hpp
+Universe/Universe.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Universe/Universe.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imconfig.h
 Math/Vector.hpp
@@ -720,6 +814,14 @@ stddef.h
 stdint.h
 -
 
+/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_dock.h
+
+/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_dock.inl
+imgui.h
+/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui.h
+imgui_internal.h
+/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_internal.h
+
 /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_draw.cpp
 imgui.h
 /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui.h
@@ -761,6 +863,20 @@ math.h
 -
 stb_textedit.h
 /home/stel/Game/Game/FissionEngine/Engine/External/imgui/stb_textedit.h
+
+/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_user.h
+imgui_dock.h
+/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_dock.h
+
+/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_user.inl
+imgui.h
+/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui.h
+imgui_internal.h
+/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_internal.h
+math.h
+-
+imgui_dock.inl
+/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_dock.inl
 
 /home/stel/Game/Game/FissionEngine/Engine/External/imgui/stb_rect_pack.h
 stdlib.h
@@ -855,60 +971,32 @@ string
 /home/stel/Game/Game/FissionEngine/Engine/Game/App.cpp
 Engine.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/Engine.hpp
-Allocators/FreeListAllocator.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Allocators/FreeListAllocator.hpp
-Allocators/LinearAllocator.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Allocators/LinearAllocator.hpp
-Allocators/ProxyAllocator.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Allocators/ProxyAllocator.hpp
-Core/Window.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Core/Window.hpp
-Core/FpsLimiter.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Core/FpsLimiter.hpp
-Resources/TexturesManager.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Resources/TexturesManager.hpp
+App.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Game/App.hpp
 ScriptSystem/ScriptSystem.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/ScriptSystem/ScriptSystem.hpp
 ScriptSystem/ScriptManager.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/ScriptSystem/ScriptManager.hpp
-Core/InputManager.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Core/InputManager.hpp
-App.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/App.hpp
+External/lua-sol/sol.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Game/External/lua-sol/sol.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/Game/App.hpp
-string
--
-Allocators/FreeListAllocator.hpp
--
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Game/Core/fglobals.h
-Core/FpsLimiter.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Core/FpsLimiter.hpp
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Game/Core/Fiene.h
 
 /home/stel/Game/Game/FissionEngine/Engine/Game/AppBehaviour.cpp
 AppBehaviour.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/AppBehaviour.hpp
-Core/InputManager.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Core/InputManager.hpp
-Allocators/FreeListAllocator.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Allocators/FreeListAllocator.hpp
-Allocators/PoolAllocator.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Allocators/PoolAllocator.hpp
-Allocators/ProxyAllocator.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Allocators/ProxyAllocator.hpp
-Resources/Texture.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Resources/Texture.hpp
-Resources/TexturesManager.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/Resources/TexturesManager.hpp
-ScriptSystem/ScriptManager.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Game/ScriptSystem/ScriptManager.hpp
+Engine.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Game/Engine.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/Game/AppBehaviour.hpp
 Engine.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/Engine.hpp
 Core/Window.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/Core/Window.hpp
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Game/Core/Fiene.h
 Core/FpsLimiter.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/Core/FpsLimiter.hpp
 StateManager.hpp
@@ -921,8 +1009,8 @@ StateBehaviour.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.hpp
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Game/Core/fglobals.h
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Game/Core/Fiene.h
 
 /home/stel/Game/Game/FissionEngine/Engine/Game/StateManager.cpp
 StateManager.hpp
@@ -931,152 +1019,38 @@ StateBehaviour.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/StateBehaviour.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/Game/StateManager.hpp
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Game/Core/fglobals.h
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Game/Core/Fiene.h
 Core/Stack.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Game/Core/Stack.hpp
 unordered_map
 -
 
-/home/stel/Game/Game/FissionEngine/Engine/Map/CollisionLayer.cpp
-CollisionLayer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/CollisionLayer.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_manager.cpp
+lua_script_manager.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_manager.hpp
 
-/home/stel/Game/Game/FissionEngine/Engine/Map/CollisionLayer.hpp
-Layer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Layer.hpp
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/IsometricRenderer.cpp
-IsometricRenderer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/IsometricRenderer.hpp
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/IsometricRenderer.hpp
-MapRenderer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/MapRenderer.hpp
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/Layer.cpp
-Layer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Layer.hpp
-fstream
--
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/Layer.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_manager.hpp
 string
 -
-vector
--
-Math/Vector.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Math/Vector.hpp
-Utils/Utils.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Utils/Utils.hpp
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/Map.cpp
-Map.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Map.hpp
-TilesetLayer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/TilesetLayer.hpp
-CollisionLayer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/CollisionLayer.hpp
-ObjectLayer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/ObjectLayer.hpp
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Map/Core/fglobals.h
-TileSet.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/TileSet.hpp
-Resources/Texture.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Resources/Texture.hpp
-iostream
--
-fstream
--
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/Map.hpp
-TileSet.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/TileSet.hpp
-string
--
-vector
--
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/MapRenderer.cpp
-MapRenderer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/MapRenderer.hpp
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/MapRenderer.hpp
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/ObjectLayer.cpp
-ObjectLayer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/ObjectLayer.hpp
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/ObjectLayer.hpp
-Layer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Layer.hpp
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/OrthogonalRenderer.cpp
-OrthogonalRenderer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/OrthogonalRenderer.hpp
-2D/SpriteBatch.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/2D/SpriteBatch.hpp
-Layer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Layer.hpp
-TilesetLayer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/TilesetLayer.hpp
-Map.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Map.hpp
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/OrthogonalRenderer.hpp
-MapRenderer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/MapRenderer.hpp
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/Tile.cpp
-Tile.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Tile.hpp
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/Tile.hpp
-Math/Vector.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Math/Vector.hpp
-Utils/Utils.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Utils/Utils.hpp
-Resources/Texture.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Resources/Texture.hpp
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/TileSet.cpp
-TileSet.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/TileSet.hpp
-Tile.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Tile.hpp
-Resources/TexturesManager.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Resources/TexturesManager.hpp
-Utils/FDebug.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Utils/FDebug.hpp
-algorithm
--
-iostream
--
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/TileSet.hpp
-Math/Vector.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Math/Vector.hpp
 map
 -
-memory
--
+External/sol.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Lua/External/sol.hpp
 
-/home/stel/Game/Game/FissionEngine/Engine/Map/TilesetLayer.cpp
-TilesetLayer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/TilesetLayer.hpp
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Map/Core/fglobals.h
-Tile.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Tile.hpp
-
-/home/stel/Game/Game/FissionEngine/Engine/Map/TilesetLayer.hpp
-Layer.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/Layer.hpp
-TileSet.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Map/TileSet.hpp
-vector
+/home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_system.cpp
+iostream
 -
+lua_script_system.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_system.hpp
+lua_script_manager.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_manager.hpp
+
+/home/stel/Game/Game/FissionEngine/Engine/Lua/lua_script_system.hpp
+string
+-
+External/sol.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Lua/External/sol.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/Math/MathUtils.cpp
 MathUtils.hpp
@@ -1087,8 +1061,8 @@ MathUtils.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Math/Matrix.cpp
 Matrix.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Math/Matrix.hpp
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Math/Core/fglobals.h
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Math/Core/Fiene.h
 iostream
 -
 
@@ -1165,8 +1139,8 @@ FileSystem/fs_utils.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Resources/FileSystem/fs_utils.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/Resources/ResourceManager.hpp
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Resources/Core/fglobals.h
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Resources/Core/Fiene.h
 Allocators/BaseAllocator.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Resources/Allocators/BaseAllocator.hpp
 string
@@ -1185,8 +1159,8 @@ ResourceBase.h
 /home/stel/Game/Game/FissionEngine/Engine/Resources/ResourceBase.h
 Core/IOManager.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Resources/Core/IOManager.hpp
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Resources/Core/fglobals.h
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Resources/Core/Fiene.h
 2D/picoPNG.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Resources/2D/picoPNG.hpp
 Utils/FDebug.hpp
@@ -1221,8 +1195,8 @@ FileSystem/FileSystem.hpp
 /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.hpp
 Resources/ResourceBase.h
 /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Resources/ResourceBase.h
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Core/fglobals.h
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Core/Fiene.h
 
 /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptManager.cpp
 ScriptManager.hpp
@@ -1247,14 +1221,16 @@ lua-bindings/fe_lua_binding_resources.hpp
 /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_resources.hpp
 lua-bindings/fe_lua_binding_math.hpp
 /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_math.hpp
+lua-bindings/fe_lua_binding_engine_core.hpp
+/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp
 External/lua-sol/sol.hpp
 /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/External/lua-sol/sol.hpp
 Script.hpp
 /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.hpp
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Core/fglobals.h
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Core/Fiene.h
 
 /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_2d.cpp
 fe_lua_binding_2d.hpp
@@ -1263,6 +1239,16 @@ fe_lua_binding_2d.hpp
 /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/2D/SpriteBatch.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_2d.hpp
+External/lua-sol/sol.hpp
+/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/External/lua-sol/sol.hpp
+
+/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.cpp
+fe_lua_binding_engine_core.hpp
+/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.hpp
+Engine.hpp
+/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/Engine.hpp
+
+/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.hpp
 External/lua-sol/sol.hpp
 /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/External/lua-sol/sol.hpp
 
@@ -1315,26 +1301,16 @@ vector
 -
 string
 -
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Universe/Core/fglobals.h
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Universe/Core/Fiene.h
 IComponent.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Universe/IComponent.hpp
-
-/home/stel/Game/Game/FissionEngine/Engine/Universe/EntityManager.cpp
-EntityManager.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Universe/EntityManager.hpp
-Allocators/PoolAllocator.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Universe/Allocators/PoolAllocator.hpp
-ScriptSystem/ScriptSystem.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Universe/ScriptSystem/ScriptSystem.hpp
-Entity.hpp
-/home/stel/Game/Game/FissionEngine/Engine/Universe/Entity.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/Universe/EntityManager.hpp
 unordered_map
 -
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Universe/Core/fglobals.h
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Universe/Core/Fiene.h
 
 /home/stel/Game/Game/FissionEngine/Engine/Universe/GraphicsSystem.cpp
 zconf.h
@@ -1367,8 +1343,8 @@ IComponent.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Universe/IComponent.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/Universe/IComponent.hpp
-Core/fglobals.h
-/home/stel/Game/Game/FissionEngine/Engine/Universe/Core/fglobals.h
+Core/Fiene.h
+/home/stel/Game/Game/FissionEngine/Engine/Universe/Core/Fiene.h
 Resources/Texture.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Universe/Resources/Texture.hpp
 Utils/Utils.hpp

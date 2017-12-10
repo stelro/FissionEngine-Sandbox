@@ -21,7 +21,7 @@
 #define FISSIONENGINE_STATEBEHAVIOUR_HPP
 
 //Engine Internal
-#include "Core/fglobals.h"
+#include "Core/Fiene.h"
 
 namespace Fiene {
 

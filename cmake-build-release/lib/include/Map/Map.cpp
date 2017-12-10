@@ -22,7 +22,7 @@
 #include "TilesetLayer.hpp"
 #include "CollisionLayer.hpp"
 #include "ObjectLayer.hpp"
-#include "Core/fglobals.h"
+#include "Core/Fiene.h"
 #include "TileSet.hpp"
 #include "Lua/lua_script_system.hpp"
 #include "Resources/Texture.hpp"

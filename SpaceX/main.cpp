@@ -1,12 +1,9 @@
 #include <Engine/Game/App.hpp>
-
+#include <Engine/External/lua-sol/sol.hpp>
 
 int main()
 {
-    Fiene::App app;
+    std::cout << "Hello World" << std::endl;
 
-    app.run();
-    app.terminate();
-
-    return app.getExitCode();
+    return 0;
 }
