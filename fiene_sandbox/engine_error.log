@@ -1,0 +1,31 @@
+Fission Engine Error File @ local time: Wed Apr  5 01:55:52 2017
+
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+(null)
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Shaders failed to link!Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Uniform €ë~ü not found in Shader .
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Uniform mySampler not found in Shader .
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+(null)
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Shaders failed to link!Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Vertex Shader failed to be created
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+(null)
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Shaders failed to link!Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Uniform mySampler not found in Shader .
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+(null)
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Shaders failed to link!Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Uniform mySampler not found in Shader .
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Uniform mySampler not found in Shader .
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+(null)
+Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Shaders failed to link!Error occurred in File: '/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp' Function: 'iostreamErrorOutput' Line: '144'
+Uniform mySampler not found in Shader Shaders/test2_frag.glsl.

@@ -114,19 +114,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-freeGame/CMakeFiles/freeGame.dir/rule:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 freeGame/CMakeFiles/freeGame.dir/rule
-.PHONY : freeGame/CMakeFiles/freeGame.dir/rule
+freeGame/CMakeFiles/fiene_sandbox.dir/rule:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 freeGame/CMakeFiles/fiene_sandbox.dir/rule
+.PHONY : freeGame/CMakeFiles/fiene_sandbox.dir/rule
 
 # Convenience name for target.
-freeGame: freeGame/CMakeFiles/freeGame.dir/rule
+fiene_sandbox: freeGame/CMakeFiles/fiene_sandbox.dir/rule
 
-.PHONY : freeGame
+.PHONY : fiene_sandbox
 
 # fast build rule for target.
-freeGame/fast:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f freeGame/CMakeFiles/freeGame.dir/build.make freeGame/CMakeFiles/freeGame.dir/build
-.PHONY : freeGame/fast
+fiene_sandbox/fast:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f freeGame/CMakeFiles/fiene_sandbox.dir/build.make freeGame/CMakeFiles/fiene_sandbox.dir/build
+.PHONY : fiene_sandbox/fast
 
 src/main.o: src/main.cpp.o
 
@@ -134,7 +134,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f freeGame/CMakeFiles/freeGame.dir/build.make freeGame/CMakeFiles/freeGame.dir/src/main.cpp.o
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f freeGame/CMakeFiles/fiene_sandbox.dir/build.make freeGame/CMakeFiles/fiene_sandbox.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -143,7 +143,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f freeGame/CMakeFiles/freeGame.dir/build.make freeGame/CMakeFiles/freeGame.dir/src/main.cpp.i
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f freeGame/CMakeFiles/fiene_sandbox.dir/build.make freeGame/CMakeFiles/fiene_sandbox.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -152,7 +152,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f freeGame/CMakeFiles/freeGame.dir/build.make freeGame/CMakeFiles/freeGame.dir/src/main.cpp.s
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f freeGame/CMakeFiles/fiene_sandbox.dir/build.make freeGame/CMakeFiles/fiene_sandbox.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -163,7 +163,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... freeGame"
+	@echo "... fiene_sandbox"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

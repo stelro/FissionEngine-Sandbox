@@ -127,30 +127,30 @@ FissionEngine/fast:
 .PHONY : FissionEngine/fast
 
 #=============================================================================
-# Target rules for targets named freeGame
+# Target rules for targets named fiene_sandbox
 
 # Build rule for target.
-freeGame: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 freeGame
-.PHONY : freeGame
+fiene_sandbox: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fiene_sandbox
+.PHONY : fiene_sandbox
 
 # fast build rule for target.
-freeGame/fast:
-	$(MAKE) -f freeGame/CMakeFiles/freeGame.dir/build.make freeGame/CMakeFiles/freeGame.dir/build
-.PHONY : freeGame/fast
+fiene_sandbox/fast:
+	$(MAKE) -f fiene_sandbox/CMakeFiles/fiene_sandbox.dir/build.make fiene_sandbox/CMakeFiles/fiene_sandbox.dir/build
+.PHONY : fiene_sandbox/fast
 
 #=============================================================================
-# Target rules for targets named UltraSpace
+# Target rules for targets named Deathmarch
 
 # Build rule for target.
-UltraSpace: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UltraSpace
-.PHONY : UltraSpace
+Deathmarch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Deathmarch
+.PHONY : Deathmarch
 
 # fast build rule for target.
-UltraSpace/fast:
-	$(MAKE) -f UltraSpace/CMakeFiles/UltraSpace.dir/build.make UltraSpace/CMakeFiles/UltraSpace.dir/build
-.PHONY : UltraSpace/fast
+Deathmarch/fast:
+	$(MAKE) -f Deathmarch/CMakeFiles/Deathmarch.dir/build.make Deathmarch/CMakeFiles/Deathmarch.dir/build
+.PHONY : Deathmarch/fast
 
 # Help Target
 help:
@@ -161,8 +161,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... FissionEngine"
-	@echo "... freeGame"
-	@echo "... UltraSpace"
+	@echo "... fiene_sandbox"
+	@echo "... Deathmarch"
 .PHONY : help
 
 

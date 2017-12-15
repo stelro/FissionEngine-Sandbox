@@ -5,7 +5,7 @@
 		<Option title="Project"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\FissionEngine\;CMake Files\FissionEngine\Engine\;CMake Files\FissionEngine\Engine\2D\;CMake Files\FissionEngine\Engine\Core\;CMake Files\FissionEngine\Engine\GLSL\;CMake Files\FissionEngine\Engine\Math\;CMake Files\FissionEngine\Engine\Physics\;CMake Files\FissionEngine\Engine\Resources\;CMake Files\FissionEngine\Engine\Utils\;CMake Files\FissionEngine\Engine\External\;CMake Files\FissionEngine\Engine\Allocators\;CMake Files\FissionEngine\Engine\Game\;CMake Files\FissionEngine\Engine\FileSystem\;CMake Files\FissionEngine\Engine\ScriptSystem\;CMake Files\FissionEngine\Engine\ScriptSystem\lua-bindings\;CMake Files\FissionEngine\Engine\Universe\;CMake Files\FissionEngine\Engine\Shaders\;CMake Files\FissionEngine\Engine\Lua\;CMake Files\FissionEngine\cmake\;CMake Files\freeGame\;CMake Files\UltraSpace\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Deathmarch\;CMake Files\FissionEngine\;CMake Files\FissionEngine\Engine\;CMake Files\FissionEngine\Engine\2D\;CMake Files\FissionEngine\Engine\Core\;CMake Files\FissionEngine\Engine\GLSL\;CMake Files\FissionEngine\Engine\Math\;CMake Files\FissionEngine\Engine\Physics\;CMake Files\FissionEngine\Engine\Resources\;CMake Files\FissionEngine\Engine\Utils\;CMake Files\FissionEngine\Engine\External\;CMake Files\FissionEngine\Engine\Allocators\;CMake Files\FissionEngine\Engine\Game\;CMake Files\FissionEngine\Engine\FileSystem\;CMake Files\FissionEngine\Engine\ScriptSystem\;CMake Files\FissionEngine\Engine\ScriptSystem\lua-bindings\;CMake Files\FissionEngine\Engine\Scene\;CMake Files\FissionEngine\Engine\Shaders\;CMake Files\FissionEngine\Engine\Lua\;CMake Files\FissionEngine\cmake\;CMake Files\fiene_sandbox\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/stel/Game/Game/cmake-build-debug"/>
@@ -89,9 +89,9 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/FissionEngine/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="freeGame">
-				<Option output="/home/stel/Game/Game/freeGame/freeGame" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stel/Game/Game/freeGame"/>
+			<Target title="fiene_sandbox">
+				<Option output="/home/stel/Game/Game/fiene_sandbox/fiene_sandbox" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stel/Game/Game/fiene_sandbox"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -108,15 +108,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 freeGame"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/fiene_sandbox/Makefile&quot;  VERBOSE=1 fiene_sandbox"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/fiene_sandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/fiene_sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/fiene_sandbox/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="freeGame/fast">
-				<Option output="/home/stel/Game/Game/freeGame/freeGame" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stel/Game/Game/freeGame"/>
+			<Target title="fiene_sandbox/fast">
+				<Option output="/home/stel/Game/Game/fiene_sandbox/fiene_sandbox" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stel/Game/Game/fiene_sandbox"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -133,15 +133,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 freeGame/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/freeGame/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/fiene_sandbox/Makefile&quot;  VERBOSE=1 fiene_sandbox/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/fiene_sandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/fiene_sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/fiene_sandbox/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="UltraSpace">
-				<Option output="/home/stel/Game/Game/UltraSpace/UltraSpace" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stel/Game/Game/UltraSpace"/>
+			<Target title="Deathmarch">
+				<Option output="/home/stel/Game/Game/Deathmarch/Deathmarch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stel/Game/Game/Deathmarch"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -158,15 +158,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/UltraSpace/Makefile&quot;  VERBOSE=1 UltraSpace"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/UltraSpace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/UltraSpace/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/UltraSpace/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Deathmarch/Makefile&quot;  VERBOSE=1 Deathmarch"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Deathmarch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Deathmarch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Deathmarch/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="UltraSpace/fast">
-				<Option output="/home/stel/Game/Game/UltraSpace/UltraSpace" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stel/Game/Game/UltraSpace"/>
+			<Target title="Deathmarch/fast">
+				<Option output="/home/stel/Game/Game/Deathmarch/Deathmarch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stel/Game/Game/Deathmarch"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -183,13 +183,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/UltraSpace/Makefile&quot;  VERBOSE=1 UltraSpace/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/UltraSpace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/UltraSpace/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/UltraSpace/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Deathmarch/Makefile&quot;  VERBOSE=1 Deathmarch/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Deathmarch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Deathmarch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stel/Game/Game/cmake-build-debug/Deathmarch/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/stel/Game/Game/Deathmarch/Source/App.cpp">
+			<Option target="Deathmarch"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/Deathmarch/Source/App.hpp">
+			<Option target="Deathmarch"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/Deathmarch/Source/main.cpp">
+			<Option target="Deathmarch"/>
+		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/2D/Camera2D.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
@@ -373,10 +382,10 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/GLSL/ShaderProgram.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Game/App.cpp">
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/GLSL/ShaderProgram2.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Game/App.hpp">
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/GLSL/ShaderProgram2.h">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Game/AppBehaviour.cpp">
@@ -469,6 +478,48 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Resources/TexturesManager.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/AbstractSystem.cpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/AbstractSystem.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Component.cpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Component.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Entity.cpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Entity.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/GraphicsComponent.cpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/GraphicsComponent.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/NpcComponent.cpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/NpcComponent.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/RendererSystem.cpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/RendererSystem.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Scene.cpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Scene.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
@@ -523,42 +574,6 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Shaders/simple_draw_vertex.glsl">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Universe/Entity.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Universe/Entity.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Universe/GraphicsSystem.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Universe/GraphicsSystem.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Universe/ICSystem.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Universe/ICSystem.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Universe/IComponent.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Universe/IComponent.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Universe/InputSystem.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Universe/InputSystem.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Universe/Universe.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Universe/Universe.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/FDebug.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
@@ -571,21 +586,18 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/Utils.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/UltraSpace/Source/App.cpp">
-			<Option target="UltraSpace"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/UltraSpace/Source/App.hpp">
-			<Option target="UltraSpace"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/UltraSpace/Source/main.cpp">
-			<Option target="UltraSpace"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/freeGame/src/main.cpp">
-			<Option target="freeGame"/>
+		<Unit filename="/home/stel/Game/Game/fiene_sandbox/src/main.cpp">
+			<Option target="fiene_sandbox"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+		<Unit filename="/home/stel/Game/Game/Deathmarch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Deathmarch\"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/Deathmarch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Deathmarch\"/>
+		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\FissionEngine\"/>
 		</Unit>
@@ -670,11 +682,11 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/lua-bindings/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\FissionEngine\Engine\ScriptSystem\lua-bindings\"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Universe/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\FissionEngine\Engine\Universe\"/>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Scene\"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Universe/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\FissionEngine\Engine\Universe\"/>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FissionEngine\Engine\Scene\"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Shaders/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\FissionEngine\Engine\Shaders\"/>
@@ -718,17 +730,11 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/cmake/FindLua.cmake">
 			<Option virtualFolder="CMake Files\FissionEngine\cmake\"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/freeGame/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\freeGame\"/>
+		<Unit filename="/home/stel/Game/Game/fiene_sandbox/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fiene_sandbox\"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/freeGame/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\freeGame\"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/UltraSpace/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\UltraSpace\"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/UltraSpace/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\UltraSpace\"/>
+		<Unit filename="/home/stel/Game/Game/fiene_sandbox/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fiene_sandbox\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

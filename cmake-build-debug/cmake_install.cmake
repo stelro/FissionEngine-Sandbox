@@ -35,8 +35,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/stel/Game/Game/cmake-build-debug/FissionEngine/cmake_install.cmake")
-  include("/home/stel/Game/Game/cmake-build-debug/freeGame/cmake_install.cmake")
-  include("/home/stel/Game/Game/cmake-build-debug/UltraSpace/cmake_install.cmake")
+  include("/home/stel/Game/Game/cmake-build-debug/fiene_sandbox/cmake_install.cmake")
+  include("/home/stel/Game/Game/cmake-build-debug/Deathmarch/cmake_install.cmake")
 
 endif()
 

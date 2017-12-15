@@ -884,32 +884,32 @@ Engine/GLSL/ShaderProgram.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram.cpp.s
 .PHONY : Engine/GLSL/ShaderProgram.cpp.s
 
-Engine/Game/App.o: Engine/Game/App.cpp.o
+Engine/GLSL/ShaderProgram2.o: Engine/GLSL/ShaderProgram2.cpp.o
 
-.PHONY : Engine/Game/App.o
+.PHONY : Engine/GLSL/ShaderProgram2.o
 
 # target to build an object file
-Engine/Game/App.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/App.cpp.o
-.PHONY : Engine/Game/App.cpp.o
+Engine/GLSL/ShaderProgram2.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram2.cpp.o
+.PHONY : Engine/GLSL/ShaderProgram2.cpp.o
 
-Engine/Game/App.i: Engine/Game/App.cpp.i
+Engine/GLSL/ShaderProgram2.i: Engine/GLSL/ShaderProgram2.cpp.i
 
-.PHONY : Engine/Game/App.i
+.PHONY : Engine/GLSL/ShaderProgram2.i
 
 # target to preprocess a source file
-Engine/Game/App.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/App.cpp.i
-.PHONY : Engine/Game/App.cpp.i
+Engine/GLSL/ShaderProgram2.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram2.cpp.i
+.PHONY : Engine/GLSL/ShaderProgram2.cpp.i
 
-Engine/Game/App.s: Engine/Game/App.cpp.s
+Engine/GLSL/ShaderProgram2.s: Engine/GLSL/ShaderProgram2.cpp.s
 
-.PHONY : Engine/Game/App.s
+.PHONY : Engine/GLSL/ShaderProgram2.s
 
 # target to generate assembly for a file
-Engine/Game/App.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/App.cpp.s
-.PHONY : Engine/Game/App.cpp.s
+Engine/GLSL/ShaderProgram2.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/GLSL/ShaderProgram2.cpp.s
+.PHONY : Engine/GLSL/ShaderProgram2.cpp.s
 
 Engine/Game/AppBehaviour.o: Engine/Game/AppBehaviour.cpp.o
 
@@ -1262,6 +1262,195 @@ Engine/Resources/TexturesManager.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.s
 .PHONY : Engine/Resources/TexturesManager.cpp.s
 
+Engine/Scene/AbstractSystem.o: Engine/Scene/AbstractSystem.cpp.o
+
+.PHONY : Engine/Scene/AbstractSystem.o
+
+# target to build an object file
+Engine/Scene/AbstractSystem.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/AbstractSystem.cpp.o
+.PHONY : Engine/Scene/AbstractSystem.cpp.o
+
+Engine/Scene/AbstractSystem.i: Engine/Scene/AbstractSystem.cpp.i
+
+.PHONY : Engine/Scene/AbstractSystem.i
+
+# target to preprocess a source file
+Engine/Scene/AbstractSystem.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/AbstractSystem.cpp.i
+.PHONY : Engine/Scene/AbstractSystem.cpp.i
+
+Engine/Scene/AbstractSystem.s: Engine/Scene/AbstractSystem.cpp.s
+
+.PHONY : Engine/Scene/AbstractSystem.s
+
+# target to generate assembly for a file
+Engine/Scene/AbstractSystem.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/AbstractSystem.cpp.s
+.PHONY : Engine/Scene/AbstractSystem.cpp.s
+
+Engine/Scene/Component.o: Engine/Scene/Component.cpp.o
+
+.PHONY : Engine/Scene/Component.o
+
+# target to build an object file
+Engine/Scene/Component.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Component.cpp.o
+.PHONY : Engine/Scene/Component.cpp.o
+
+Engine/Scene/Component.i: Engine/Scene/Component.cpp.i
+
+.PHONY : Engine/Scene/Component.i
+
+# target to preprocess a source file
+Engine/Scene/Component.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Component.cpp.i
+.PHONY : Engine/Scene/Component.cpp.i
+
+Engine/Scene/Component.s: Engine/Scene/Component.cpp.s
+
+.PHONY : Engine/Scene/Component.s
+
+# target to generate assembly for a file
+Engine/Scene/Component.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Component.cpp.s
+.PHONY : Engine/Scene/Component.cpp.s
+
+Engine/Scene/Entity.o: Engine/Scene/Entity.cpp.o
+
+.PHONY : Engine/Scene/Entity.o
+
+# target to build an object file
+Engine/Scene/Entity.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Entity.cpp.o
+.PHONY : Engine/Scene/Entity.cpp.o
+
+Engine/Scene/Entity.i: Engine/Scene/Entity.cpp.i
+
+.PHONY : Engine/Scene/Entity.i
+
+# target to preprocess a source file
+Engine/Scene/Entity.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Entity.cpp.i
+.PHONY : Engine/Scene/Entity.cpp.i
+
+Engine/Scene/Entity.s: Engine/Scene/Entity.cpp.s
+
+.PHONY : Engine/Scene/Entity.s
+
+# target to generate assembly for a file
+Engine/Scene/Entity.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Entity.cpp.s
+.PHONY : Engine/Scene/Entity.cpp.s
+
+Engine/Scene/GraphicsComponent.o: Engine/Scene/GraphicsComponent.cpp.o
+
+.PHONY : Engine/Scene/GraphicsComponent.o
+
+# target to build an object file
+Engine/Scene/GraphicsComponent.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/GraphicsComponent.cpp.o
+.PHONY : Engine/Scene/GraphicsComponent.cpp.o
+
+Engine/Scene/GraphicsComponent.i: Engine/Scene/GraphicsComponent.cpp.i
+
+.PHONY : Engine/Scene/GraphicsComponent.i
+
+# target to preprocess a source file
+Engine/Scene/GraphicsComponent.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/GraphicsComponent.cpp.i
+.PHONY : Engine/Scene/GraphicsComponent.cpp.i
+
+Engine/Scene/GraphicsComponent.s: Engine/Scene/GraphicsComponent.cpp.s
+
+.PHONY : Engine/Scene/GraphicsComponent.s
+
+# target to generate assembly for a file
+Engine/Scene/GraphicsComponent.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/GraphicsComponent.cpp.s
+.PHONY : Engine/Scene/GraphicsComponent.cpp.s
+
+Engine/Scene/NpcComponent.o: Engine/Scene/NpcComponent.cpp.o
+
+.PHONY : Engine/Scene/NpcComponent.o
+
+# target to build an object file
+Engine/Scene/NpcComponent.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/NpcComponent.cpp.o
+.PHONY : Engine/Scene/NpcComponent.cpp.o
+
+Engine/Scene/NpcComponent.i: Engine/Scene/NpcComponent.cpp.i
+
+.PHONY : Engine/Scene/NpcComponent.i
+
+# target to preprocess a source file
+Engine/Scene/NpcComponent.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/NpcComponent.cpp.i
+.PHONY : Engine/Scene/NpcComponent.cpp.i
+
+Engine/Scene/NpcComponent.s: Engine/Scene/NpcComponent.cpp.s
+
+.PHONY : Engine/Scene/NpcComponent.s
+
+# target to generate assembly for a file
+Engine/Scene/NpcComponent.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/NpcComponent.cpp.s
+.PHONY : Engine/Scene/NpcComponent.cpp.s
+
+Engine/Scene/RendererSystem.o: Engine/Scene/RendererSystem.cpp.o
+
+.PHONY : Engine/Scene/RendererSystem.o
+
+# target to build an object file
+Engine/Scene/RendererSystem.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/RendererSystem.cpp.o
+.PHONY : Engine/Scene/RendererSystem.cpp.o
+
+Engine/Scene/RendererSystem.i: Engine/Scene/RendererSystem.cpp.i
+
+.PHONY : Engine/Scene/RendererSystem.i
+
+# target to preprocess a source file
+Engine/Scene/RendererSystem.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/RendererSystem.cpp.i
+.PHONY : Engine/Scene/RendererSystem.cpp.i
+
+Engine/Scene/RendererSystem.s: Engine/Scene/RendererSystem.cpp.s
+
+.PHONY : Engine/Scene/RendererSystem.s
+
+# target to generate assembly for a file
+Engine/Scene/RendererSystem.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/RendererSystem.cpp.s
+.PHONY : Engine/Scene/RendererSystem.cpp.s
+
+Engine/Scene/Scene.o: Engine/Scene/Scene.cpp.o
+
+.PHONY : Engine/Scene/Scene.o
+
+# target to build an object file
+Engine/Scene/Scene.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Scene.cpp.o
+.PHONY : Engine/Scene/Scene.cpp.o
+
+Engine/Scene/Scene.i: Engine/Scene/Scene.cpp.i
+
+.PHONY : Engine/Scene/Scene.i
+
+# target to preprocess a source file
+Engine/Scene/Scene.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Scene.cpp.i
+.PHONY : Engine/Scene/Scene.cpp.i
+
+Engine/Scene/Scene.s: Engine/Scene/Scene.cpp.s
+
+.PHONY : Engine/Scene/Scene.s
+
+# target to generate assembly for a file
+Engine/Scene/Scene.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Scene.cpp.s
+.PHONY : Engine/Scene/Scene.cpp.s
+
 Engine/ScriptSystem/Script.o: Engine/ScriptSystem/Script.cpp.o
 
 .PHONY : Engine/ScriptSystem/Script.o
@@ -1478,168 +1667,6 @@ Engine/ScriptSystem/lua-bindings/fe_lua_binding_resources.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_resources.cpp.s
 .PHONY : Engine/ScriptSystem/lua-bindings/fe_lua_binding_resources.cpp.s
 
-Engine/Universe/Entity.o: Engine/Universe/Entity.cpp.o
-
-.PHONY : Engine/Universe/Entity.o
-
-# target to build an object file
-Engine/Universe/Entity.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/Entity.cpp.o
-.PHONY : Engine/Universe/Entity.cpp.o
-
-Engine/Universe/Entity.i: Engine/Universe/Entity.cpp.i
-
-.PHONY : Engine/Universe/Entity.i
-
-# target to preprocess a source file
-Engine/Universe/Entity.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/Entity.cpp.i
-.PHONY : Engine/Universe/Entity.cpp.i
-
-Engine/Universe/Entity.s: Engine/Universe/Entity.cpp.s
-
-.PHONY : Engine/Universe/Entity.s
-
-# target to generate assembly for a file
-Engine/Universe/Entity.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/Entity.cpp.s
-.PHONY : Engine/Universe/Entity.cpp.s
-
-Engine/Universe/GraphicsSystem.o: Engine/Universe/GraphicsSystem.cpp.o
-
-.PHONY : Engine/Universe/GraphicsSystem.o
-
-# target to build an object file
-Engine/Universe/GraphicsSystem.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/GraphicsSystem.cpp.o
-.PHONY : Engine/Universe/GraphicsSystem.cpp.o
-
-Engine/Universe/GraphicsSystem.i: Engine/Universe/GraphicsSystem.cpp.i
-
-.PHONY : Engine/Universe/GraphicsSystem.i
-
-# target to preprocess a source file
-Engine/Universe/GraphicsSystem.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/GraphicsSystem.cpp.i
-.PHONY : Engine/Universe/GraphicsSystem.cpp.i
-
-Engine/Universe/GraphicsSystem.s: Engine/Universe/GraphicsSystem.cpp.s
-
-.PHONY : Engine/Universe/GraphicsSystem.s
-
-# target to generate assembly for a file
-Engine/Universe/GraphicsSystem.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/GraphicsSystem.cpp.s
-.PHONY : Engine/Universe/GraphicsSystem.cpp.s
-
-Engine/Universe/ICSystem.o: Engine/Universe/ICSystem.cpp.o
-
-.PHONY : Engine/Universe/ICSystem.o
-
-# target to build an object file
-Engine/Universe/ICSystem.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/ICSystem.cpp.o
-.PHONY : Engine/Universe/ICSystem.cpp.o
-
-Engine/Universe/ICSystem.i: Engine/Universe/ICSystem.cpp.i
-
-.PHONY : Engine/Universe/ICSystem.i
-
-# target to preprocess a source file
-Engine/Universe/ICSystem.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/ICSystem.cpp.i
-.PHONY : Engine/Universe/ICSystem.cpp.i
-
-Engine/Universe/ICSystem.s: Engine/Universe/ICSystem.cpp.s
-
-.PHONY : Engine/Universe/ICSystem.s
-
-# target to generate assembly for a file
-Engine/Universe/ICSystem.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/ICSystem.cpp.s
-.PHONY : Engine/Universe/ICSystem.cpp.s
-
-Engine/Universe/IComponent.o: Engine/Universe/IComponent.cpp.o
-
-.PHONY : Engine/Universe/IComponent.o
-
-# target to build an object file
-Engine/Universe/IComponent.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/IComponent.cpp.o
-.PHONY : Engine/Universe/IComponent.cpp.o
-
-Engine/Universe/IComponent.i: Engine/Universe/IComponent.cpp.i
-
-.PHONY : Engine/Universe/IComponent.i
-
-# target to preprocess a source file
-Engine/Universe/IComponent.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/IComponent.cpp.i
-.PHONY : Engine/Universe/IComponent.cpp.i
-
-Engine/Universe/IComponent.s: Engine/Universe/IComponent.cpp.s
-
-.PHONY : Engine/Universe/IComponent.s
-
-# target to generate assembly for a file
-Engine/Universe/IComponent.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/IComponent.cpp.s
-.PHONY : Engine/Universe/IComponent.cpp.s
-
-Engine/Universe/InputSystem.o: Engine/Universe/InputSystem.cpp.o
-
-.PHONY : Engine/Universe/InputSystem.o
-
-# target to build an object file
-Engine/Universe/InputSystem.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/InputSystem.cpp.o
-.PHONY : Engine/Universe/InputSystem.cpp.o
-
-Engine/Universe/InputSystem.i: Engine/Universe/InputSystem.cpp.i
-
-.PHONY : Engine/Universe/InputSystem.i
-
-# target to preprocess a source file
-Engine/Universe/InputSystem.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/InputSystem.cpp.i
-.PHONY : Engine/Universe/InputSystem.cpp.i
-
-Engine/Universe/InputSystem.s: Engine/Universe/InputSystem.cpp.s
-
-.PHONY : Engine/Universe/InputSystem.s
-
-# target to generate assembly for a file
-Engine/Universe/InputSystem.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/InputSystem.cpp.s
-.PHONY : Engine/Universe/InputSystem.cpp.s
-
-Engine/Universe/Universe.o: Engine/Universe/Universe.cpp.o
-
-.PHONY : Engine/Universe/Universe.o
-
-# target to build an object file
-Engine/Universe/Universe.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/Universe.cpp.o
-.PHONY : Engine/Universe/Universe.cpp.o
-
-Engine/Universe/Universe.i: Engine/Universe/Universe.cpp.i
-
-.PHONY : Engine/Universe/Universe.i
-
-# target to preprocess a source file
-Engine/Universe/Universe.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/Universe.cpp.i
-.PHONY : Engine/Universe/Universe.cpp.i
-
-Engine/Universe/Universe.s: Engine/Universe/Universe.cpp.s
-
-.PHONY : Engine/Universe/Universe.s
-
-# target to generate assembly for a file
-Engine/Universe/Universe.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/Universe.cpp.s
-.PHONY : Engine/Universe/Universe.cpp.s
-
 Engine/Utils/FDebug.o: Engine/Utils/FDebug.cpp.o
 
 .PHONY : Engine/Utils/FDebug.o
@@ -1787,9 +1814,9 @@ help:
 	@echo "... Engine/GLSL/ShaderProgram.o"
 	@echo "... Engine/GLSL/ShaderProgram.i"
 	@echo "... Engine/GLSL/ShaderProgram.s"
-	@echo "... Engine/Game/App.o"
-	@echo "... Engine/Game/App.i"
-	@echo "... Engine/Game/App.s"
+	@echo "... Engine/GLSL/ShaderProgram2.o"
+	@echo "... Engine/GLSL/ShaderProgram2.i"
+	@echo "... Engine/GLSL/ShaderProgram2.s"
 	@echo "... Engine/Game/AppBehaviour.o"
 	@echo "... Engine/Game/AppBehaviour.i"
 	@echo "... Engine/Game/AppBehaviour.s"
@@ -1829,6 +1856,27 @@ help:
 	@echo "... Engine/Resources/TexturesManager.o"
 	@echo "... Engine/Resources/TexturesManager.i"
 	@echo "... Engine/Resources/TexturesManager.s"
+	@echo "... Engine/Scene/AbstractSystem.o"
+	@echo "... Engine/Scene/AbstractSystem.i"
+	@echo "... Engine/Scene/AbstractSystem.s"
+	@echo "... Engine/Scene/Component.o"
+	@echo "... Engine/Scene/Component.i"
+	@echo "... Engine/Scene/Component.s"
+	@echo "... Engine/Scene/Entity.o"
+	@echo "... Engine/Scene/Entity.i"
+	@echo "... Engine/Scene/Entity.s"
+	@echo "... Engine/Scene/GraphicsComponent.o"
+	@echo "... Engine/Scene/GraphicsComponent.i"
+	@echo "... Engine/Scene/GraphicsComponent.s"
+	@echo "... Engine/Scene/NpcComponent.o"
+	@echo "... Engine/Scene/NpcComponent.i"
+	@echo "... Engine/Scene/NpcComponent.s"
+	@echo "... Engine/Scene/RendererSystem.o"
+	@echo "... Engine/Scene/RendererSystem.i"
+	@echo "... Engine/Scene/RendererSystem.s"
+	@echo "... Engine/Scene/Scene.o"
+	@echo "... Engine/Scene/Scene.i"
+	@echo "... Engine/Scene/Scene.s"
 	@echo "... Engine/ScriptSystem/Script.o"
 	@echo "... Engine/ScriptSystem/Script.i"
 	@echo "... Engine/ScriptSystem/Script.s"
@@ -1853,24 +1901,6 @@ help:
 	@echo "... Engine/ScriptSystem/lua-bindings/fe_lua_binding_resources.o"
 	@echo "... Engine/ScriptSystem/lua-bindings/fe_lua_binding_resources.i"
 	@echo "... Engine/ScriptSystem/lua-bindings/fe_lua_binding_resources.s"
-	@echo "... Engine/Universe/Entity.o"
-	@echo "... Engine/Universe/Entity.i"
-	@echo "... Engine/Universe/Entity.s"
-	@echo "... Engine/Universe/GraphicsSystem.o"
-	@echo "... Engine/Universe/GraphicsSystem.i"
-	@echo "... Engine/Universe/GraphicsSystem.s"
-	@echo "... Engine/Universe/ICSystem.o"
-	@echo "... Engine/Universe/ICSystem.i"
-	@echo "... Engine/Universe/ICSystem.s"
-	@echo "... Engine/Universe/IComponent.o"
-	@echo "... Engine/Universe/IComponent.i"
-	@echo "... Engine/Universe/IComponent.s"
-	@echo "... Engine/Universe/InputSystem.o"
-	@echo "... Engine/Universe/InputSystem.i"
-	@echo "... Engine/Universe/InputSystem.s"
-	@echo "... Engine/Universe/Universe.o"
-	@echo "... Engine/Universe/Universe.i"
-	@echo "... Engine/Universe/Universe.s"
 	@echo "... Engine/Utils/FDebug.o"
 	@echo "... Engine/Utils/FDebug.i"
 	@echo "... Engine/Utils/FDebug.s"

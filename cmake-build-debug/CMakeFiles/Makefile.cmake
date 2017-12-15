@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../Deathmarch/CMakeLists.txt"
   "../FissionEngine/CMakeLists.txt"
   "../FissionEngine/Engine/2D/CMakeLists.txt"
   "../FissionEngine/Engine/Allocators/CMakeLists.txt"
@@ -20,21 +21,20 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../FissionEngine/Engine/Math/CMakeLists.txt"
   "../FissionEngine/Engine/Physics/CMakeLists.txt"
   "../FissionEngine/Engine/Resources/CMakeLists.txt"
+  "../FissionEngine/Engine/Scene/CMakeLists.txt"
   "../FissionEngine/Engine/ScriptSystem/CMakeLists.txt"
   "../FissionEngine/Engine/ScriptSystem/lua-bindings/CMakeLists.txt"
   "../FissionEngine/Engine/Shaders/CMakeLists.txt"
-  "../FissionEngine/Engine/Universe/CMakeLists.txt"
   "../FissionEngine/Engine/Utils/CMakeLists.txt"
   "../FissionEngine/cmake/FindLua.cmake"
   "../FissionEngine/cmake/FindSDL2.cmake"
   "../FissionEngine/cmake/FindSDL2_image.cmake"
   "../FissionEngine/cmake/FindSDL2_mixer.cmake"
   "../FissionEngine/cmake/FindSDL2_ttf.cmake"
-  "../UltraSpace/CMakeLists.txt"
   "CMakeFiles/3.9.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.9.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.9.4/CMakeSystem.cmake"
-  "../freeGame/CMakeLists.txt"
+  "../fiene_sandbox/CMakeLists.txt"
   "/home/stel/clion-2017.2.2/bin/cmake/share/cmake-3.9/Modules/CMakeCInformation.cmake"
   "/home/stel/clion-2017.2.2/bin/cmake/share/cmake-3.9/Modules/CMakeCXXInformation.cmake"
   "/home/stel/clion-2017.2.2/bin/cmake/share/cmake-3.9/Modules/CMakeCommonLanguageInclude.cmake"
@@ -73,13 +73,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "FissionEngine/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "freeGame/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "UltraSpace/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "fiene_sandbox/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Deathmarch/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "FissionEngine/CMakeFiles/FissionEngine.dir/DependInfo.cmake"
-  "freeGame/CMakeFiles/freeGame.dir/DependInfo.cmake"
-  "UltraSpace/CMakeFiles/UltraSpace.dir/DependInfo.cmake"
+  "fiene_sandbox/CMakeFiles/fiene_sandbox.dir/DependInfo.cmake"
+  "Deathmarch/CMakeFiles/Deathmarch.dir/DependInfo.cmake"
   )

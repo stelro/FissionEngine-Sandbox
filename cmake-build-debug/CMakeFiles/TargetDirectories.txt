@@ -3,9 +3,9 @@
 /home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/rebuild_cache.dir
 /home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/edit_cache.dir
 /home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir
-/home/stel/Game/Game/cmake-build-debug/freeGame/CMakeFiles/rebuild_cache.dir
-/home/stel/Game/Game/cmake-build-debug/freeGame/CMakeFiles/edit_cache.dir
-/home/stel/Game/Game/cmake-build-debug/freeGame/CMakeFiles/freeGame.dir
-/home/stel/Game/Game/cmake-build-debug/UltraSpace/CMakeFiles/rebuild_cache.dir
-/home/stel/Game/Game/cmake-build-debug/UltraSpace/CMakeFiles/edit_cache.dir
-/home/stel/Game/Game/cmake-build-debug/UltraSpace/CMakeFiles/UltraSpace.dir
+/home/stel/Game/Game/cmake-build-debug/fiene_sandbox/CMakeFiles/rebuild_cache.dir
+/home/stel/Game/Game/cmake-build-debug/fiene_sandbox/CMakeFiles/edit_cache.dir
+/home/stel/Game/Game/cmake-build-debug/fiene_sandbox/CMakeFiles/fiene_sandbox.dir
+/home/stel/Game/Game/cmake-build-debug/Deathmarch/CMakeFiles/rebuild_cache.dir
+/home/stel/Game/Game/cmake-build-debug/Deathmarch/CMakeFiles/edit_cache.dir
+/home/stel/Game/Game/cmake-build-debug/Deathmarch/CMakeFiles/Deathmarch.dir
