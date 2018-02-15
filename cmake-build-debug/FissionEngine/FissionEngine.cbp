@@ -26,7 +26,7 @@
 				<Compiler>
 					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
 					<Add directory="/usr/include/SDL2"/>
-					<Add directory="/usr/include/lua5.3"/>
+					<Add directory="/usr/include/lua"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -52,7 +52,7 @@
 				<Compiler>
 					<Add directory="/home/stel/Game/Game/FissionEngine/Engine"/>
 					<Add directory="/usr/include/SDL2"/>
-					<Add directory="/usr/include/lua5.3"/>
+					<Add directory="/usr/include/lua"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -187,6 +187,12 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/InputManager.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/SharedPtr.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/SharedPtr.inl">
+			<Option target="FissionEngine"/>
+		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/Stack.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
@@ -197,6 +203,12 @@
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/Window.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/fglobals.cpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/fglobals.h">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Engine.cpp">
@@ -367,16 +379,22 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Entity.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/GraphicsComponent.cpp">
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/EntityManager.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/GraphicsComponent.hpp">
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/EntityManager.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/NpcComponent.cpp">
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/FieneEcs.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/NpcComponent.hpp">
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/FieneEcs.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/FieneTestSystem.cpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/FieneTestSystem.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/RendererSystem.cpp">
@@ -389,6 +407,9 @@
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Scene.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/TestComponent.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.cpp">

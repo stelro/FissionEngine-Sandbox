@@ -9,13 +9,14 @@
 ghost = {
 
     GraphicsComponent = {
-        filename = "Textures/castle.png",
-        rect = { 0, 0, 300, 300 },
-        uv = { 0.0, 0.0, 1.0, 1.0 },
-        color = { 255, 0, 255, 255 },
-        depth = 0,
+        filename    = "Textures/castle.png",
+        rect        = { 200, 200, 300, 300 },
+        uv          = { 0.0, 0.0, 1.0, 1.0 },
+        color       = { 255, 255, 255, 255 },
+        depth       = 0,
 
     },
+
     NpcComponent = {
         phrase = "I'M A SCARY GHOST!!!",
         value = 903,

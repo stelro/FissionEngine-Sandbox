@@ -3,16 +3,35 @@
 #include <Engine/ScriptSystem/ScriptSystem.hpp>
 #include <Engine/Scene/Scene.hpp>
 
-#include <unordered_map>
-#include <map>
-#include <vector>
-#include <iostream>
-#include <utility>
-#include <functional>
+#include <Engine/Core/SharedPtr.hpp>
 
 #include <Engine/Scene/Entity.hpp>
-#include <Engine/Scene/NpcComponent.hpp>
-#include <Engine/Scene/GraphicsComponent.hpp>
+#include <Engine/Scene/Component.hpp>
+#include <Engine/Scene/EntityManager.hpp>
+#include <Engine/Scene/TestComponent.hpp>
+#include <Engine/Scene/AbstractSystem.hpp>
+#include <Engine/Scene/FieneEcs.hpp>
+
+struct Transform : public Fiene::Component<Transform> {
+    void helloWorld() {
+        std::cout << "Hello from component " << std::endl;
+    }
+};
+
+struct GrapnicsComponent {
+    std::string id;
+};
+
+class RenderingSystem : public Fiene::AbstractSystem {
+public:
+    void sayHello() {
+        std::cout << "Hello from renderingSystem" << std::endl;
+    }
+
+    void update( Fiene::FieneEcs& ecs, float dt) {
+
+    }
+};
 
 App::App()
 {
@@ -27,7 +46,7 @@ App::~App()
 void App::init()
 {
 
-    engine->setWindowTitle("Ultra Space v0.1");
+    engine->setWindowTitle("DeathMarch v0.1");
     engine->setWindowSize(1200,800);
     engine->initializeSystems();
 
@@ -40,22 +59,26 @@ void App::init()
     scriptSystem->executeAndRun(scriptManager->getScriptSrc("Scripts/ghost.lua"));
     auto table = scriptSystem->getTable("ghost");
 
-    auto func = scriptSystem->getProtectedFunction<void>("hello");
-
-//    if (func == nullptr) {
-//        std::cout << "is nullptr" << std::endl;
-//    } else {
-//        func();
-//    }
 
 
-    Fiene::Scene* scene = engine->getScene();
-    auto e = scene->loadEntity("Scripts/ghost.lua", "ghost");
+    auto entityManager = Fiene::EntityManager::getInstance();
 
-    auto npcc = e->getComponent<Fiene::GraphicsComponent>();
-    std::cout << e->getType() << " says: " << npcc->getFilename() << std::endl;
+//    auto car = entityManager->create_entity("car");
+//    car->add_component<Transform>();
+//    //car->get_component<Transform>()->helloWorld();
+//
+//    auto car2 = entityManager->get_entity("car");
+//    car2->get_component<Transform>()->helloWorld();
+//
+//    std::cout << car->get_id() << std::endl;
+//    std::cout << car2->get_id() << std::endl;
+//
+//    car2->add_component<Fiene::TestComponent>();
 
-    scene->reload();
+    auto ecs = engine->getScene()->getFieneEcs();
+    auto system = ecs->register_system < RenderingSystem >();
+
+
 
 
 

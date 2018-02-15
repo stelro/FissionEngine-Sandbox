@@ -1,6 +1,10 @@
-/home/stel/clion-2017.2.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/stel/Game/Game
+/home/stel/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/stel/Game/Game
 <FindSDL2.cmake>
 </FindSDL2.cmake>
+-- Boost version: 1.62.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/stel/Game/Game/cmake-build-debug

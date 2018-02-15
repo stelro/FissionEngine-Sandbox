@@ -42,10 +42,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/stel/clion-2017.2.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/stel/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/stel/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/stel/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/stel/Game/Game/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/stel/clion-2017.2.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/stel/clion-2017.3.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -73,7 +73,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/stel/clion-2017.2.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/stel/clion-2017.3.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -667,6 +667,33 @@ Engine/Core/Window.s: Engine/Core/Window.cpp.s
 Engine/Core/Window.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Window.cpp.s
 .PHONY : Engine/Core/Window.cpp.s
+
+Engine/Core/fglobals.o: Engine/Core/fglobals.cpp.o
+
+.PHONY : Engine/Core/fglobals.o
+
+# target to build an object file
+Engine/Core/fglobals.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.o
+.PHONY : Engine/Core/fglobals.cpp.o
+
+Engine/Core/fglobals.i: Engine/Core/fglobals.cpp.i
+
+.PHONY : Engine/Core/fglobals.i
+
+# target to preprocess a source file
+Engine/Core/fglobals.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.i
+.PHONY : Engine/Core/fglobals.cpp.i
+
+Engine/Core/fglobals.s: Engine/Core/fglobals.cpp.s
+
+.PHONY : Engine/Core/fglobals.s
+
+# target to generate assembly for a file
+Engine/Core/fglobals.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.s
+.PHONY : Engine/Core/fglobals.cpp.s
 
 Engine/Engine.o: Engine/Engine.cpp.o
 
@@ -1343,59 +1370,86 @@ Engine/Scene/Entity.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Entity.cpp.s
 .PHONY : Engine/Scene/Entity.cpp.s
 
-Engine/Scene/GraphicsComponent.o: Engine/Scene/GraphicsComponent.cpp.o
+Engine/Scene/EntityManager.o: Engine/Scene/EntityManager.cpp.o
 
-.PHONY : Engine/Scene/GraphicsComponent.o
-
-# target to build an object file
-Engine/Scene/GraphicsComponent.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/GraphicsComponent.cpp.o
-.PHONY : Engine/Scene/GraphicsComponent.cpp.o
-
-Engine/Scene/GraphicsComponent.i: Engine/Scene/GraphicsComponent.cpp.i
-
-.PHONY : Engine/Scene/GraphicsComponent.i
-
-# target to preprocess a source file
-Engine/Scene/GraphicsComponent.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/GraphicsComponent.cpp.i
-.PHONY : Engine/Scene/GraphicsComponent.cpp.i
-
-Engine/Scene/GraphicsComponent.s: Engine/Scene/GraphicsComponent.cpp.s
-
-.PHONY : Engine/Scene/GraphicsComponent.s
-
-# target to generate assembly for a file
-Engine/Scene/GraphicsComponent.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/GraphicsComponent.cpp.s
-.PHONY : Engine/Scene/GraphicsComponent.cpp.s
-
-Engine/Scene/NpcComponent.o: Engine/Scene/NpcComponent.cpp.o
-
-.PHONY : Engine/Scene/NpcComponent.o
+.PHONY : Engine/Scene/EntityManager.o
 
 # target to build an object file
-Engine/Scene/NpcComponent.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/NpcComponent.cpp.o
-.PHONY : Engine/Scene/NpcComponent.cpp.o
+Engine/Scene/EntityManager.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/EntityManager.cpp.o
+.PHONY : Engine/Scene/EntityManager.cpp.o
 
-Engine/Scene/NpcComponent.i: Engine/Scene/NpcComponent.cpp.i
+Engine/Scene/EntityManager.i: Engine/Scene/EntityManager.cpp.i
 
-.PHONY : Engine/Scene/NpcComponent.i
+.PHONY : Engine/Scene/EntityManager.i
 
 # target to preprocess a source file
-Engine/Scene/NpcComponent.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/NpcComponent.cpp.i
-.PHONY : Engine/Scene/NpcComponent.cpp.i
+Engine/Scene/EntityManager.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/EntityManager.cpp.i
+.PHONY : Engine/Scene/EntityManager.cpp.i
 
-Engine/Scene/NpcComponent.s: Engine/Scene/NpcComponent.cpp.s
+Engine/Scene/EntityManager.s: Engine/Scene/EntityManager.cpp.s
 
-.PHONY : Engine/Scene/NpcComponent.s
+.PHONY : Engine/Scene/EntityManager.s
 
 # target to generate assembly for a file
-Engine/Scene/NpcComponent.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/NpcComponent.cpp.s
-.PHONY : Engine/Scene/NpcComponent.cpp.s
+Engine/Scene/EntityManager.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/EntityManager.cpp.s
+.PHONY : Engine/Scene/EntityManager.cpp.s
+
+Engine/Scene/FieneEcs.o: Engine/Scene/FieneEcs.cpp.o
+
+.PHONY : Engine/Scene/FieneEcs.o
+
+# target to build an object file
+Engine/Scene/FieneEcs.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.o
+.PHONY : Engine/Scene/FieneEcs.cpp.o
+
+Engine/Scene/FieneEcs.i: Engine/Scene/FieneEcs.cpp.i
+
+.PHONY : Engine/Scene/FieneEcs.i
+
+# target to preprocess a source file
+Engine/Scene/FieneEcs.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.i
+.PHONY : Engine/Scene/FieneEcs.cpp.i
+
+Engine/Scene/FieneEcs.s: Engine/Scene/FieneEcs.cpp.s
+
+.PHONY : Engine/Scene/FieneEcs.s
+
+# target to generate assembly for a file
+Engine/Scene/FieneEcs.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.s
+.PHONY : Engine/Scene/FieneEcs.cpp.s
+
+Engine/Scene/FieneTestSystem.o: Engine/Scene/FieneTestSystem.cpp.o
+
+.PHONY : Engine/Scene/FieneTestSystem.o
+
+# target to build an object file
+Engine/Scene/FieneTestSystem.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneTestSystem.cpp.o
+.PHONY : Engine/Scene/FieneTestSystem.cpp.o
+
+Engine/Scene/FieneTestSystem.i: Engine/Scene/FieneTestSystem.cpp.i
+
+.PHONY : Engine/Scene/FieneTestSystem.i
+
+# target to preprocess a source file
+Engine/Scene/FieneTestSystem.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneTestSystem.cpp.i
+.PHONY : Engine/Scene/FieneTestSystem.cpp.i
+
+Engine/Scene/FieneTestSystem.s: Engine/Scene/FieneTestSystem.cpp.s
+
+.PHONY : Engine/Scene/FieneTestSystem.s
+
+# target to generate assembly for a file
+Engine/Scene/FieneTestSystem.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneTestSystem.cpp.s
+.PHONY : Engine/Scene/FieneTestSystem.cpp.s
 
 Engine/Scene/RendererSystem.o: Engine/Scene/RendererSystem.cpp.o
 
@@ -1790,6 +1844,9 @@ help:
 	@echo "... Engine/Core/Window.o"
 	@echo "... Engine/Core/Window.i"
 	@echo "... Engine/Core/Window.s"
+	@echo "... Engine/Core/fglobals.o"
+	@echo "... Engine/Core/fglobals.i"
+	@echo "... Engine/Core/fglobals.s"
 	@echo "... Engine/Engine.o"
 	@echo "... Engine/Engine.i"
 	@echo "... Engine/Engine.s"
@@ -1865,12 +1922,15 @@ help:
 	@echo "... Engine/Scene/Entity.o"
 	@echo "... Engine/Scene/Entity.i"
 	@echo "... Engine/Scene/Entity.s"
-	@echo "... Engine/Scene/GraphicsComponent.o"
-	@echo "... Engine/Scene/GraphicsComponent.i"
-	@echo "... Engine/Scene/GraphicsComponent.s"
-	@echo "... Engine/Scene/NpcComponent.o"
-	@echo "... Engine/Scene/NpcComponent.i"
-	@echo "... Engine/Scene/NpcComponent.s"
+	@echo "... Engine/Scene/EntityManager.o"
+	@echo "... Engine/Scene/EntityManager.i"
+	@echo "... Engine/Scene/EntityManager.s"
+	@echo "... Engine/Scene/FieneEcs.o"
+	@echo "... Engine/Scene/FieneEcs.i"
+	@echo "... Engine/Scene/FieneEcs.s"
+	@echo "... Engine/Scene/FieneTestSystem.o"
+	@echo "... Engine/Scene/FieneTestSystem.i"
+	@echo "... Engine/Scene/FieneTestSystem.s"
 	@echo "... Engine/Scene/RendererSystem.o"
 	@echo "... Engine/Scene/RendererSystem.i"
 	@echo "... Engine/Scene/RendererSystem.s"

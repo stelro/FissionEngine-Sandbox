@@ -24,11 +24,8 @@
 
 #include <array>
 
-//using Fiene::infoLog;
-//using Fiene::errorLog;
-//
-//bool printtiles = true;
-
+const int SCREEN_WIDTH = 1024;
+const int SCREEN_HEIGHT = 768;
 
 
 int main()
@@ -45,36 +42,25 @@ int main()
     SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 3);
     SDL_GL_SetAttribute( SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE );
 
-    glm::vec4 aha;
-
 
     Fiene::Window           mainWindow;
     Fiene::Camera2D         camera;
 
     void* pMem = malloc(Fiene::mb_to_byte(512));
-    Fiene::FreeListAllocator* freeListAllocator = new Fiene::FreeListAllocator(Fiene::mb_to_byte(512), pMem);
-
-    Fiene::ProxyAllocator* proxyAllocator = new Fiene::ProxyAllocator(*freeListAllocator);
-
-    Fiene::LinearAllocator* linearAllocator = Fiene::newLinearAllocator(Fiene::mb_to_byte(256), *proxyAllocator);
-
-
-    Fiene::TexturesManager *texturesManager = Fiene::TexturesManager::create(*linearAllocator,*proxyAllocator, Fiene::mb_to_byte(128));
-
-    Fiene::InputManager *inputManager = Fiene::InputManager::create(*linearAllocator);
-
-    Fiene::Color color(255,255,255,255);
+    auto* freeListAllocator = new Fiene::FreeListAllocator(Fiene::mb_to_byte(512), pMem);
+    auto* proxyAllocator = new Fiene::ProxyAllocator(*freeListAllocator);
+    auto* linearAllocator = Fiene::newLinearAllocator(Fiene::mb_to_byte(256), *proxyAllocator);
+    auto *texturesManager = Fiene::TexturesManager::create(*linearAllocator,*proxyAllocator, Fiene::mb_to_byte(128));
+    auto *inputManager = Fiene::InputManager::create(*linearAllocator);
 
 
 
+    mainWindow.startUp("Sandbox", SCREEN_WIDTH, SCREEN_HEIGHT, 0);
+    mainWindow.setBackgroundColorRGB(20,20,20,255);
+    camera.startUp(SCREEN_WIDTH, SCREEN_HEIGHT);
+    camera.setPosition(SCREEN_WIDTH / 2, SCREEN_HEIGHT /2 );
 
-
-    mainWindow.startUp("Sample Engine", 1024, 768, 0);
-    mainWindow.setBackgroundColorRGB(100,100,100,255);
-    camera.startUp(1024, 768);
-    camera.setPosition(1024/2, 768/2);
-
-    glViewport(0,0, 1024, 768);
+    //glViewport(0,0, SCREEN_WIDTH, SCREEN_HEIGHT);
 
 
     if (!texturesManager->load("Textures/castle.png")) {
@@ -97,7 +83,7 @@ int main()
 
 
     Fiene::FpsLimiter fpsLimiter;
-    fpsLimiter.setMaxFps(60000.0f);
+    fpsLimiter.init(60000.0f);
 
 
     Fiene::ShaderProgram shaderProgram;
@@ -109,8 +95,6 @@ int main()
     shaderProgram.addAttribute("vertexUV");
     shaderProgram.linkShaders();
 
-    Fiene::ShaderProgram2 shader;
-    shader.loadShaders("Shaders/test2_vert.glsl", "Shaders/test2_frag.glsl");
 
     Fiene::ShaderProgram lightShader;
     lightShader.startUp();
@@ -127,30 +111,9 @@ int main()
     Fiene::Vec4 house_destRect(0,0,100,100);
     Fiene::Vec4 house_uvRect(0.0f, 0.0f, 1.0f, 1.0f);
 
-    std::array<GLfloat, 9> vertices1 {
-        -0.5f,  0.5f,  0.0f,
-        0.5f,  0.5f,  0.0f,
-        0.5f, -0.5f,  0.5f,
-    };
-
-    GLuint vbo1, vao1;
-
-    glGenVertexArrays(1, &vao1);
-    glBindVertexArray(vao1);
-
-    glGenBuffers(1, &vbo1);
-    glBindBuffer(GL_ARRAY_BUFFER, vbo1);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices1), vertices1.data(), GL_STATIC_DRAW);
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(GLfloat), (GLvoid*)0);
-    glEnableVertexAttribArray(0);
-    shader.useShaderProgram2();
-    glBindVertexArray(0);
-
 
     const float cam_offset = 20.0f;
-//
-//    Fiene::SpriteFont* spriteFont = new Fiene::SpriteFont();
-//    spriteFont->startUp("Textures/Monaco-Stel.ttf",32);
+
 
     Fiene::IOManager::iostreamGlLogParamsOutput();
 
@@ -173,7 +136,6 @@ int main()
 
 
         //Grab the camera matrix
-        //glm::mat4 projectionMatrix = camera.getCameraMatrix();
         Fiene::Matrix4 projectionMatrix = camera.getCameraMatrix();
         GLint pUniform = shaderProgram.getUniformLocation("P");
         glUniformMatrix4fv(pUniform, 1, GL_FALSE, &projectionMatrix[0][0]);
@@ -186,7 +148,7 @@ int main()
         batch.end();
         batch.render();
 
-        glBlendFunc(GL_SRC_ALPHA, GL_ONE);
+        //glBlendFunc(GL_SRC_ALPHA, GL_ONE);
 
         inputManager->update();
 
@@ -219,8 +181,6 @@ int main()
         camera.update();
 
 
-
-
         SDL_GL_SwapWindow(mainWindow.getWindow());
 
         lightShader.use();
@@ -231,7 +191,7 @@ int main()
         batch.begin();
         Fiene::Light2D light;
         light.setColor(Fiene::Color(0,255,130,180));
-        light.setPosition(camera.convertCameraToWorld(inputManager->getMouseCoords()));
+        light.setPosition(Fiene::Vec2(SCREEN_WIDTH - 40, SCREEN_HEIGHT - 40));
         light.setSize(249.0f);
         light.render(batch);
         batch.end();
@@ -244,9 +204,7 @@ int main()
 
         mainWindow.swapBuffer();
 
-
         fpsLimiter.end();
-
 
     }
 

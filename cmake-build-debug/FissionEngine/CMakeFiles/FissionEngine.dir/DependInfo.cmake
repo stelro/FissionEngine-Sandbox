@@ -24,6 +24,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Core/InputManager.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/InputManager.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Core/Window.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Window.cpp.o"
+  "/home/stel/Game/Game/FissionEngine/Engine/Core/fglobals.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Engine.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_demo.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/External/imgui/imgui_demo.cpp.o"
@@ -49,8 +50,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/stel/Game/Game/FissionEngine/Engine/Scene/AbstractSystem.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/AbstractSystem.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Scene/Component.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Component.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Scene/Entity.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Entity.cpp.o"
-  "/home/stel/Game/Game/FissionEngine/Engine/Scene/GraphicsComponent.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/GraphicsComponent.cpp.o"
-  "/home/stel/Game/Game/FissionEngine/Engine/Scene/NpcComponent.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/NpcComponent.cpp.o"
+  "/home/stel/Game/Game/FissionEngine/Engine/Scene/EntityManager.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/EntityManager.cpp.o"
+  "/home/stel/Game/Game/FissionEngine/Engine/Scene/FieneEcs.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.o"
+  "/home/stel/Game/Game/FissionEngine/Engine/Scene/FieneTestSystem.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneTestSystem.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Scene/RendererSystem.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/RendererSystem.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/Scene/Scene.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Scene.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o"
@@ -70,7 +72,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../FissionEngine/Engine"
   "/usr/include/SDL2"
-  "/usr/include/lua5.3"
+  "/usr/include/lua"
   )
 
 # Targets to which this target links.
