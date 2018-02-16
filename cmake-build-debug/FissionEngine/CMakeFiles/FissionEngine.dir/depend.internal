@@ -125,6 +125,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/InputManager.cpp.o
  ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
  ../FissionEngine/Engine/Core/Core.h
+ ../FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.hpp
  ../FissionEngine/Engine/Math/Vector.hpp
  ../FissionEngine/Engine/Math/def_vector.hpp
  ../FissionEngine/Engine/Math/def_vector.inl
@@ -151,7 +152,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o
  ../FissionEngine/Engine/External/imgui/imconfig.h
  ../FissionEngine/Engine/External/imgui/imgui.h
  ../FissionEngine/Engine/External/imgui/imgui_dock.h
- ../FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.hpp
  ../FissionEngine/Engine/External/imgui/imgui_user.h
  ../FissionEngine/Engine/Math/Vector.hpp
  ../FissionEngine/Engine/Math/def_vector.hpp
@@ -184,6 +184,11 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o
  /home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Engine.cpp
  /home/stel/Game/Game/FissionEngine/Engine/Engine.hpp
+ /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imconfig.h
+ /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui.h
+ /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_dock.h
+ /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.hpp
+ /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_user.h
  /home/stel/Game/Game/FissionEngine/Engine/Resources/ResourceManager.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Resources/TexturesManager.hpp
  /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.hpp
