@@ -185,6 +185,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o
  /home/stel/Game/Game/FissionEngine/Engine/Scene/Component.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Scene/Entity.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Scene/EntityManager.hpp
+ /home/stel/Game/Game/FissionEngine/Engine/Scene/FieneEcs.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Scene/Scene.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Scene/TestComponent.hpp
  /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.hpp
@@ -396,8 +397,14 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/EntityManager.cpp.o
  /home/stel/Game/Game/FissionEngine/Engine/Scene/EntityManager.cpp
  /home/stel/Game/Game/FissionEngine/Engine/Scene/EntityManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.o
+ ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
+ ../FissionEngine/Engine/Allocators/PointerMath.hpp
+ ../FissionEngine/Engine/Allocators/PoolAllocator.hpp
  ../FissionEngine/Engine/Core/Fiene.h
+ ../FissionEngine/Engine/FileSystem/FileSystem.hpp
  ../FissionEngine/Engine/Utils/FDebug.hpp
+ /home/stel/Game/Game/FissionEngine/Engine/Scene/Component.hpp
+ /home/stel/Game/Game/FissionEngine/Engine/Scene/Entity.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Scene/FieneEcs.cpp
  /home/stel/Game/Game/FissionEngine/Engine/Scene/FieneEcs.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneTestSystem.cpp.o

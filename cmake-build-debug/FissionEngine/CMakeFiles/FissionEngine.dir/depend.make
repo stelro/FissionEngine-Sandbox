@@ -184,6 +184,7 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Scene/Component.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Scene/Entity.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Scene/EntityManager.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Scene/FieneEcs.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Scene/Scene.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Scene/TestComponent.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/ScriptSystem/Script.hpp
@@ -395,8 +396,14 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/EntityManager.cpp.o: ../
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/EntityManager.cpp.o: ../FissionEngine/Engine/Scene/EntityManager.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/EntityManager.cpp.o: ../FissionEngine/Engine/Scene/EntityManager.hpp
 
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.o: ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.o: ../FissionEngine/Engine/Allocators/PointerMath.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.o: ../FissionEngine/Engine/Allocators/PoolAllocator.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.o: ../FissionEngine/Engine/Core/Fiene.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.o: ../FissionEngine/Engine/FileSystem/FileSystem.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.o: ../FissionEngine/Engine/Scene/Component.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.o: ../FissionEngine/Engine/Scene/Entity.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.o: ../FissionEngine/Engine/Scene/FieneEcs.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.o: ../FissionEngine/Engine/Scene/FieneEcs.hpp
 

@@ -13,9 +13,33 @@
 #include <Engine/Scene/FieneEcs.hpp>
 
 struct Transform : public Fiene::Component<Transform> {
+
     void helloWorld() {
         std::cout << "Hello from component " << std::endl;
     }
+
+};
+
+class Npc : public Fiene::Component<Npc> {
+public:
+    explicit Npc(int a, int b)  {
+        std::cout << "pike ston const " << a << b << std::endl;
+        this->x = a;
+        this->y = b;
+
+        std::cout << '--->' << this->x << std::endl;
+
+    }
+
+    void print() {
+        std::cout << " result " << x  << std::endl;
+    }
+
+    int valueget() {
+        return x + y;
+    }
+
+    int x = 0, y = 0;
 };
 
 struct GrapnicsComponent {
@@ -24,11 +48,20 @@ struct GrapnicsComponent {
 
 class RenderingSystem : public Fiene::AbstractSystem {
 public:
+
     void sayHello() {
         std::cout << "Hello from renderingSystem" << std::endl;
     }
 
+
+
     void update( Fiene::FieneEcs& ecs, float dt) {
+        ecs.update_components<Transform>(dt);
+
+    }
+
+    void render( Fiene::FieneEcs& ecs, float dt) {
+
 
     }
 };
@@ -61,26 +94,11 @@ void App::init()
 
 
 
-    auto entityManager = Fiene::EntityManager::getInstance();
-
-//    auto car = entityManager->create_entity("car");
-//    car->add_component<Transform>();
-//    //car->get_component<Transform>()->helloWorld();
-//
-//    auto car2 = entityManager->get_entity("car");
-//    car2->get_component<Transform>()->helloWorld();
-//
-//    std::cout << car->get_id() << std::endl;
-//    std::cout << car2->get_id() << std::endl;
-//
-//    car2->add_component<Fiene::TestComponent>();
-
     auto ecs = engine->getScene()->getFieneEcs();
     auto system = ecs->register_system < RenderingSystem >();
-
-
-
-
+    auto car = ecs->create_entity("car");
+    car->add_component<Transform>();
+    car->get_component<Transform>()->helloWorld();
 
 
 }
