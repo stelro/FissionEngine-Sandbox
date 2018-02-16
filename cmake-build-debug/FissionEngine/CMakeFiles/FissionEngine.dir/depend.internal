@@ -401,12 +401,29 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneEcs.cpp.o
  ../FissionEngine/Engine/Allocators/PointerMath.hpp
  ../FissionEngine/Engine/Allocators/PoolAllocator.hpp
  ../FissionEngine/Engine/Core/Fiene.h
+ ../FissionEngine/Engine/External/lua-sol/sol.hpp
  ../FissionEngine/Engine/FileSystem/FileSystem.hpp
+ ../FissionEngine/Engine/Math/Quaternion.hpp
+ ../FissionEngine/Engine/Math/Vector.hpp
+ ../FissionEngine/Engine/Math/def_vector.hpp
+ ../FissionEngine/Engine/Math/def_vector.inl
+ ../FissionEngine/Engine/Resources/ResourceBase.h
+ ../FissionEngine/Engine/Resources/ResourceManager.hpp
+ ../FissionEngine/Engine/ScriptSystem/Script.hpp
+ ../FissionEngine/Engine/ScriptSystem/ScriptManager.hpp
+ ../FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp
  ../FissionEngine/Engine/Utils/FDebug.hpp
+ ../FissionEngine/Engine/Utils/Utils.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Scene/Component.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Scene/Entity.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Scene/FieneEcs.cpp
  /home/stel/Game/Game/FissionEngine/Engine/Scene/FieneEcs.hpp
+ /home/stel/Game/Game/FissionEngine/Engine/Scene/GraphicsComponent.hpp
+ /home/stel/Game/Game/FissionEngine/Engine/Scene/TransformComponent.hpp
+ /usr/include/lua/lauxlib.h
+ /usr/include/lua/lua.h
+ /usr/include/lua/luaconf.h
+ /usr/include/lua/lualib.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/FieneTestSystem.cpp.o
  ../FissionEngine/Engine/Core/Fiene.h
  ../FissionEngine/Engine/Utils/FDebug.hpp

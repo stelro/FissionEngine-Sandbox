@@ -8,7 +8,7 @@
 
 ghost = {
 
-    GraphicsComponent = {
+    Graphics = {
         filename    = "Textures/castle.png",
         rect        = { 200, 200, 300, 300 },
         uv          = { 0.0, 0.0, 1.0, 1.0 },
@@ -18,6 +18,11 @@ ghost = {
     },
 
     NpcComponent = {
+        phrase = "I'M A SCARY GHOST!!!",
+        value = 903,
+    },
+
+    Transform = {
         phrase = "I'M A SCARY GHOST!!!",
         value = 903,
     }

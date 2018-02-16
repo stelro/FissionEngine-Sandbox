@@ -14,6 +14,14 @@
 
 struct Transform : public Fiene::Component<Transform> {
 
+    int x = 10;
+    int y = 20;
+
+    void printValues() {
+        std::cout << "x: " << std::endl;
+        std::cout << "result : " << x + y << std::endl;
+    }
+
     void helloWorld() {
         std::cout << "Hello from component " << std::endl;
     }
@@ -22,7 +30,7 @@ struct Transform : public Fiene::Component<Transform> {
 
 class Npc : public Fiene::Component<Npc> {
 public:
-    explicit Npc(int a, int b)  {
+     Npc(int a, int b)  {
         std::cout << "pike ston const " << a << b << std::endl;
         this->x = a;
         this->y = b;
@@ -53,11 +61,8 @@ public:
         std::cout << "Hello from renderingSystem" << std::endl;
     }
 
-
-
     void update( Fiene::FieneEcs& ecs, float dt) {
         ecs.update_components<Transform>(dt);
-
     }
 
     void render( Fiene::FieneEcs& ecs, float dt) {
@@ -98,7 +103,11 @@ void App::init()
     auto system = ecs->register_system < RenderingSystem >();
     auto car = ecs->create_entity("car");
     car->add_component<Transform>();
-    car->get_component<Transform>()->helloWorld();
+    car->get_component<Transform>()->printValues();
+
+
+    auto ghost = ecs->load_entity("Scripts/ghost.lua", "ghost");
+
 
 
 }

@@ -526,6 +526,9 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/FieneTestSystem.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/GraphicsComponent.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/RendererSystem.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
@@ -539,6 +542,9 @@
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/TestComponent.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/TransformComponent.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.cpp">

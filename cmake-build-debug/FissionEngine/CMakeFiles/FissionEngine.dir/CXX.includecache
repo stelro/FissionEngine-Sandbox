@@ -1187,6 +1187,14 @@ FileSystem/FileSystem.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Scene/FileSystem/FileSystem.hpp
 Allocators/PoolAllocator.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Scene/Allocators/PoolAllocator.hpp
+ScriptSystem/ScriptSystem.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Scene/ScriptSystem/ScriptSystem.hpp
+ScriptSystem/ScriptManager.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Scene/ScriptSystem/ScriptManager.hpp
+TransformComponent.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Scene/TransformComponent.hpp
+GraphicsComponent.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Scene/GraphicsComponent.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/Scene/FieneEcs.hpp
 Core/Fiene.h
@@ -1217,6 +1225,16 @@ AbstractSystem.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Scene/AbstractSystem.hpp
 Component.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Scene/Component.hpp
+
+/home/stel/Game/Game/FissionEngine/Engine/Scene/GraphicsComponent.hpp
+Component.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Scene/Component.hpp
+Math/Vector.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Scene/Math/Vector.hpp
+Utils/Utils.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Scene/Utils/Utils.hpp
+External/lua-sol/sol.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Scene/External/lua-sol/sol.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/Scene/RendererSystem.cpp
 RendererSystem.hpp
@@ -1275,6 +1293,16 @@ Component.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Scene/Component.hpp
 iostream
 -
+
+/home/stel/Game/Game/FissionEngine/Engine/Scene/TransformComponent.hpp
+Component.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Scene/Component.hpp
+Math/Vector.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Scene/Math/Vector.hpp
+Math/Quaternion.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Scene/Math/Quaternion.hpp
+External/lua-sol/sol.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Scene/External/lua-sol/sol.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.cpp
 Script.hpp
