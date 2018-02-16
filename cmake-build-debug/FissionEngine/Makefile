@@ -614,6 +614,33 @@ Engine/Core/fglobals.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.s
 .PHONY : Engine/Core/fglobals.cpp.s
 
+Engine/DebugTools/WindowLog.o: Engine/DebugTools/WindowLog.cpp.o
+
+.PHONY : Engine/DebugTools/WindowLog.o
+
+# target to build an object file
+Engine/DebugTools/WindowLog.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o
+.PHONY : Engine/DebugTools/WindowLog.cpp.o
+
+Engine/DebugTools/WindowLog.i: Engine/DebugTools/WindowLog.cpp.i
+
+.PHONY : Engine/DebugTools/WindowLog.i
+
+# target to preprocess a source file
+Engine/DebugTools/WindowLog.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.i
+.PHONY : Engine/DebugTools/WindowLog.cpp.i
+
+Engine/DebugTools/WindowLog.s: Engine/DebugTools/WindowLog.cpp.s
+
+.PHONY : Engine/DebugTools/WindowLog.s
+
+# target to generate assembly for a file
+Engine/DebugTools/WindowLog.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.s
+.PHONY : Engine/DebugTools/WindowLog.cpp.s
+
 Engine/Engine.o: Engine/Engine.cpp.o
 
 .PHONY : Engine/Engine.o
@@ -1487,6 +1514,9 @@ help:
 	@echo "... Engine/Core/fglobals.o"
 	@echo "... Engine/Core/fglobals.i"
 	@echo "... Engine/Core/fglobals.s"
+	@echo "... Engine/DebugTools/WindowLog.o"
+	@echo "... Engine/DebugTools/WindowLog.i"
+	@echo "... Engine/DebugTools/WindowLog.s"
 	@echo "... Engine/Engine.o"
 	@echo "... Engine/Engine.i"
 	@echo "... Engine/Engine.s"

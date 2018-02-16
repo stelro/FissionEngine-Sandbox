@@ -46,6 +46,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_math.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_resources.cpp.o"
+  "CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o"
   "../lib/libFissionEngine.pdb"
   "../lib/libFissionEngine.so"

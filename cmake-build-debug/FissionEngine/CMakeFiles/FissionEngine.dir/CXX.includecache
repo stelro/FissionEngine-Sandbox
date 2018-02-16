@@ -92,6 +92,8 @@ SDL2/SDL.h
 string
 -
 
+../FissionEngine/Engine/DebugTools/WindowLog.hpp
+
 ../FissionEngine/Engine/Engine.hpp
 string
 -
@@ -101,6 +103,34 @@ Core/Core.h
 ../FissionEngine/Engine/Core/Core.h
 Core/FpsLimiter.hpp
 ../FissionEngine/Engine/Core/FpsLimiter.hpp
+DebugTools/WindowLog.hpp
+../FissionEngine/Engine/DebugTools/WindowLog.hpp
+
+../FissionEngine/Engine/External/imgui/imconfig.h
+
+../FissionEngine/Engine/External/imgui/imgui.h
+imconfig.h
+../FissionEngine/Engine/External/imgui/imconfig.h
+float.h
+-
+stdarg.h
+-
+stddef.h
+-
+string.h
+-
+assert.h
+-
+imgui_user.h
+../FissionEngine/Engine/External/imgui/imgui_user.h
+
+../FissionEngine/Engine/External/imgui/imgui_dock.h
+
+../FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.hpp
+
+../FissionEngine/Engine/External/imgui/imgui_user.h
+imgui_dock.h
+../FissionEngine/Engine/External/imgui/imgui_dock.h
 
 ../FissionEngine/Engine/External/lua-sol/sol.hpp
 stdexcept
@@ -622,6 +652,20 @@ Utils/FDebug.hpp
 cstdint
 -
 
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.cpp
+WindowLog.hpp
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.hpp
+Core/Core.h
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/Core/Core.h
+External/imgui/imgui.h
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/External/imgui/imgui.h
+Core/Window.hpp
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/Core/Window.hpp
+External/imgui/imgui_impl_sdl_gl3.hpp
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/External/imgui/imgui_impl_sdl_gl3.hpp
+
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.hpp
+
 /home/stel/Game/Game/FissionEngine/Engine/Engine.cpp
 Engine.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Engine.hpp
@@ -645,8 +689,8 @@ ScriptSystem/ScriptManager.hpp
 /home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptManager.hpp
 Core/InputManager.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Core/InputManager.hpp
-SDL2/SDL.h
--
+Core/Window.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Core/Window.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/Engine.hpp
 string
@@ -657,6 +701,8 @@ Core/Core.h
 /home/stel/Game/Game/FissionEngine/Engine/Core/Core.h
 Core/FpsLimiter.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Core/FpsLimiter.hpp
+DebugTools/WindowLog.hpp
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imconfig.h
 

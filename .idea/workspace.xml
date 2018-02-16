@@ -16,79 +16,99 @@
   <component name="ChangeListManager">
     <list default="true" id="669bb110-72a7-4f52-81ec-1ba5efcfa944" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Deathmarch/Deathmarch" afterPath="$PROJECT_DIR$/Deathmarch/Deathmarch" />
-      <change beforePath="$PROJECT_DIR$/Deathmarch/Source/App.cpp" afterPath="$PROJECT_DIR$/Deathmarch/Source/App.cpp" />
       <change beforePath="$PROJECT_DIR$/Deathmarch/engine_log.log" afterPath="$PROJECT_DIR$/Deathmarch/engine_log.log" />
       <change beforePath="$PROJECT_DIR$/FissionEngine" afterPath="$PROJECT_DIR$/FissionEngine" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Deathmarch/CMakeFiles/Deathmarch.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Deathmarch/CMakeFiles/Deathmarch.dir/depend.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Deathmarch/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/Deathmarch/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Deathmarch/Deathmarch.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Deathmarch/Deathmarch.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/CXX.includecache" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Light2D.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Primitives.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Sprite.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/Sprite.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteBatch.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteFont.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/2D/SpriteFont.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/BaseAllocator.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/BaseAllocator.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/FreeListAllocator.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/FreeListAllocator.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/LinearAllocator.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/LinearAllocator.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/PoolAllocator.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/PoolAllocator.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/ProxyAllocator.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/ProxyAllocator.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/StackAllocator.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Allocators/StackAllocator.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/DebugConsole.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Fiene.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/IOManager.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/InputManager.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/InputManager.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Window.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/Window.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateBehaviour.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/StateManager.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Matrix.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Math/Matrix.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Physics/SimpleCollision.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/ResourceManager.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/AbstractSystem.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Component.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Entity.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/RendererSystem.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Scene.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/Script.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptManager.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/ScriptSystem.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_2d.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_resources.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils/Utils.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Camera2D.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FDebug.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FEngine.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/FpsLimiter.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/IOManager.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/InputManager.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Light2D.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Map.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/MapLayer.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/MathUtils.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/MatrixTransformations.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ResourceManager.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ResourceManager/Resource.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ResourceManager/ResourceManagerBase.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ShaderProgram.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/SharedResources.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Sprite.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/SpriteBatch.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/TextureCache.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/TileSet.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Universe/EntityManager.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Utils.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Window.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/lua/lua_script_manager.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/lua/lua_script_system.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/math/Matrix.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/math/Quaternion.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/physics/SimpleCollision.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/picoPNG.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/__/FieneToolKit/Source/main.cpp.o" afterPath="" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/build.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/cmake_clean_target.cmake" afterPath="" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/depend.internal" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/Camera2D.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/FDebug.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/FEngine.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/GLSLProgram.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/IOManager.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/InputManager.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/Map.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/MapLayer.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/ResourceManager.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/SharedResources.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/Sprite.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/SpriteBatch.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/TextureCache.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/TileSet.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/Utils.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/Window.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/math/Matrix.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/math/Vec.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/physics/SimpleCollision.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/fiene/picoPNG.cpp.o" afterPath="" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/link.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/Engine/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/Engine/CMakeFiles/FieneEngine.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/Engine/CMakeFiles/FieneEngine.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/Engine/CMakeFiles/FieneEngine.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/Engine/CMakeFiles/FieneEngine.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/Engine/CMakeFiles/FieneEngine.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/Engine/CMakeFiles/FieneEngine.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/Engine/CMakeFiles/FieneEngine.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/Engine/CMakeFiles/progress.marks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/Engine/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/Engine/cmake_install.cmake" afterPath="" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/FissionEngine.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/FissionEngine.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/libFissionEngine.a" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FissionEngine/libFissionEngine.so" afterPath="" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/fiene_sandbox/CMakeFiles/fiene_sandbox.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/fiene_sandbox/CMakeFiles/fiene_sandbox.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/fiene_sandbox/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/fiene_sandbox/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/fiene_sandbox/fiene_sandbox.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/fiene_sandbox/fiene_sandbox.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libFissionEngine.so" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libFissionEngine.so" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/lib/include/2D/SpriteFont.cpp" afterPath="$PROJECT_DIR$/cmake-build-release/lib/include/2D/SpriteFont.cpp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/lib/include/Allocators/BaseAllocator.hpp" afterPath="$PROJECT_DIR$/cmake-build-release/lib/include/Allocators/BaseAllocator.hpp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/lib/include/Allocators/PointerMath.hpp" afterPath="$PROJECT_DIR$/cmake-build-release/lib/include/Allocators/PointerMath.hpp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/lib/include/Core/InputManager.hpp" afterPath="$PROJECT_DIR$/cmake-build-release/lib/include/Core/InputManager.hpp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/lib/include/Game/StateBehaviour.hpp" afterPath="$PROJECT_DIR$/cmake-build-release/lib/include/Game/StateBehaviour.hpp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/lib/include/Game/StateManager.hpp" afterPath="$PROJECT_DIR$/cmake-build-release/lib/include/Game/StateManager.hpp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/lib/include/Map/Map.cpp" afterPath="$PROJECT_DIR$/cmake-build-release/lib/include/Map/Map.cpp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/lib/include/Map/TilesetLayer.cpp" afterPath="$PROJECT_DIR$/cmake-build-release/lib/include/Map/TilesetLayer.cpp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/lib/include/Math/Matrix.cpp" afterPath="$PROJECT_DIR$/cmake-build-release/lib/include/Math/Matrix.cpp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/lib/include/Resources/ResourceManager.hpp" afterPath="$PROJECT_DIR$/cmake-build-release/lib/include/Resources/ResourceManager.hpp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/lib/include/Resources/Texture.hpp" afterPath="$PROJECT_DIR$/cmake-build-release/lib/include/Resources/Texture.hpp" />
-      <change beforePath="$PROJECT_DIR$/fiene_sandbox/src/main.cpp" afterPath="$PROJECT_DIR$/fiene_sandbox/src/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/FissionEngine/CMakeFiles/" />
@@ -117,12 +137,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="App.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Deathmarch/Source/App.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Engine.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Engine.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="75" column="56" lean-forward="false" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
-              <folding />
+            <state relative-caret-position="683">
+              <caret line="111" column="40" lean-forward="false" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
+              <folding>
+                <element signature="e#817#834#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WindowLog.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/DebugTools/WindowLog.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="e#40#64#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,28 +174,62 @@
       <file leaf-file-name="Engine.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Engine.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1351">
-              <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+            <state relative-caret-position="201">
+              <caret line="148" column="28" lean-forward="false" selection-start-line="148" selection-start-column="28" selection-end-line="148" selection-end-column="28" />
+              <folding>
+                <element signature="e#822#843#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WindowLog.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/DebugTools/WindowLog.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileSystem.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/FileSystem/FileSystem.cpp">
+      <file leaf-file-name="Window.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/Window.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="449">
+              <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileSystem.hpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/FileSystem/FileSystem.hpp">
+      <file leaf-file-name="imgui_demo.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_demo.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="-6096">
+              <caret line="123" column="20" lean-forward="false" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="20" />
+              <folding>
+                <element signature="e#148777#148888#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imgui.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="83" lean-forward="false" selection-start-line="10" selection-start-column="83" selection-end-line="10" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imgui_impl_sdl_gl3.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,8 +247,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>texture</find>
-      <find>[]</find>
       <find>imgui</find>
       <find>pop</find>
       <find>top</find>
@@ -199,6 +275,8 @@
       <find>u8</find>
       <find>u16</find>
       <find>u32</find>
+      <find>shut</find>
+      <find>showtest</find>
     </findStrings>
     <replaceStrings>
       <replace>4</replace>
@@ -243,18 +321,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Scene/AbstractSystem.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Scene/Scene.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Scene/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Deathmarch/Scripts/ghost.lua" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Scene/TestComponent.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Scene/TransformComponent.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Scene/GraphicsComponent.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Scene/FieneEcs.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Scene/FieneEcs.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Scene/Entity.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Scene/Component.hpp" />
-        <option value="$PROJECT_DIR$/Deathmarch/Source/App.cpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Utils/Utils.cpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Utils/Point.hpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Utils/Utils.hpp" />
@@ -291,9 +357,21 @@
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/StateManager.hpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Game/StateManager.cpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Allocators/PointerMath.hpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Engine.hpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui.h" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_internal.h" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_draw.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/DebugTools/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/FissionEngine/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_demo.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui.cpp" />
+        <option value="$PROJECT_DIR$/Deathmarch/Source/App.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/DebugTools/WindowLog.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/Engine.hpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Engine.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/DebugTools/WindowLog.cpp" />
       </list>
     </option>
   </component>
@@ -353,6 +431,17 @@
             <path>
               <item name="Game" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="Game" type="462c0819:PsiDirectoryNode" />
+              <item name="Deathmarch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Game" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+              <item name="Deathmarch" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Game" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
               <item name="FissionEngine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -360,6 +449,13 @@
               <item name="Game" type="462c0819:PsiDirectoryNode" />
               <item name="FissionEngine" type="462c0819:PsiDirectoryNode" />
               <item name="Engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Game" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+              <item name="FissionEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="DebugTools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Game" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
@@ -374,7 +470,7 @@
               <item name="FissionEngine" type="462c0819:PsiDirectoryNode" />
               <item name="Engine" type="462c0819:PsiDirectoryNode" />
               <item name="External" type="462c0819:PsiDirectoryNode" />
-              <item name="lua-sol" type="462c0819:PsiDirectoryNode" />
+              <item name="imgui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -385,11 +481,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/nova-ecs-master/CMakeLists.txt" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
     <property name="settings.editor.splitter.proportion" value="0.26641294" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="add_unversioned_files" value="true&#10;/home/stel/Game/Game/FissionEngine/.gitignore" />
-    <property name="SearchEverywhereHistoryKey" value="fiene.h&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Core/Fiene.h&#10;spr&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/2D/SpriteBatch.hpp&#10;Engine.hp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Engine.hpp&#10;engine&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Engine.cpp&#10;entitymanag&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Scene/EntityManager.hpp&#10;entity&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Scene/Entity.hpp&#10;compon&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Scene/Component.hpp&#10;abstra&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Scene/AbstractSystem.hpp&#10;engine.cp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Engine.cpp&#10;script&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptManager.hpp&#10;FILESYS&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/FileSystem/FileSystem.hpp&#10;scriptsystem.hp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp&#10;scriptsys&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptSystem.cpp&#10;rendersystem.hp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Scene/RendererSystem.hpp&#10;renders&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Scene/RendererSystem.cpp&#10;m_render&#9;null&#9;null&#10;scene&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Scene/Scene.cpp&#10;sol&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/External/lua-sol/sol.hpp&#10;eng&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Engine.cpp&#10;windo&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Core/Window.cpp&#10;light2d&#9;FILE&#9;file:///home/stel/Game/Game/cmake-build-release/lib/include/2D/Light2D.cpp&#10;fpsli&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Core/FpsLimiter.cpp&#10;spritefont.hp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/2D/SpriteFont.hpp&#10;sprite&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/2D/SpriteBatch.hpp&#10;spritefon&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/2D/SpriteFont.cpp&#10;window&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Core/Window.cpp&#10;tex&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Resources/TexturesManager.cpp&#10;text&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Resources/TexturesManager.cpp&#10;spriteba&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/2D/SpriteBatch.cpp&#10;shaderpr&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/GLSL/ShaderProgram.hpp&#10;shade&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/GLSL/ShaderProgram.cpp&#10;inputman&#9;null&#9;null&#10;window.cp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Core/Window.cpp&#10;fiene&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Core/Fiene.h&#10;Engine&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Engine.hpp&#10;spri&#9;null&#9;null&#10;utils&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Utils/Utils.cpp&#10;textu&#9;null&#9;null&#10;textures&#9;null&#9;null&#10;scriptmana&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptManager.cpp&#10;engine.hp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Engine.hpp&#10;read&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/README.md&#10;sol.hpp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/External/sol.hpp&#10;appbe&#9;null&#9;null&#10;appbeha&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="windowlo&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.hpp&#10;window&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Core/Window.hpp&#10;engine.c&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Engine.cpp&#10;Engine&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Engine.hpp&#10;fiene.h&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Core/Fiene.h&#10;spr&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/2D/SpriteBatch.hpp&#10;Engine.hp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Engine.hpp&#10;engine&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Engine.cpp&#10;entitymanag&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Scene/EntityManager.hpp&#10;entity&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Scene/Entity.hpp&#10;compon&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Scene/Component.hpp&#10;abstra&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Scene/AbstractSystem.hpp&#10;engine.cp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Engine.cpp&#10;script&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptManager.hpp&#10;FILESYS&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/FileSystem/FileSystem.hpp&#10;scriptsystem.hp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp&#10;scriptsys&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptSystem.cpp&#10;rendersystem.hp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Scene/RendererSystem.hpp&#10;renders&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Scene/RendererSystem.cpp&#10;m_render&#9;null&#9;null&#10;scene&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Scene/Scene.cpp&#10;sol&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/External/lua-sol/sol.hpp&#10;eng&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Engine.cpp&#10;windo&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Core/Window.cpp&#10;light2d&#9;FILE&#9;file:///home/stel/Game/Game/cmake-build-release/lib/include/2D/Light2D.cpp&#10;fpsli&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Core/FpsLimiter.cpp&#10;spritefont.hp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/2D/SpriteFont.hpp&#10;sprite&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/2D/SpriteBatch.hpp&#10;spritefon&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/2D/SpriteFont.cpp&#10;tex&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Resources/TexturesManager.cpp&#10;text&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Resources/TexturesManager.cpp&#10;spriteba&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/2D/SpriteBatch.cpp&#10;shaderpr&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/GLSL/ShaderProgram.hpp&#10;shade&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/GLSL/ShaderProgram.cpp&#10;inputman&#9;null&#9;null&#10;window.cp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Core/Window.cpp&#10;fiene&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Core/Fiene.h&#10;spri&#9;null&#9;null&#10;utils&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Utils/Utils.cpp&#10;textu&#9;null&#9;null&#10;textures&#9;null&#9;null&#10;scriptmana&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/ScriptManager.cpp&#10;engine.hp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/Engine.hpp&#10;read&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/README.md&#10;sol.hpp&#9;FILE&#9;file:///home/stel/Game/Game/FissionEngine/Engine/External/sol.hpp&#10;appbe&#9;null&#9;null&#10;appbeha&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -971,12 +1067,12 @@
       <workItem from="1518701224069" duration="16433000" />
       <workItem from="1518734164756" duration="6663000" />
       <workItem from="1518779942603" duration="3743000" />
-      <workItem from="1518783845487" duration="4209000" />
+      <workItem from="1518783845487" duration="7456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1120954000" />
+    <option name="totallyTimeSpent" value="1124201000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -992,10 +1088,10 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756758" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.31783783" sideWeight="0.49315068" order="6" side_tool="false" content_ui="tabs" x="1920" y="0" width="1920" height="1080" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31783783" sideWeight="0.49315068" order="6" side_tool="false" content_ui="tabs" x="1920" y="0" width="1920" height="1080" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23027027" sideWeight="0.489863" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25608343" sideWeight="0.5170576" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3011727" sideWeight="0.48294243" order="6" side_tool="false" content_ui="tabs" x="759" y="266" width="1022" height="453" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31675676" sideWeight="0.48294243" order="15" side_tool="false" content_ui="tabs" x="759" y="266" width="1022" height="453" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26702702" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1609808" sideWeight="0.4953765" order="2" side_tool="false" content_ui="combo" />
@@ -1058,124 +1154,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Utils/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Utils/Rect.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deathmarch/Source/App.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Utils/Point.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Utils/FDebug.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Utils/FDebug.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-523">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/2D/SpriteFont.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="60" column="36" lean-forward="false" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
-          <folding>
-            <element signature="e#927#953#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/2D/Light2D.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Utils/Vertex.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="e#54#74#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/2D/Sprite.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="116" column="35" lean-forward="false" selection-start-line="116" selection-start-column="35" selection-end-line="116" selection-end-column="35" />
-          <folding>
-            <element signature="e#803#821#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Utils/Color.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/2D/Primitives.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/2D/Primitives.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/2D/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Physics/SimpleCollision.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -1198,16 +1176,6 @@
           <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding>
             <element signature="e#821#842#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/Window.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
-          <folding>
-            <element signature="e#888#914#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1408,14 +1376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Engine.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="75" column="56" lean-forward="false" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1424,39 +1384,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Engine.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1351">
-          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/FileSystem/FileSystem.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/FileSystem/fs_utils.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/lua-sol/sol.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1475,8 +1403,191 @@
     <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/FileSystem/FileSystem.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/FileSystem/FileSystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1567">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imconfig.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-379">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_draw.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="863">
+          <caret line="2940" column="0" lean-forward="true" selection-start-line="2940" selection-start-column="0" selection-end-line="2940" selection-end-column="0" />
+          <folding>
+            <element signature="e#248#279#0" expanded="false" />
+            <element signature="e#378#405#0" expanded="false" />
+            <element signature="e#495#609#0" expanded="false" />
+            <element signature="e#693#726#0" expanded="false" />
+            <element signature="e#758#1004#0" expanded="false" />
+            <element signature="e#1030#2042#0" expanded="false" />
+            <element signature="e#2943#2974#0" expanded="false" />
+            <element signature="e#2999#3137#0" expanded="false" />
+            <element signature="e#3964#3988#0" expanded="false" />
+            <element signature="e#4091#4119#0" expanded="false" />
+            <element signature="e#4144#4165#0" expanded="false" />
+            <element signature="e#4201#4261#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/lua-sol/sol.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="77" lean-forward="true" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/DebugTools/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_internal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="916" column="0" lean-forward="false" selection-start-line="916" selection-start-column="0" selection-end-line="916" selection-end-column="0" />
+          <folding>
+            <marker date="1513867793000" expanded="true" signature="0:18" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deathmarch/Source/App.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="83" lean-forward="false" selection-start-line="10" selection-start-column="83" selection-end-line="10" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_demo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6096">
+          <caret line="123" column="20" lean-forward="false" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="20" />
+          <folding>
+            <element signature="e#148777#148888#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6000">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="2256" column="0" lean-forward="false" selection-start-line="2256" selection-start-column="0" selection-end-line="2256" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Core/Window.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/DebugTools/WindowLog.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Engine.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="111" column="40" lean-forward="false" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
+          <folding>
+            <element signature="e#817#834#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Engine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="148" column="28" lean-forward="false" selection-start-line="148" selection-start-column="28" selection-end-line="148" selection-end-column="28" />
+          <folding>
+            <element signature="e#822#843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/DebugTools/WindowLog.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
