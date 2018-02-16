@@ -7,7 +7,7 @@
 #include <Engine/2D/Sprite.hpp>
 #include <Engine/2D/SpriteFont.hpp>
 #include <Engine/Core/FpsLimiter.hpp>
-#include <Engine/Core/Fiene.h>
+#include <Engine/Core/Core.h>
 #include <Engine/2D/Light2D.hpp>
 #include <Engine/2D/Camera2D.hpp>
 #include <Engine/Lua/lua_script_system.hpp>

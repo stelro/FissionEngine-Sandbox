@@ -24,7 +24,7 @@
 #define PROJECT_POINTERMATH_HPP
 
 //Engine Internal
-#include "Core/Fiene.h"
+#include "Core/Core.h"
 
 //C++ Includes
 #include <cstddef>

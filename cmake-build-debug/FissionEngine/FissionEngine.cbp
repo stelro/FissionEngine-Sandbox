@@ -82,12 +82,6 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/2D/Light2D.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/2D/Primitives.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/2D/Primitives.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/2D/Sprite.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
@@ -151,22 +145,13 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Allocators/StackAllocator.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/DebugConsole.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/DebugConsole.hpp">
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/Core.h">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/FEObject.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/FEObject.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/Fiene.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/Fiene.h">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Core/FpsLimiter.cpp">
@@ -334,12 +319,6 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Math/def_vector.inl">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Physics/SimpleCollision.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Physics/SimpleCollision.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Resources/ResourceBase.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
@@ -359,63 +338,6 @@
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Resources/TexturesManager.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/AbstractSystem.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/AbstractSystem.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Component.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Component.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Entity.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Entity.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/EntityManager.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/EntityManager.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/FieneEcs.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/FieneEcs.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/FieneTestSystem.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/FieneTestSystem.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/GraphicsComponent.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/RendererSystem.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/RendererSystem.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Scene.cpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Scene.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/TestComponent.hpp">
-			<Option target="FissionEngine"/>
-		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/TransformComponent.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.cpp">
@@ -472,16 +394,22 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Shaders/simple_draw_vertex.glsl">
 			<Option target="FissionEngine"/>
 		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/Color.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/FDebug.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/FDebug.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/Utils.cpp">
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/Point.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
-		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/Utils.hpp">
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/Rect.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Utils/Vertex.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/CMakeLists.txt">
