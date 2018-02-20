@@ -1343,6 +1343,33 @@ Engine/Resources/TexturesManager.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Resources/TexturesManager.cpp.s
 .PHONY : Engine/Resources/TexturesManager.cpp.s
 
+Engine/Scene/Scene.o: Engine/Scene/Scene.cpp.o
+
+.PHONY : Engine/Scene/Scene.o
+
+# target to build an object file
+Engine/Scene/Scene.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Scene.cpp.o
+.PHONY : Engine/Scene/Scene.cpp.o
+
+Engine/Scene/Scene.i: Engine/Scene/Scene.cpp.i
+
+.PHONY : Engine/Scene/Scene.i
+
+# target to preprocess a source file
+Engine/Scene/Scene.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Scene.cpp.i
+.PHONY : Engine/Scene/Scene.cpp.i
+
+Engine/Scene/Scene.s: Engine/Scene/Scene.cpp.s
+
+.PHONY : Engine/Scene/Scene.s
+
+# target to generate assembly for a file
+Engine/Scene/Scene.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Scene/Scene.cpp.s
+.PHONY : Engine/Scene/Scene.cpp.s
+
 Engine/ScriptSystem/Script.o: Engine/ScriptSystem/Script.cpp.o
 
 .PHONY : Engine/ScriptSystem/Script.o
@@ -1730,6 +1757,9 @@ help:
 	@echo "... Engine/Resources/TexturesManager.o"
 	@echo "... Engine/Resources/TexturesManager.i"
 	@echo "... Engine/Resources/TexturesManager.s"
+	@echo "... Engine/Scene/Scene.o"
+	@echo "... Engine/Scene/Scene.i"
+	@echo "... Engine/Scene/Scene.s"
 	@echo "... Engine/ScriptSystem/Script.o"
 	@echo "... Engine/ScriptSystem/Script.i"
 	@echo "... Engine/ScriptSystem/Script.s"

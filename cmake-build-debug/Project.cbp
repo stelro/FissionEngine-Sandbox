@@ -517,6 +517,12 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Resources/TexturesManager.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Scene.cpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/Scene/Scene.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ScriptSystem/Script.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
