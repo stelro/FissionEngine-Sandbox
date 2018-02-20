@@ -668,6 +668,33 @@ Engine/DebugTools/WindowLog.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.s
 .PHONY : Engine/DebugTools/WindowLog.cpp.s
 
+Engine/ECS/ComponentStorage.o: Engine/ECS/ComponentStorage.cpp.o
+
+.PHONY : Engine/ECS/ComponentStorage.o
+
+# target to build an object file
+Engine/ECS/ComponentStorage.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/ComponentStorage.cpp.o
+.PHONY : Engine/ECS/ComponentStorage.cpp.o
+
+Engine/ECS/ComponentStorage.i: Engine/ECS/ComponentStorage.cpp.i
+
+.PHONY : Engine/ECS/ComponentStorage.i
+
+# target to preprocess a source file
+Engine/ECS/ComponentStorage.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/ComponentStorage.cpp.i
+.PHONY : Engine/ECS/ComponentStorage.cpp.i
+
+Engine/ECS/ComponentStorage.s: Engine/ECS/ComponentStorage.cpp.s
+
+.PHONY : Engine/ECS/ComponentStorage.s
+
+# target to generate assembly for a file
+Engine/ECS/ComponentStorage.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/ComponentStorage.cpp.s
+.PHONY : Engine/ECS/ComponentStorage.cpp.s
+
 Engine/ECS/Ecs.o: Engine/ECS/Ecs.cpp.o
 
 .PHONY : Engine/ECS/Ecs.o
@@ -775,6 +802,33 @@ Engine/ECS/HandleTreeManager.s: Engine/ECS/HandleTreeManager.cpp.s
 Engine/ECS/HandleTreeManager.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/HandleTreeManager.cpp.s
 .PHONY : Engine/ECS/HandleTreeManager.cpp.s
+
+Engine/ECS/IndexTable.o: Engine/ECS/IndexTable.cpp.o
+
+.PHONY : Engine/ECS/IndexTable.o
+
+# target to build an object file
+Engine/ECS/IndexTable.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/IndexTable.cpp.o
+.PHONY : Engine/ECS/IndexTable.cpp.o
+
+Engine/ECS/IndexTable.i: Engine/ECS/IndexTable.cpp.i
+
+.PHONY : Engine/ECS/IndexTable.i
+
+# target to preprocess a source file
+Engine/ECS/IndexTable.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/IndexTable.cpp.i
+.PHONY : Engine/ECS/IndexTable.cpp.i
+
+Engine/ECS/IndexTable.s: Engine/ECS/IndexTable.cpp.s
+
+.PHONY : Engine/ECS/IndexTable.s
+
+# target to generate assembly for a file
+Engine/ECS/IndexTable.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/IndexTable.cpp.s
+.PHONY : Engine/ECS/IndexTable.cpp.s
 
 Engine/Engine.o: Engine/Engine.cpp.o
 
@@ -1655,6 +1709,9 @@ help:
 	@echo "... Engine/DebugTools/WindowLog.o"
 	@echo "... Engine/DebugTools/WindowLog.i"
 	@echo "... Engine/DebugTools/WindowLog.s"
+	@echo "... Engine/ECS/ComponentStorage.o"
+	@echo "... Engine/ECS/ComponentStorage.i"
+	@echo "... Engine/ECS/ComponentStorage.s"
 	@echo "... Engine/ECS/Ecs.o"
 	@echo "... Engine/ECS/Ecs.i"
 	@echo "... Engine/ECS/Ecs.s"
@@ -1667,6 +1724,9 @@ help:
 	@echo "... Engine/ECS/HandleTreeManager.o"
 	@echo "... Engine/ECS/HandleTreeManager.i"
 	@echo "... Engine/ECS/HandleTreeManager.s"
+	@echo "... Engine/ECS/IndexTable.o"
+	@echo "... Engine/ECS/IndexTable.i"
+	@echo "... Engine/ECS/IndexTable.s"
 	@echo "... Engine/Engine.o"
 	@echo "... Engine/Engine.i"
 	@echo "... Engine/Engine.s"

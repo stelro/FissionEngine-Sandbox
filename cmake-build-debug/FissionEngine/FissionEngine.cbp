@@ -208,6 +208,12 @@
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ECS/ComponentStorage.cpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ECS/ComponentStorage.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ECS/Ecs.cpp">
 			<Option target="FissionEngine"/>
 		</Unit>
@@ -233,6 +239,12 @@
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ECS/HandleTreeManager.hpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ECS/IndexTable.cpp">
+			<Option target="FissionEngine"/>
+		</Unit>
+		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ECS/IndexTable.hpp">
 			<Option target="FissionEngine"/>
 		</Unit>
 		<Unit filename="/home/stel/Game/Game/FissionEngine/Engine/ECS/mpl.hpp">

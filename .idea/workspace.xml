@@ -17,7 +17,6 @@
     <list default="true" id="669bb110-72a7-4f52-81ec-1ba5efcfa944" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/FissionEngine" afterPath="$PROJECT_DIR$/FissionEngine" />
-      <change beforePath="$PROJECT_DIR$/FissionEngine/Engine/ECS/HandleTreeManager.cpp" afterPath="$PROJECT_DIR$/FissionEngine/Engine/ECS/HandleTreeManager.cpp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
@@ -64,133 +63,58 @@
       <file leaf-file-name="Ecs.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/Ecs.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="648">
+              <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ecs.hpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Ecs.hpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/Ecs.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="218" column="68" lean-forward="false" selection-start-line="218" selection-start-column="68" selection-end-line="218" selection-end-column="68" />
+            <state relative-caret-position="1260">
+              <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
               <folding>
                 <element signature="e#90#108#0" expanded="true" />
-                <element signature="e#313#336#0" expanded="true" />
-                <element signature="e#780#800#0" expanded="true" />
-                <element signature="e#2250#2272#0" expanded="true" />
-                <element signature="e#3853#3884#0" expanded="true" />
-                <element signature="e#4447#4469#0" expanded="true" />
-                <element signature="e#4617#4632#0" expanded="true" />
-                <element signature="e#4768#4810#0" expanded="true" />
-                <element signature="e#5068#5081#0" expanded="true" />
-                <element signature="e#5144#5198#0" expanded="true" />
-                <element signature="e#5345#5413#0" expanded="true" />
-                <element signature="e#5583#5637#0" expanded="true" />
-                <element signature="e#5769#5776#0" expanded="true" />
-                <element signature="e#5960#5982#0" expanded="true" />
-                <element signature="e#6095#6117#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FieldDetection.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/FieldDetection.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="101" column="85" lean-forward="false" selection-start-line="101" selection-start-column="85" selection-end-line="101" selection-end-column="85" />
-              <folding>
-                <element signature="e#91#123#0" expanded="true" />
-                <element signature="e#251#283#0" expanded="true" />
-                <element signature="e#353#385#0" expanded="true" />
-                <element signature="e#516#548#0" expanded="true" />
-                <element signature="e#617#649#0" expanded="true" />
-                <element signature="e#780#812#0" expanded="true" />
-                <element signature="e#881#913#0" expanded="true" />
-                <element signature="e#1045#1077#0" expanded="true" />
-                <element signature="e#1146#1178#0" expanded="true" />
-                <element signature="e#1311#1343#0" expanded="true" />
-                <element signature="e#1413#1427#0" expanded="true" />
-                <element signature="e#1552#1566#0" expanded="true" />
-                <element signature="e#1640#1679#0" expanded="true" />
-                <element signature="e#1727#1769#0" expanded="true" />
-                <element signature="e#1920#1971#0" expanded="true" />
-                <element signature="e#2012#2066#0" expanded="true" />
-                <element signature="e#2217#2268#0" expanded="true" />
-                <element signature="e#2309#2363#0" expanded="true" />
-                <element signature="e#2522#2561#0" expanded="true" />
-                <element signature="e#2601#2643#0" expanded="true" />
-                <element signature="e#2797#2823#0" expanded="true" />
-                <element signature="e#2903#2917#0" expanded="true" />
-                <element signature="e#2992#3030#0" expanded="true" />
-                <element signature="e#3108#3146#0" expanded="true" />
-                <element signature="e#3233#3259#0" expanded="true" />
-                <element signature="e#3333#3371#0" expanded="true" />
-                <element signature="e#3444#3483#0" expanded="true" />
-                <element signature="e#3580#3631#0" expanded="true" />
-                <element signature="e#3736#3775#0" expanded="true" />
-                <element signature="e#3873#3924#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandleTreeManager.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/HandleTreeManager.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="159" column="16" lean-forward="false" selection-start-line="159" selection-start-column="16" selection-end-line="159" selection-end-column="16" />
-              <folding>
-                <element signature="e#40#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandleTreeManager.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/HandleTreeManager.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="59" column="61" lean-forward="true" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
-              <folding>
-                <element signature="e#54#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandleManager.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/HandleManager.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="36" column="57" lean-forward="false" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScriptSystem.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ScriptSystem/ScriptSystem.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#107#142#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Engine.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/Engine.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3654">
-              <caret line="203" column="14" lean-forward="false" selection-start-line="203" selection-start-column="14" selection-end-line="203" selection-end-column="14" />
-              <folding>
-                <element signature="e#822#843#0" expanded="true" />
+                <element signature="e#453#476#0" expanded="true" />
+                <element signature="e#920#940#0" expanded="true" />
+                <element signature="e#3001#3023#0" expanded="true" />
+                <element signature="e#4604#4635#0" expanded="true" />
+                <element signature="e#5198#5220#0" expanded="true" />
+                <element signature="e#5368#5383#0" expanded="true" />
+                <element signature="e#5519#5561#0" expanded="true" />
+                <element signature="e#5819#5832#0" expanded="true" />
+                <element signature="e#5895#5949#0" expanded="true" />
+                <element signature="e#6096#6164#0" expanded="true" />
+                <element signature="e#6334#6388#0" expanded="true" />
+                <element signature="e#6520#6527#0" expanded="true" />
+                <element signature="e#6711#6733#0" expanded="true" />
+                <element signature="e#6845#6867#0" expanded="true" />
+                <element signature="e#7007#7044#0" expanded="true" />
+                <element signature="e#7634#7653#0" expanded="true" />
+                <element signature="e#8468#8528#0" expanded="true" />
+                <element signature="e#10216#10238#0" expanded="true" />
+                <element signature="e#11390#11412#0" expanded="true" />
+                <element signature="e#11670#11696#0" expanded="true" />
+                <element signature="e#12098#12111#0" expanded="true" />
+                <element signature="e#12295#12321#0" expanded="true" />
+                <element signature="e#12563#12577#0" expanded="true" />
+                <element signature="e#12760#12794#0" expanded="true" />
+                <element signature="e#13601#13623#0" expanded="true" />
+                <element signature="e#13895#13917#0" expanded="true" />
+                <element signature="e#14207#14229#0" expanded="true" />
+                <element signature="e#14423#14445#0" expanded="true" />
+                <element signature="e#14642#14682#0" expanded="true" />
+                <element signature="e#15078#15118#0" expanded="true" />
+                <element signature="e#15465#15487#0" expanded="true" />
+                <element signature="e#15722#15741#0" expanded="true" />
+                <element signature="e#15947#15986#0" expanded="true" />
+                <element signature="e#16334#16385#0" expanded="true" />
+                <element signature="e#16737#16784#0" expanded="true" />
+                <element signature="e#17306#17353#0" expanded="true" />
+                <element signature="e#18014#18036#0" expanded="true" />
+                <element signature="e#18160#18182#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,9 +132,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>load_file</find>
-      <find>m_SourceCodeResoult</find>
-      <find>&lt;lua5.3</find>
       <find>lua5.2</find>
       <find>getValInTable</find>
       <find>include &lt;lua5.2</find>
@@ -238,6 +159,9 @@
       <find>TextEditCallback</find>
       <find>script(</find>
       <find>print</find>
+      <find>remove_component</find>
+      <find>register_handler</find>
+      <find>has_ecs_update</find>
     </findStrings>
     <replaceStrings>
       <replace>4</replace>
@@ -282,10 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Allocators/FreeListAllocator.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Allocators/LinearAllocator.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Allocators/PoolAllocator.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/Allocators/PoolAllocator.hpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Allocators/ProxyAllocator.cpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Allocators/ProxyAllocator.hpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/Allocators/StackAllocator.cpp" />
@@ -324,15 +244,19 @@
         <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/Handle.cpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/Handle.hpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/Ecs.inl" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/Ecs.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/Ecs.hpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/mpl.hpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/FieldDetection.hpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/HandleManager.hpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/HandleManager.cpp" />
-        <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/HandleTreeManager.hpp" />
         <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/HandleTreeManager.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/ComponentStorage.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/ComponentStorage.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/IndexTable.hpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/IndexTable.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/Ecs.cpp" />
+        <option value="$PROJECT_DIR$/FissionEngine/Engine/ECS/Ecs.hpp" />
       </list>
     </option>
   </component>
@@ -427,7 +351,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/nova-ecs-master/CMakeLists.txt" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config" />
     <property name="settings.editor.splitter.proportion" value="0.26641294" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="add_unversioned_files" value="true&#10;/home/stel/Game/Game/FissionEngine/.gitignore" />
@@ -1017,12 +941,12 @@
       <workItem from="1518799737919" duration="12570000" />
       <workItem from="1518814403488" duration="420000" />
       <workItem from="1519138493360" duration="2017000" />
-      <workItem from="1519140551293" duration="2916000" />
+      <workItem from="1519140551293" duration="9444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1142269000" />
+    <option name="totallyTimeSpent" value="1148797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1104,28 +1028,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imconfig.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-379">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_draw.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="863">
-          <caret line="2940" column="0" lean-forward="true" selection-start-line="2940" selection-start-column="0" selection-end-line="2940" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_internal.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="916" column="0" lean-forward="false" selection-start-line="916" selection-start-column="0" selection-end-line="916" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.h" />
     <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6000">
@@ -1408,14 +1310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/Ecs.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/mpl.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -1432,14 +1326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/HandleManager.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="36" column="57" lean-forward="false" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/HandleManager.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -1450,93 +1336,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/FieldDetection.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="101" column="85" lean-forward="false" selection-start-line="101" selection-start-column="85" selection-end-line="101" selection-end-column="85" />
-          <folding>
-            <element signature="e#91#123#0" expanded="true" />
-            <element signature="e#251#283#0" expanded="true" />
-            <element signature="e#353#385#0" expanded="true" />
-            <element signature="e#516#548#0" expanded="true" />
-            <element signature="e#617#649#0" expanded="true" />
-            <element signature="e#780#812#0" expanded="true" />
-            <element signature="e#881#913#0" expanded="true" />
-            <element signature="e#1045#1077#0" expanded="true" />
-            <element signature="e#1146#1178#0" expanded="true" />
-            <element signature="e#1311#1343#0" expanded="true" />
-            <element signature="e#1413#1427#0" expanded="true" />
-            <element signature="e#1552#1566#0" expanded="true" />
-            <element signature="e#1640#1679#0" expanded="true" />
-            <element signature="e#1727#1769#0" expanded="true" />
-            <element signature="e#1920#1971#0" expanded="true" />
-            <element signature="e#2012#2066#0" expanded="true" />
-            <element signature="e#2217#2268#0" expanded="true" />
-            <element signature="e#2309#2363#0" expanded="true" />
-            <element signature="e#2522#2561#0" expanded="true" />
-            <element signature="e#2601#2643#0" expanded="true" />
-            <element signature="e#2797#2823#0" expanded="true" />
-            <element signature="e#2903#2917#0" expanded="true" />
-            <element signature="e#2992#3030#0" expanded="true" />
-            <element signature="e#3108#3146#0" expanded="true" />
-            <element signature="e#3233#3259#0" expanded="true" />
-            <element signature="e#3333#3371#0" expanded="true" />
-            <element signature="e#3444#3483#0" expanded="true" />
-            <element signature="e#3580#3631#0" expanded="true" />
-            <element signature="e#3736#3775#0" expanded="true" />
-            <element signature="e#3873#3924#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="252">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/Ecs.hpp">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/ComponentStorage.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="218" column="68" lean-forward="false" selection-start-line="218" selection-start-column="68" selection-end-line="218" selection-end-column="68" />
+        <state relative-caret-position="-53">
+          <caret line="81" column="63" lean-forward="true" selection-start-line="81" selection-start-column="63" selection-end-line="81" selection-end-column="63" />
           <folding>
-            <element signature="e#90#108#0" expanded="true" />
-            <element signature="e#313#336#0" expanded="true" />
-            <element signature="e#780#800#0" expanded="true" />
-            <element signature="e#2250#2272#0" expanded="true" />
-            <element signature="e#3853#3884#0" expanded="true" />
-            <element signature="e#4447#4469#0" expanded="true" />
-            <element signature="e#4617#4632#0" expanded="true" />
-            <element signature="e#4768#4810#0" expanded="true" />
-            <element signature="e#5068#5081#0" expanded="true" />
-            <element signature="e#5144#5198#0" expanded="true" />
-            <element signature="e#5345#5413#0" expanded="true" />
-            <element signature="e#5583#5637#0" expanded="true" />
-            <element signature="e#5769#5776#0" expanded="true" />
-            <element signature="e#5960#5982#0" expanded="true" />
-            <element signature="e#6095#6117#0" expanded="true" />
+            <element signature="e#54#74#0" expanded="false" />
+            <element signature="e#178#210#0" expanded="false" />
+            <element signature="e#366#398#0" expanded="false" />
+            <element signature="e#547#561#0" expanded="false" />
+            <element signature="e#1392#1424#0" expanded="false" />
+            <element signature="e#2095#2109#0" expanded="false" />
+            <element signature="e#3020#3042#0" expanded="false" />
+            <element signature="e#4149#4171#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/HandleTreeManager.hpp">
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/ComponentStorage.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="59" column="61" lean-forward="true" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
+        <state relative-caret-position="613">
+          <caret line="115" column="5" lean-forward="true" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#71#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/IndexTable.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="61" column="65" lean-forward="true" selection-start-line="61" selection-start-column="65" selection-end-line="61" selection-end-column="65" />
           <folding>
             <element signature="e#54#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/HandleManager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="36" column="57" lean-forward="false" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/IndexTable.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="155" column="25" lean-forward="false" selection-start-line="155" selection-start-column="9" selection-end-line="155" selection-end-column="25" />
+          <folding>
+            <element signature="e#40#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/HandleTreeManager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#54#71#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/HandleTreeManager.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
+        <state relative-caret-position="2862">
           <caret line="159" column="16" lean-forward="false" selection-start-line="159" selection-start-column="16" selection-end-line="159" selection-end-column="16" />
           <folding>
             <element signature="e#40#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/FieldDetection.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="101" column="85" lean-forward="false" selection-start-line="101" selection-start-column="85" selection-end-line="101" selection-end-column="85" />
+          <folding>
+            <element signature="e#91#123#0" expanded="false" />
+            <element signature="e#251#283#0" expanded="false" />
+            <element signature="e#353#385#0" expanded="false" />
+            <element signature="e#516#548#0" expanded="false" />
+            <element signature="e#617#649#0" expanded="false" />
+            <element signature="e#780#812#0" expanded="false" />
+            <element signature="e#881#913#0" expanded="false" />
+            <element signature="e#1045#1077#0" expanded="false" />
+            <element signature="e#1146#1178#0" expanded="false" />
+            <element signature="e#1311#1343#0" expanded="false" />
+            <element signature="e#1413#1427#0" expanded="false" />
+            <element signature="e#1552#1566#0" expanded="false" />
+            <element signature="e#1640#1679#0" expanded="false" />
+            <element signature="e#1727#1769#0" expanded="false" />
+            <element signature="e#1920#1971#0" expanded="false" />
+            <element signature="e#2012#2066#0" expanded="false" />
+            <element signature="e#2217#2268#0" expanded="false" />
+            <element signature="e#2309#2363#0" expanded="false" />
+            <element signature="e#2522#2561#0" expanded="false" />
+            <element signature="e#2601#2643#0" expanded="false" />
+            <element signature="e#2797#2823#0" expanded="false" />
+            <element signature="e#2903#2917#0" expanded="false" />
+            <element signature="e#2992#3030#0" expanded="false" />
+            <element signature="e#3108#3146#0" expanded="false" />
+            <element signature="e#3233#3259#0" expanded="false" />
+            <element signature="e#3333#3371#0" expanded="false" />
+            <element signature="e#3444#3483#0" expanded="false" />
+            <element signature="e#3580#3631#0" expanded="false" />
+            <element signature="e#3736#3775#0" expanded="false" />
+            <element signature="e#3873#3924#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/Ecs.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FissionEngine/Engine/ECS/Ecs.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+          <folding>
+            <element signature="e#90#108#0" expanded="true" />
+            <element signature="e#453#476#0" expanded="true" />
+            <element signature="e#920#940#0" expanded="true" />
+            <element signature="e#3001#3023#0" expanded="true" />
+            <element signature="e#4604#4635#0" expanded="true" />
+            <element signature="e#5198#5220#0" expanded="true" />
+            <element signature="e#5368#5383#0" expanded="true" />
+            <element signature="e#5519#5561#0" expanded="true" />
+            <element signature="e#5819#5832#0" expanded="true" />
+            <element signature="e#5895#5949#0" expanded="true" />
+            <element signature="e#6096#6164#0" expanded="true" />
+            <element signature="e#6334#6388#0" expanded="true" />
+            <element signature="e#6520#6527#0" expanded="true" />
+            <element signature="e#6711#6733#0" expanded="true" />
+            <element signature="e#6845#6867#0" expanded="true" />
+            <element signature="e#7007#7044#0" expanded="true" />
+            <element signature="e#7634#7653#0" expanded="true" />
+            <element signature="e#8468#8528#0" expanded="true" />
+            <element signature="e#10216#10238#0" expanded="true" />
+            <element signature="e#11390#11412#0" expanded="true" />
+            <element signature="e#11670#11696#0" expanded="true" />
+            <element signature="e#12098#12111#0" expanded="true" />
+            <element signature="e#12295#12321#0" expanded="true" />
+            <element signature="e#12563#12577#0" expanded="true" />
+            <element signature="e#12760#12794#0" expanded="true" />
+            <element signature="e#13601#13623#0" expanded="true" />
+            <element signature="e#13895#13917#0" expanded="true" />
+            <element signature="e#14207#14229#0" expanded="true" />
+            <element signature="e#14423#14445#0" expanded="true" />
+            <element signature="e#14642#14682#0" expanded="true" />
+            <element signature="e#15078#15118#0" expanded="true" />
+            <element signature="e#15465#15487#0" expanded="true" />
+            <element signature="e#15722#15741#0" expanded="true" />
+            <element signature="e#15947#15986#0" expanded="true" />
+            <element signature="e#16334#16385#0" expanded="true" />
+            <element signature="e#16737#16784#0" expanded="true" />
+            <element signature="e#17306#17353#0" expanded="true" />
+            <element signature="e#18014#18036#0" expanded="true" />
+            <element signature="e#18160#18182#0" expanded="true" />
           </folding>
         </state>
       </provider>

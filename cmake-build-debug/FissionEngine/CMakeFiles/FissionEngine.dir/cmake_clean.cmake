@@ -52,6 +52,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FissionEngine.dir/Engine/ECS/Handle.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/ECS/HandleManager.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/ECS/HandleTreeManager.cpp.o"
+  "CMakeFiles/FissionEngine.dir/Engine/ECS/IndexTable.cpp.o"
+  "CMakeFiles/FissionEngine.dir/Engine/ECS/ComponentStorage.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o"
   "../lib/libFissionEngine.pdb"
   "../lib/libFissionEngine.so"
