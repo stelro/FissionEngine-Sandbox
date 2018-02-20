@@ -92,12 +92,6 @@ SDL2/SDL.h
 string
 -
 
-../FissionEngine/Engine/DebugTools/WindowLog.hpp
-vector
--
-Core/Core.h
-../FissionEngine/Engine/DebugTools/Core/Core.h
-
 ../FissionEngine/Engine/Engine.hpp
 string
 -
@@ -107,8 +101,6 @@ Core/Core.h
 ../FissionEngine/Engine/Core/Core.h
 Core/FpsLimiter.hpp
 ../FissionEngine/Engine/Core/FpsLimiter.hpp
-DebugTools/WindowLog.hpp
-../FissionEngine/Engine/DebugTools/WindowLog.hpp
 
 ../FissionEngine/Engine/External/imgui/imconfig.h
 
@@ -656,13 +648,31 @@ Utils/FDebug.hpp
 cstdint
 -
 
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/DebugConsole.cpp
+DebugConsole.hpp
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/DebugConsole.hpp
+Allocators/BaseAllocator.hpp
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/Allocators/BaseAllocator.hpp
+
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/DebugConsole.hpp
+External/imgui/imgui.h
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/External/imgui/imgui.h
+Core/Core.h
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/Core/Core.h
+cstdio
+-
+cstdlib
+-
+cctype
+-
+
 /home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.cpp
+Allocators/BaseAllocator.hpp
+-
 WindowLog.hpp
 /home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.hpp
 External/imgui/imgui.h
 /home/stel/Game/Game/FissionEngine/Engine/DebugTools/External/imgui/imgui.h
-Core/Window.hpp
-/home/stel/Game/Game/FissionEngine/Engine/DebugTools/Core/Window.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.hpp
 vector
@@ -679,6 +689,8 @@ Allocators/FreeListAllocator.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Allocators/FreeListAllocator.hpp
 Allocators/LinearAllocator.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Allocators/LinearAllocator.hpp
+Allocators/PoolAllocator.hpp
+/home/stel/Game/Game/FissionEngine/Engine/Allocators/PoolAllocator.hpp
 Allocators/ProxyAllocator.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Allocators/ProxyAllocator.hpp
 Core/Window.hpp
@@ -695,6 +707,10 @@ Core/InputManager.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Core/InputManager.hpp
 Core/Window.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Core/Window.hpp
+DebugTools/WindowLog.hpp
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.hpp
+DebugTools/DebugConsole.hpp
+/home/stel/Game/Game/FissionEngine/Engine/DebugTools/DebugConsole.hpp
 External/imgui/imgui_impl_sdl_gl3.hpp
 /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imgui_impl_sdl_gl3.hpp
 External/imgui/imgui.h
@@ -709,8 +725,6 @@ Core/Core.h
 /home/stel/Game/Game/FissionEngine/Engine/Core/Core.h
 Core/FpsLimiter.hpp
 /home/stel/Game/Game/FissionEngine/Engine/Core/FpsLimiter.hpp
-DebugTools/WindowLog.hpp
-/home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.hpp
 
 /home/stel/Game/Game/FissionEngine/Engine/External/imgui/imconfig.h
 

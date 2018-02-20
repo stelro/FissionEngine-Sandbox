@@ -614,6 +614,33 @@ Engine/Core/fglobals.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.s
 .PHONY : Engine/Core/fglobals.cpp.s
 
+Engine/DebugTools/DebugConsole.o: Engine/DebugTools/DebugConsole.cpp.o
+
+.PHONY : Engine/DebugTools/DebugConsole.o
+
+# target to build an object file
+Engine/DebugTools/DebugConsole.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.o
+.PHONY : Engine/DebugTools/DebugConsole.cpp.o
+
+Engine/DebugTools/DebugConsole.i: Engine/DebugTools/DebugConsole.cpp.i
+
+.PHONY : Engine/DebugTools/DebugConsole.i
+
+# target to preprocess a source file
+Engine/DebugTools/DebugConsole.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.i
+.PHONY : Engine/DebugTools/DebugConsole.cpp.i
+
+Engine/DebugTools/DebugConsole.s: Engine/DebugTools/DebugConsole.cpp.s
+
+.PHONY : Engine/DebugTools/DebugConsole.s
+
+# target to generate assembly for a file
+Engine/DebugTools/DebugConsole.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.s
+.PHONY : Engine/DebugTools/DebugConsole.cpp.s
+
 Engine/DebugTools/WindowLog.o: Engine/DebugTools/WindowLog.cpp.o
 
 .PHONY : Engine/DebugTools/WindowLog.o
@@ -640,6 +667,60 @@ Engine/DebugTools/WindowLog.s: Engine/DebugTools/WindowLog.cpp.s
 Engine/DebugTools/WindowLog.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.s
 .PHONY : Engine/DebugTools/WindowLog.cpp.s
+
+Engine/ECS/Ecs.o: Engine/ECS/Ecs.cpp.o
+
+.PHONY : Engine/ECS/Ecs.o
+
+# target to build an object file
+Engine/ECS/Ecs.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o
+.PHONY : Engine/ECS/Ecs.cpp.o
+
+Engine/ECS/Ecs.i: Engine/ECS/Ecs.cpp.i
+
+.PHONY : Engine/ECS/Ecs.i
+
+# target to preprocess a source file
+Engine/ECS/Ecs.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.i
+.PHONY : Engine/ECS/Ecs.cpp.i
+
+Engine/ECS/Ecs.s: Engine/ECS/Ecs.cpp.s
+
+.PHONY : Engine/ECS/Ecs.s
+
+# target to generate assembly for a file
+Engine/ECS/Ecs.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.s
+.PHONY : Engine/ECS/Ecs.cpp.s
+
+Engine/ECS/Handle.o: Engine/ECS/Handle.cpp.o
+
+.PHONY : Engine/ECS/Handle.o
+
+# target to build an object file
+Engine/ECS/Handle.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Handle.cpp.o
+.PHONY : Engine/ECS/Handle.cpp.o
+
+Engine/ECS/Handle.i: Engine/ECS/Handle.cpp.i
+
+.PHONY : Engine/ECS/Handle.i
+
+# target to preprocess a source file
+Engine/ECS/Handle.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Handle.cpp.i
+.PHONY : Engine/ECS/Handle.cpp.i
+
+Engine/ECS/Handle.s: Engine/ECS/Handle.cpp.s
+
+.PHONY : Engine/ECS/Handle.s
+
+# target to generate assembly for a file
+Engine/ECS/Handle.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Handle.cpp.s
+.PHONY : Engine/ECS/Handle.cpp.s
 
 Engine/Engine.o: Engine/Engine.cpp.o
 
@@ -1514,9 +1595,18 @@ help:
 	@echo "... Engine/Core/fglobals.o"
 	@echo "... Engine/Core/fglobals.i"
 	@echo "... Engine/Core/fglobals.s"
+	@echo "... Engine/DebugTools/DebugConsole.o"
+	@echo "... Engine/DebugTools/DebugConsole.i"
+	@echo "... Engine/DebugTools/DebugConsole.s"
 	@echo "... Engine/DebugTools/WindowLog.o"
 	@echo "... Engine/DebugTools/WindowLog.i"
 	@echo "... Engine/DebugTools/WindowLog.s"
+	@echo "... Engine/ECS/Ecs.o"
+	@echo "... Engine/ECS/Ecs.i"
+	@echo "... Engine/ECS/Ecs.s"
+	@echo "... Engine/ECS/Handle.o"
+	@echo "... Engine/ECS/Handle.i"
+	@echo "... Engine/ECS/Handle.s"
 	@echo "... Engine/Engine.o"
 	@echo "... Engine/Engine.i"
 	@echo "... Engine/Engine.s"

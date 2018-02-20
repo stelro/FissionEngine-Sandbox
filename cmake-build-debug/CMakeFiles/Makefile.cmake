@@ -14,6 +14,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../FissionEngine/Engine/Allocators/CMakeLists.txt"
   "../FissionEngine/Engine/Core/CMakeLists.txt"
   "../FissionEngine/Engine/DebugTools/CMakeLists.txt"
+  "../FissionEngine/Engine/ECS/CMakeLists.txt"
   "../FissionEngine/Engine/External/CMakeLists.txt"
   "../FissionEngine/Engine/FileSystem/CMakeLists.txt"
   "../FissionEngine/Engine/GLSL/CMakeLists.txt"

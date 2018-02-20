@@ -146,16 +146,22 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.o: ../Fissio
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.o: ../FissionEngine/Engine/Core/fglobals.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.o: ../FissionEngine/Engine/Core/fglobals.h
 
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.o: ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.o: ../FissionEngine/Engine/Core/Core.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.o: ../FissionEngine/Engine/External/imgui/imconfig.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.o: ../FissionEngine/Engine/External/imgui/imgui.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_dock.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_user.h
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.o: ../FissionEngine/Engine/DebugTools/DebugConsole.cpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.o: ../FissionEngine/Engine/DebugTools/DebugConsole.hpp
+
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o: ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o: ../FissionEngine/Engine/Core/Core.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o: ../FissionEngine/Engine/Core/Window.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o: ../FissionEngine/Engine/External/imgui/imconfig.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o: ../FissionEngine/Engine/External/imgui/imgui.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_dock.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o: ../FissionEngine/Engine/External/imgui/imgui_user.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o: ../FissionEngine/Engine/Math/def_vector.inl
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o: ../FissionEngine/Engine/Utils/Color.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o: ../FissionEngine/Engine/DebugTools/WindowLog.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o: ../FissionEngine/Engine/DebugTools/WindowLog.hpp
@@ -174,12 +180,14 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Allocators/FreeListAllocator.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Allocators/LinearAllocator.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Allocators/PointerMath.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Allocators/PoolAllocator.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Allocators/ProxyAllocator.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Core/Core.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Core/FpsLimiter.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Core/IOManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Core/InputManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Core/Window.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/DebugTools/DebugConsole.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/DebugTools/WindowLog.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Engine.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Engine.hpp
@@ -268,7 +276,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../Fi
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Core/Stack.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Core/Stack.inl
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Core/Window.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/DebugTools/WindowLog.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Engine.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Math/Vector.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o: ../FissionEngine/Engine/Math/def_vector.hpp
@@ -428,7 +435,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_l
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.cpp.o: ../FissionEngine/Engine/Allocators/PointerMath.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.cpp.o: ../FissionEngine/Engine/Core/Core.h
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.cpp.o: ../FissionEngine/Engine/Core/FpsLimiter.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.cpp.o: ../FissionEngine/Engine/DebugTools/WindowLog.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.cpp.o: ../FissionEngine/Engine/Engine.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.cpp.o: ../FissionEngine/Engine/External/lua-sol/sol.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_engine_core.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
@@ -447,7 +453,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_l
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Core/Stack.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Core/Stack.inl
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Core/Window.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/DebugTools/WindowLog.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/Engine.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/External/lua-sol/sol.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_game.cpp.o: ../FissionEngine/Engine/FileSystem/FileSystem.hpp

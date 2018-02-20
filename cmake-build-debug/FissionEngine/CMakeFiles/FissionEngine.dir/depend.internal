@@ -146,17 +146,23 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Core/fglobals.cpp.o
  ../FissionEngine/Engine/Utils/FDebug.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Core/fglobals.cpp
  /home/stel/Game/Game/FissionEngine/Engine/Core/fglobals.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.o
+ ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
  ../FissionEngine/Engine/Core/Core.h
- ../FissionEngine/Engine/Core/Window.hpp
  ../FissionEngine/Engine/External/imgui/imconfig.h
  ../FissionEngine/Engine/External/imgui/imgui.h
  ../FissionEngine/Engine/External/imgui/imgui_dock.h
  ../FissionEngine/Engine/External/imgui/imgui_user.h
- ../FissionEngine/Engine/Math/Vector.hpp
- ../FissionEngine/Engine/Math/def_vector.hpp
- ../FissionEngine/Engine/Math/def_vector.inl
- ../FissionEngine/Engine/Utils/Color.hpp
+ ../FissionEngine/Engine/Utils/FDebug.hpp
+ /home/stel/Game/Game/FissionEngine/Engine/DebugTools/DebugConsole.cpp
+ /home/stel/Game/Game/FissionEngine/Engine/DebugTools/DebugConsole.hpp
+FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o
+ ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
+ ../FissionEngine/Engine/Core/Core.h
+ ../FissionEngine/Engine/External/imgui/imconfig.h
+ ../FissionEngine/Engine/External/imgui/imgui.h
+ ../FissionEngine/Engine/External/imgui/imgui_dock.h
+ ../FissionEngine/Engine/External/imgui/imgui_user.h
  ../FissionEngine/Engine/Utils/FDebug.hpp
  /home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.cpp
  /home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.hpp
@@ -175,12 +181,14 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o
  /home/stel/Game/Game/FissionEngine/Engine/Allocators/FreeListAllocator.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Allocators/LinearAllocator.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Allocators/PointerMath.hpp
+ /home/stel/Game/Game/FissionEngine/Engine/Allocators/PoolAllocator.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Allocators/ProxyAllocator.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Core/Core.h
  /home/stel/Game/Game/FissionEngine/Engine/Core/FpsLimiter.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Core/IOManager.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Core/InputManager.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Core/Window.hpp
+ /home/stel/Game/Game/FissionEngine/Engine/DebugTools/DebugConsole.hpp
  /home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.hpp
  /home/stel/Game/Game/FissionEngine/Engine/Engine.cpp
  /home/stel/Game/Game/FissionEngine/Engine/Engine.hpp
@@ -269,7 +277,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Game/AppBehaviour.cpp.o
  ../FissionEngine/Engine/Core/Stack.hpp
  ../FissionEngine/Engine/Core/Stack.inl
  ../FissionEngine/Engine/Core/Window.hpp
- ../FissionEngine/Engine/DebugTools/WindowLog.hpp
  ../FissionEngine/Engine/Engine.hpp
  ../FissionEngine/Engine/Math/Vector.hpp
  ../FissionEngine/Engine/Math/def_vector.hpp
@@ -429,7 +436,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_l
  ../FissionEngine/Engine/Allocators/PointerMath.hpp
  ../FissionEngine/Engine/Core/Core.h
  ../FissionEngine/Engine/Core/FpsLimiter.hpp
- ../FissionEngine/Engine/DebugTools/WindowLog.hpp
  ../FissionEngine/Engine/Engine.hpp
  ../FissionEngine/Engine/External/lua-sol/sol.hpp
  ../FissionEngine/Engine/Utils/FDebug.hpp
@@ -448,7 +454,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_l
  ../FissionEngine/Engine/Core/Stack.hpp
  ../FissionEngine/Engine/Core/Stack.inl
  ../FissionEngine/Engine/Core/Window.hpp
- ../FissionEngine/Engine/DebugTools/WindowLog.hpp
  ../FissionEngine/Engine/Engine.hpp
  ../FissionEngine/Engine/External/lua-sol/sol.hpp
  ../FissionEngine/Engine/FileSystem/FileSystem.hpp
