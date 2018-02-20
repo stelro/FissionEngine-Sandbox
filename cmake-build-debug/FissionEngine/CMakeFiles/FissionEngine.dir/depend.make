@@ -173,19 +173,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/ComponentStorage.cpp.o: ..
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/ComponentStorage.cpp.o: ../FissionEngine/Engine/ECS/Handle.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/ComponentStorage.cpp.o: ../FissionEngine/Engine/ECS/HandleManager.hpp
 
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o: ../FissionEngine/Engine/Core/Core.h
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o: ../FissionEngine/Engine/Utils/FDebug.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o: ../FissionEngine/Engine/ECS/ComponentStorage.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o: ../FissionEngine/Engine/ECS/Ecs.cpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o: ../FissionEngine/Engine/ECS/Ecs.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o: ../FissionEngine/Engine/ECS/FieldDetection.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o: ../FissionEngine/Engine/ECS/Handle.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o: ../FissionEngine/Engine/ECS/HandleManager.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o: ../FissionEngine/Engine/ECS/HandleTreeManager.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o: ../FissionEngine/Engine/ECS/IndexTable.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o: ../FissionEngine/Engine/ECS/MessageQueue.hpp
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o: ../FissionEngine/Engine/ECS/mpl.hpp
-
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/HandleManager.cpp.o: ../FissionEngine/Engine/ECS/Handle.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/HandleManager.cpp.o: ../FissionEngine/Engine/ECS/HandleManager.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/HandleManager.cpp.o: ../FissionEngine/Engine/ECS/HandleManager.hpp
@@ -201,8 +188,6 @@ FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/IndexTable.cpp.o: ../Fissi
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/IndexTable.cpp.o: ../FissionEngine/Engine/ECS/HandleManager.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/IndexTable.cpp.o: ../FissionEngine/Engine/ECS/IndexTable.cpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/IndexTable.cpp.o: ../FissionEngine/Engine/ECS/IndexTable.hpp
-
-FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/MessageQueue.cpp.o: ../FissionEngine/Engine/ECS/MessageQueue.cpp
 
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/Allocators/BaseAllocator.hpp
 FissionEngine/CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o: ../FissionEngine/Engine/External/lua-sol/sol.hpp

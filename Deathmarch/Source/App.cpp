@@ -45,7 +45,7 @@ using msg_list = Fiene::mpl::list<
         msg_destroy
 >;
 
-using game_ecs = Fiene::ecs< msg_list >;
+using game_ecs = Fiene::Ecs< msg_list >;
 
 struct position_system
 {
