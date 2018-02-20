@@ -48,8 +48,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/FissionEngine.dir/Engine/ScriptSystem/lua-bindings/fe_lua_binding_resources.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.o"
-  "CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o"
-  "CMakeFiles/FissionEngine.dir/Engine/ECS/Handle.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/ECS/HandleManager.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/ECS/HandleTreeManager.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/ECS/IndexTable.cpp.o"

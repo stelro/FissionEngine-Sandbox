@@ -695,60 +695,6 @@ Engine/ECS/ComponentStorage.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/ComponentStorage.cpp.s
 .PHONY : Engine/ECS/ComponentStorage.cpp.s
 
-Engine/ECS/Ecs.o: Engine/ECS/Ecs.cpp.o
-
-.PHONY : Engine/ECS/Ecs.o
-
-# target to build an object file
-Engine/ECS/Ecs.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o
-.PHONY : Engine/ECS/Ecs.cpp.o
-
-Engine/ECS/Ecs.i: Engine/ECS/Ecs.cpp.i
-
-.PHONY : Engine/ECS/Ecs.i
-
-# target to preprocess a source file
-Engine/ECS/Ecs.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.i
-.PHONY : Engine/ECS/Ecs.cpp.i
-
-Engine/ECS/Ecs.s: Engine/ECS/Ecs.cpp.s
-
-.PHONY : Engine/ECS/Ecs.s
-
-# target to generate assembly for a file
-Engine/ECS/Ecs.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.s
-.PHONY : Engine/ECS/Ecs.cpp.s
-
-Engine/ECS/Handle.o: Engine/ECS/Handle.cpp.o
-
-.PHONY : Engine/ECS/Handle.o
-
-# target to build an object file
-Engine/ECS/Handle.cpp.o:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Handle.cpp.o
-.PHONY : Engine/ECS/Handle.cpp.o
-
-Engine/ECS/Handle.i: Engine/ECS/Handle.cpp.i
-
-.PHONY : Engine/ECS/Handle.i
-
-# target to preprocess a source file
-Engine/ECS/Handle.cpp.i:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Handle.cpp.i
-.PHONY : Engine/ECS/Handle.cpp.i
-
-Engine/ECS/Handle.s: Engine/ECS/Handle.cpp.s
-
-.PHONY : Engine/ECS/Handle.s
-
-# target to generate assembly for a file
-Engine/ECS/Handle.cpp.s:
-	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Handle.cpp.s
-.PHONY : Engine/ECS/Handle.cpp.s
-
 Engine/ECS/HandleManager.o: Engine/ECS/HandleManager.cpp.o
 
 .PHONY : Engine/ECS/HandleManager.o
@@ -1712,12 +1658,6 @@ help:
 	@echo "... Engine/ECS/ComponentStorage.o"
 	@echo "... Engine/ECS/ComponentStorage.i"
 	@echo "... Engine/ECS/ComponentStorage.s"
-	@echo "... Engine/ECS/Ecs.o"
-	@echo "... Engine/ECS/Ecs.i"
-	@echo "... Engine/ECS/Ecs.s"
-	@echo "... Engine/ECS/Handle.o"
-	@echo "... Engine/ECS/Handle.i"
-	@echo "... Engine/ECS/Handle.s"
 	@echo "... Engine/ECS/HandleManager.o"
 	@echo "... Engine/ECS/HandleManager.i"
 	@echo "... Engine/ECS/HandleManager.s"

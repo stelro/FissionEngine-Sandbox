@@ -25,8 +25,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/stel/Game/Game/FissionEngine/Engine/DebugTools/DebugConsole.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/DebugTools/WindowLog.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/DebugTools/WindowLog.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/ECS/ComponentStorage.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/ComponentStorage.cpp.o"
-  "/home/stel/Game/Game/FissionEngine/Engine/ECS/Ecs.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o"
-  "/home/stel/Game/Game/FissionEngine/Engine/ECS/Handle.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Handle.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/ECS/HandleManager.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/HandleManager.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/ECS/HandleTreeManager.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/HandleTreeManager.cpp.o"
   "/home/stel/Game/Game/FissionEngine/Engine/ECS/IndexTable.cpp" "/home/stel/Game/Game/cmake-build-debug/FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/IndexTable.cpp.o"
