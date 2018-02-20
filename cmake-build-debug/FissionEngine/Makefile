@@ -722,6 +722,60 @@ Engine/ECS/Handle.cpp.s:
 	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/Handle.cpp.s
 .PHONY : Engine/ECS/Handle.cpp.s
 
+Engine/ECS/HandleManager.o: Engine/ECS/HandleManager.cpp.o
+
+.PHONY : Engine/ECS/HandleManager.o
+
+# target to build an object file
+Engine/ECS/HandleManager.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/HandleManager.cpp.o
+.PHONY : Engine/ECS/HandleManager.cpp.o
+
+Engine/ECS/HandleManager.i: Engine/ECS/HandleManager.cpp.i
+
+.PHONY : Engine/ECS/HandleManager.i
+
+# target to preprocess a source file
+Engine/ECS/HandleManager.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/HandleManager.cpp.i
+.PHONY : Engine/ECS/HandleManager.cpp.i
+
+Engine/ECS/HandleManager.s: Engine/ECS/HandleManager.cpp.s
+
+.PHONY : Engine/ECS/HandleManager.s
+
+# target to generate assembly for a file
+Engine/ECS/HandleManager.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/HandleManager.cpp.s
+.PHONY : Engine/ECS/HandleManager.cpp.s
+
+Engine/ECS/HandleTreeManager.o: Engine/ECS/HandleTreeManager.cpp.o
+
+.PHONY : Engine/ECS/HandleTreeManager.o
+
+# target to build an object file
+Engine/ECS/HandleTreeManager.cpp.o:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/HandleTreeManager.cpp.o
+.PHONY : Engine/ECS/HandleTreeManager.cpp.o
+
+Engine/ECS/HandleTreeManager.i: Engine/ECS/HandleTreeManager.cpp.i
+
+.PHONY : Engine/ECS/HandleTreeManager.i
+
+# target to preprocess a source file
+Engine/ECS/HandleTreeManager.cpp.i:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/HandleTreeManager.cpp.i
+.PHONY : Engine/ECS/HandleTreeManager.cpp.i
+
+Engine/ECS/HandleTreeManager.s: Engine/ECS/HandleTreeManager.cpp.s
+
+.PHONY : Engine/ECS/HandleTreeManager.s
+
+# target to generate assembly for a file
+Engine/ECS/HandleTreeManager.cpp.s:
+	cd /home/stel/Game/Game/cmake-build-debug && $(MAKE) -f FissionEngine/CMakeFiles/FissionEngine.dir/build.make FissionEngine/CMakeFiles/FissionEngine.dir/Engine/ECS/HandleTreeManager.cpp.s
+.PHONY : Engine/ECS/HandleTreeManager.cpp.s
+
 Engine/Engine.o: Engine/Engine.cpp.o
 
 .PHONY : Engine/Engine.o
@@ -1607,6 +1661,12 @@ help:
 	@echo "... Engine/ECS/Handle.o"
 	@echo "... Engine/ECS/Handle.i"
 	@echo "... Engine/ECS/Handle.s"
+	@echo "... Engine/ECS/HandleManager.o"
+	@echo "... Engine/ECS/HandleManager.i"
+	@echo "... Engine/ECS/HandleManager.s"
+	@echo "... Engine/ECS/HandleTreeManager.o"
+	@echo "... Engine/ECS/HandleTreeManager.i"
+	@echo "... Engine/ECS/HandleTreeManager.s"
 	@echo "... Engine/Engine.o"
 	@echo "... Engine/Engine.i"
 	@echo "... Engine/Engine.s"

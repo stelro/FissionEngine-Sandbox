@@ -50,6 +50,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FissionEngine.dir/Engine/DebugTools/DebugConsole.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/ECS/Ecs.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/ECS/Handle.cpp.o"
+  "CMakeFiles/FissionEngine.dir/Engine/ECS/HandleManager.cpp.o"
+  "CMakeFiles/FissionEngine.dir/Engine/ECS/HandleTreeManager.cpp.o"
   "CMakeFiles/FissionEngine.dir/Engine/Engine.cpp.o"
   "../lib/libFissionEngine.pdb"
   "../lib/libFissionEngine.so"
